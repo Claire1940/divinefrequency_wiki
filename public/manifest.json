@@ -1,11 +1,11 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Divine Frequency Wiki - Horror FPS, Lore & Builds",
+  "short_name": "Divine Frequency",
+  "description": "Divine Frequency Wiki covers lore, weapons, enemies, builds, puzzles, updates, and Early Access guides for Abraxaes' surreal horror FPS on Steam.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
+  "theme_color": "#b12626",
   "background_color": "#0a0a0a",
   "icons": [
     {
