@@ -59,696 +59,482 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Divine Frequency Gameplay",
+    "description": "Fight through surreal worlds with brutal gunfights, RPG progression, and hidden lore in this retro horror FPS on Steam."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Divine Frequency",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Every guide, database, and reference you need for Divine Frequency — from first contact to a full clear of Early Access.",
     "cards": [
       {
         "icon": "BookOpen",
         "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "description": "Survival habits, resource discipline, and early progression"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Crosshair",
+        "title": "Weapons and Mods",
+        "description": "Firearms, psionic options, and modification planning"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Layers",
+        "title": "Classes and Builds",
+        "description": "Archetypes, strengths, and starter build paths"
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "icon": "Map",
+        "title": "Walkthrough",
+        "description": "Spoiler-controlled routes through Acts I and II"
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "Skull",
+        "title": "Enemy Guide",
+        "description": "Attack patterns, weaknesses, and efficient tactics"
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "icon": "Puzzle",
+        "title": "Secrets and Puzzles",
+        "description": "Hidden areas, clue reading, and solutions"
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
+        "icon": "Cpu",
+        "title": "Settings and Requirements",
+        "description": "Display, input, graphics, and performance checks"
       },
       {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "CalendarClock",
+        "title": "Updates and Roadmap",
+        "description": "Patch archive and Early Access plans"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "divineFrequencyBeginnerGuide": {
+      "eyebrow": "Beginner Guide",
+      "title": "Divine Frequency Beginner Guide",
+      "intro": "The opening hours reward careful exploration, deliberate combat, and consistent resource management. Follow these steps to establish a reliable routine before experimenting with advanced builds or optional discoveries.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
-        },
-        {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
-        },
-        {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
-        },
-        {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
-        {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
-        },
-        {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
-        },
-        {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
-        },
-        {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
-        }
-      ]
-    },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
+          "title": "Learn the basic combat rhythm",
+          "description": "Use cover, control the distance to enemies, and avoid spending every resource in the first exchange. Test both firearm and psionic options early so you understand which tools are effective at different ranges.",
           "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
+          "tips": [
+            "Do not rush into unfamiliar rooms without checking exits and nearby cover.",
+            "Use the safest available option when learning a new enemy encounter.",
+            "Preserve powerful abilities for groups, dangerous targets, or blocked routes."
           ]
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
+          "title": "Explore methodically and mark your route",
+          "description": "Opening areas can contain branching paths, locked access points, optional encounters, and resources that are easier to identify when you keep a consistent route through each location.",
+          "priority": "Essential",
+          "tips": [
+            "Check side rooms before advancing through a major objective area.",
+            "Remember doors, paths, and containers that cannot yet be opened.",
+            "Use landmarks and completed objectives to avoid repeatedly searching the same spaces."
           ]
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
+          "title": "Manage resources before upgrading",
+          "description": "Treat ammunition, healing supplies, upgrade materials, and psionic resources as part of the same survival budget. Spend them when they solve a clear problem rather than immediately after acquiring them.",
+          "priority": "Essential",
+          "tips": [
+            "Keep a reserve for unavoidable combat and progression blockers.",
+            "Compare an upgrade's immediate benefit with the value of saving its materials.",
+            "Avoid committing to a specialized setup until you understand your preferred combat role."
           ]
         },
         {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
+          "title": "Build a simple progression plan",
+          "description": "Choose one reliable damage approach first, then add complementary modifications or abilities. A focused early setup is easier to use than several partially developed options.",
+          "priority": "Recommended",
+          "tips": [
+            "Start with improvements that make ordinary encounters more consistent.",
+            "Add specialization after identifying which situations cause the most trouble.",
+            "Revisit your setup when a new area introduces different combat demands."
           ]
         },
         {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
+          "title": "Avoid common Early Access mistakes",
+          "description": "Do not assume every blocked path is a bug, every optional room must be cleared immediately, or every resource should be spent as soon as it appears. Early Access content may also change between updates.",
+          "priority": "Recommended",
+          "tips": [
+            "Separate unfinished or inaccessible content from objectives required for current progression.",
+            "Keep notes about unresolved paths and return after major story advances.",
+            "Explore optional content when your resources and equipment can support the risk."
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
+    "divineFrequencyWeaponsAndMods": {
+      "eyebrow": "Weapons Database",
+      "title": "Divine Frequency Weapons and Mods",
+      "intro": "Divine Frequency supports more than one approach to combat. The most useful comparison is not simply raw damage, but how each option handles range, pressure, resource limits, and the type of encounter in front of you.",
+      "tableHeaders": {
+        "category": "Category",
+        "combatRole": "Combat Role",
+        "bestUse": "Best Use",
+        "mainResource": "Main Resource",
+        "upgradeFocus": "Upgrade Focus",
+        "recommendedPairing": "Recommended Pairing"
+      },
+      "rows": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "category": "Firearms",
+          "combatRole": "Reliable ranged damage",
+          "bestUse": "Open engagements, controlled target elimination, and situations where maintaining distance is safer than closing in",
+          "mainResource": "Ammunition",
+          "upgradeFocus": "Damage consistency, handling, accuracy, and ammunition efficiency",
+          "recommendedPairing": "A psionic option that provides control, utility, or a way to respond when enemies close the distance"
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "category": "Psionic Options",
+          "combatRole": "Flexible damage and utility",
+          "bestUse": "Situations requiring crowd control, unusual access, burst damage, or a response that does not depend on conventional ammunition",
+          "mainResource": "Psionic resources or ability availability",
+          "upgradeFocus": "Effect strength, recovery, duration, range, and resource efficiency",
+          "recommendedPairing": "A dependable firearm for sustained damage when abilities are unavailable or better saved"
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
+          "category": "Weapon Modifications",
+          "combatRole": "Build specialization",
+          "bestUse": "Adapting a weapon or ability to a preferred range, damage pattern, or encounter type",
+          "mainResource": "Upgrade materials and available modification capacity",
+          "upgradeFocus": "Complementary bonuses rather than stacking unrelated effects",
+          "recommendedPairing": "A focused primary weapon and a secondary option that covers its main weakness"
         },
         {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "category": "Hybrid Loadout",
+          "combatRole": "Balanced encounter coverage",
+          "bestUse": "Exploration-heavy sections containing mixed enemy pressure, limited resources, and changing engagement distances",
+          "mainResource": "A shared reserve of ammunition, abilities, healing, and upgrade materials",
+          "upgradeFocus": "Consistency first, then a small number of complementary specializations",
+          "recommendedPairing": "One consistent firearm, one flexible psionic option, and modifications that improve the same combat plan"
         }
       ]
     },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
+    "divineFrequencyClassesAndBuilds": {
+      "eyebrow": "Classes and Builds",
+      "title": "Divine Frequency Classes and Builds",
+      "intro": "A good build should make ordinary encounters easier without leaving you helpless when the situation changes. These archetype cards organize the available play styles around their strengths, weaknesses, and preferred combinations of firearms, psionic options, and modifications.",
+      "cards": [
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
+          "name": "Firearms-Focused Archetype",
+          "role": "Ranged pressure and consistent weapon damage",
+          "strengths": [
+            "Clear and dependable damage at range",
+            "Straightforward resource planning",
+            "Works well for players who prefer direct combat"
+          ],
+          "weaknesses": [
+            "Depends on ammunition and weapon handling",
+            "Can become less comfortable when enemies force close-range engagements",
+            "May need utility support for unusual encounters"
+          ],
+          "beginnerBuild": "Use one dependable firearm as the primary damage source, invest in consistency before specialization, and keep a psionic option available for emergencies or utility.",
+          "hybridOption": "Add defensive, control, or mobility-oriented psionic improvements without diverting too many resources from the main firearm.",
+          "recommendedFor": "Players who prefer readable encounters, deliberate positioning, and conventional ranged combat"
         },
         {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
+          "name": "Psionics-Focused Archetype",
+          "role": "Ability-driven damage, control, and utility",
+          "strengths": [
+            "Can respond to varied encounter conditions",
+            "Provides tools beyond direct weapon damage",
+            "Supports experimentation with different ability combinations"
+          ],
+          "weaknesses": [
+            "Limited by ability availability and resource recovery",
+            "Requires more attention to timing and encounter priority",
+            "Can become inefficient when every ability is used against minor threats"
+          ],
+          "beginnerBuild": "Choose a small set of dependable psionic tools, save high-impact effects for dangerous encounters, and carry a firearm for sustained damage between ability uses.",
+          "hybridOption": "Pair a primary psionic plan with a modest firearm investment that covers long engagements and resource-constrained areas.",
+          "recommendedFor": "Players who enjoy flexible tools, encounter control, and active resource decisions"
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
+          "name": "Hybrid Archetype",
+          "role": "Balanced coverage across firearms and psionic options",
+          "strengths": [
+            "Handles changing ranges and encounter types",
+            "Reduces dependence on a single resource",
+            "Allows gradual experimentation before committing to specialization"
+          ],
+          "weaknesses": [
+            "Usually reaches peak specialization later",
+            "Can waste upgrade materials across too many options",
+            "Requires a clear priority to avoid becoming unfocused"
+          ],
+          "beginnerBuild": "Select one primary damage method and use the second system to solve its most important weakness. Upgrade consistency first, then add situational tools.",
+          "hybridOption": "Maintain one strong firearm, one frequently useful psionic option, and modifications that reinforce the same range or encounter plan.",
+          "recommendedFor": "Players who want adaptability and are comfortable managing more than one combat system"
         },
         {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
+          "name": "Build Planning Rules",
+          "role": "General progression framework",
+          "strengths": [
+            "Keeps early upgrades meaningful",
+            "Makes resource spending easier to evaluate",
+            "Provides a clear path for later experimentation"
+          ],
+          "weaknesses": [
+            "Requires patience before committing to specialized combinations",
+            "May leave some options underdeveloped during the opening areas",
+            "Needs periodic adjustment as new content and encounters appear"
+          ],
+          "beginnerBuild": "Prioritize one consistent source of damage, one emergency option, and upgrades that improve consistency rather than narrow specialization.",
+          "hybridOption": "Add a second damage role only after the primary setup can handle ordinary encounters without excessive resource expenditure.",
+          "recommendedFor": "Players who want a stable progression plan before testing unconventional combinations"
         }
       ]
     },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
+    "divineFrequencyWalkthrough": {
+      "eyebrow": "Early Access Walkthrough",
+      "title": "Divine Frequency Walkthrough",
+      "intro": "This walkthrough is organized around objectives rather than unrestricted exploration. Complete the essential steps first, record blocked routes for later, and return to optional areas when you have the resources or access needed to investigate them safely.",
+      "steps": [
         {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
+          "section": "Act I",
+          "type": "Essential",
+          "spoilerLevel": "Low Spoilers",
+          "title": "Establish your route through the opening area",
+          "description": "Learn the basic combat and exploration systems, identify the main objective, and establish a mental map of accessible rooms, exits, and blocked paths before moving deeper into the first Act.",
+          "navigationTips": [
+            "Check nearby side paths before committing to the next major objective.",
+            "Record doors or routes that cannot yet be opened.",
+            "Keep enough resources for the next required encounter rather than clearing every optional threat immediately."
+          ]
         },
         {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
+          "section": "Act I",
+          "type": "Optional",
+          "spoilerLevel": "Low Spoilers",
+          "title": "Investigate side rooms and unresolved access points",
+          "description": "Explore optional spaces connected to the opening route when it is safe to do so. Treat inaccessible paths as future checkpoints instead of spending excessive resources trying to force progress.",
+          "navigationTips": [
+            "Return to side areas after completing nearby essential objectives.",
+            "Use landmarks to distinguish visited routes from unexplored branches.",
+            "Prioritize discoveries that provide useful resources or clarify the surrounding area."
+          ]
         },
         {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
+          "section": "Act II",
+          "type": "Essential",
+          "spoilerLevel": "Moderate Spoilers",
+          "title": "Advance through the second Act's objective chain",
+          "description": "Follow the active story objectives through the currently available Act II content. Reassess your combat setup as encounter ranges, resource demands, and navigation complexity increase.",
+          "navigationTips": [
+            "Keep one reliable firearm or psionic option available for sustained encounters.",
+            "Do not spend every high-impact resource before confirming the next objective.",
+            "When progression appears blocked, review earlier unresolved routes and completed objectives."
+          ]
         },
         {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
+          "section": "Act II",
+          "type": "Optional",
+          "spoilerLevel": "Moderate Spoilers",
+          "title": "Return for optional encounters and discoveries",
+          "description": "After completing the immediate story requirement, revisit previously marked branches and optional spaces. This is the safest time to investigate content that was too costly or inaccessible during the first pass.",
+          "navigationTips": [
+            "Use your notes or remembered landmarks to avoid repeating a complete search.",
+            "Bring a balanced loadout when the optional route's encounter type is unknown.",
+            "Separate optional discoveries from objectives required to advance the current Act."
+          ]
+        },
+        {
+          "section": "Progression Checkpoints",
+          "type": "Essential",
+          "spoilerLevel": "Low Spoilers",
+          "title": "Confirm completion before leaving an area",
+          "description": "Before moving on, verify that the main objective has advanced, important resources have been collected, and blocked paths have been recorded. This reduces backtracking when the Early Access content expands or changes.",
+          "navigationTips": [
+            "Check the objective state after major interactions.",
+            "Keep unresolved locations in a short return list.",
+            "Avoid assuming that every unexplored room is required for story progression."
+          ]
         }
       ]
     },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
+    "divineFrequencyEnemyGuide": {
+      "eyebrow": "Combat Reference",
+      "title": "Divine Frequency Enemy Guide",
+      "intro": "Use this guide to organize enemy encounters by the decisions that matter most: how an enemy approaches, which attacks create the greatest risk, when to disengage, and which resources should be reserved for difficult situations. Early encounters reward observation and positioning more than repeated attacks.",
+      "enemies": [
+        {
+          "name": "Early-Act Hostiles",
+          "threatLevel": "Moderate",
+          "attackPattern": "Close-range pressure, predictable pursuit, and repeated attacks when the player remains in a confined area.",
+          "weakness": "Limited mobility and clear recovery windows after an attack.",
+          "tactics": [
+            "Create distance before attempting another attack.",
+            "Use corners and doorways to control the approach.",
+            "Avoid spending rare healing or ammunition on an isolated target unless retreat is impossible."
+          ],
+          "equipment": [
+            "A reliable close-range weapon",
+            "Basic healing supplies",
+            "A light source for maintaining visual awareness"
+          ],
+          "preparation": "Enter unfamiliar rooms with an escape route already identified and avoid triggering multiple encounters at once."
+        },
+        {
+          "name": "Fast Pursuers",
+          "threatLevel": "High",
+          "attackPattern": "Rapid closing distance followed by short attack chains that become dangerous when the player is trapped against scenery.",
+          "weakness": "Poor performance when forced to navigate around obstacles or follow through narrow routes.",
+          "tactics": [
+            "Break line of sight instead of trying to defeat the pursuer immediately.",
+            "Move through previously cleared spaces rather than retreating into unknown rooms.",
+            "Attack only during a recovery animation or after the pursuer misses."
+          ],
+          "equipment": [
+            "Stamina-supporting supplies",
+            "A dependable defensive option",
+            "Emergency healing reserved for failed escapes"
+          ],
+          "preparation": "Keep important doors and traversal routes accessible before interacting with suspicious objects or entering optional areas."
+        },
+        {
+          "name": "Special-Preparation Encounters",
+          "threatLevel": "Severe",
+          "attackPattern": "High-pressure encounters that combine limited space, environmental hazards, or repeated waves of danger.",
+          "weakness": "The encounter structure generally provides a brief preparation window before the danger escalates.",
+          "tactics": [
+            "Inspect the surrounding area before activating the encounter.",
+            "Use the environment to separate threats whenever possible.",
+            "Reserve the strongest equipment for the final phase rather than the opening exchange."
+          ],
+          "equipment": [
+            "Full healing capacity",
+            "The strongest available weapon or defensive item",
+            "A clear inventory with room for encounter rewards"
+          ],
+          "preparation": "Save before entering a clearly marked high-risk area and complete nearby exploration first so that the encounter does not interrupt unfinished objectives."
+        }
+      ]
+    },
+    "divineFrequencySecretsAndPuzzles": {
+      "eyebrow": "Secrets & Solutions",
+      "title": "Divine Frequency Secrets and Puzzles",
+      "intro": "Each entry is arranged from lightest spoiler to complete resolution. Start with the observation prompt, reveal the first hint only when needed, and open the solution section after exhausting the environmental clues.",
       "entries": [
         {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
+          "title": "Environmental Clue Reading",
+          "category": "General Puzzle Method",
+          "spoilerLevel": "Low Spoilers",
+          "observation": "Examine unusual markings, repeated symbols, object placement, lighting changes, and areas that appear deliberately framed by the environment.",
+          "hint1": "Compare nearby rooms and note which details repeat and which detail appears only once.",
+          "hint2": "Treat repeated visual elements as instructions or sequence markers rather than decoration.",
+          "solution": "Use the unique environmental detail to identify the relevant interaction order, then return to the marked object or mechanism."
         },
         {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
+          "title": "Optional Area Checks",
+          "category": "Hidden Areas",
+          "spoilerLevel": "Medium Spoilers",
+          "observation": "Before leaving a major exploration space, check side rooms, blocked sightlines, unusual wall sections, and routes that become accessible after nearby interactions.",
+          "hint1": "Revisit spaces after a story interaction changes the environment or unlocks a new traversal option.",
+          "hint2": "The most valuable optional paths are often adjacent to, rather than directly inside, the main route.",
+          "solution": "Finish the immediate objective, return through previously visited rooms, and inspect newly accessible branches for secret items and lore entries."
         },
         {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "title": "Optional Encounter Preparation",
+          "category": "Secret Encounters",
+          "spoilerLevel": "High Spoilers",
+          "observation": "An area with unusual sound design, restricted movement, repeated visual motifs, or conspicuous empty space may conceal an optional encounter.",
+          "hint1": "Check the area for interactable objects before committing to the encounter.",
+          "hint2": "Prepare healing and combat resources, then identify the nearest safe retreat route.",
+          "solution": "Complete the environmental interaction that activates the hidden event, survive the encounter, and search the arena afterward for its reward or lore item."
         }
       ]
     },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
+    "divineFrequencySettingsAndSystemRequirements": {
+      "eyebrow": "Technical Reference",
+      "title": "Divine Frequency Settings and System Requirements",
+      "intro": "Begin with the game's recommended display and quality settings, then adjust individual options rather than lowering everything at once. For Early Access builds, keeping drivers current and testing performance in a representative gameplay area is more useful than relying only on menu benchmarks.",
+      "tableHeaders": {
+        "category": "Category",
+        "setting": "Setting",
+        "recommendedUse": "Recommended Use",
+        "troubleshooting": "Troubleshooting"
+      },
+      "rows": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "category": "Display Mode",
+          "setting": "Fullscreen, borderless, or windowed display",
+          "recommendedUse": "Use fullscreen or borderless mode according to desktop switching preference.",
+          "troubleshooting": "If the image flickers or frame pacing feels inconsistent, switch display mode and restart the game."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "category": "Resolution and Upscaling",
+          "setting": "Native resolution with available scaling options",
+          "recommendedUse": "Start at the monitor's native resolution, then reduce rendering resolution or enable supported upscaling if performance is unstable.",
+          "troubleshooting": "Lower resolution before reducing every visual-quality setting; this provides a clear test of whether the GPU is the limiting factor."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "category": "Graphics Quality",
+          "setting": "Preset and individual quality controls",
+          "recommendedUse": "Use the default preset first, then reduce shadows, effects, and post-processing individually when needed.",
+          "troubleshooting": "Apply one change at a time and test in a demanding interior or exploration area before making further adjustments."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "category": "Controller and Input",
+          "setting": "Keyboard, mouse, and controller configuration",
+          "recommendedUse": "Confirm button prompts, sensitivity, vibration, and movement settings before beginning a long session.",
+          "troubleshooting": "Reconnect the controller before launch if inputs are not detected, then verify the active input device in the game's settings."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "category": "Performance Stability",
+          "setting": "Frame pacing, background applications, and driver state",
+          "recommendedUse": "Close unnecessary overlays and background applications while testing the Early Access build.",
+          "troubleshooting": "Update graphics drivers, verify the installation through Steam, restart the game after changing major graphics options, and cap the frame rate if pacing is uneven."
+        }
+      ]
+    },
+    "divineFrequencyUpdatesAndRoadmap": {
+      "eyebrow": "Development Archive",
+      "title": "Divine Frequency Updates and Early Access Roadmap",
+      "intro": "Use this archive to separate features available in the current build from improvements announced for later development. Each entry is grouped by its development status so players can understand whether a change is playable now, part of a released update, or still planned.",
+      "entries": [
+        {
+          "title": "Current Early Access Build",
+          "status": "Available",
+          "content": [
+            "The game is playable through its currently released Early Access content.",
+            "Current systems, encounters, performance, and presentation may continue to receive iterative improvements.",
+            "Players should use the latest Steam build when checking whether a reported issue has already been addressed."
+          ],
+          "playerImpact": "Start a new session only after allowing Steam to finish pending updates, especially when using an older installation."
+        },
+        {
+          "title": "Post-Launch Fixes and Quality Improvements",
+          "status": "Released Updates",
+          "content": [
+            "Official updates may address crashes, progression blockers, interaction issues, visual defects, and performance problems.",
+            "Balance changes can affect encounter difficulty, resource availability, or the effectiveness of existing tactics.",
+            "Patch notes should be read alongside community reports when diagnosing a problem that appears after an update."
+          ],
+          "playerImpact": "After a major patch, verify settings and revisit previously blocked interactions before assuming that a save file is permanently affected."
+        },
+        {
+          "title": "Planned Early Access Development",
+          "status": "Planned",
+          "content": [
+            "The Early Access roadmap covers continued development toward the broader full-game vision.",
+            "Planned improvements may include additional content, system refinement, balancing, polish, and technical optimization.",
+            "Features listed for later development are not treated as available until they appear in an official released build."
+          ],
+          "playerImpact": "Players purchasing during Early Access should expect the game to evolve through future updates rather than remain feature-complete at the initial release state."
+        },
+        {
+          "title": "Official Announcement Channels",
+          "status": "Reference",
+          "content": [
+            "Steam announcements provide the primary update and patch-note archive.",
+            "The official social channels provide development announcements and release communication.",
+            "Community discussion can provide context for reported issues, but released patch notes determine the current supported feature set."
+          ],
+          "playerImpact": "Check the latest official announcement before beginning a new playthrough after a major version change."
         }
       ]
     }
@@ -756,31 +542,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Divine Frequency",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Divine Frequency?",
+        "answer": "Divine Frequency is a surreal retro horror FPS by Abraxaes, blending brutal gunfights, RPG progression, psychological horror, and cosmic mysteries across collapsing realities."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Is Divine Frequency available now?",
+        "answer": "Yes. Divine Frequency entered Steam Early Access on October 26, 2026, and is available for Windows PC."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "How much content is in the Divine Frequency Early Access version?",
+        "answer": "The Early Access build includes roughly 70% of the full game: 2 of 3 story chapters with around 4–6 hours of playtime in the current version."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "What will the full version of Divine Frequency include?",
+        "answer": "The full release is planned to add the complete campaign, additional enemies and bosses, more player builds, extra music and story elements, and a Hardcore Mode."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "How long will Divine Frequency stay in Early Access?",
+        "answer": "Early Access is expected to last about one year, though development may extend that to two years depending on progress toward the full-game vision."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Where can I follow Divine Frequency updates?",
+        "answer": "Follow Steam announcements, the official Discord, X, and Bluesky channels for patch notes, development news, and Early Access roadmap updates."
       }
     ]
   },
