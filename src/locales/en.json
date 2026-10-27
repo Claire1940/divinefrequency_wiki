@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Divine Frequency Wiki - Horror FPS, Lore & Builds",
+      "description": "Explore Divine Frequency Wiki for horror FPS lore, weapons, enemies, builds, puzzles, updates, and Early Access guides for Abraxaes' surreal shooter.",
+      "keywords": "Divine Frequency, Steam, horror FPS, lore, weapons, enemies, builds, puzzles",
+      "ogTitle": "Divine Frequency Wiki - Horror FPS, Lore & Builds",
+      "ogDescription": "Explore Divine Frequency Wiki for horror FPS lore, weapons, enemies, builds, puzzles, updates, and Early Access guides for Abraxaes' surreal shooter.",
+      "twitterTitle": "Divine Frequency Wiki - Horror FPS, Lore & Builds",
+      "twitterDescription": "Explore Divine Frequency Wiki for horror FPS lore, weapons, enemies, builds, puzzles, updates, and Early Access guides for Abraxaes' surreal shooter."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
+    "badge": "Surreal Retro Horror FPS",
+    "title": "Divine Frequency Wiki",
+    "description": "Explore a fever-dream horror FPS where reality collapses through surreal worlds, brutal gunfights, RPG progression, hidden lore, puzzles, optional encounters, and disturbing cosmic mysteries.",
+    "getFreeCodesCTA": "Get Free Guides",
     "playOnSteamCTA": "Play on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "Oct 26, 2026",
+        "label": "Early Access Release"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "2 of 3",
+        "label": "Story Chapters"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "4–6 Hours",
+        "label": "Current Playtime"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "English",
+        "label": "Supported Language"
       }
     }
   },
@@ -785,26 +785,28 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Dive Into Divine Frequency?",
+    "description": "Join the Divine Frequency community on Discord for Early Access updates, lore discussions, and guide news!",
     "joinCommunity": "Join Discord",
     "joinGame": "Play on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Divine Frequency Wiki",
+    "description": "Your complete resource hub for Divine Frequency lore, weapons, enemies, builds, puzzles, and Early Access guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
+    "youtube": "YouTube",
+    "bluesky": "Bluesky",
     "steamCommunity": "Steam Community",
     "steamStore": "Steam Store",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Divine Frequency Wiki. Not affiliated with Abraxaes or Valve Corporation.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {

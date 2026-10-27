@@ -1416,6 +1416,26 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
+                    href="https://www.youtube.com/@genghiskhan8942"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
+                  >
+                    {t.footer.youtube}
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://bsky.app/profile/dfgame.bsky.social"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
+                  >
+                    {t.footer.bluesky}
+                  </a>
+                </li>
+                <li>
+                  <a
                     href="https://steamcommunity.com/app/2548880"
                     target="_blank"
                     rel="noopener noreferrer"
