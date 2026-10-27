@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Divine Frequency Horror: Überlebensguide für Einsteiger & Kampftipps",
+  description: "Überlebe in Divine Frequency, dem surrealen Retro-Horror-FPS von Abraxaes. Lerne Kampfgrundlagen, Build-Prioritäten, Gegnertaktiken und Early-Access-Tipps.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/7a1f1f/fff?text=Divine+Frequency+Horror",
+  date: "2026-10-28",
+  author: "Divine Frequency Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Divine Frequency Horror** verbindet Retro-FPS-Gunplay mit psychologischem und kosmischem Horror in surrealen Welten
+- **Early-Access-Status**: 2 von 3 Story-Kapiteln, etwa 4-6 Stunden Inhalt auf Windows via Steam
+- **Kernregel zum Überleben**: Behandle Munition, Heilung und psionische Ressourcen als ein gemeinsames Budget
+- **Bester erster Schritt**: Lerne den Kampfrhythmus im Anfangsgebiet, bevor du dich auf einen Build festlegst
+- **Vermeide den klassischen Fehler**: Nimm nicht an, dass jeder blockierte Weg ein Bug ist oder jeder Raum sofort geleert werden muss
+</Callout>
+
+<Section icon={Map} title="Was Divine Frequency Horror besonders macht">
+
+Divine Frequency Horror ist kein Jumpscare-Korridor-Shooter. Entwickelt und veröffentlicht von **Abraxaes**, erschien das Spiel am **26. Oktober 2026** im Steam Early Access als Hybrid aus Horror-FPS, RPG-Progression, psychologischem Horror und Boomer-Shooter-Feeling. Die Realität selbst ist hier instabil: Die Kampagne führt durch surreale, fiebertraumartige Umgebungen, in denen Erkundung, Rätsel und optionale Begegnungen neben brutalen Feuergefechten stehen.
+
+Die aktuelle Early-Access-Version enthält etwa 70 % des geplanten kompletten Spiels und umfasst **2 von 3 Story-Kapiteln** mit einer geschätzten Spielzeit von **4-6 Stunden**. Die offizielle [Steam-Storeseite](https://store.steampowered.com/app/2548880/Divine_Frequency/) ist die maßgebliche Quelle dafür, was derzeit spielbar ist.
+
+| Merkmal | Details |
+|---|---|
+| Entwickler / Publisher | Abraxaes |
+| Erscheinungsdatum | 26. Oktober 2026 (Early Access) |
+| Plattform | Windows (Steam) |
+| Genre-Tags | Horror-FPS, RPG, Psychologischer Horror, Surreal, Boomer Shooter |
+| Aktueller Inhalt | 2 von 3 Kapiteln, ca. 4-6 Stunden |
+| Geplante Ergänzungen | Letztes Kapitel, mehr Gegner/Bosse, Builds, Musik, Hardcore-Modus |
+| Sprachunterstützung | Englisch (laut offizieller Steam-Listung) |
+
+<Callout type="warning" title="Early-Access-Erwartungen">
+Offizielle Hinweise besagen, dass die Early-Access-Phase **ein bis zwei Jahre** dauern kann. Balance, Begegnungen und sogar Level-Layouts können sich zwischen Updates ändern. Betrachte keine Taktik in diesem Guide als dauerhaft garantiert.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Kampfgrundlagen für neue Spieler">
+
+Die ersten Stunden belohnen vorsichtige Spieler. Blind in unbekannte Räume zu stürmen, Munition auf den ersten besten Gegner zu verschwenden und Deckung zu ignorieren sind die schnellsten Wege zu sterben in Divine Frequency Horror. Das Spiel unterstützt sowohl Schusswaffen als auch psionische Optionen, und zu verstehen, wann welche davon wichtig ist, bildet das Fundament jedes guten Builds.
+
+<CardGrid cols={3}>
+  <Card title="Schusswaffen">
+    - **Zuverlässiger Fernkampfschaden**
+    - Am besten für offene Gefechte und kontrollierte Ausschaltung
+    - Begrenzt durch die Munitionsversorgung
+    - Für Genauigkeit und Konsistenz aufrüsten
+  </Card>
+  <Card title="Psionische Optionen">
+    - **Flexibler Schaden und Nutzen**
+    - Mengekontrolle und Burst-Potenzial
+    - Unabhängig von konventioneller Munition
+    - Begrenzt durch Verfügbarkeit und Erholung der Fähigkeiten
+  </Card>
+  <Card title="Hybride Ausrüstung">
+    - **Ausgewogene Abdeckung von Begegnungen**
+    - Eine verlässliche Schusswaffe plus ein psionisches Werkzeug
+    - Verringert die Abhängigkeit von einer einzelnen Ressource
+    - Erfordert disziplinierte Upgrade-Ausgaben
+  </Card>
+</CardGrid>
+
+| Kampfkategorie | Beste Verwendung | Hauptressource | Upgrade-Priorität |
+|---|---|---|---|
+| Schusswaffen | Offene Kämpfe, Distanz halten | Munition | Schadenskonsistenz, Handhabung, Munitionseffizienz |
+| Psionische Optionen | Mengekontrolle, Burst, Nutzen | Fähigkeitsressourcen | Effektstärke, Erholung, Dauer |
+| Modifikationen | Build-Spezialisierung | Upgrade-Materialien | Ergänzende Boni, keine gestapelten Effekte |
+| Hybrid | Erkundung unter gemischtem Druck | Gemeinsames Überlebensbudget | Zuverlässigkeit zuerst, Spezialisierung später |
+
+<Callout type="tip" title="Kampfrhythmus-Tipp">
+Identifiziere vor dem Betreten eines unbekannten Raums deine Fluchtwege und nahegelegene Deckung. Hebe wirkungsvolle Fähigkeiten für Gruppen und blockierte Wege auf; verschwende sie nicht an einzelne Gegner.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Die ersten Stunden: Schritt-für-Schritt-Überlebensplan">
+
+Befolge diese Reihenfolge, um in den ersten Akten eine verlässliche Routine aufzubauen. Jeder Schritt baut auf dem vorherigen auf, widreste also dem Drang, vorzeitig zu optionalen Begegnungen zu eilen, bevor deine Ressourcen das Risiko tragen können.
+
+<Steps>
+  <Step num="1" title="Lerne den Kampfrhythmus">
+    Nutze Deckung, kontrolliere die Kampfentfernung und teste früh sowohl Schusswaffen als auch psionische Optionen, damit du weißt, welches Werkzeug auf welche Distanz funktioniert. Setze beim Erlernen einer neuen Gegnerbegegnung die sicherste verfügbare Option ein.
+  </Step>
+  <Step num="2" title="Erkunde methodisch">
+    Überprüfe Nebenräume, bevor du dich auf große Ziele festlegst. Notiere jede verschlossene Tür, jeden blockierten Weg und jeden nicht öffnetbaren Behälter als künftigen Kontrollpunkt, statt jetzt Gewalt anzuwenden.
+  </Step>
+  <Step num="3" title="Verwalte dein Überlebensbudget">
+    Behandle Munition, Heilvorräte, Upgrade-Materialien und psionische Ressourcen als ein Budget. Gib aus, wenn ein Upgrade oder Gegenstand ein klares Problem löst, nicht einfach, weil du ihn erhalten hast.
+  </Step>
+  <Step num="4" title="Erstelle einen einfachen Progressionsplan">
+    Wähle zuerst einen verlässlichen Schadensansatz und füge dann ergänzende Modifikationen hinzu. Ein fokussiertes frühes Setup schlägt mehrere halb ausgebaute Optionen.
+  </Step>
+  <Step num="5" title="Trenne Pflichtinhalt von Optionalem">
+    Unterscheide storykritische Progression von optionalen Entdeckungen. Early-Access-Inhalte können sich ändern, führe also eine kurze Liste ungelöster Orte, um sie nach großen Story-Fortschritten erneut zu besuchen.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Kontrollpunkt-Gewohnheit">
+Bestätige vor dem Verlassen eines großen Gebiets drei Dinge: Das Hauptziel ist vorangekommen, wichtige Ressourcen wurden eingesammelt und blockierte Wege wurden notiert. Diese eine Gewohnheit beseitigt das meiste frustrierende Zurücklaufen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gegnerbedrohungen und wie du sie meisterst">
+
+Divine Frequency Horror bestraft achtloses Erkunden. Lese die Bedrohung, bevor du dich festlegst: wie ein Gegner sich nähert, welche Angriffe das größte Risiko bergen, wann du dich zurückziehen solltest und welche Ressourcen den Einsatz wert sind.
+
+| Bedrohungstyp | Bedrohungsstufe | Angriffsmuster | Hauptschwäche | Kerntaktik |
+|---|---|---|---|---|
+| Gegner der ersten Akte | Mittel | Nahkampfdruck, vorhersagbare Verfolgung | Langsame Beweglichkeit, klare Erholungsfenster | Nutze Ecken und Türrahmen; halte Distanz |
+| Schnelle Verfolger | Hoch | Rasches Aufschließen, kurze Angriffsketten | Schwierigkeiten mit Hindernissen und engen Wegen | Unterbreche die Sichtlinie; greife erst nach deren Fehlschlägen an |
+| Spezielle Begegnungen | Schwer | Wellen plus Gefahren auf begrenztem Raum | Kurzes Vorbereitungsfenster vor der Eskalation | Kundschaften zuerst; hebe die stärkste Ausrüstung für die Endphase auf |
+
+<Callout type="warning" title="Verfolger-Regel">
+Ziehe dich nie vor einem schnellen Verfolger in unbekannte Räume zurück. Bewege dich durch zuvor gesicherte Bereiche, deren Ausgänge du bereits kennst, und schlage nur während der Erholungsanimationen zu.
+</Callout>
+
+Bei Begegnungen, die ein hohes Risiko deutlich ankündigen — ungewöhnliches Sounddesign, eingeschränkte Bewegung, auffällig leerer Raum — schließe zuerst die Erkundung der Umgebung ab, gehe mit voller Heilkapazität hinein und lasse Platz im Inventar für Belohnungen.
+
+</Section>
+
+<Section icon={Sparkles} title="Geheimnisse, Rätsel und Umgebungshinweise">
+
+Optionale Inhalte in Divine Frequency Horror sind in die Umgebung verwoben, statt auf einer Karte markiert zu sein. Wiederholte Symbole, ungewöhnliche Objektanordnungen, Lichtwechsel und Bereiche, die gezielt in Szene gesetzt wirken, sind allesamt potenzielle Rätselmarkierungen.
+
+Arbeite vom leichtesten Spoiler nach außen:
+
+| Schritt | Aktion | Zweck |
+|---|---|---|
+| 1 | Beobachte ungewöhnliche Markierungen und wiederholte Symbole | Erkenne, was die Umgebung hervorhebt |
+| 2 | Vergleiche nahegelegene Räume; notiere, was sich wiederholt vs. was einmalig erscheint | Trenne Sequenzmarker von Dekoration |
+| 3 | Besuche Bereiche erneut, nachdem Story-Interaktionen die Umgebung verändert haben | Neu zugängliche Abzweigungen verbergen oft Belohnungen |
+| 4 | Bereite dich vollständig vor, bevor du verborgene Begegnungen aktivierst | Überlebe und durchsuche dann die Arena nach Lore-Gegenständen |
+
+<Callout type="tip" title="Verborgene-Bereiche-Check">
+Die wertvollsten optionalen Wege liegen oft **neben** der Hauptroute, statt direkt in ihr. Kämme Nebenräume und blockierte Sichtlinien ab, bevor du einen großen Erkundungsbereich verlässt.
+</Callout>
+
+<Checklist
+  id="df-survival-goals"
+  title="Early-Access-Meilensteine:"
+  items={[
+    "Lerne sowohl die Schusswaffen- als auch die psionische Kampfrolle",
+    "Säubere das Anfangsgebiet mit übrig gebliebenen Ressourcen",
+    "Notiere jeden blockierten Weg für spätere Besuche",
+    "Lege dich auf einen fokussierten Schadensansatz fest",
+    "Überlebe deine erste Begegnung mit spezieller Vorbereitung"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Lohnt sich Divine Frequency Horror im Early Access?",
+    answer: "Die aktuelle Version bietet 2 von 3 Story-Kapiteln und etwa 4-6 Stunden Inhalt, rund 70 % des geplanten kompletten Spiels. Wenn du surrealen psychologischen Horror in Kombination mit Retro-FPS-Kampf magst, liefert der aktuelle Inhalt ein vollständiges Einstiegserlebnis, wobei die komplette Kampagne, zusätzliche Gegner, Bosse und ein Hardcore-Modus für spätere Updates geplant sind."
+  },
+  {
+    question: "Was ist der beste Build für Anfänger?",
+    answer: "Starte mit einer verlässlichen Schusswaffe als deiner primären Schadensquelle, investiere in Konsistenz vor Spezialisierung und behalte eine einzige psionische Option für Notfälle und Nutzen. Füge eine zweite Schadensrolle erst hinzu, nachdem dein primäres Setup gewöhnliche Begegnungen ohne übermäßigen Ressourcenverbrauch bewältigt."
+  },
+  {
+    question: "Wie lange wird Divine Frequency im Early Access bleiben?",
+    answer: "Offizielle Hinweise schätzen etwa ein Jahr, mit der Möglichkeit einer Verlängerung auf zwei Jahre je nach Entwicklungsfortschritt. Die Vollversion soll die komplette Kampagne, zusätzliche Gegner und Bosse, weitere Spieler-Builds, mehr Musik, Story-Elemente und einen Hardcore-Modus enthalten."
+  },
+  {
+    question: "Eine Tür oder ein Weg scheint blockiert. Ist mein Spielstand kaputt?",
+    answer: "Meistens nicht. Viele Wege in Divine Frequency öffnen sich erst nach bestimmten Story-Interaktionen. Notiere den Ort, setze das aktuelle Ziel fort und kehre nach großen Story-Fortschritten zurück. Prüfe außerdem, ob du die neueste Steam-Version spielst, da Early-Access-Patches Progressionsblocker beheben können."
+  }
+]} />
+
+<Callout type="info" title="Auf dem Laufenden bleiben">
+Verfolge die Entwicklung über den [offiziellen Steam-Community-Hub](https://steamcommunity.com/app/2548880/), die [Steam-Diskussionen](https://steamcommunity.com/app/2548880/discussions/) oder die offiziellen Discord- und Social-Media-Kanäle, die auf der Storeseite verlinkt sind, für Patchnotizen und Roadmap-Ankündigungen.
+</Callout>
+
+</Section>

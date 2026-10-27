@@ -1,0 +1,208 @@
+import { Map, Swords, Target, Shield, Sparkles, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Divine Frequency Survival Horror: Beginner Tips & Combat Guide",
+  description: "Survive Divine Frequency's surreal Early Access horror FPS with combat fundamentals, resource management, enemy tactics, and build planning tips.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/7f1d1d/fff?text=Survival+Horror+Guide",
+  date: "2026-10-28",
+  author: "Divine Frequency Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Divine Frequency survival horror** gameplay blends retro FPS combat with psychological, surreal horror
+- **Early Access status**: 2 of 3 chapters available, roughly 4–6 hours of content
+- **Core survival rule**: treat ammo, healing, and psionic resources as one shared budget
+- **Combat priority**: learn each enemy's approach pattern before committing resources
+- **Best beginner plan**: one reliable firearm, one psionic emergency option, consistency-first upgrades
+</Callout>
+
+<Section icon={Map} title="What Is Divine Frequency Survival Horror?">
+
+Divine Frequency survival horror is the core experience of Abraxaes' surreal retro horror FPS, which entered Steam Early Access on October 26, 2026. The game combines boomer-shooter gunplay, RPG progression, and psychological horror set across surreal, reality-collapsing worlds. Enemies are dangerous, resources are limited, and exploration rewards patience over aggression.
+
+| Game Fact | Detail |
+| --- | --- |
+| Developer / Publisher | Abraxaes |
+| Release Date | **October 26, 2026** (Early Access) |
+| Platform | Windows (Steam) |
+| Genres | Horror FPS, RPG, Psychological Horror, Surreal, Boomer Shooter |
+| Current Content | **2 of 3 chapters**, about 4–6 hours |
+| Language Support | English (per Steam page) |
+
+<Callout type="info" title="Early Access Scope">
+The current build covers roughly 70% of the planned full game. The final version is planned to add the remaining chapter, extra enemies and bosses, new player builds, additional music, story elements, and a Hardcore Mode. Early Access is expected to last about one year, possibly longer.
+</Callout>
+
+You can follow development on the official [Steam store page](https://store.steampowered.com/app/2548880/Divine_Frequency/) and the [Steam community hub](https://steamcommunity.com/app/2548880/).
+
+</Section>
+
+<Section icon={Swords} title="Combat Fundamentals for New Players">
+
+Survival in Divine Frequency depends on reading encounters before committing. The game supports both firearms and psionic options, and the strongest players treat them as complementary tools rather than competing playstyles.
+
+| Combat Tool | Combat Role | Main Resource | Upgrade Focus |
+| --- | --- | --- | --- |
+| **Firearms** | Reliable sustained ranged damage | Ammunition | Damage consistency, accuracy, handling |
+| **Psionic Options** | Crowd control, utility, burst damage | Psionic resources / ability availability | Effect strength, recovery, duration |
+| **Weapon Mods** | Build specialization | Upgrade materials | Complementary bonuses, not stacked effects |
+| **Hybrid Loadout** | Balanced encounter coverage | Shared ammo, healing, and upgrade budget | Reliability first, then small specializations |
+
+<Callout type="tip" title="Ranged Discipline">
+Do not rush into unfamiliar rooms. Check exits and nearby cover first, control the distance to enemies, and avoid spending every resource in the first exchange. Preserve high-impact psionic abilities for groups, dangerous targets, or blocked routes.
+</Callout>
+
+### Basic Engagement Rules
+
+- Create distance before re-engaging after an enemy attack
+- Use corners and doorways to control enemy approach paths
+- Break line of sight against fast pursuers instead of fighting head-on
+- Attack during recovery windows or after an enemy misses
+- Keep one dependable damage option available at all times
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step: Surviving the Opening Hours">
+
+<Steps>
+  <Step num="1" title="Learn the combat rhythm">
+    Test both firearm and psionic options early so you understand which tools work at which ranges. Use cover, control spacing, and avoid dumping resources into the first exchange of every fight.
+  </Step>
+  <Step num="2" title="Explore methodically and mark your route">
+    Opening areas contain branching paths, locked doors, and optional encounters. Check side rooms before advancing a major objective, and remember which paths cannot be opened yet so you can return later.
+  </Step>
+  <Step num="3" title="Manage resources as one budget">
+    Treat ammunition, healing, upgrade materials, and psionic resources as a single survival budget. Spend when an item solves a clear problem, not immediately after acquiring it. Keep a reserve for unavoidable encounters.
+  </Step>
+  <Step num="4" title="Build a simple progression plan">
+    Choose one reliable damage approach first, then add complementary mods or abilities. Upgrades that make ordinary encounters more consistent are worth more early than narrow specializations.
+  </Step>
+  <Step num="5" title="Avoid common Early Access mistakes">
+    Not every blocked path is a bug, and not every optional room must be cleared immediately. Separate inaccessible content from required progression, and revisit unresolved routes after major story advances.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Before Moving On">
+Before leaving any area, confirm the main objective has advanced, important resources are collected, and blocked paths are recorded. This habit saves significant backtracking when Early Access content expands.
+</Callout>
+
+</Section>
+
+<Section icon={AlertTriangle} title="Enemy Threat Reference">
+
+Early encounters punish careless exploration. The three threat profiles below cover the enemy categories you will meet in the first two chapters, with resource-efficient tactics for each.
+
+| Threat Profile | Threat Level | Attack Pattern | Key Weakness |
+| --- | --- | --- | --- |
+| **Early-Act Hostiles** | Moderate | Close-range pressure, predictable pursuit | Limited mobility, clear recovery windows |
+| **Fast Pursuers** | High | Rapid approach, short attack chains in confined space | Poor navigation around obstacles and narrow routes |
+| **Special-Preparation Encounters** | Severe | Waves plus hazards in limited space | Brief preparation window before danger escalates |
+
+<CardGrid cols={3}>
+  <Card title="Early-Act Hostiles">
+    - Use corners and doorways to control approach
+    - Retreat rather than spend rare healing on one target
+    - Bring a reliable close-range weapon
+  </Card>
+  <Card title="Fast Pursuers">
+    - **Break line of sight** instead of fighting immediately
+    - Retreat through cleared spaces, never into unknown rooms
+    - Attack only after the pursuer misses or recovers
+  </Card>
+  <Card title="Severe Encounters">
+    - Inspect the arena **before** activating the encounter
+    - Separate threats using the environment
+    - Reserve your strongest equipment for the final phase
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Save Before High-Risk Areas">
+For encounters that clearly telegraph danger, finish nearby exploration first and save before committing. Entering with half-finished objectives and low healing is the most common cause of stalled runs.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Builds and Resource Planning">
+
+A good build makes ordinary encounters easier without leaving you helpless when conditions change. The three archetypes below reflect the game's main progression paths.
+
+| Archetype | Strengths | Weaknesses | Best For |
+| --- | --- | --- | --- |
+| **Firearms-Focused** | Dependable ranged damage, simple resource planning | Ammunition dependence, weak when forced close | Players who like readable encounters and positioning |
+| **Psionics-Focused** | Flexible control and utility, varied responses | Limited by ability recovery and timing demands | Players who enjoy active resource decisions |
+| **Hybrid** | Handles changing ranges, reduces single-resource dependence | Slower to specialize, can waste upgrade materials | Players comfortable managing two systems |
+
+### Build Planning Rules
+
+- Prioritize **one reliable damage source**, one emergency option, and consistency upgrades
+- Add a second damage role only after your primary setup handles ordinary encounters comfortably
+- Choose mods that reinforce the same combat plan instead of stacking unrelated effects
+- Revisit your setup when a new area introduces different combat demands
+
+<Checklist
+  id="survival-goals"
+  title="Early Access Survival Checklist:"
+  items={[
+    "Test both firearms and psionic options in Act I",
+    "Establish a consistent exploration route through the opening area",
+    "Build one dependable damage source before specializing",
+    "Record all blocked doors and unresolved paths for later",
+    "Complete both available chapters before optional deep exploration"
+  ]}
+/>
+
+<Callout type="success" title="Reliability Wins">
+Focused early setups outperform several half-developed options. Commit to a plan, upgrade its consistency, and only experiment with hybrids once ordinary encounters feel comfortable.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Secrets, Settings, and What Comes Next">
+
+Optional content in Divine Frequency rewards observation. Repeated symbols, unusual object placement, lighting changes, and deliberately framed spaces often mark puzzle mechanics or hidden rooms. Treat repeated visual elements as instructions or sequence markers rather than decoration, and revisit side areas after story interactions change the environment.
+
+On the technical side, a stable run starts with sensible settings:
+
+| Setting Category | Recommendation | If Problems Appear |
+| --- | --- | --- |
+| Display Mode | Fullscreen or borderless | Switch mode and restart if frames flicker |
+| Resolution | Native first, then reduce rendering resolution | Lower resolution before cutting quality options |
+| Graphics Quality | Default preset, adjust individually | Change one option at a time, test in a busy area |
+| Input | Verify sensitivity and prompts before long sessions | Reconnect controller before launch if undetected |
+| Performance | Close overlays and background apps | Update drivers, verify files via Steam, cap frame rate |
+
+<Callout type="tip" title="Stay Updated">
+Balance changes and fixes can alter encounter difficulty between patches. Check the [Steam news feed](https://steamcommunity.com/app/2548880/allnews/) before a new playthrough, and join the official [Discord](https://discord.gg/jnyFVSTgf3) for development announcements.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Is Divine Frequency a full game yet?",
+    answer: "No. The game entered Steam Early Access on October 26, 2026 with roughly 70% of planned content, including 2 of 3 chapters and about 4–6 hours of playtime. The full version is planned to add the final chapter, more enemies, bosses, builds, music, story elements, and a Hardcore Mode."
+  },
+  {
+    question: "Can I play Divine Frequency survival horror without loving horror games?",
+    answer: "Yes, with expectations. The game combines psychological and surreal horror with fast boomer-shooter combat, so players who enjoy retro FPS gunplay can lean on firearms and positioning, though the atmosphere remains deliberately disturbing."
+  },
+  {
+    question: "Which build is best for beginners?",
+    answer: "A firearms-focused setup with one psionic emergency option is the most forgiving start. Invest in damage consistency and handling before specialization, and only add a second damage role once ordinary encounters feel comfortable."
+  },
+  {
+    question: "What should I do when progression seems blocked?",
+    answer: "Review earlier unresolved routes and completed objectives rather than forcing the blocked path. Some doors and areas are intentionally inaccessible until later story advances or future Early Access updates."
+  }
+]} />
+
+</Section>

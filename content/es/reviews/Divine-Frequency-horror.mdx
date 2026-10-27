@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Divine Frequency Terror: Guía de Supervivencia para Principiantes y Consejos de Combate",
+  description: "Sobrevive a Divine Frequency, el FPS de terror retro surrealista de Abraxaes. Aprende los fundamentos del combate, prioridades de build, tácticas contra enemigos y consejos de Acceso Anticipado.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/7a1f1f/fff?text=Divine+Frequency+Horror",
+  date: "2026-10-28",
+  author: "Equipo de Wiki de Divine Frequency"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El terror de **Divine Frequency** combina la acción de armas retro FPS con horror psicológico y cósmico en mundos surrealistas
+- **Estado de Acceso Anticipado**: 2 de 3 capítulos de historia, aproximadamente 4-6 horas de contenido en Windows a través de Steam
+- **Regla básica de supervivencia**: Trata la munición, la curación y los recursos psiónicos como un solo presupuesto compartido
+- **Mejor primer movimiento**: Aprende el ritmo de combate en la zona inicial antes de comprometerte con cualquier build
+- **Evita el error clásico**: No asumas que cada camino bloqueado es un bug o que cada habitación debe limpiarse ahora
+</Callout>
+
+<Section icon={Map} title="Qué Hace Diferente al Terror de Divine Frequency">
+
+El terror de Divine Frequency no es un shooter de pasillos con sustos. Desarrollado y publicado por **Abraxaes**, el juego entró en Acceso Anticipado de Steam el **26 de octubre de 2026** como un híbrido de FPS de terror, progresión RPG, horror psicológico y sensibilidad boomer-shooter. La realidad misma es inestable aquí: la campaña avanza por entornos surrealistas y de pesadilla febril, donde la exploración, los puzles y los encuentros opcionales conviven con tiroteos brutales.
+
+La compilación actual de Acceso Anticipado contiene aproximadamente el 70% del juego completo previsto, cubriendo **2 de 3 capítulos de historia** con un tiempo de juego estimado de **4-6 horas**. La [página oficial de Steam](https://store.steampowered.com/app/2548880/Divine_Frequency/) es la fuente autorizada sobre lo que es jugable en este momento.
+
+| Característica | Detalles |
+|---|---|
+| Desarrollador / Editor | Abraxaes |
+| Fecha de Lanzamiento | 26 de octubre de 2026 (Acceso Anticipado) |
+| Plataforma | Windows (Steam) |
+| Etiquetas de Género | FPS de Terror, RPG, Horror Psicológico, Surrealista, Boomer Shooter |
+| Contenido Actual | 2 de 3 capítulos, ~4-6 horas |
+| Adiciones Planificadas | Capítulo final, más enemigos/jefes, builds, música, Modo Hardcore |
+| Idiomas Soportados | Inglés (según el listado oficial de Steam) |
+
+<Callout type="warning" title="Expectativas del Acceso Anticipado">
+Las notas oficiales indican que el Acceso Anticipado puede durar **uno a dos años**. El balance, los encuentros e incluso los diseños de niveles pueden cambiar entre actualizaciones. No trates ninguna táctica de esta guía como permanente.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Fundamentos de Combate para Nuevos Jugadores">
+
+Las primeras horas recompensan a los jugadores cautelosos. Entrar corriendo en habitaciones desconocidas, gastar toda la munición en el primer enemigo que veas e ignorar la cobertura son las formas más rápidas de morir en el terror de Divine Frequency. El juego admite tanto armas de fuego como opciones psiónicas, y entender cuándo importa cada una es la base de toda buena build.
+
+<CardGrid cols={3}>
+  <Card title="Armas de Fuego">
+    - **Daño a distancia confiable**
+    - Ideales para combates abiertos y eliminación controlada
+    - Limitadas por el suministro de munición
+    - Mejora la precisión y la consistencia
+  </Card>
+  <Card title="Opciones Psiónicas">
+    - **Daño y utilidad flexibles**
+    - Control de masas y potencial de ráfaga
+    - Independientes de la munición convencional
+    - Limitadas por la disponibilidad y recuperación de habilidades
+  </Card>
+  <Card title="Equipamiento Híbrido">
+    - **Cobertura equilibrada de encuentros**
+    - Un arma confiable más una herramienta psiónica
+    - Reduce la dependencia de un solo recurso
+    - Requiere un gasto disciplinado de mejoras
+  </Card>
+</CardGrid>
+
+| Categoría de Combate | Mejor Uso | Recurso Principal | Prioridad de Mejora |
+|---|---|---|---|
+| Armas de Fuego | Combates abiertos, mantener distancia | Munición | Consistencia de daño, manejo, eficiencia de munición |
+| Opciones Psiónicas | Control de masas, ráfaga, utilidad | Recursos de habilidades | Fuerza del efecto, recuperación, duración |
+| Modificaciones | Especialización de build | Materiales de mejora | Bonos complementarios, no efectos apilados |
+| Híbrido | Exploración con presión mixta | Presupuesto de supervivencia compartido | Fiabilidad primero, especialización después |
+
+<Callout type="tip" title="Consejo de Ritmo de Combate">
+Antes de entrar en cualquier habitación desconocida, identifica tus salidas y la cobertura cercana. Reserva las habilidades de alto impacto para grupos y rutas bloqueadas; no las desperdicies en amenazas aisladas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Primeras Horas: Plan de Supervivencia Paso a Paso">
+
+Sigue esta secuencia para establecer una rutina confiable en los actos iniciales. Cada paso se basa en el anterior, así que resiste la tentación de avanzar a encuentros opcionales antes de que tus recursos puedan soportar el riesgo.
+
+<Steps>
+  <Step num="1" title="Aprende el ritmo de combate">
+    Usa la cobertura, controla la distancia de combate y prueba tanto las opciones de armas de fuego como las psiónicas desde el principio para saber qué herramienta funciona a qué distancia. Gasta la opción más segura disponible al aprender un nuevo encuentro con enemigos.
+  </Step>
+  <Step num="2" title="Explora metódicamente">
+    Revisa las habitaciones laterales antes de comprometerte con objetivos importantes. Anota cada puerta cerrada, ruta bloqueada y contenedor imposible de abrir como un punto de control futuro en lugar de forzar el progreso ahora.
+  </Step>
+  <Step num="3" title="Administra tu presupuesto de supervivencia">
+    Trata la munición, los suministros de curación, los materiales de mejora y los recursos psiónicos como un solo presupuesto. Gasta cuando una mejora o objeto resuelve un problema claro, no simplemente porque lo adquiriste.
+  </Step>
+  <Step num="4" title="Construye un plan de progresión simple">
+    Elige primero un enfoque de daño confiable, luego añade modificaciones complementarias. Una configuración inicial enfocada supera a varias opciones a medio desarrollar.
+  </Step>
+  <Step num="5" title="Separa lo obligatorio de lo opcional">
+    Distingue la progresión crítica de la historia de los descubrimientos opcionales. El contenido de Acceso Anticipado puede cambiar, así que mantén una lista corta de ubicaciones sin resolver para revisar después de los grandes avances de la historia.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Hábito de Punto de Control">
+Antes de salir de cualquier zona importante, confirma tres cosas: el objetivo principal avanzó, los recursos importantes fueron recogidos y las rutas bloqueadas fueron registradas. Este simple hábito elimina la mayoría del retroceso frustrante.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Amenazas Enemigas y Cómo Manejarlas">
+
+El terror de Divine Frequency castiga la exploración descuidada. Lee la amenaza antes de comprometerte: cómo se acerca un enemigo, qué ataques conllevan mayor riesgo, cuándo retirarse y qué recursos merecen gastarse.
+
+| Tipo de Amenaza | Nivel de Amenaza | Patrón de Ataque | Debilidad Clave | Táctica Central |
+|---|---|---|---|---|
+| Hostiles de Actos Iniciales | Moderado | Presión a corta distancia, persecución predecible | Movilidad lenta, ventanas claras de recuperación | Usa esquinas y puertas; mantén la distancia |
+| Perseguidores Rápidos | Alto | Cierre rápido, cadenas cortas de ataque | Lucha contra obstáculos y rutas estrechas | Rompe la línea de visión; ataca solo después de que fallen |
+| Encuentros Especiales | Severo | Oleadas más peligros en espacio limitado | Breve ventana de preparación antes de la escalada | Explora primero; guarda el mejor equipo para la fase final |
+
+<Callout type="warning" title="Regla del Perseguidor">
+Nunca te retires de un perseguidor rápido hacia habitaciones desconocidas. Muévete por espacios ya despejados donde conoces las salidas, y golpea solo durante las animaciones de recuperación.
+</Callout>
+
+Para encuentros que claramente señalan alto riesgo — diseño sonoro inusual, movimiento restringido, espacio vacío llamativo — completa primero la exploración cercana, entra con la capacidad de curación completa y deja espacio en el inventario para las recompensas.
+
+</Section>
+
+<Section icon={Sparkles} title="Secretos, Puzles y Pistas Ambientales">
+
+El contenido opcional en el terror de Divine Frequency está entretejido en el entorno en lugar de estar marcado en un mapa. Símbolos repetidos, colocación inusual de objetos, cambios de iluminación y áreas que parecen enmarcadas deliberadamente son todos potenciales marcadores de puzles.
+
+Trabaja desde el spoiler más ligero hacia afuera:
+
+| Paso | Acción | Propósito |
+|---|---|---|
+| 1 | Observa marcas inusuales y símbolos repetidos | Identifica qué está destacando el entorno |
+| 2 | Compara habitaciones cercanas; nota qué se repite vs. qué aparece una vez | Aísla marcadores de secuencia de la decoración |
+| 3 | Revisa áreas después de que interacciones de la historia cambien el entorno | Las ramas recién accesibles a menudo esconden recompensas |
+| 4 | Prepárate completamente antes de activar encuentros ocultos | Sobrevive, luego busca en la arena objetos de lore |
+
+<Callout type="tip" title="Verificación de Áreas Ocultas">
+Los caminos opcionales más valiosos suelen estar **adyacentes a** la ruta principal en lugar de directamente dentro de ella. Barre las habitaciones laterales y las líneas de visión bloqueadas antes de salir de cualquier zona importante de exploración.
+</Callout>
+
+<Checklist
+  id="df-survival-goals"
+  title="Hitos del Acceso Anticipado:"
+  items={[
+    "Aprende tanto el rol de combate con armas de fuego como el psiónico",
+    "Limpia la zona inicial con recursos de sobra",
+    "Registra cada ruta bloqueada para revisitas posteriores",
+    "Comprométete con un enfoque de daño enfocado",
+    "Sobrevive a tu primer encuentro de preparación especial"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Vale la pena jugar al terror de Divine Frequency en Acceso Anticipado?",
+    answer: "La compilación actual ofrece 2 de 3 capítulos de historia y aproximadamente 4-6 horas de contenido, alrededor del 70% del juego completo previsto. Si disfrutas del horror psicológico surrealista combinado con combate FPS retro, el contenido actual ofrece una experiencia inicial completa, con la campaña completa, enemigos adicionales, jefes y un Modo Hardcore planificados para futuras actualizaciones."
+  },
+  {
+    question: "¿Cuál es la mejor build para principiantes?",
+    answer: "Comienza con un arma de fuego confiable como tu fuente principal de daño, invierte en consistencia antes que en especialización, y mantén una única opción psiónica para emergencias y utilidad. Añade un segundo rol de daño solo después de que tu configuración principal maneje encuentros ordinarios sin un gasto excesivo de recursos."
+  },
+  {
+    question: "¿Cuánto tiempo permanecerá Divine Frequency en Acceso Anticipado?",
+    answer: "Las notas oficiales estiman aproximadamente un año, con la posibilidad de extenderse a dos años dependiendo del progreso del desarrollo. Se planea que la versión completa incluya la campaña completa, enemigos y jefes extra, builds adicionales de jugador, más música, elementos de historia y un Modo Hardcore."
+  },
+  {
+    question: "Una puerta o camino parece bloqueado. ¿Mi partida guardada está rota?",
+    answer: "Normalmente no. Muchas rutas en Divine Frequency se abren solo después de interacciones específicas de la historia. Registra la ubicación, continúa con el objetivo actual y revisita después de los grandes avances de la historia. También verifica que estás en la última compilación de Steam, ya que los parches de Acceso Anticipado pueden corregir bloqueos de progresión."
+  }
+]} />
+
+<Callout type="info" title="Mantente Informado">
+Sigue el desarrollo a través del [hub oficial de la comunidad de Steam](https://steamcommunity.com/app/2548880/), las [discusiones de Steam](https://steamcommunity.com/app/2548880/discussions/), o el Discord oficial y canales sociales enlazados desde la página de la tienda para notas de parches y anuncios de la hoja de ruta.
+</Callout>
+
+</Section>
