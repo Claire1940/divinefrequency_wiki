@@ -1,0 +1,214 @@
+import { Map, Swords, Target, Shield, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Speedrun de Divine Frequency: ruta, splits y consejos iniciales",
+  description: "Planifica un speedrun más rápido de Divine Frequency con prioridades de ruta, decisiones de combate, control de recursos, splits de práctica y reglas de…",
+  category: "guide",
+  image: "https://placehold.co/800x400/17151f/fff?text=Speedrun+Route+Guide",
+  date: "2026-10-28",
+  author: "Equipo de Wiki de Divine Frequency",
+  slug: "/divine-frequency-speedrun"
+}
+
+<Callout type="info" title="Guía rápida">
+- La planificación del **speedrun de Divine Frequency** se centra actualmente en la ruta disponible del Acceso Anticipado.
+- **Prioriza la progresión** por encima de las salas opcionales, los encuentros inciertos y la recolección innecesaria de recursos.
+- **Usa un equipamiento híbrido** para cubrir el daño a distancia, la utilidad psiónica y la recuperación de emergencia.
+- **Practica por segmentos**, ya que la versión actual contiene dos de los tres capítulos de historia planeados.
+- **Registra tus splits personales** en lugar de tratar tiempos no verificados como récords oficiales.
+</Callout>
+
+<Section icon={Map} title="Resumen de la ruta del speedrun de Divine Frequency">
+
+Los intentos de speedrun de Divine Frequency deben considerarse una optimización de ruta a través de la versión actual del Acceso Anticipado, no una categoría definitiva de récord para el juego completo. Se describe que la versión publicada contiene aproximadamente dos de los tres capítulos de historia planeados, con una duración estimada actual de cuatro a seis horas. Por eso, durante las primeras prácticas, la consistencia es más valiosa que los movimientos arriesgados.
+
+La ruta práctica más rápida se basa en objetivos esenciales, combate controlado y retrocesos limitados. Explora lo suficiente para comprender el área, pero evita despejar las rutas opcionales hasta que proporcionen un beneficio directo para la progresión. Marca las puertas bloqueadas, los caminos inusuales y las interacciones sin resolver para regresar solo cuando la ruta lo requiera.
+
+| Prioridad de ruta | Acción | Por qué es importante |
+|---|---|---|
+| 1 | Sigue los objetivos activos de la historia | Mantiene el intento avanzando por la progresión necesaria |
+| 2 | Conserva munición y curación | Evita ralentizaciones antes de los encuentros obligatorios |
+| 3 | Registra los caminos bloqueados | Reduce las búsquedas repetidas y los desvíos innecesarios |
+| 4 | Omite las salas opcionales en la primera pasada | Protege el tiempo salvo que la recompensa apoye la ruta |
+| 5 | Regresa solo a las rutas útiles | Convierte el retroceso en una decisión deliberada |
+
+<CardGrid cols={3}>
+  <Card title="Objetivo primero">
+    Sigue el objetivo de progresión actual antes de investigar salas inusuales o detalles del entorno.
+  </Card>
+  <Card title="Combate controlado">
+    Lucha cuando un encuentro bloquee el avance, amenace la ruta o proteja un recurso útil.
+  </Card>
+  <Card title="Memoria de la ruta">
+    Usa puntos de referencia, salidas y objetivos completados para evitar repetir búsquedas.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo para planificar la ruta">
+Construye tu primera ruta alrededor de la fiabilidad. Un camino ligeramente más lento que evite un reinicio suele ser más valioso que un atajo arriesgado que no puedas repetir.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preparación del speedrun paso a paso">
+
+Antes de cronometrar intentos serios, establece una rutina inicial que puedas repetir. Las primeras partidas deben enseñarte dónde pierdes tiempo: en el combate, la navegación, la recolección de recursos o la indecisión. No optimices todas las salas a la vez. Asegura un segmento y después pasa al siguiente.
+
+<Steps>
+  <Step num="1" title="Define el punto final actual">
+    Decide si tu partida de práctica termina después del primer acto, del segundo acto o del contenido de historia disponible actualmente. Como la versión del Acceso Anticipado aún está en desarrollo, registra claramente el punto final en tus notas.
+  </Step>
+  <Step num="2" title="Crea una ruta inicial segura">
+    Avanza por el área inicial identificando el objetivo principal, las salidas cercanas, la cobertura y los puntos de acceso bloqueados. El objetivo es eliminar la indecisión sin gastar recursos innecesarios.
+  </Step>
+  <Step num="3" title="Prueba las opciones de combate">
+    Prueba armas de fuego y herramientas psiónicas durante los primeros encuentros. Conserva la opción que produzca el progreso más consistente para tu ruta, en lugar de elegir una configuración basándote únicamente en el daño teórico.
+  </Step>
+  <Step num="4" title="Registra los splits de cada segmento">
+    Anota el tiempo cuando salgas de las áreas principales, completes objetivos esenciales y alcances puntos de control importantes de la progresión. Estos splits revelan dónde te está costando tiempo un reinicio.
+  </Step>
+  <Step num="5" title="Elimina los desvíos de poco valor">
+    Compara cada sala opcional con su tiempo de desplazamiento, riesgo de combate y recompensa. Conserva el desvío solo cuando mejore de forma fiable la supervivencia, el acceso o la velocidad posterior.
+  </Step>
+</Steps>
+
+| Segmento de práctica | Registra esto | Pregunta de optimización |
+|---|---|---|
+| Área inicial | Tiempo de salida y estado de los recursos | ¿Estás buscando demasiado antes de avanzar? |
+| Primera cadena de combates | Daño recibido y munición gastada | ¿Puede el posicionamiento sustituir a los ataques adicionales? |
+| Comprobación de la ruta secundaria | Tiempo de desplazamiento y recompensa | ¿Esta ramificación apoya la ruta principal? |
+| Transición de acto | Tiempo de finalización del objetivo | ¿Llevas recursos o equipo innecesarios? |
+| Última sección disponible | Causa del reinicio y tiempo de recuperación | ¿Qué error termina el intento con más frecuencia? |
+
+<Callout type="warning" title="Advertencia sobre el Acceso Anticipado">
+Las rutas pueden cambiar cuando las actualizaciones añadan contenido, ajusten los encuentros o modifiquen la progresión. Guarda tus notas de ruta según la versión de la compilación y vuelve a comprobar los caminos bloqueados después de los parches importantes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Decisiones de combate y equipamiento">
+
+Un equipamiento de speedrun debe reducir la toma de decisiones durante los encuentros normales. Las recomendaciones disponibles contemplan tres enfoques generales: centrado en armas de fuego, centrado en psiónica y juego híbrido. Todos pueden servir como base de práctica, pero una configuración híbrida suele ser el punto de partida más seguro porque cubre las distintas distancias y la presión sobre los recursos.
+
+No repartas las mejoras entre todas las opciones disponibles. Elige un método principal de daño y usa el segundo sistema para solucionar su debilidad más importante. Así mantendrás la configuración clara y conservarás una respuesta de emergencia para las salas difíciles.
+
+| Estilo de equipamiento | Función principal | Riesgo principal | Uso en speedrun |
+|---|---|---|---|
+| Centrado en armas de fuego | Daño a distancia fiable | Dependencia de la munición | Fuerte para eliminar objetivos predecibles |
+| Centrado en psiónica | Utilidad, control y efectos explosivos | Límites de los recursos de habilidad | Útil cuando las habilidades permiten evitar encuentros difíciles |
+| Híbrido | Cobertura flexible | Especialización más lenta | Buen punto de partida para descubrir la ruta |
+| Híbrido defensivo | Supervivencia y progreso controlado | Menor presión de daño | Útil para aprender las secciones de alto riesgo |
+
+<CardGrid cols={4}>
+  <Card title="Armas de fuego">
+    Úsalas para ejercer presión controlada a distancia y en encuentros donde mantener la distancia sea más seguro que el combate cuerpo a cuerpo.
+  </Card>
+  <Card title="Psiónica">
+    Reserva los efectos de utilidad o de gran impacto para objetivos peligrosos, rutas bloqueadas o grupos de amenazas.
+  </Card>
+  <Card title="Posicionamiento">
+    Usa puertas, esquinas, coberturas y salas despejadas para controlar cómo se acercan los enemigos.
+  </Card>
+  <Card title="Reserva de recursos">
+    Conserva suficiente curación, munición y capacidad de habilidades para el siguiente encuentro obligatorio.
+  </Card>
+</CardGrid>
+
+El hábito de combate más útil es evitar luchar en espacios desconocidos. Antes de entrar en una sala, identifica una ruta de retirada y la cobertura cercana. Si un perseguidor rápido o un enemigo de corto alcance te obliga a adoptar una mala posición, romper la línea de visión puede ahorrarte más tiempo que intentar conseguir una baja inmediata.
+
+| Tipo de encuentro | Respuesta preferida | Evita |
+|---|---|---|
+| Presión a corta distancia | Crea distancia y ataca después de las ventanas de recuperación | Luchar atrapado contra el escenario |
+| Perseguidor rápido | Retrocede por espacios despejados y usa obstáculos | Entrar corriendo en una sala inexplorada |
+| Zona de alta presión | Prepara los recursos e inspecciona primero el área | Activar el encuentro sin un plan de escape |
+| Objetivo aislado | Usa la opción fiable más barata | Gastar habilidades raras innecesariamente |
+
+<Callout type="success" title="Regla de combate">
+El mejor ataque de speedrun es el que termina el encuentro sin obligarte a hacer un desvío para recuperarte. Prioriza un posicionamiento limpio y un daño repetible por encima del riesgo llamativo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Disciplina de ruta y estrategia de reinicio">
+
+El progreso en un speedrun depende de saber cuándo continuar y cuándo reiniciar. Perder una sola interacción no siempre justifica abandonar un intento, especialmente mientras estás aprendiendo. Sin embargo, los errores repetidos de navegación, una pérdida grave de recursos o un encuentro obligatorio fallido pueden hacer que reiniciar sea más eficiente.
+
+Usa los puntos de control para separar los errores de ruta de los errores de ejecución. Un error de ruta significa que el camino planeado es ineficiente o poco claro. Un error de ejecución significa que la ruta es correcta, pero el combate, el movimiento o la interacción se realizaron mal. Cada tipo requiere soluciones diferentes.
+
+<Checklist
+  id="divine-frequency-speedrun-practice"
+  title="Antes de comenzar un intento cronometrado:"
+  items={[
+    "Elige un punto final claro del Acceso Anticipado",
+    "Confirma el método principal de daño previsto",
+    "Revisa los caminos bloqueados conocidos y los objetivos necesarios",
+    "Establece un método constante para cronometrar splits o tomar notas",
+    "Mantén la ruta inicial libre de desvíos opcionales"
+  ]}
+/>
+
+| Problema | Continúa cuando | Reinicia cuando |
+|---|---|---|
+| Daño menor recibido | La curación sigue siendo suficiente para los encuentros necesarios | El daño provoca una crisis de recursos más adelante |
+| Sala secundaria omitida | La sala es opcional y no es esencial para la ruta | La interacción omitida bloquea la progresión |
+| Munición adicional gastada | La siguiente sección sigue siendo manejable | No puedes afrontar un combate obligatorio |
+| Error de navegación | Puedes regresar sin un retroceso importante | El error invalida la ruta planeada |
+| Encuentro fallido | La recuperación es corta y repetible | El intento pierde más tiempo que un reinicio |
+
+La versión actual recompensa la exploración deliberada, así que la velocidad no significa ignorar todas las pistas del entorno. El enfoque correcto es distinguir entre las pistas necesarias para progresar y los detalles que apoyan el lore opcional o los descubrimientos. Si una interacción no hace avanzar el objetivo activo y no tiene un valor conocido para la ruta, posponla durante un intento cronometrado.
+
+<Callout type="tip" title="Consejo sobre los reinicios">
+Reinicia para obtener información, no por frustración. Después de cada intento fallido, anota la causa exacta y cambia una decisión en la siguiente partida.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Splits de práctica, objetivos y preguntas frecuentes">
+
+Usa una estructura de splits que se ajuste al contenido actual en lugar de copiar una categoría futura del juego completo. El alcance planeado del juego puede expandirse más allá de los dos capítulos disponibles actualmente, por lo que una ruta personal siempre debe indicar su punto final, la versión de la compilación y si incluye descubrimientos opcionales.
+
+Un objetivo de práctica útil es completar cada segmento sin improvisar. Cuando la ruta sea estable, mejora primero el split más lento. Reducir una búsqueda repetida de cinco minutos es más valioso que recortar unos segundos de una sala de combate limpia.
+
+| Nivel de objetivo | Enfoque | Indicador de éxito |
+|---|---|---|
+| Principiante | Aprender los objetivos y las salidas | Terminar sin una confusión importante de navegación |
+| En desarrollo | Estabilizar el combate y los recursos | Llegar a cada split con un estado de inventario repetible |
+| Avanzado | Eliminar desvíos e indecisión | Completar la ruta tomando decisiones consistentes |
+| Optimización | Perfeccionar el movimiento y los encuentros | Mejorar el split más lento sin aumentar los reinicios |
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor ruta de speedrun de Divine Frequency ahora mismo?",
+    answer: "Usa una ruta centrada en los objetivos a través de los capítulos del Acceso Anticipado disponibles actualmente. Prioriza la progresión necesaria, omite las zonas opcionales de poco valor y registra los caminos bloqueados para regresar a ellos deliberadamente."
+  },
+  {
+    question: "¿Debo usar armas de fuego o psiónica para un speedrun?",
+    answer: "Ambos enfoques pueden servir para un intento. Las armas de fuego ofrecen un daño a distancia constante, mientras que la psiónica proporciona utilidad y control de los encuentros. Una configuración híbrida enfocada es un punto de partida práctico durante el desarrollo de la ruta."
+  },
+  {
+    question: "¿Cómo debo gestionar las salas opcionales?",
+    answer: "Omítelas cuando añadan tiempo de desplazamiento, combate o búsqueda sin mejorar la progresión. Regresa solo cuando la sala proporcione un recurso útil, un punto de acceso o una ventaja de ruta fiable."
+  },
+  {
+    question: "¿Existen récords oficiales de speedrun para Divine Frequency?",
+    answer: "La información disponible del juego establece el alcance y los detalles de progresión del Acceso Anticipado, pero no proporciona una clasificación verificada ni una lista de récords oficiales. Registra tus splits personales e identifica la versión de la compilación utilizada."
+  }
+]} />
+
+<Callout type="info" title="Nota de práctica">
+Considera cada mejor marca personal como un informe de ruta: incluye el punto final, la versión de la compilación, las reglas sobre el contenido opcional y los splits que produjeron el resultado.
+</Callout>
+
+</Section>
+
+## Lecturas relacionadas
+
+- [Consejos de supervivencia de Divine Frequency: guía paso a paso](/es/guide/Divine-Frequency-survival-tips)
+- [Requisitos del sistema de Divine Frequency: guía de configuración](/es/guide/Divine-Frequency-system-requirements)
+- [Partida de Divine Frequency: guía de Acceso anticipado](/es/media/Divine-Frequency-playthrough)

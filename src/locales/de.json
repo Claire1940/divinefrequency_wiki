@@ -1,788 +1,540 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "description": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps, Steuerung, Mods und Community-Links für das Steam-Stealth-Heist-Spiel.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, Demo-Download, Anfängerleitfaden, Koop-Leitfaden, Crafting, Ausrüstung, Mods, BepInEx, Steam-Spiel, Stealth-Spiel",
-      "ogTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "ogDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps und Mods für das Steam-Stealth-Heist-Spiel.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "twitterDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien und Crafting-Tipps."
+      "title": "Divine Frequency Wiki – Horror-FPS, Lore & Builds",
+      "description": "Entdecke das Divine Frequency Wiki mit Lore, Waffen, Gegnern, Builds, Puzzles, Updates und Early-Access-Guides für den surrealen Shooter von Abraxaes.",
+      "keywords": "Divine Frequency, Steam, Horror-FPS, Lore, Waffen, Gegner, Builds, Puzzles",
+      "ogTitle": "Divine Frequency Wiki – Horror-FPS, Lore & Builds",
+      "ogDescription": "Entdecke das Divine Frequency Wiki mit Lore, Waffen, Gegnern, Builds, Puzzles, Updates und Early-Access-Guides für den surrealen Shooter von Abraxaes.",
+      "twitterTitle": "Divine Frequency Wiki – Horror-FPS, Lore & Builds",
+      "twitterDescription": "Entdecke das Divine Frequency Wiki mit Lore, Waffen, Gegnern, Builds, Puzzles, Updates und Early-Access-Guides für den surrealen Shooter von Abraxaes."
     }
   },
   "nav": {
-    "guides": "Anleitungen",
-    "crafting": "Herstellung",
-    "items": "Gegenstände",
-    "biomes": "Biome",
-    "building": "Bauen",
-    "support": "Unterstützung"
+    "guide": "Guide",
+    "media": "Media",
+    "puzzles": "Puzzles",
+    "release": "Release",
+    "reviews": "Reviews",
+    "technical": "Technik"
   },
   "common": {
     "home": "Startseite",
     "more": "Mehr",
-    "playNow": "Demo herunterladen",
+    "playNow": "Auf Steam spielen",
     "switchLanguage": "Sprache wechseln",
     "switchTheme": "Design wechseln",
-    "lightMode": "Heller Modus",
-    "darkMode": "Dunkler Modus",
+    "lightMode": "Helles Design",
+    "darkMode": "Dunkles Design",
     "notFound": "Seite nicht gefunden",
-    "notFoundDescription": "Die Seite, die du suchst, existiert nicht.",
+    "notFoundDescription": "Die gesuchte Seite existiert nicht.",
     "backToHome": "Zurück zur Startseite",
-    "relatedArticles": "Ähnliche Artikel",
-    "readMore": "Mehr lesen",
-    "articlesComingSoon": "Artikel folgen bald"
+    "relatedArticles": "Verwandte Artikel",
+    "readMore": "Weiterlesen",
+    "articlesComingSoon": "Artikel folgen in Kürze"
   },
   "hero": {
-    "badge": "Winzige Gnome. Große Häuser. Stealth-Raubzüge mit Freunden.",
-    "title": "Lucid Blocks Wiki",
-    "description": "Deine zentrale Anlaufstelle für Lucid Blocks: wie die Raubzüge funktionieren, High-Gnome-Aufträge, Crafting & Upgrades, Gegner, Steuerung und die schnellsten Wege, um jeden Durchgang zu überleben.",
-    "getFreeCodesCTA": "Demo herunterladen",
-    "playOnSteamCTA": "Auf die Wunschliste bei Steam",
+    "badge": "Surrealer Retro-Horror-FPS",
+    "title": "Divine Frequency Wiki",
+    "description": "Erlebe einen Fiebertraum-Horror-FPS, in dem die Realität in surrealen Welten zerfällt – mit brutalen Feuergefechten, RPG-Progression, versteckter Lore, Puzzles, optionalen Begegnungen und verstörenden kosmischen Mysterien.",
+    "getFreeCodesCTA": "Kostenlose Guides ansehen",
+    "playOnSteamCTA": "Auf Steam spielen",
     "stats": {
       "stat1": {
-        "value": "15.000",
-        "label": "Gleichzeitige Spieler (Demo)"
+        "value": "26. Okt. 2026",
+        "label": "Early-Access-Release"
       },
       "stat2": {
-        "value": "6",
-        "label": "Koop-Spieler"
+        "value": "2 von 3",
+        "label": "Story-Kapitel"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo-Veröffentlichung"
+        "value": "4–6 Stunden",
+        "label": "Aktuelle Spielzeit"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plattform"
+        "value": "Englisch",
+        "label": "Unterstützte Sprache"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Sieh dir an, wie winzige Gnome in chaotischen 6-Spieler-Koop-Stealth-Missionen große Raubzüge durchführen!"
+    "title": "Divine Frequency Gameplay",
+    "description": "Kämpfe dich in diesem Retro-Horror-FPS auf Steam durch surreale Welten – mit brutalen Feuergefechten, RPG-Progression und versteckter Lore."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Divine Frequency",
     "titleHighlight": "Ressourcen",
-    "subtitle": "Alles, was du brauchst, um Raubzüge und Koop-Stealth zu meistern",
+    "subtitle": "Jeder Guide, jede Datenbank und jede Referenz, die du für Divine Frequency brauchst – vom ersten Kontakt bis zum vollständigen Durchspielen der Early Access.",
     "cards": [
       {
-        "icon": "Herunterladen",
-        "title": "Demo-Download",
-        "description": "Hol dir die kostenlose Steam-Demo"
+        "icon": "BookOpen",
+        "title": "Anfänger-Guide",
+        "description": "Überlebensstrategien, ressourcenschonendes Spielen und frühe Progression"
       },
       {
-        "icon": "Buch offen",
-        "title": "Anfängerleitfaden",
-        "description": "Kernschleife und häufige Fallstricke"
+        "icon": "Crosshair",
+        "title": "Waffen und Mods",
+        "description": "Schusswaffen, psionische Optionen und Modifikationsplanung"
       },
       {
-        "icon": "Benutzer",
-        "title": "Koop-Leitfaden",
-        "description": "6-Spieler-Rollen und Rettungstaktiken"
+        "icon": "Layers",
+        "title": "Klassen und Builds",
+        "description": "Archetypen, Stärken und Starter-Build-Pfade"
       },
       {
-        "icon": "Klemmbrett-Check",
-        "title": "Aufgaben & Ziele",
-        "description": "Was High-Gnome von dir will"
+        "icon": "Map",
+        "title": "Walkthrough",
+        "description": "Spoiler-kontrollierte Routen durch Akt I und II"
       },
       {
-        "icon": "Tastatur",
-        "title": "Steuerung & Tastenbelegung",
-        "description": "Standardtasten und wie man sie ändert"
+        "icon": "Skull",
+        "title": "Gegner-Guide",
+        "description": "Angriffsmuster, Schwachstellen und effiziente Taktiken"
       },
       {
-        "icon": "Schild",
-        "title": "Inhaltseinstellungen",
-        "description": "Inhalte für Erwachsene und Umschaltoptionen"
+        "icon": "Puzzle",
+        "title": "Geheimnisse und Puzzles",
+        "description": "Versteckte Bereiche, Hinweisdeutung und Lösungen"
       },
       {
-        "icon": "Hammer",
-        "title": "Crafting & Ausrüstung",
-        "description": "Rüste dich mit gestohlenen Materialien aus"
+        "icon": "Cpu",
+        "title": "Einstellungen und Anforderungen",
+        "description": "Anzeige, Eingabe, Grafik und Performance-Checks"
       },
       {
-        "icon": "Paket",
-        "title": "Beute & Gegenstände",
-        "description": "Was man stehlen sollte und Trage-Tipps"
-      },
-      {
-        "icon": "Warndreieck",
-        "title": "Gegner & Gefahren",
-        "description": "Bedrohungen und wie man mit ihnen umgeht"
-      },
-      {
-        "icon": "Auge",
-        "title": "Stealth & Flucht",
-        "description": "Bleib versteckt und extrahiere sicher"
-      },
-      {
-        "icon": "Startseite",
-        "title": "Haus-Upgrades",
-        "description": "Verbessere deine schwebende Inselbasis"
-      },
-      {
-        "icon": "Sprechblase",
-        "title": "Community & Discord",
-        "description": "Offizielle Links und Gruppensuche"
-      },
-      {
-        "icon": "Einstellungen",
-        "title": "Mods & BepInEx",
-        "description": "Installiere Framework und Mod-Setup"
-      },
-      {
-        "icon": "Stern",
-        "title": "Beliebte Mods",
-        "description": "Top-Community-Auswahlen und -Funktionen"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Controller-Unterstützung",
-        "description": "Volle Gamepad-Steuerung mit UI-Cursor"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Spielerzahl & Trend",
-        "description": "Live-Statistiken und Peak-Tracking"
+        "icon": "CalendarClock",
+        "title": "Updates und Roadmap",
+        "description": "Patch-Archiv und Early-Access-Pläne"
       }
     ]
   },
   "modules": {
-    "demoDownload": {
-      "title": "Lucid Blocks Demo-Download",
-      "subtitle": "Hol dir die kostenlose Demo auf Steam",
-      "downloadSize": "2,62 GiB",
-      "diskSize": "4,88 GiB",
-      "releaseDate": "30. Januar 2026",
-      "price": "Kostenlos",
-      "platform": "PC (Steam) / Windows",
-      "engine": "Unity",
-      "primaryCTA": "Demo herunterladen",
-      "secondaryCTA": "Technische Infos ansehen",
-      "installPath": "Steam\\steamapps\\common\\Lucid Blocks Demo",
-      "sections": [
-        {
-          "heading": "Wo man es herunterladen kann",
-          "items": [
-            "Öffne die offizielle Steam-Store-Seite und nutze den Abschnitt \"Demo herunterladen\".",
-            "Wenn Steam dich auffordert, dich anzumelden, melde dich zuerst an und versuche es erneut."
-          ]
-        },
-        {
-          "heading": "Schnelle Überprüfung von Installation und Start",
-          "items": [
-            "Standardinstallationsort: Steam-Bibliotheksordner → steamapps → common → (Spielordner).",
-            "Wenn es nicht startet: Überprüfe die Spieldateien in Steam und starte Steam neu."
-          ]
-        }
-      ]
-    },
-    "beginnerGuide": {
-      "title": "Lucid Blocks Anfängerleitfaden",
-      "subtitle": "Meistere die Kernschleife und vermeide häufige Fehler",
+    "divineFrequencyBeginnerGuide": {
+      "eyebrow": "Anfänger-Guide",
+      "title": "Divine Frequency Anfänger-Guide",
+      "intro": "Die ersten Stunden belonen sorgfältige Erkundung, überlegtes Kämpfen und konsequentes Ressourcenmanagement. Folge diesen Schritten, um eine verlässliche Routine aufzubauen, bevor du mit fortgeschrittenen Builds oder optionalen Entdeckungen experimentierst.",
       "steps": [
         {
-          "number": 1,
-          "title": "Betritt das Haus",
-          "description": "Lass dich von deiner schwebenden Inselbasis in ein menschliches Haus fallen. Spawne draußen und schleiche dich durch unverschlossene Türen oder Fenster hinein."
-        },
-        {
-          "number": 2,
-          "title": "Schließe Aufgaben ab",
-          "description": "Erledige High-Gnome-Aufgaben, bevor die Zeit abläuft. Überprüfe die Ziele über die Tab-Taste und priorisiere zuerst riskante Aufgaben."
-        },
-        {
-          "number": 3,
-          "title": "Stehle Gegenstände",
-          "description": "Sammle Wertgegenstände und Materialien zum Craften. Vermeide es, Lärm zu machen oder vom Hausbesitzer entdeckt zu werden."
-        },
-        {
-          "number": 4,
-          "title": "Flucht via Tornado",
-          "description": "Wenn der Timer endet, spawnt ein Tornado im Garten – erreiche ihn, um sicher zu extrahieren. Fang früh an, dich zu bewegen!"
-        },
-        {
-          "number": 5,
-          "title": "Upgrade & Wiederholung",
-          "description": "Verwende Belohnungen und Materialien, um Ausrüstung zu Hause herzustellen, und starte dann deinen nächsten Raubzug mit besserer Ausrüstung."
-        }
-      ],
-      "pitfalls": [
-        {
-          "title": "Erwischt werden",
-          "description": "Der Hausbesitzer wird dich verfolgen. Bleib versteckt, lenke ab und unterbreche die Sichtlinie, um zu entkommen.",
-          "icon": "Warndreieck"
-        },
-        {
-          "title": "Zeit läuft ab",
-          "description": "Der Tornado-Timer ist streng. Beginne frühzeitig mit dem Weg zur Extraktion, anstatt zu viel zu plündern.",
-          "icon": "Uhr"
-        },
-        {
-          "title": "Teamkollegen ignorieren",
-          "description": "Rette gefangene Verbündete schnell aus Kühl-/Ofenfallen – rufe sofort nach Rettung.",
-          "icon": "Benutzer"
-        }
-      ]
-    },
-    "coopGuide": {
-      "title": "Lucid Blocks Koop-Leitfaden",
-      "subtitle": "Koordiniere dich mit bis zu 6 Spielern für maximales Chaos",
-      "maxPlayers": 6,
-      "roles": [
-        {
-          "name": "Späher",
-          "description": "Überprüfe auf Bedrohungen, markiere sichere Pfade und leite die Teambewegung",
-          "icon": "Auge"
-        },
-        {
-          "name": "Träger",
-          "description": "Konzentriere dich auf schwere Gegenstände mit Rucksack-Upgrades und sichere den Aufgabenfortschritt",
-          "icon": "Paket"
-        },
-        {
-          "name": "Ablenkung",
-          "description": "Locke Hausbesitzer/Haustiere vom Team weg, um sichere Fenster zu schaffen",
-          "icon": "Benutzer"
-        },
-        {
-          "name": "Retter",
-          "description": "Befreie gefangene Teamkollegen aus Kühl-/Ofen, bevor sie sterben",
-          "icon": "Schild"
-        }
-      ],
-      "threats": [
-        "Hausbesitzer (verfolgt und fängt dich)",
-        "Katzen & Mäuse (Patrouillenwege)",
-        "Staubsaugerroboter (sofortige Gefahr)",
-        "Zeitlimit (Tornado-Extraktion)"
-      ],
-      "communication": "Verwende Voice-Chat (V-Taste), um Aufgaben und Rettungen zu koordinieren. Rufe: \"Entdeckt\", \"Route\", \"Brauche Rettung\", \"Bald extrahieren\"."
-    },
-    "tasksObjectives": {
-      "title": "Lucid Blocks Aufgaben & Ziele",
-      "subtitle": "Was der High-Gnome will: Aufgabenbeispiele",
-      "taskTypes": [
-        {
-          "type": "Stehle Gegenstände",
-          "examples": [
-            "Schnapp dir bestimmte Gegenstände, die durch High-Gnome-Ziele markiert sind"
+          "title": "Lerne den grundlegenden Kampfrhythmus",
+          "description": "Nutze Deckung, kontrolliere die Distanz zu Gegnern und verbrauche nicht gleich alle Ressourcen im ersten Gefecht. Teste früh sowohl Schusswaffen als auch psionische Optionen, damit du weißt, welche Werkzeuge auf welche Distanz effektiv sind.",
+          "priority": "Essenziell",
+          "tips": [
+            "Renne nicht unüberlegt in unbekannte Räume, ohne Ausgänge und Deckungsmöglichkeiten zu prüfen.",
+            "Nutze beim Erlernen einer neuen Gegnerbegegnung die sicherste verfügbare Option.",
+            "Hebe starke Fähigkeiten für Gruppen, gefährliche Ziele oder blockierte Wege auf."
           ]
         },
         {
-          "type": "Erreiche Orte",
-          "examples": [
-            "Navigiere zu bestimmten Bereichen im Haus"
+          "title": "Erkunde systematisch und markiere deine Route",
+          "description": "Die Startgebiete können verzweigte Pfade, verschlossene Zugänge, optionale Begegnungen und Ressourcen enthalten, die sich leichter erkennen lassen, wenn du jeden Ort auf konsistenter Route durchquerst.",
+          "priority": "Essenziell",
+          "tips": [
+            "Prüfe Nebenräume, bevor du dich durch einen großen Missionsbereich kämpfst.",
+            "Merke dir Türen, Pfade und Container, die sich noch nicht öffnen lassen.",
+            "Nutze Orientierungspunkte und abgeschlossene Ziele, um nicht immer wieder dieselben Bereiche zu durchsuchen."
           ]
         },
         {
-          "type": "Verursache Unfug",
-          "examples": [
-            "Mach einen Fernseher kaputt",
-            "Überflute eine Toilette",
-            "Erzeuge Chaos"
-          ]
-        }
-      ],
-      "efficiency": [
-        "Erledige zuerst riskante Aufgaben, während das Team zusammen ist",
-        "Weise einem Träger Aufgabengegenstände zu, damit sie während der Verfolgungsjagden nicht verloren gehen",
-        "Beginne mit der Bewegung zur Extraktion, bevor die Zeit abläuft"
-      ]
-    },
-    "controlsKeybinds": {
-      "title": "Lucid Blocks Steuerung & Tastenbelegung",
-      "subtitle": "Standard-Tastatursteuerung (und wo man sie ändern kann)",
-      "keybinds": [
-        {
-          "action": "Nach links bewegen",
-          "key": "A"
-        },
-        {
-          "action": "Nach rechts bewegen",
-          "key": "D"
-        },
-        {
-          "action": "Nach vorne bewegen",
-          "key": "W"
-        },
-        {
-          "action": "Nach hinten bewegen",
-          "key": "S"
-        },
-        {
-          "action": "Ducken",
-          "key": "Linke Strg"
-        },
-        {
-          "action": "Angreifen",
-          "key": "Linksklick"
-        },
-        {
-          "action": "Rennen",
-          "key": "Linke Umschalttaste"
-        },
-        {
-          "action": "Gegenstand fallen lassen",
-          "key": "G"
-        },
-        {
-          "action": "Interagieren",
-          "key": "E"
-        },
-        {
-          "action": "Springen",
-          "key": "Leertaste"
-        },
-        {
-          "action": "Sprechen",
-          "key": "V"
-        },
-        {
-          "action": "Schieben",
-          "key": "Rechtsklick"
-        },
-        {
-          "action": "Ragdoll",
-          "key": "Q"
-        },
-        {
-          "action": "Ausrüstungsslot 1",
-          "key": "1"
-        },
-        {
-          "action": "Ausrüstungsslot 2",
-          "key": "2"
-        },
-        {
-          "action": "Ausrüstungsslot 3",
-          "key": "3"
-        },
-        {
-          "action": "Ausrüstungsslot 4",
-          "key": "4"
-        },
-        {
-          "action": "Inventar",
-          "key": "Tab"
-        }
-      ],
-      "changePath": "Vom Titelmenü aus: öffne EINSTELLUNGEN und überprüfe dann die Tastatureinstellungen. Verwende das Suchfeld, um die Tastenbelegungszeilen zu filtern."
-    },
-    "contentSettings": {
-      "title": "Lucid Blocks Inhaltseinstellungen",
-      "subtitle": "Inhalte für Erwachsene, Nacktheit-Umschaltung und Steam-Einstellungen",
-      "descriptors": [
-        "Etwas Nacktheit oder sexuelle Inhalte",
-        "Allgemeine Inhalte für Erwachsene"
-      ],
-      "details": [
-        {
-          "heading": "Was die Entwickler angeben",
-          "items": [
-            "Ein Mensch kann nackt erscheinen, während er Aktivitäten wie Baden ausübt.",
-            "Nacktheit wird zensiert und kann optional vollständig ausgeschaltet werden.",
-            "Gnome können zerstückelt werden und auf brutale Weise sterben."
+          "title": "Verwalte Ressourcen, bevor du Verbesserungen kaufst",
+          "description": "Betrachte Munition, Heilmittel, Upgrade-Materialien und psionische Ressourcen als Teil desselben Überlebensbudgets. Gib sie aus, wenn sie ein konkretes Problem lösen – nicht unmittelbar nach dem Erhalt.",
+          "priority": "Essenziell",
+          "tips": [
+            "Behalte eine Reserve für unvermeidliche Kämpfe und Progressionsblockaden.",
+            "Vergleiche den unmittelbaren Nutzen eines Upgrades mit dem Wert der aufgesparten Materialien.",
+            "Festige dich nicht auf ein spezialisiertes Setup, bevor du deine bevorzugte Kampfrommel kennst."
           ]
         },
         {
-          "heading": "Wenn Steam die Community-Seite blockiert",
-          "items": [
-            "Steam kann den Community-Hub je nach deinen Inhaltseinstellungen ausblenden.",
-            "Verwende Steams \"Inhaltseinstellungen aktualisieren\", um anzupassen, was Steam anzeigen darf."
+          "title": "Erstelle einen einfachen Progressionsplan",
+          "description": "Wähle zunächst einen verlässlichen Schadensansatz und ergänze dann passende Modifikationen oder Fähigkeiten. Ein fokussiertes Früh-Setup lässt sich leichter nutzen als mehrere halbfertige Optionen.",
+          "priority": "Empfohlen",
+          "tips": [
+            "Beginne mit Verbesserungen, die gewöhnliche Begegnungen verlässlicher machen.",
+            "Füge Spezialisierungen hinzu, nachdem du identifiziert hast, welche Situationen die meisten Probleme bereiten.",
+            "Überprüfe dein Setup, wenn ein neues Gebiet andere KampfANforderungen stellt."
+          ]
+        },
+        {
+          "title": "Vermeide typische Early-Access-Fehler",
+          "description": "Vertraue nicht darauf, dass jeder blockierte Weg ein Bug ist, jeder optionale Raum sofort geleert werden muss oder jede Ressource sofort ausgegeben werden sollte. Early-Access-Inhalte können sich zudem zwischen Updates ändern.",
+          "priority": "Empfohlen",
+          "tips": [
+            "Unterscheide unvollständige oder unzugängliche Inhalte von Zielen, die für die aktuelle Progression nötig sind.",
+            "Notiere dir ungelöste Pfade und kehre nach größeren Story-Fortschritten zurück.",
+            "Erkunde optionale Inhalte, wenn deine Ressourcen und Ausrüstung das Risiko tragen können."
           ]
         }
       ]
     },
-    "craftingEquipment": {
-      "title": "Lucid Blocks Crafting & Ausrüstung",
-      "subtitle": "Ausrüsten: Crafting-Beispiele und was jedes Werkzeug bewirkt",
-      "equipment": [
+    "divineFrequencyWeaponsAndMods": {
+      "eyebrow": "Waffen-Datenbank",
+      "title": "Divine Frequency Waffen und Mods",
+      "intro": "Divine Frequency unterstützt mehr als einen Kampfansatz. Der sinnvollste Vergleich ist nicht einfach der reine Schaden, sondern wie jede Option mit Distanz, Druck, Ressourcenlimitierungen und der Art der Begegnung vor dir umgeht.",
+      "tableHeaders": {
+        "category": "Kategorie",
+        "combatRole": "Kampfrommel",
+        "bestUse": "Beste Verwendung",
+        "mainResource": "Hauptressource",
+        "upgradeFocus": "Upgrade-Schwerpunkt",
+        "recommendedPairing": "Empfohlene Kombination"
+      },
+      "rows": [
         {
-          "item": "Rucksack",
-          "benefit": "Erweitert die Inventarkapazität für mehr Beute pro Durchgang"
+          "category": "Schusswaffen",
+          "combatRole": "Verlässlicher Fernkampfschaden",
+          "bestUse": "Offene Gefechte, kontrollierte Zielausschaltung und Situationen, in denen Distanz halten sicherer ist als der Nahkampf",
+          "mainResource": "Munition",
+          "upgradeFocus": "Schadenskonsistenz, Handhabung, Präzision und Munitionseffizienz",
+          "recommendedPairing": "Eine psionische Option für Kontrolle, Nützlichkeit oder als Antwort, wenn Gegner die Distanz verkürzen"
         },
         {
-          "item": "Gnom-Handschuhe",
-          "benefit": "Ermöglicht es dir, Türen zu öffnen und mit mehr Objekten zu interagieren"
+          "category": "Psionische Optionen",
+          "combatRole": "Flexibler Schaden und Nützlichkeit",
+          "bestUse": "Situationen, die Kontrolle von Gegnergruppen, ungewöhnlichen Zugang, Burst-Schaden oder eine Reaktion erfordern, die nicht von konventioneller Munition abhängt",
+          "mainResource": "Psionische Ressourcen bzw. Verfügbarkeit von Fähigkeiten",
+          "upgradeFocus": "Effektstärke, Erholung, Dauer, Reichweite und Ressourceneffizienz",
+          "recommendedPairing": "Eine verlässliche Schusswaffe für anhaltenden Schaden, wenn Fähigkeiten nicht verfügbar sind oder besser aufgespart werden"
         },
         {
-          "item": "Springschuhe",
-          "benefit": "Verhindert Fallschaden bei hohen Stürzen während der Flucht"
+          "category": "Waffenmodifikationen",
+          "combatRole": "Build-Spezialisierung",
+          "bestUse": "Anpassung einer Waffe oder Fähigkeit an bevorzugte Distanz, Schadensmuster oder Begegnungstyp",
+          "mainResource": "Upgrade-Materialien und verfügbare Modifikationskapazität",
+          "upgradeFocus": "Sich ergänzende Boni statt unzusammenhängender Effekte",
+          "recommendedPairing": "Eine fokussierte Primärwaffe und eine Sekundäroption, die ihre Haupt-Schwachstelle abdeckt"
         },
         {
-          "item": "Waffe",
-          "benefit": "Hilft dir, Bedrohungen wie Mäuse in die Enge zu treiben"
-        }
-      ],
-      "sections": [
-        {
-          "heading": "Wie Crafting mit Plündern zusammenhängt",
-          "items": [
-            "Stehle während eines Laufs Gegenstände und bringe sie als Crafting-Materialien zurück.",
-            "Nach der Extraktion unterstützen Belohnungen/Materialien neue Handwerke."
-          ]
-        },
-        {
-          "heading": "Basisverbesserung",
-          "items": [
-            "Stelle Möbel her und verbessere dein schwebendes Inselhaus (vollständige Spielfunktion)."
-          ]
-        }
-      ]
-    },
-    "lootItems": {
-      "title": "Lucid Blocks Beute & Gegenstände",
-      "subtitle": "Was man stehlen sollte: Gegenstandstypen, Risiko und Trage-Tipps",
-      "categories": [
-        {
-          "type": "Aufgabengegenstände",
-          "examples": [
-            "Gegenstände, die von High-Gnome für Ziele benötigt werden"
-          ]
-        },
-        {
-          "type": "Crafting-Materialien",
-          "examples": [
-            "Haushaltsgegenstände, die in Gnom-Ausrüstung und -Upgrades umgewandelt werden"
-          ]
-        },
-        {
-          "type": "Unfug-Ziele",
-          "examples": [
-            "Objekte, die an Aufgaben wie Zerstören oder Überfluten beteiligt sind"
-          ]
-        }
-      ],
-      "carryTips": [
-        "Priorisiere den Aufgabenfortschritt und fülle dann die verbleibende Kapazität mit Crafting-Materialien",
-        "Wenn sich Bedrohungen in der Nähe befinden, bewege Gegenstände in kurzen, sicheren Sprüngen anstatt in langen, exponierten Tragen",
-        "Plane die Route zur Gartenextraktion, bevor der Timer endet"
-      ],
-      "riskLevels": [
-        {
-          "level": "Niedrig",
-          "description": "In der Nähe von Eingängen oder sicheren Ecken"
-        },
-        {
-          "level": "Mittel",
-          "description": "Tiefer gelegene Räume oder in der Nähe von umherziehenden Bedrohungen"
-        },
-        {
-          "level": "Hoch",
-          "description": "In der Nähe der Patrouille des Hausbesitzers oder des Staubsaugerroboters"
+          "category": "Hybrides Loadout",
+          "combatRole": "Ausgewogene Abdeckung von Begegnungen",
+          "bestUse": "Erkundungslastige Abschnitte mit gemischtem Gegnerdruck, begrenzten Ressourcen und wechselnden Gefechtsdistanzen",
+          "mainResource": "Eine gemeinsame Reserve aus Munition, Fähigkeiten, Heilung und Upgrade-Materialien",
+          "upgradeFocus": "Zuerst Konsistenz, dann eine kleine Anzahl sich ergänzender Spezialisierungen",
+          "recommendedPairing": "Eine konsistente Schusswaffe, eine flexible psionische Option und Modifikationen, die denselben Kampfplan stärken"
         }
       ]
     },
-    "enemiesHazards": {
-      "title": "Lucid Blocks Gegner & Gefahren",
-      "subtitle": "Wisse, was dich erwischen kann",
-      "threats": [
+    "divineFrequencyClassesAndBuilds": {
+      "eyebrow": "Klassen und Builds",
+      "title": "Divine Frequency: Klassen und Builds",
+      "intro": "Ein guter Build sollte gewöhnliche Begegnungen erleichtern, ohne dich hilflos zurückzulassen, wenn sich die Situation ändert. Diese Archetypen-Karten ordnen die verfügbaren Spielstile nach ihren Stärken, Schwächen und bevorzugten Kombinationen aus Schusswaffen, psionischen Fähigkeiten und Modifikationen.",
+      "cards": [
         {
-          "name": "Der Hausbesitzer",
-          "trigger": "Beim Einbrechen oder Erledigen von Aufgaben entdeckt werden",
-          "behavior": "Er verfolgt dich und versucht, dich zu fangen",
-          "counter": "Bleib heimlich, unterbreche Sichtlinien und bleib als Team in Bewegung"
+          "name": "Schusswaffen-fokussierter Archetyp",
+          "role": "Druck auf Distanz und konstanter Waffenschaden",
+          "strengths": [
+            "Klarer und verlässlicher Schaden auf Reichweite",
+            "Unkomplizierte Ressourcenplanung",
+            "Gut geeignet für Spieler, die direkte Kämpfe bevorzugen"
+          ],
+          "weaknesses": [
+            "Abhängig von Munition und Waffenhandhabung",
+            "Wird unangenehmer, wenn Gegner Nahkampf erzwingen",
+            "Braucht möglicherweise Utility-Unterstützung bei ungewöhnlichen Begegnungen"
+          ],
+          "beginnerBuild": "Nutze eine verlässliche Schusswaffe als primäre Schadensquelle, setze auf Konstanz vor Spezialisierung und halte eine psionische Option für Notfälle oder Utility bereit.",
+          "hybridOption": "Ergänze defensive, kontrolloreiente oder mobilitätsorientierte psionische Verbesserungen, ohne zu viele Ressourcen von der Hauptwaffe abzuzweigen.",
+          "recommendedFor": "Spieler, die übersichtliche Begegnungen, bewusstes Positionieren und klassischen Fernkampf bevorzugen"
         },
         {
-          "name": "Katzen",
-          "trigger": "Zu nahe kommen oder ihren Weg kreuzen",
-          "behavior": "Sie werden zu einer direkten Bedrohung, während du dich schleichst",
-          "counter": "Vermeide ihre Routen und gehe leise vorbei"
+          "name": "Psionik-fokussierter Archetyp",
+          "role": "Fähigkeitsbasierter Schaden, Kontrolle und Utility",
+          "strengths": [
+            "Kann auf unterschiedliche Begegnungsbedingungen reagieren",
+            "Bietet Werkzeuge jenseits von direktem Waffenschaden",
+            "Unterstützt Experimente mit verschiedenen Fähigkeitskombinationen"
+          ],
+          "weaknesses": [
+            "Begrenzt durch Verfügbarkeit der Fähigkeiten und Ressourcenregeneration",
+            "Erfordert mehr Aufmerksamkeit für Timing und Prioritäten im Kampf",
+            "Kann ineffizient werden, wenn jede Fähigung gegen kleine Bedrohungen eingesetzt wird"
+          ],
+          "beginnerBuild": "Wähle einen kleinen Satz verlässlicher psionischer Werkzeuge, hebe wirkungsvolle Effekte für gefährliche Begegnungen auf und trage eine Schusswaffe für anhaltenden Schaden zwischen den Fähigkeitseinsätzen.",
+          "hybridOption": "Kombiniere einen primären Psionik-Plan mit einem moderaten Waffen-Investment, das lange Kämpfe und ressourcenarme Gebiete abdeckt.",
+          "recommendedFor": "Spieler, die flexible Werkzeuge, Kontrolle über Begegnungen und aktive Ressourcenentscheidungen schätzen"
         },
         {
-          "name": "Mäuse",
-          "trigger": "Bereiche betreten, in denen Mäuse umherstreifen",
-          "behavior": "Sie bedrohen zerbrechliche Gnome während der Läufe",
-          "counter": "Bleib wachsam in engen Räumen und sei bereit, dich zurückzuziehen"
+          "name": "Hybrider Archetyp",
+          "role": "Ausgewogene Abdeckung von Schusswaffen und psionischen Optionen",
+          "strengths": [
+            "Meistert wechselnde Reichweiten und Begegnungstypen",
+            "Reduziert die Abhängigkeit von einer einzigen Ressource",
+            "Ermöglicht schrittweises Experimentieren vor der Spezialisierung"
+          ],
+          "weaknesses": [
+            "Erreicht die volle Spezialisierung meist später",
+            "Kann Upgrade-Materialien über zu viele Optionen verschwenden",
+            "Braucht klare Prioritäten, um nicht unfokussiert zu werden"
+          ],
+          "beginnerBuild": "Wähle eine primäre Schadensmethode und nutze das zweite System, um dessen wichtigste Schwäche auszugleichen. Upgrade zuerst die Konstanz, dann situative Werkzeuge.",
+          "hybridOption": "Halte eine starke Schusswaffe, eine häufig nützliche psionische Option und Modifikationen bereit, die denselben Reichweiten- oder Begegnungsplan verstärken.",
+          "recommendedFor": "Spieler, die Anpassungsfähigkeit wollen und mehrere Kampfsysteme gleichzeitig verwalten können"
         },
         {
-          "name": "Staubsaugerroboter",
-          "trigger": "Sich auf seinem Reinigungspfad befinden",
-          "behavior": "Er kann Gnome einsaugen",
-          "counter": "Höre auf ihn, halte dich von seiner Route fern und positioniere dich schnell neu"
-        },
-        {
-          "name": "Kühlschrank / Ofen-Falle",
-          "trigger": "Vom Hausbesitzer erwischt werden",
-          "behavior": "Du kannst darin eingesperrt werden; wenn Teamkollegen nicht rechtzeitig retten, stirbst du",
-          "counter": "Rufe sofort; Teamkollegen priorisieren die Rettungsroute"
-        },
-        {
-          "name": "Zeitlimit",
-          "trigger": "Der Lauf-Timer erreicht das Limit",
-          "behavior": "Der Extraktions-Tornado erscheint im Garten; du musst ihn erreichen, um zu entkommen",
-          "counter": "Hör auf, zu viel zu plündern, gruppiere dich neu und engagiere dich frühzeitig für die Extraktion"
+          "name": "Regeln für Build-Planung",
+          "role": "Allgemeiner Fortschrittsrahmen",
+          "strengths": [
+            "Hält frühe Upgrades bedeutsam",
+            "Macht Ressourcenausgaben leichter bewertbar",
+            "Bietet einen klaren Weg für spätere Experimente"
+          ],
+          "weaknesses": [
+            "Erfordert Geduld, bevor spezialisierte Kombinationen festgelegt werden",
+            "Lässt in den Anfangsgebieten manche Optionen unterentwickelt",
+            "Muss regelmäßig angepasst werden, wenn neue Inhalte und Begegnungen hinzukommen"
+          ],
+          "beginnerBuild": "Priorisiere eine konstante Schadensquelle, eine Notfall-Option und Upgrades, die die Konstanz verbessern statt einer engen Spezialisierung zu dienen.",
+          "hybridOption": "Füge eine zweite Schadensrolle erst hinzu, wenn das primäre Setup gewöhnliche Begegnungen ohne übermäßigen Ressourcenverbrauch bewältigen kann.",
+          "recommendedFor": "Spieler, die einen stabilen Fortschrittsplan möchten, bevor sie unkonventionelle Kombinationen testen"
         }
       ]
     },
-    "stealthEscape": {
-      "title": "Lucid Blocks Stealth & Flucht Tipps",
-      "subtitle": "Stehle mehr, stirb weniger",
-      "do": [
-        "Bleib heimlich und gehe in Deckung, bevor du mit Objekten interagierst",
-        "Nutze die Teamarbeit: rufe Bedrohungen aus und koordiniere Routen",
-        "Rette Teamkollegen schnell, wenn jemand gefangen oder am Boden ist",
-        "Reduziere deine Verluste und mache dich auf den Weg zur Extraktion, wenn der Timer knapp ist"
-      ],
-      "dont": [
-        "Werde gierig, wenn die Extraktion bevorsteht",
-        "Teile dich zu weit vom Team, wenn der Hausbesitzer aktiv ist",
-        "Ignoriere Staubsaugerroboterpfade oder Tierpatrouillen",
-        "Verzögere Rettungen, wenn ein Teamkollege eingesperrt ist"
-      ],
-      "quickTips": [
-        {
-          "title": "Die 3-Sekunden-Regel",
-          "text": "Wenn du deinen nächsten Zug nicht in 3 Sekunden erklären kannst, wirst du gleich entdeckt."
-        },
-        {
-          "title": "Rettung zuerst",
-          "text": "Eine schnelle Rettung hält den Lauf am Leben; Plündern kann warten."
-        },
-        {
-          "title": "Extraktionsdisziplin",
-          "text": "Gruppiere dich frühzeitig neu und engagiere dich für den Tornado, bevor Panik ausbricht."
-        }
-      ]
-    },
-    "homeUpgrades": {
-      "title": "Lucid Blocks Haus-Upgrades",
-      "subtitle": "Craften, bauen, verbessern",
-      "branches": [
-        {
-          "branch": "Lagerung",
-          "summary": "Mehr tragen und mehr zurückbringen",
-          "items": [
-            "Rucksack (Inventarerweiterung)"
-          ]
-        },
-        {
-          "branch": "Dienstprogramm",
-          "summary": "Effektiver mit dem Haus interagieren",
-          "items": [
-            "Gnom-Handschuhe (ermöglichen es dir, Türen zu öffnen und mehr)"
-          ]
-        },
-        {
-          "branch": "Mobilität",
-          "summary": "Sicherer durch vertikale Räume bewegen",
-          "items": [
-            "Springschuhe (reduzieren Fallschaden)"
-          ]
-        },
-        {
-          "branch": "Verteidigung",
-          "summary": "Mit kleinen Bedrohungen umgehen, wenn nötig",
-          "items": [
-            "Waffen (für Bedrohungen wie Mäuse)"
-          ]
-        },
-        {
-          "branch": "Heimatbasis",
-          "summary": "Stelle Möbel her und verbessere dein schwebendes Inselhaus",
-          "items": [
-            "Funktionale Möbel-Upgrades"
-          ]
-        }
-      ],
-      "priority": [
-        {
-          "rank": 1,
-          "title": "Zuerst Lagerung",
-          "reason": "Mehr Tragfähigkeit verbessert die Auszahlung jedes Laufs"
-        },
-        {
-          "rank": 2,
-          "title": "Als nächstes Dienstprogramm",
-          "reason": "Bessere Interaktionen reduzieren die Zeit, die in Gefahrenzonen verbracht wird"
-        },
-        {
-          "rank": 3,
-          "title": "Mobilität zum Überleben",
-          "reason": "Fallschutz verhindert vermeidbare Todesfälle bei der Flucht"
-        }
-      ]
-    },
-    "community": {
-      "title": "Lucid Blocks Community & Discord",
-      "subtitle": "Finde Trupps, Updates, Diskussionen",
-      "links": [
-        {
-          "title": "Offizieller Discord",
-          "subtitle": "Ankündigungen • Feedback • LFG",
-          "url": "https://discord.com/invite/lucidblocks"
-        },
-        {
-          "title": "Offizielles X (Twitter)",
-          "subtitle": "Updates & Entwicklerbeiträge",
-          "url": "https://x.com/lucidblocks"
-        },
-        {
-          "title": "Steam Community Hub",
-          "subtitle": "Diskussionen • Screenshots • Leitfäden",
-          "url": "https://steamcommunity.com/app/3495730"
-        },
-        {
-          "title": "Steam Store Seite",
-          "subtitle": "Wunschliste • Demo • Offizielle Beschreibung",
-          "url": "https://store.steampowered.com/app/3495730/Lucid_Blocks/"
-        }
-      ]
-    },
-    "modsBepInEx": {
-      "title": "Lucid Blocks Mods & BepInEx Setup",
-      "subtitle": "Installiere Mods auf saubere Weise",
+    "divineFrequencyWalkthrough": {
+      "eyebrow": "Early-Access-Walkthrough",
+      "title": "Divine Frequency: Walkthrough",
+      "intro": "Dieser Walkthrough ist nach Zielen organisiert statt nach freier Erkundung. Erledige zuerst die notwendigen Schritte, notiere blockierte Wege für später und kehre zu optionalen Bereichen zurück, wenn du die Ressourcen oder Zugangsmöglichkeiten hast, um sie sicher zu untersuchen.",
       "steps": [
         {
-          "step": 1,
-          "title": "Installiere BepInEx 5",
-          "text": "Lade BepInEx 5 herunter und entpacke es in den Spiel-Root-Ordner."
-        },
-        {
-          "step": 2,
-          "title": "Einmal starten, um Ordner zu generieren",
-          "text": "Starte das Spiel bis zum Hauptmenü und schließe es dann. Dadurch wird die BepInEx-Ordnerstruktur erstellt."
-        },
-        {
-          "step": 3,
-          "title": "Mods installieren",
-          "text": "Platziere Mod-.dll-Dateien in den Plugins-Ordner."
-        },
-        {
-          "step": 4,
-          "title": "Installation überprüfen",
-          "text": "Starte das Spiel neu und bestätige, dass die Mod-Funktion verfügbar ist (Kamera-Umschaltung, UI-Cursor usw.)."
-        }
-      ],
-      "paths": [
-        {
-          "label": "Typische Steam-Installation",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\"
-        },
-        {
-          "label": "Plugins-Ordner",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\BepInEx\\plugins\\"
-        }
-      ],
-      "multiplayerNote": "Für modifizierte Koop-Gameplay-Funktionen sollte jeder BepInEx und dieselben Gameplay-Mods installieren."
-    },
-    "popularMods": {
-      "title": "Lucid Blocks Beliebte Mods",
-      "subtitle": "Top-Community-Auswahlen",
-      "mods": [
-        {
-          "title": "Spawn-Menü",
-          "tags": [
-            "Spaß",
-            "Werkzeuge",
-            "Nur Host"
-          ],
-          "description": "Fügt ein Element-Spawn-Menü mit einem Flugmodus hinzu.",
-          "controls": [
-            {
-              "key": "F",
-              "action": "Spawn-Menü öffnen"
-            },
-            {
-              "key": "V",
-              "action": "Fliegen aktivieren"
-            }
-          ],
-          "note": "Nur Host; andere müssen es nicht installieren, um beizutreten."
-        },
-        {
-          "title": "ThirdPerson-Ansicht",
-          "tags": [
-            "Kamera",
-            "QoL"
-          ],
-          "description": "Fügt eine Third-Person-Kameraansicht hinzu.",
-          "controls": [
-            {
-              "key": "F7",
-              "action": "First-Person / Third-Person umschalten"
-            }
+          "section": "Akt I",
+          "type": "Notwendig",
+          "spoilerLevel": "Wenige Spoiler",
+          "title": "Erkunde deinen Weg durch das Anfangsgebiet",
+          "description": "Lerne die grundlegenden Kampf- und Erkundungssysteme kennen, identifiziere das Hauptziel und baue dir eine mentale Karte der zugänglichen Räume, Ausgänge und blockierten Pfade auf, bevor du tiefer in den ersten Akt vordringst.",
+          "navigationTips": [
+            "Prüfe nahe Seitenwege, bevor du dich dem nächsten großen Ziel zuwendest.",
+            "Notiere Türen oder Wege, die sich noch nicht öffnen lassen.",
+            "Behalte genug Ressourcen für die nächste erforderliche Begegnung, statt sofort jede optionale Bedrohung zu beseitigen."
           ]
         },
         {
-          "title": "Mehr Hüte",
-          "tags": [
-            "Kosmetisch"
-          ],
-          "description": "Fügt zusätzliche Hutfarboptionen für Gnome hinzu.",
-          "colors": [
-            "Blau",
-            "Grün",
-            "Orange",
-            "Lila",
-            "Schwarz",
-            "Rot"
+          "section": "Akt I",
+          "type": "Optional",
+          "spoilerLevel": "Wenige Spoiler",
+          "title": "Untersuche Nebenräume und ungeklärte Zugangspunkte",
+          "description": "Erkunde optionale Bereiche entlang der Startroute, wenn es sicher ist. Behandle unzugängliche Pfade als künftige Checkpoints, statt übermäßig Ressourcen für erzwungenen Fortschritt zu verschwenden.",
+          "navigationTips": [
+            "Kehre zu Seitenbereichen zurück, nachdem du nahe notwendige Ziele abgeschlossen hast.",
+            "Nutze Orientierungspunkte, um besuchte Routen von unerforschten Abzweigungen zu unterscheiden.",
+            "Priorisiere Entdeckungen, die nützliche Ressourcen liefern oder die Umgebung erhellen."
           ]
         },
         {
-          "title": "DOOM im Fernsehen",
-          "tags": [
-            "Spaß",
-            "Minispiel"
-          ],
-          "description": "Spiele das Original-DOOM auf einem In-Game-Fernseher, wobei der Ton über den TV-Lautsprecher kommt.",
-          "highlights": [
-            "Funktioniert im Mehrspieler, sodass andere Spieler auf demselben Fernseher zusehen können",
-            "Enthält die Shareware-DOOM-Episodendaten (Episode 1)"
+          "section": "Akt II",
+          "type": "Notwendig",
+          "spoilerLevel": "Mäßige Spoiler",
+          "title": "Arbeite dich durch die Zielkette des zweiten Akts",
+          "description": "Folge den aktiven Story-Zielen durch die derzeit verfügbaren Inhalte von Akt II. Überprüfe dein Kampf-Setup erneut, wenn Reichweiten, Ressourcenbedarf und Navigationskomplexität zunehmen.",
+          "navigationTips": [
+            "Halte eine verlässliche Schusswaffe oder psionische Option für längere Kämpfe bereit.",
+            "Verschwende nicht jede starke Ressource, bevor das nächste Ziel bestätigt ist.",
+            "Wenn der Fortschritt blockiert erscheint, gehe frühere ungeklärte Routen und abgeschlossene Ziele durch."
+          ]
+        },
+        {
+          "section": "Akt II",
+          "type": "Optional",
+          "spoilerLevel": "Mäßige Spoiler",
+          "title": "Kehre für optionale Begegnungen und Entdeckungen zurück",
+          "description": "Nachdem die unmittelbare Story-Anforderung erfüllt ist, besuche zuvor markierte Abzweigungen und optionale Bereiche erneut. Dies ist der sicherste Zeitpunkt, um Inhalte zu untersuchen, die beim ersten Durchgang zu kostspielig oder unzugänglich waren.",
+          "navigationTips": [
+            "Nutze Notizen oder gemerkte Orientierungspunkte, um eine vollständige erneute Suche zu vermeiden.",
+            "Nimm eine ausgewogene Ausrüstung mit, wenn der Begegnungstyp der optionalen Route unbekannt ist.",
+            "Trenne optionale Entdeckungen von Zielen, die zum Voranschreiten im aktuellen Akt erforderlich sind."
+          ]
+        },
+        {
+          "section": "Fortschritts-Checkpoints",
+          "type": "Notwendig",
+          "spoilerLevel": "Wenige Spoiler",
+          "title": "Bestätige den Abschluss, bevor du ein Gebiet verlässt",
+          "description": "Vergewissere dich vor dem Weiterziehen, dass das Hauptziel vorangeschritten ist, wichtige Ressourcen gesammelt wurden und blockierte Pfade notiert sind. Das reduziert Rückwege, wenn die Early-Access-Inhalte erweitert oder verändert werden.",
+          "navigationTips": [
+            "Prüfe den Zielstatus nach wichtigen Interaktionen.",
+            "Führe eine kurze Rückkehrliste mit ungeklärten Orten.",
+            "Nimm nicht an, dass jeder unerforschte Raum für den Story-Fortschritt erforderlich ist."
           ]
         }
       ]
     },
-    "controllerSupport": {
-      "title": "Lucid Blocks Controller-Unterstützung",
-      "subtitle": "Volle Gamepad-Steuerung",
-      "native": {
-        "title": "In-Game-Einstellungen",
-        "description": "Verwende die Bindungs-/Einstellungsmenüs des Spiels, um die Steuerung anzupassen."
-      },
-      "mod": {
-        "title": "Controller-Support-Mod",
-        "description": "Fügt vollständige Gamepad-/Controller-Unterstützung und einen UI-Cursor für die Menünavigation hinzu."
-      },
-      "features": [
-        "Volle Gameplay-Steuerung: Bewegung, Kamera, Kampf, Interaktionen und Fähigkeiten, die dem Gamepad zugeordnet sind",
-        "UI-Cursor-Navigation: Ein weißer Kreiscursor erscheint in Menüs; drücke A, um zu klicken und Schieberegler zu ziehen",
-        "Inventarnavigation: Halte Select gedrückt, um das Inventar zu öffnen; verwende den rechten Stick, um zu navigieren, während du ihn hältst",
-        "Scrollbare Menüs: Der rechte Stick scrollt durch Crafting-Rezepte, Einstellungen und andere scrollbare UI-Bereiche",
-        "Hotbar-Cycling: D-Pad links/rechts wechselt durch 4 Hotbar-Slots",
-        "Nahtlose Eingabeumschaltung: Erkennt automatisch Tastatur/Maus vs. Controller"
+    "divineFrequencyEnemyGuide": {
+      "eyebrow": "Kampf-Referenz",
+      "title": "Divine Frequency: Gegner-Guide",
+      "intro": "Nutze diesen Guide, um Gegnerbegegnungen nach den Entscheidungen zu ordnen, die am meisten zählen: wie ein Gegner sich nähert, welche Angriffe das größte Risiko darstellen, wann man sich zurückzieht und welche Ressourcen für schwierige Situationen aufgespart werden sollten. Frühe Begegnungen belohnen Beobachtung und Positionierung mehr als wiederholte Angriffe.",
+      "enemies": [
+        {
+          "name": "Gegner der frühen Akte",
+          "threatLevel": "Mäßig",
+          "attackPattern": "Nahkampfdruck, vorhersehbares Verfolgen und wiederholte Angriffe, wenn der Spieler in einem engen Bereich bleibt.",
+          "weakness": "Eingeschränkte Mobilität und klare Erholungsfenster nach einem Angriff.",
+          "tactics": [
+            "Schaffe Abstand, bevor du einen weiteren Angriff versuchst.",
+            "Nutze Ecken und Türrahmen, um die Annäherung zu kontrollieren.",
+            "Verschwende keine seltenen Heilmittel oder Munition an ein einzelnes Ziel, außer ein Rückzug ist unmöglich."
+          ],
+          "equipment": [
+            "Eine verlässliche Nahkampfwaffe",
+            "Grundlegende Heilausrüstung",
+            "Eine Lichtquelle zur Aufrechterhaltung der Sicht"
+          ],
+          "preparation": "Betrete unbekannte Räume mit bereits identifiziertem Fluchtweg und vermeide es, mehrere Begegnungen gleichzeitig auszulösen."
+        },
+        {
+          "name": "Schnelle Verfolger",
+          "threatLevel": "Hoch",
+          "attackPattern": "Rasches Verringern der Distanz, gefolgt von kurzen Angriffssequenzen, die gefährlich werden, wenn der Spieler gegen Kulissen gedrängt wird.",
+          "weakness": "Schwache Leistung, wenn sie um Hindernisse herum oder durch enge Wege navigieren müssen.",
+          "tactics": [
+            "Unterbreche die Sichtlinie, statt den Verfolger sofort besiegen zu wollen.",
+            "Bewege dich durch bereits gesicherte Bereiche, statt in unbekannte Räume zurückzuweichen.",
+            "Greife nur während einer Erholungsanimation an oder nachdem der Verfolger verfehlt hat."
+          ],
+          "equipment": [
+            "Ausdauerunterstützende Vorräte",
+            "Eine verlässliche defensive Option",
+            "Notfallheilung für misslungene Fluchten"
+          ],
+          "preparation": "Halte wichtige Türen und Wege zugänglich, bevor du verdächtige Objekte interagierst oder optionale Bereiche betrittst."
+        },
+        {
+          "name": "Begegnungen mit spezieller Vorbereitung",
+          "threatLevel": "Schwerwiegend",
+          "attackPattern": "Begegnungen unter hohem Druck, die begrenzten Raum, Umgebungshaft oder wiederholte Gefahrenwellen kombinieren.",
+          "weakness": "Die Struktur der Begegnung bietet meist ein kurzes Vorbereitungsfenster, bevor sich die Gefahr steigert.",
+          "tactics": [
+            "Untersuche die Umgebung, bevor du die Begegnung auslöst.",
+            "Nutze die Umgebung, um Bedrohungen wann immer möglich zu trennen.",
+            "Hebe die stärkste Ausrüstung für die finale Phase auf statt für den ersten Austausch."
+          ],
+          "equipment": [
+            "Volle Heilungskapazität",
+            "Die stärkste verfügbare Waffe oder das beste defensive Item",
+            "Ein aufgeräumtes Inventar mit Platz für Begegnungsbelohnungen"
+          ],
+          "preparation": "Speichere, bevor du einen klar markierten Hochrisikobereich betrittst, und schließe zuerst die Erkundung der Umgebung ab, damit die Begegnung keine unerledigten Ziele unterbricht."
+        }
       ]
     },
-    "playerCount": {
-      "title": "Lucid Blocks Spielerzahl & Trend",
-      "subtitle": "Live-Popularitäts-Schnappschuss",
-      "stats": {
-        "now": {
-          "value": "6.047",
-          "label": "Spieler gerade jetzt"
+    "divineFrequencySecretsAndPuzzles": {
+      "eyebrow": "Geheimnisse & Lösungen",
+      "title": "Divine Frequency: Geheimnisse und Rätsel",
+      "intro": "Jeder Eintrag ist vom kleinsten Spoiler bis zur vollständigen Auflösung gestaffelt. Beginne mit dem Beobachtungshinweis, lass dir den ersten Tipp nur bei Bedarf anzeigen und öffne den Lösungsabschnitt erst, wenn du alle Hinweise aus der Umgebung ausgeschöpft hast.",
+      "entries": [
+        {
+          "title": "Umgebungshinweise lesen",
+          "category": "Allgemeine Rätselmethodik",
+          "spoilerLevel": "Wenige Spoiler",
+          "observation": "Achte auf ungewöhnliche Markierungen, wiederholte Symbole, die Platzierung von Objekten, Lichtveränderungen und Bereiche, die von der Umgebung auffällig inszeniert wirken.",
+          "hint1": "Vergleiche benachbarte Räume und notiere, welche Details sich wiederholen und welches Detail nur einmal vorkommt.",
+          "hint2": "Betrachte wiederkehrende visuelle Elemente als Anweisungen oder Reihenfolge-Marker, nicht als Dekoration.",
+          "solution": "Nutze das einzigartige Umgebungsdetail, um die relevante Interaktionsreihenfolge zu bestimmen, und kehre dann zum markierten Objekt oder Mechanismus zurück."
         },
-        "peak24h": {
-          "value": "13.859",
-          "label": "24-Stunden-Peak"
+        {
+          "title": "Optionale Bereiche prüfen",
+          "category": "Versteckte Bereiche",
+          "spoilerLevel": "Mittlere Spoiler",
+          "observation": "Bevor du einen großen Erkundungsbereich verlässt, prüfe Nebenräume, blockierte Sichtlinien, ungewöhnliche Wandabschnitte und Wege, die nach Interaktionen in der Nähe zugänglich werden.",
+          "hint1": "Kehre in Räume zurück, nachdem eine Story-Interaktion die Umgebung verändert oder eine neue Fortbewegungsmöglichkeit freigeschaltet hat.",
+          "hint2": "Die wertvollsten optionalen Pfade liegen oft direkt neben der Hauptroute statt auf ihr selbst.",
+          "solution": "Erledige das unmittelbare Ziel, gehe durch bereits besuchte Räume zurück und untersuche neu zugängliche Abzweigungen auf Geheimobjekte und Lore-Einträge."
         },
-        "allTimePeak": {
-          "value": "15.272",
-          "label": "Allzeit-Peak"
+        {
+          "title": "Vorbereitung auf optionale Begegnungen",
+          "category": "Versteckte Begegnungen",
+          "spoilerLevel": "Starke Spoiler",
+          "observation": "Ein Bereich mit ungewöhnlichem Sounddesign, eingeschränkter Bewegung, wiederkehrenden visuellen Motiven oder auffällig leerem Raum kann eine optionale Begegnung verbergen.",
+          "hint1": "Untersuche den Bereich auf interagierbare Objekte, bevor du dich auf die Begegnung einlässt.",
+          "hint2": "Bereite Heilung und Kampfmittel vor und bestimme den nächstgelegenen sicheren Rückzugsweg.",
+          "solution": "Führe die Umgebungsinteraktion aus, die das versteckte Ereignis auslöst, überlebe die Begegnung und durchsuche die Arena anschließend nach Belohnung oder Lore-Objekt."
         }
+      ]
+    },
+    "divineFrequencySettingsAndSystemRequirements": {
+      "eyebrow": "Technische Referenz",
+      "title": "Divine Frequency: Einstellungen und Systemanforderungen",
+      "intro": "Beginne mit den empfohlenen Anzeige- und Qualitätseinstellungen des Spiels und passe dann einzelne Optionen an, statt sofort alles herunterzuregeln. Bei Early-Assess-Builds ist es sinnvoller, Treiber aktuell zu halten und die Leistung in einer repräsentativen Spielszene zu testen, als sich nur auf Benchmark-Werte aus dem Menü zu verlassen.",
+      "tableHeaders": {
+        "category": "Kategorie",
+        "setting": "Einstellung",
+        "recommendedUse": "Empfohlene Verwendung",
+        "troubleshooting": "Problemlösung"
       },
-      "milestones": [
+      "rows": [
         {
-          "date": "30. Jan. 2026",
-          "title": "Demo auf Steam veröffentlicht",
-          "detail": "Öffentliche Demo wurde auf PC (Steam) verfügbar."
+          "category": "Anzeigemodus",
+          "setting": "Vollbild, randlos oder Fenster",
+          "recommendedUse": "Wähle Vollbild oder randlosen Modus je nach bevorzugtem Desktop-Wechsel.",
+          "troubleshooting": "Wenn das Bild flackert oder das Frame-Pacing unruhig wirkt, wechsle den Anzeigemodus und starte das Spiel neu."
         },
         {
-          "date": "8. Feb. 2026",
-          "title": "Allzeit-Peak erreicht",
-          "detail": "Die Demo erreichte ihre höchste aufgezeichnete Anzahl gleichzeitiger Spieler."
+          "category": "Auflösung und Upscaling",
+          "setting": "Native Auflösung mit verfügbaren Skalierungsoptionen",
+          "recommendedUse": "Starte mit der nativen Auflösung des Monitors und reduziere dann die Renderauflösung oder aktiviere unterstütztes Upscaling, wenn die Leistung schwankt.",
+          "troubleshooting": "Reduziere zuerst die Auflösung, bevor du alle visuellen Qualitätseinstellungen absenkst; so lässt sich klar testen, ob die GPU der begrenzende Faktor ist."
+        },
+        {
+          "category": "Grafikqualität",
+          "setting": "Voreinstellung und einzelne Qualitätsregler",
+          "recommendedUse": "Nutze zuerst die Standard-Voreinstellung und reduziere dann bei Bedarf Schatten, Effekte und Post-Processing einzeln.",
+          "troubleshooting": "Nimm immer nur eine Änderung vor und teste sie in einem anspruchsvollen Innen- oder Erkundungsbereich, bevor du weiter anpasst."
+        },
+        {
+          "category": "Controller und Eingabe",
+          "setting": "Tastatur-, Maus- und Controller-Konfiguration",
+          "recommendedUse": "Prüfe Button-Hinweise, Empfindlichkeit, Vibration und Bewegungseinstellungen vor einer langen Session.",
+          "troubleshooting": "Verbinde den Controller vor dem Start neu, wenn Eingaben nicht erkannt werden, und überprüfe anschließend das aktive Eingabegerät in den Spieleinstellungen."
+        },
+        {
+          "category": "Leistungsstabilität",
+          "setting": "Frame-Pacing, Hintergrundanwendungen und Treiberstatus",
+          "recommendedUse": "Schließe unnötige Overlays und Hintergrundanwendungen, während du den Early-Access-Build testest.",
+          "troubleshooting": "Aktualisiere die Grafiktreiber, prüfe die Installation über Steam, starte das Spiel nach größeren Grafikänderungen neu und begrenze die Bildrate, wenn das Pacing ungleichmäßig ist."
+        }
+      ]
+    },
+    "divineFrequencyUpdatesAndRoadmap": {
+      "eyebrow": "Entwicklungsarchiv",
+      "title": "Divine Frequency: Updates und Early-Access-Roadmap",
+      "intro": "Nutze dieses Archiv, um Features des aktuellen Builds von Verbesserungen zu unterscheiden, die für spätere Entwicklungsphasen angekündigt wurden. Jeder Eintrag ist nach Entwicklungsstatus gruppiert, damit Spielerinnen und Spieler nachvollziehen können, ob eine Änderung jetzt spielbar ist, zu einem veröffentlichten Update gehört oder noch geplant ist.",
+      "entries": [
+        {
+          "title": "Aktueller Early-Access-Build",
+          "status": "Verfügbar",
+          "content": [
+            "Das Spiel ist mit dem aktuell veröffentlichten Early-Access-Inhalt spielbar.",
+            "Bestehende Systeme, Begegnungen, Leistung und Präsentation können weiterhin iterative Verbesserungen erhalten.",
+            "Beim Prüfen, ob ein gemeldetes Problem bereits behoben wurde, sollte immer der neueste Steam-Build verwendet werden."
+          ],
+          "playerImpact": "Starte eine neue Session erst, nachdem Steam ausstehende Updates abgeschlossen hat – besonders bei einer älteren Installation."
+        },
+        {
+          "title": "Fixes nach dem Launch und Qualitätsverbesserungen",
+          "status": "Veröffentlichte Updates",
+          "content": [
+            "Offizielle Updates können Abstürze, Fortschrittsblocker, Interaktionsprobleme, visuelle Fehler und Leistungsprobleme beheben.",
+            "Balanceänderungen können die Schwierigkeit von Begegnungen, die Verfügbarkeit von Ressourcen oder die Wirksamkeit bekannter Taktiken beeinflussen.",
+            "Patchnotes sollten zusammen mit Community-Berichten gelesen werden, wenn ein Problem nach einem Update auftritt."
+          ],
+          "playerImpact": "Überprüfe nach einem größeren Patch die Einstellungen und teste zuvor blockierte Interaktionen erneut, bevor du davon ausgehst, dass ein Speicherstand dauerhaft betroffen ist."
+        },
+        {
+          "title": "Geplante Early-Access-Entwicklung",
+          "status": "Geplant",
+          "content": [
+            "Die Early-Access-Roadmap umfasst die weitere Entwicklung hin zur übergeordneten Vision des vollständigen Spiels.",
+            "Geplante Verbesserungen können zusätzlichen Inhalt, Systemverfeinerungen, Balancing, Politur und technische Optimierung umfassen.",
+            "Für spätere Entwicklung gelistete Features gelten nicht als verfügbar, bis sie in einem offiziell veröffentlichten Build erscheinen."
+          ],
+          "playerImpact": "Wer während der Early Access kauft, sollte erwarten, dass sich das Spiel durch zukünftige Updates weiterentwickelt, statt beim Initial-Release-Zustand featurekomplett zu bleiben."
+        },
+        {
+          "title": "Offizielle Ankunftskanäle",
+          "status": "Referenz",
+          "content": [
+            "Steam-Ankündigungen bilden das primäre Archiv für Updates und Patchnotes.",
+            "Die offiziellen Social-Media-Kanäle liefern Entwicklungsankündigungen und Release-Kommunikation.",
+            "Community-Diskussionen können Kontext zu gemeldeten Problemen liefern, aber die veröffentlichten Patchnotes bestimmen den aktuell unterstützten Funktionsumfang."
+          ],
+          "playerImpact": "Informiere dich vor einem neuen Durchspielvorgang nach einer größeren Versionsänderung über die neueste offizielle Ankündigung."
         }
       ]
     }
@@ -790,177 +542,179 @@
   "faq": {
     "title": "Häufig gestellte",
     "titleHighlight": "Fragen",
-    "subtitle": "Alles, was du über Lucid Blocks wissen musst",
+    "subtitle": "Alles, was du über Divine Frequency wissen musst",
     "questions": [
       {
-        "question": "Wie lade ich die Lucid Blocks Demo herunter?",
-        "answer": "Besuche die Steam Store Seite und klicke auf \"Demo herunterladen\". Die Demo ist kostenlos und erfordert 2,62 GiB zum Herunterladen, 4,88 GiB Festplattenspeicher."
+        "question": "Was ist Divine Frequency?",
+        "answer": "Divine Frequency ist ein surrealer Retro-Horror-FPS von Abraxaes, der brutale Feuergefechte, RPG-Progression, psychologischen Horror und kosmische Mysterien über kollabierenden Realitäten vereint."
       },
       {
-        "question": "Kann ich Lucid Blocks solo spielen oder brauche ich Freunde?",
-        "answer": "Lucid Blocks unterstützt sowohl Solo-Spiel als auch Koop mit bis zu 6 Spielern. Solo ist schwieriger, aber möglich."
+        "question": "Ist Divine Frequency bereits erhältlich?",
+        "answer": "Ja. Divine Frequency ist am 26. Oktober 2026 in die Steam Early Access eingetreten und ist für Windows-PC verfügbar."
       },
       {
-        "question": "Was sind High-Gnome-Aufgaben in Lucid Blocks?",
-        "answer": "High-Gnome ist dein Boss, der Ziele wie \"zerstöre den Fernseher\", \"überflute die Toilette\" oder \"stehle bestimmte Gegenstände\" vergibt. Erledige sie für zusätzliche Belohnungen."
+        "question": "Wie viel Inhalt bietet die Early-Access-Version von Divine Frequency?",
+        "answer": "Der Early-Access-Build umfasst etwa 70 % des kompletten Spiels: 2 von 3 Story-Kapiteln mit rund 4–6 Stunden Spielzeit in der aktuellen Version."
       },
       {
-        "question": "Wie installiere ich Mods für Lucid Blocks?",
-        "answer": "Installiere BepInEx 5, starte das Spiel einmal und platziere dann Mod-DLLs im Ordner BepInEx/plugins/. Alle Spieler benötigen die gleichen Mods für den Mehrspieler."
+        "question": "Was wird die Vollversion von Divine Frequency enthalten?",
+        "answer": "Die Vollveröffentlichung soll die komplette Kampagne, zusätzliche Gegner und Bosse, weitere Spieler-Builds, zusätzliche Musik- und Story-Elemente sowie einen Hardcore-Modus umfassen."
       },
       {
-        "question": "Unterstützt Lucid Blocks Controller?",
-        "answer": "Ja! Verwende die In-Game-Einstellungen für grundlegende Controller-Unterstützung oder installiere den Controller Mod von Nexus Mods für vollständige UI-Navigation."
+        "question": "Wie lange bleibt Divine Frequency in der Early Access?",
+        "answer": "Die Early Access soll etwa ein Jahr dauern, kann sich aber je nach Fortschritt in Richtung der Full-Game-Vision auf bis zu zwei Jahre verlängern."
       },
       {
-        "question": "Wie hoch ist die Spielerzahl für Lucid Blocks?",
-        "answer": "Stand Februar 2026 verzeichnet Lucid Blocks durchschnittlich 6.000+ gleichzeitige Spieler, mit einem Peak von 15.272 am 8. Februar 2026."
+        "question": "Wo kann ich Divine-Frequency-Updates verfolgen?",
+        "answer": "Folge den Steam-Ankündigungen sowie den offiziellen Kanälen auf Discord, X und Bluesky für Patchnotes, Entwicklungsnachrichten und Updates zur Early-Access-Roadmap."
       }
     ]
   },
   "cta": {
-    "title": "Bereit, mit dem Raub zu beginnen?",
-    "description": "Tritt der Lucid Blocks Community auf Discord bei, um Koop-Gruppen, Updates und Mod-Diskussionen zu erhalten!",
+    "title": "Bereit, in Divine Frequency einzutauchen?",
+    "description": "Tritt der Divine-Frequency-Community auf Discord bei – für Early-Access-Updates, Lore-Diskussionen und Guide-News!",
     "joinCommunity": "Discord beitreten",
-    "joinGame": "Demo auf Steam herunterladen"
+    "joinGame": "Auf Steam spielen"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Dein komplettes Ressourcenzentrum für Lucid Blocks Stealth-Raubzüge, Koop-Strategien, Mods und Community-Leitfäden.",
+    "title": "Divine Frequency Wiki",
+    "description": "Dein umfassendes Nachschlagewerk für Divine-Frequency-Lore, Waffen, Gegner, Builds, Rätsel und Early-Access-Guides.",
     "resources": "Ressourcen",
     "community": "Community",
     "legal": "Rechtliches",
     "discord": "Discord",
     "twitter": "X / Twitter",
+    "youtube": "YouTube",
+    "bluesky": "Bluesky",
     "steamCommunity": "Steam Community",
     "steamStore": "Steam Store",
     "about": "Über uns",
-    "privacy": "Datenschutzrichtlinie",
+    "privacy": "Datenschutzerklärung",
     "terms": "Nutzungsbedingungen",
     "copyrightNotice": "Urheberrecht",
-    "copyright": "© 2026 Lucid Blocks Wiki. Nicht mit den Entwicklern von Lucid Blocks verbunden.",
-    "disclaimer": "Inoffizielle von Fans erstellte Ressourcen-Website."
+    "copyright": "© 2026 Divine Frequency Wiki. Nicht mit Abraxaes oder der Valve Corporation verbunden.",
+    "disclaimer": "Inoffizielle, von Fans betriebene Ressourcen-Website."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Leitfäden",
-      "description": "Vollständige Gameplay-Leitfäden von den Grundlagen für Anfänger bis hin zu fortgeschrittenen Apotheosis-Strategien. Meistern Sie Überleben und Handwerk.",
-      "metaTitle": "Lucid Blocks Leitfäden – Strategien für Anfänger bis Fortgeschrittene",
-      "metaDescription": "Vollständige Lucid Blocks Leitfäden mit Tipps für Anfänger, dem Apotheosis-System, Überlebensstrategien und Expertentaktiken zur Beherrschung der surrealen Sandbox.",
-      "categoryLabel": "SPIEL-LEITFÄDEN",
-      "whatIs": "Was sind Leitfäden?",
-      "whatIsDescription": "Umfassende Leitfäden zu Spielmechaniken, Überlebensstrategien und dem Apotheosis-Handwerkssystem. Lernen Sie alles von den ersten Schritten bis hin zu fortgeschrittenen Techniken.",
-      "why": "Warum Leitfäden lesen?",
+    "guide": {
+      "title": "Divine Frequency Guides",
+      "description": "Umfassende Divine-Frequency-Guides zu den Grundlagen des Überlebens, Waffen-Builds, Batteriemanagement und allen surrealen Kapiteln des Horror-FPS von Abraxaes.",
+      "metaTitle": "Divine Frequency Guides – Walkthroughs, Builds & Survival-Tipps",
+      "metaDescription": "Meistere Divine Frequency mit kompletten Guides: Walkthroughs für Einsteiger, Waffen- und Mod-Builds, Batteriemanagement und Survival-Tipps für jedes surreale Kapitel.",
+      "categoryLabel": "GAME-GUIDES",
+      "whatIs": "Was sind Guides?",
+      "whatIsDescription": "Schritt-für-Schritt-Guides zu Divine Frequency, die dich durch die Kampagne des Retro-Horror-FPS führen – von deinen ersten Schritten in der Sende-Anomalie bis zu Endgame-Builds, Stärke-Upgrades und optionalen Begegnungen in den sich wandelnden Welten.",
+      "why": "Warum Guides lesen?",
       "whySteps": {
-        "step1Title": "Kernmechaniken lernen",
-        "step1Description": "Verstehen Sie das Apotheosis-System und vermeiden Sie häufige Anfängerfehler",
-        "step2Title": "Schneller Fortschritt",
-        "step2Description": "Folgen Sie bewährten Pfaden, um in der surrealen Welt zu überleben und erfolgreich zu sein",
+        "step1Title": "Überlebe die ersten Stunden",
+        "step1Description": "Erfahre, wie Gesundheit, Batterien und Munition wirklich funktionieren, damit die ersten Kapitel aufhören, eine Fleischwolf zu sein",
+        "step2Title": "Smarter bauen",
+        "step2Description": "Kombiniere Waffen, Mods und RPG-Upgrades zu Builds, die zu Run-and-Gun oder bedächtigem Horror-Tempo passen",
         "step3Title": "Strategien meistern",
-        "step3Description": "Entwickeln Sie fortgeschrittene Taktiken für Erkundung und Handwerk"
+        "step3Description": "Entwickle fortgeschrittene Taktiken für Erkundung, Ressourcenmanagement und die Welten, die sich hinter dem Signal verbergen"
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Leitfäden"
+      "featured": "Empfohlen & unverzichtbar",
+      "all": "Alle Guides"
     },
-    "crafting": {
-      "title": "Lucid Blocks Handwerk",
-      "description": "Meistern Sie das Apotheosis-Fusionssystem mit Essenz-Mechaniken, Rezepten und Handwerksstrategien für mächtige Gegenstände.",
-      "metaTitle": "Lucid Blocks Handwerk – Apotheosis-System & Rezepte",
-      "metaDescription": "Meistern Sie das Apotheosis-Handwerkssystem von Lucid Blocks. Lernen Sie Essenz-Mechaniken, Fusionsrezepte und Strategien zur Erstellung mächtiger Werkzeuge und Waffen.",
-      "categoryLabel": "HANDWERKSSYSTEM",
-      "whatIs": "Was ist Handwerk?",
-      "whatIsDescription": "Das Apotheosis-System ist eine einzigartige, essenzgesteuerte Fusionsmechanik, bei der Sie bis zu sechs Gegenstände kombinieren, um neue Rezepte zu entdecken. Keine festen Handwerksmenüs – Experimentieren ist der Schlüssel.",
-      "why": "Warum Handwerk meistern?",
+    "media": {
+      "title": "Divine Frequency Media",
+      "description": "Alle Divine-Frequency-Trailer, Gameplay-Videos, Demo-Builds und Soundtrack-Tracks an einem Ort – offizielles Bild- und Audiomaterial aus dem Horror-FPS von Abraxaes.",
+      "metaTitle": "Divine Frequency Media – Trailer, Gameplay & Soundtrack",
+      "metaDescription": "Sieh Divine-Frequency-Trailer und Gameplay-Videos, hol dir die Demo und entdecke den Soundtrack des Retro-Horror-FPS. Alle offiziellen Medien in einem Hub.",
+      "categoryLabel": "TRAILER & MEDIA",
+      "whatIs": "Was ist Media?",
+      "whatIsDescription": "Die komplette Medienbibliothek zu Divine Frequency: offizielle Trailer, Gameplay-Aufnahmen, die spielbare Demo und der Analog-Horror-Soundtrack – alles an einem Ort, damit du die körnige PS1-Atmosphäre des Spiels vor dem Kauf erleben kannst.",
+      "why": "Warum den Medien folgen?",
       "whySteps": {
-        "step1Title": "Mächtige Gegenstände freischalten",
-        "step1Description": "Entdecken Sie essenzielle Werkzeuge, Waffen und Mobilitätsausrüstung durch Fusion",
-        "step2Title": "Essenzen verstehen",
-        "step2Description": "Lernen Sie, wie Gegenstandsessenzen kombiniert werden, um vorhersehbare Ergebnisse zu erzielen",
-        "step3Title": "Ressourcen optimieren",
-        "step3Description": "Nutzen Sie Verdünnungsmechaniken, um den Ertrag aus günstigen Materialien zu maximieren"
+        "step1Title": "Sieh es in Bewegung",
+        "step1Description": "Trailer und Gameplay-Material zeigen das echte Kampf-Tempo und den visuellen Stil, den Screenshots nicht vermitteln können",
+        "step2Title": "Erst testen, dann kaufen",
+        "step2Description": "Die Demo lässt dich Performance und Atmosphäre auf deinem eigenen System testen, bevor du zuschlägst",
+        "step3Title": "Fühle die Frequenz",
+        "step3Description": "Der Soundtrack trägt viel zur Beklemmung bei – weiß, was auf dich zukommt, und genieße ihn danach eigenständig"
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Handwerks-Leitfäden"
+      "featured": "Empfohlen & unverzichtbar",
+      "all": "Alle Medien"
     },
-    "items": {
-      "title": "Lucid Blocks Gegenstände",
-      "description": "Detaillierte Leitfäden zu Gegenständen, die Werkzeuge, Waffen, Mobilitätsausrüstung und Lagerlösungen mit Handwerksrezepten und Nutzungstipps abdecken.",
-      "metaTitle": "Lucid Blocks Gegenstände – Leitfaden für Werkzeuge, Waffen & Ausrüstung",
-      "metaDescription": "Vollständige Gegenstandsdatenbank für Lucid Blocks, einschließlich Werkzeugen, Waffen, Mobilitätsausrüstung und Lagerung. Lernen Sie, wie Sie jeden Gegenstand effektiv herstellen und einsetzen.",
-      "categoryLabel": "GEGENSTÄNDE & AUSRÜSTUNG",
-      "whatIs": "Was sind Gegenstände?",
-      "whatIsDescription": "Umfassende Leitfäden für Werkzeuge, Waffen, Mobilitätsausrüstung und funktionale Gegenstände. Lernen Sie Handwerksrezepte, Nutzungsstrategien und optimale Kombinationen kennen.",
-      "why": "Warum Gegenstands-Leitfäden lesen?",
+    "puzzles": {
+      "title": "Divine Frequency Rätsel",
+      "description": "Lösungen für jedes Divine-Frequency-Terminal-Rätsel, jeden Funkfrequenz-Code und jedes versteckte Ende – komplette Antworten inklusive der Logik dahinter.",
+      "metaTitle": "Divine Frequency Rätsel – Terminal-Codes & Rätsellösungen",
+      "metaDescription": "Alle Rätsellösungen zu Divine Frequency: Terminal-Nummern, Funkcodes, Frequenzeinstellung, geheime Enden und jedes Knobelrätsel im Horror-FPS von Abraxaes erklärt.",
+      "categoryLabel": "RÄTSELLÖSUNGEN",
+      "whatIs": "Was sind Rätsel?",
+      "whatIsDescription": "Divine Frequency versteckt seinen Fortschritt hinter Terminal-Rätseln, Frequenzeinstellungen und Umgebungs-Codes. Diese Guides liefern dir jede Lösung samt der Logik dahinter, damit du das Signal entschlüsseln kannst, statt dich daran den Kopf zu stoßen.",
+      "why": "Warum Rätsellösungen nutzen?",
       "whySteps": {
-        "step1Title": "Handwerksrezepte lernen",
-        "step1Description": "Entdecken Sie, wie Sie essenzielle Werkzeuge und Waffen mit Apotheosis herstellen",
-        "step2Title": "Ausrüstung optimieren",
-        "step2Description": "Wählen Sie die besten Gegenstände für Ihren Spielstil und Ihre Fortschrittsstufe",
-        "step3Title": "Überleben verbessern",
-        "step3Description": "Rüsten Sie Mobilitätsausrüstung und Waffen aus, um durch die gefährliche Welt zu navigieren"
+        "step1Title": "Schluss mit dem Herumlaufen",
+        "step1Description": "Terminal-Codes und Frequenzrätsel blockieren ganze Kapitel – ein festhängendes Rätsel kann deinen Run stundenlang aufhalten",
+        "step2Title": "Die Logik verstehen",
+        "step2Description": "Jede Lösung erklärt das Muster, sodass künftige Rätsel eigenständig lösbar werden",
+        "step3Title": "Jedes Ende freischalten",
+        "step3Description": "Geheime Enden erfordern bestimmte Rätselketten – sieh genau, welche Entscheidungen und Codes wichtig sind"
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Gegenstände"
+      "featured": "Empfohlen & unverzichtbar",
+      "all": "Alle Rätsel"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biome",
-      "description": "Erkunden Sie Weltregionen, Umweltmerkmale, Ressourcenstandorte und Überlebenstipps für jedes Biom.",
-      "metaTitle": "Lucid Blocks Biome – Weltregionen & Erkundung",
-      "metaDescription": "Erkunden Sie die Biome von Lucid Blocks, einschließlich Tiamana Leylines, Fog Meadow und surrealen Regionen. Finden Sie Ressourcen, vermeiden Sie Gefahren und navigieren Sie durch die unendliche Welt.",
-      "categoryLabel": "WELTREGIONEN",
-      "whatIs": "Was sind Biome?",
-      "whatIsDescription": "Leitfäden zu verschiedenen Weltregionen, Umweltmerkmalen, Ressourcenverteilung und Gefahrenzonen. Lernen Sie, was Sie erwartet und wie Sie sich auf jedes Gebiet vorbereiten.",
-      "why": "Warum Biome erkunden?",
+    "release": {
+      "title": "Divine Frequency Release-Infos",
+      "description": "Details zum Release-Datum von Divine Frequency, Early-Access-Roadmap, Kapitelpläne und Demo-Historie – alles Bekannte über den Rollout des Spiels und was als Nächstes kommt.",
+      "metaTitle": "Divine Frequency Release-Infos – Early Access & Roadmap",
+      "metaDescription": "Divine-Frequency-Release-Details: Early-Access-Start im Oktober 2026, geplante Kapitel, Roadmap-Fortschritt und Demo-Historie zum Retro-Horror-FPS von Abraxaes.",
+      "categoryLabel": "RELEASE-INFOS",
+      "whatIs": "Was sind Release-Infos?",
+      "whatIsDescription": "Divine Frequency erschien am 26. Oktober 2026 im Steam Early Access mit 2 von 3 geplanten Kapiteln. Diese Rubrik verfolgt den Rollout: was geliefert wurde, was die Roadmap verspricht und wie sich die Demo zur Vollversion entwickelte.",
+      "why": "Warum Release-Infos verfolgen?",
       "whySteps": {
-        "step1Title": "Ressourcen finden",
-        "step1Description": "Finden Sie seltene Materialien und Essenzen, die spezifisch für jede Region sind",
-        "step2Title": "Gefahren vermeiden",
-        "step2Description": "Verstehen Sie Umweltgefahren und feindselige Kreaturen",
-        "step3Title": "Erkundung planen",
-        "step3Description": "Bereiten Sie die richtigen Werkzeuge und Ausrüstung für jeden Biom-Typ vor"
+        "step1Title": "Wisse, was du kaufst",
+        "step1Description": "Early Access bedeutet rund 70 % des Plans – verstehe genau, was im aktuellen Build enthalten ist",
+        "step2Title": "Roadmap im Blick behalten",
+        "step2Description": "Sieh, welche Kapitel, Waffen und Systeme geplant sind, um zu entscheiden, ob du jetzt spielst oder wartest",
+        "step3Title": "Kein Update verpassen",
+        "step3Description": "Patchnotes und Content-Updates verändern Balance und Enden – bleib beim neuesten Stand"
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Biome"
+      "featured": "Empfohlen & unverzichtbar",
+      "all": "Alle Release-Infos"
     },
-    "building": {
-      "title": "Lucid Blocks Bauen",
-      "description": "Meistern Sie persönliche Qualia-Dimensionen, Basisbau, Lagerverwaltung und kreative Bautechniken.",
-      "metaTitle": "Lucid Blocks Bauen – Qualia & Basisbau",
-      "metaDescription": "Meistern Sie das Bauen in Lucid Blocks mit persönlichen Qualia-Dimensionen, Basisbau, Lagerlösungen und kreativen Bautechniken.",
-      "categoryLabel": "BAUEN & BASEN",
-      "whatIs": "Was ist Bauen?",
-      "whatIsDescription": "Leitfäden zum persönlichen Qualia-Dimensionssystem, Basisbau, Lagerverwaltung und kreativem Bauen. Lernen Sie, Ihren sicheren Hafen in der surrealen Welt zu erschaffen.",
-      "why": "Warum Basen bauen?",
+    "reviews": {
+      "title": "Divine Frequency Reviews",
+      "description": "Ehrliche Divine-Frequency-Reviews zu Horror-Atmosphäre, Boomer-Shooter-Kämpfen, RPG-Systemen und Early-Access-Wert – für wen dieser surreale FPS ist.",
+      "metaTitle": "Divine Frequency Reviews – Horror-FPS-Urteil & Early-Access-Wert",
+      "metaDescription": "Ausführliche Divine-Frequency-Reviews: Horror-Atmosphäre, Retro-FPS-Kämpfe, RPG-Progression und ob sich Abraxaes' surrealer Shooter im Early Access lohnt.",
+      "categoryLabel": "REVIEWS",
+      "whatIs": "Was sind Reviews?",
+      "whatIsDescription": "Vollständige Divine-Frequency-Reviews, die das Gesamtpaket bewerten: das surreale Weltdesign, das brutale Gunplay, die RPG-Tiefe und wie viel Inhalt 4–6 Early-Access-Stunden Horror-FPS-Fans wirklich bieten.",
+      "why": "Warum Reviews lesen?",
       "whySteps": {
-        "step1Title": "Sichere Räume schaffen",
-        "step1Description": "Errichten Sie sichere Basen für Lagerung und Handwerksarbeiten",
-        "step2Title": "Ressourcen verwalten",
-        "step2Description": "Organisieren Sie Materialien effizient mit Lagerlösungen",
-        "step3Title": "Qualia freischalten",
-        "step3Description": "Greifen Sie auf persönliche Taschendimensionen für ultimativen Komfort zu"
+        "step1Title": "Schnell entscheiden",
+        "step1Description": "Ein klares Urteil zu Gameplay, Atmosphäre und Content-Umfang bewahrt dich vor einem Blindkauf",
+        "step2Title": "Schwachstellen kennen",
+        "step2Description": "Jedes Review behandelt die rauen Kanten des Early Access, damit dich nichts im aktuellen Build überrascht",
+        "step3Title": "Geschmack abgleichen",
+        "step3Description": "Boomer-Shooter-Tempo und langsamer Horror passen selten zusammen – sieh, wo Divine Frequency auf diesem Spektrum liegt"
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Bau-Leitfäden"
+      "featured": "Empfohlen & unverzichtbar",
+      "all": "Alle Reviews"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technischer Support, Plattformkompatibilität, Leistungsoptimierung und Fehlerbehebung bei häufigen Problemen.",
-      "metaTitle": "Lucid Blocks Support – Technische Hilfe & Fehlerbehebungen",
-      "metaDescription": "Erhalten Sie technischen Support für Lucid Blocks, einschließlich Steam Deck-Einrichtung, Crash-Fixes, Leistungsoptimierung und Leitfäden zur Plattformkompatibilität.",
-      "categoryLabel": "TECHNISCHER SUPPORT",
-      "whatIs": "Was ist Support?",
-      "whatIsDescription": "Technische Leitfäden zu Plattformkompatibilität, Leistungsoptimierung, Crash-Fixes und häufigen Problemen. Erhalten Sie Hilfe zu Steam Deck, Multiplayer-Fragen und Einstellungen.",
-      "why": "Warum Support prüfen?",
+    "technical": {
+      "title": "Divine Frequency Technische Guides",
+      "description": "Technische Guides zu Divine Frequency: Steam-Einrichtung, GZDoom-Optionen, Engine-Details, Modding-Grundlagen, Performance-Tuning und Fixes für häufige PC-Probleme.",
+      "metaTitle": "Divine Frequency Technisch – Steam, GZDoom, Mods & Fixes",
+      "metaDescription": "Technische Divine-Frequency-Guides: Steam-Deck-Einstellungen, GZDoom-Konfiguration, Engine-Internas, Mod-Installation und Performance-Fixes für den Retro-Horror-FPS.",
+      "categoryLabel": "TECHNISCHE GUIDES",
+      "whatIs": "Was sind technische Guides?",
+      "whatIsDescription": "Die Engine-Seite von Divine Frequency: wie die GZDoom-basierte Technik funktioniert, welche Einstellungen wichtig sind, wie man Mods sicher installiert und wie man Crashes, Vollbildprobleme und Performance-Probleme auf jedem Windows-PC behebt.",
+      "why": "Warum technische Guides nutzen?",
       "whySteps": {
-        "step1Title": "Technische Probleme beheben",
-        "step1Description": "Beheben Sie Abstürze, Leistungsprobleme und Kompatibilitätsprobleme",
-        "step2Title": "Leistung optimieren",
-        "step2Description": "Konfigurieren Sie Einstellungen für das beste Erlebnis auf Ihrer Plattform",
-        "step3Title": "Plattformkompatibilität",
-        "step3Description": "Erfahren Sie mehr über Steam Deck, Controller-Unterstützung und Systemanforderungen"
+        "step1Title": "Selbst reparieren",
+        "step1Description": "Crashes, schwarze Bildschirme und Eingabeprobleme haben bekannte Fixes – wende sie in Minuten an, ohne neu zu installieren",
+        "step2Title": "Performance tunen",
+        "step2Description": "Die richtigen Einstellungen halten die Retro-Framerate auch auf bescheidener Hardware hoch, inklusive Handhelds",
+        "step3Title": "Sicher modden",
+        "step3Description": "Verstehe, wie die Engine Mods lädt, damit du das Spiel erweitern kannst, ohne deinen Spielstand zu beschädigen"
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Support-Artikel"
+      "featured": "Empfohlen & unverzichtbar",
+      "all": "Alle technischen Guides"
     }
   }
 }

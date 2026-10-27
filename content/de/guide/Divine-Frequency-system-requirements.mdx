@@ -1,0 +1,209 @@
+import { Monitor, Settings, ShieldCheck, Wrench, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Systemanforderungen für Divine Frequency: Einrichtungsleitfaden",
+  description: "Prüfe die Systemanforderungen von Divine Frequency, Hardwareinformationen zum Early Access, Grafikeinstellungen, Schritte zur Fehlerbehebung und Tipps zur…",
+  category: "guide",
+  image: "https://placehold.co/800x400/171923/fff?text=System+Requirements+Guide",
+  date: "2026-10-28",
+  author: "Divine Frequency Wiki-Team",
+  slug: "/divine-frequency-system-requirements"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Die Systemanforderungen von Divine Frequency** sind in der verfügbaren offiziellen Referenz nicht vollständig aufgeführt.
+- **Die Plattformunterstützung** umfasst derzeit Windows über die Steam-Early-Access-Version.
+- **Der beste erste Test** ist das Standardgrafikprofil in einem anspruchsvollen Erkundungsbereich.
+- **Leistungsverbesserungen** umfassen die Aktualisierung von Treibern, die Überprüfung von Dateien und das Ändern jeweils einer Einstellung.
+- **Der Early-Access-Hinweis** bedeutet, dass sich Leistung und Einstellungen in zukünftigen Builds von 2026 ändern können.
+</Callout>
+
+<Section icon={Monitor} title="Status der Systemanforderungen von Divine Frequency">
+
+Die aktuelle Early-Access-Version von *Divine Frequency* ist ein von Abraxaes entwickelter und veröffentlichter Horror-FPS für Windows-PCs. Die verfügbaren offiziellen Informationen bestätigen die Steam-Plattform und den Early-Access-Status, enthalten jedoch keine vollständige Tabelle mit CPU-, GPU-, Arbeitsspeicher- oder Speicheranforderungen, die hier zuverlässig wiedergegeben werden könnte.
+
+Spieler sollten sich daher nicht auf erfundene Mindest- oder empfohlene Hardwareangaben verlassen. Verwende stattdessen die unten bestätigten Plattforminformationen und teste das Spiel systematisch auf dem jeweiligen PC.
+
+| Kategorie | Bestätigte Information | Praktische Bedeutung |
+|---|---|---|
+| Plattform | Windows-PC | Für die unterstützte Steam-Version ist ein Windows-System erforderlich. |
+| Store | Steam | Installiere und starte das Spiel über die offizielle Steam-Seite. |
+| Veröffentlichungsmodell | Early Access | Leistung und technisches Verhalten können sich während der Entwicklung ändern. |
+| Aktueller Inhalt | 2 von 3 geplanten Kapiteln | Teste die Leistung in Kämpfen, bei der Erkundung und in anspruchsvolleren Innenbereichen. |
+| Sprache | Auf Steam ist Englisch aufgeführt | Benutzeroberfläche und unterstützte Texte sollten im aktuellen Build überprüft werden. |
+| Hardwaretabelle | In der verfügbaren Referenz nicht bestätigt | Behandle inoffizielle Hardwareschätzungen nicht als offizielle Anforderungen. |
+
+<Callout type="warning" title="Unbestätigten Angaben nicht vertrauen">
+Eine Liste mit Systemanforderungen sollte nur veröffentlicht werden, wenn sie vom Entwickler oder der offiziellen Store-Seite bestätigt wurde. Wenn dein PC nahe an einer inoffiziellen Schätzung liegt, teste den aktuellen Build, anstatt eine bestimmte Leistung vorauszusetzen.
+</Callout>
+
+Besuche als zuverlässigsten Ausgangspunkt die [offizielle Steam-Seite von Divine Frequency](https://store.steampowered.com/app/2548880/Divine_Frequency/) und prüfe vor der Installation die aktuellen Store-Informationen. Steam-Einträge können sich ändern, wenn ein Early-Access-Projekt Updates erhält. Ein späterer Build im Jahr 2026 kann daher detailliertere technische Hinweise enthalten.
+
+</Section>
+
+<Section icon={Settings} title="Empfohlene Grafikeinstellungen für den Early Access">
+
+Wenn ein Spiel keine vollständige Hardwarematrix veröffentlicht, ist eine kontrollierte Anpassung die sicherste Einrichtungsmethode. Beginne mit der Standardkonfiguration, beobachte das Spiel während repräsentativer Spielsituationen und ändere anschließend jeweils nur eine wichtige Option.
+
+Das Ziel besteht nicht darin, sofort jede Einstellung zu reduzieren. *Divine Frequency* verwendet eine surreale Retro-Horror-Darstellung mit dunklen Innenräumen, visuellen Effekten und Erkundungsbereichen, in denen sich die Frame-Zeiten anders anfühlen können als in einer einfachen Menüszenen.
+
+| Einstellungsbereich | Empfohlener Ausgangspunkt | Anpassungspriorität |
+|---|---|---|
+| Anzeigemodus | Vollbild oder randlos | Wechsle den Modus, wenn Flackern oder ungleichmäßige Frame-Zeiten auftreten. |
+| Auflösung | Native Monitorauflösung | Reduziere die Renderauflösung, wenn die GPU überlastet wirkt. |
+| Qualitätsprofil | Standardprofil | Verwende es als Ausgangsbasis vor individuellen Änderungen. |
+| Schatten | Standard, bei Bedarf reduzieren | Eine sinnvolle erste Reduzierung, wenn dunkle Szenen aufwendig zu rendern sind. |
+| Effekte | Standard, anschließend gezielt reduzieren | Passe sie an, wenn Kampfeffekte deutliche Einbrüche verursachen. |
+| Nachbearbeitung | Standard, anschließend gezielt reduzieren | Reduziere sie, wenn Bildeffekte die Darstellung oder Leistung beeinträchtigen. |
+| Bildrate | Stabiles, zum PC passendes Ziel | Eine konstante Begrenzung kann sich besser anfühlen als instabile Spitzenwerte. |
+
+<CardGrid cols={3}>
+  <Card title="Mit einer Ausgangsbasis beginnen">
+    Starte mit dem Standardprofil und der nativen Auflösung. Teste Bewegung, Kämpfe, Raumübergänge und Menüs, bevor du Änderungen vornimmst.
+  </Card>
+  <Card title="Eine Variable ändern">
+    Reduziere eine anspruchsvolle Einstellung und wiederhole anschließend dieselbe Art von Spielsituation. So lässt sich leichter feststellen, welche Einstellung entscheidend ist.
+  </Card>
+  <Card title="Stabilität priorisieren">
+    Eine konstante Bildrate und ein gut lesbares Bild sind bei Erkundung und Kämpfen nützlicher als maximale Grafikqualität.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Leistungstipp">
+Verwende zur Beurteilung der Leistung einen repräsentativen Spielbereich statt des Titelbildschirms. Innenräume, Kampfbegegnungen und schnelle Bewegungen bieten einen aussagekräftigeren Test für den Early-Access-Build.
+</Callout>
+
+Eine praktische Reihenfolge für Anpassungen ist:
+
+1. Bestätige den Anzeigemodus.
+2. Teste die native Auflösung.
+3. Reduziere Schatten oder Effekte einzeln.
+4. Verringere die Renderauflösung nur bei Bedarf.
+5. Schließe unnötige Overlays und Hintergrundanwendungen.
+6. Starte das Spiel nach größeren Grafikänderungen neu.
+
+</Section>
+
+<Section icon={Wrench} title="Schrittweise Fehlerbehebung bei Leistungsproblemen">
+
+Wenn *Divine Frequency* startet, aber schlecht läuft, solltest du das Problem als Diagnoseprozess behandeln, anstatt alle Optionen gleichzeitig zu ändern. Early-Access-Builds können vorübergehende Probleme enthalten, die nicht mit der Leistungsfähigkeit des PCs zusammenhängen, darunter Shader-Verhalten, Treiberkonflikte, Installationsfehler oder ungleichmäßige Frame-Zeiten.
+
+<Steps>
+  <Step num="1" title="Grafiktreiber aktualisieren">
+    Installiere den aktuellen Treiber für deine Grafikhardware und starte Windows anschließend neu, bevor du erneut testest. Treiberaktualisierungen können Darstellungsfehler, Abstürze oder instabile Leistung beheben, die nach einem Spielupdate auftreten.
+  </Step>
+  <Step num="2" title="Unnötige Overlays schließen">
+    Deaktiviere vorübergehend Aufnahmewerkzeuge, browserintensive Anwendungen, Overlays von Drittanbietern und andere Hintergrundsoftware. Dadurch entsteht ein saubererer Test und du kannst leichter feststellen, ob ein anderes Programm die Frame-Zeiten beeinflusst.
+  </Step>
+  <Step num="3" title="Steam-Installation überprüfen">
+    Verwende die Dateiüberprüfung von Steam, wenn das Spiel abstürzt, nicht startet oder fehlende Inhalte anzeigt. Warte, bis der Vorgang abgeschlossen ist, bevor du die Grafikeinstellungen erneut änderst.
+  </Step>
+  <Step num="4" title="Eine Grafikeinstellung anpassen">
+    Beginne mit Schatten, Effekten oder Nachbearbeitung. Teste nach jeder Änderung dieselbe Spielsituation, damit du feststellen kannst, ob das Problem durch GPU-Auslastung, Auflösung oder Frame-Zeiten verursacht wird.
+  </Step>
+  <Step num="5" title="Nach größeren Änderungen neu starten">
+    Schließe das Spiel und starte es erneut, nachdem du den Anzeigemodus, die Auflösungsskalierung oder mehrere Qualitätseinstellungen geändert hast. Manche Änderungen lassen sich nach einem sauberen Neustart leichter beurteilen.
+  </Step>
+</Steps>
+
+| Symptom | Erste Prüfung | Nächste Maßnahme |
+|---|---|---|
+| Das Spiel startet nicht | Treiber und Dateiintegrität | Aktualisiere den Treiber und überprüfe die Steam-Installation. |
+| Ruckeln während der Bewegung | Hintergrundanwendungen und Frame-Zeiten | Schließe Overlays und teste eine stabile Bildratenbegrenzung. |
+| Starke Einbrüche während Kämpfen | Effekte und Schatten | Reduziere eine dieser Einstellungen und teste die Kämpfe erneut. |
+| Flackerndes Bild | Anzeigemodus und Treiber | Wechsle zwischen Vollbild und randlosem Modus und starte anschließend neu. |
+| Unscharfes Bild | Auflösungsskalierung | Kehre zur nativen Auflösung zurück und passe die Skalierung vorsichtig an. |
+| Eingabe wird nicht erkannt | Aktives Eingabegerät | Verbinde das Gerät vor dem Start erneut und überprüfe die Einstellungen. |
+
+<Callout type="info" title="Fehlerbehebung im Early Access">
+Notiere die Build-Version, den Bereich, in dem das Problem auftritt, und die von dir getesteten Einstellungsänderungen. Klare Notizen machen Diskussionen auf Steam und offizielle Supportkanäle bei der Meldung eines Problems hilfreicher.
+</Callout>
+
+Gehe nicht davon aus, dass jede gesperrte Route, jeder Grafikfehler oder jedes Fortschrittsproblem durch deine Hardware verursacht wird. Stelle zunächst fest, ob das Problem nach einem Neustart, einer Dateiüberprüfung und einem Test mit dem aktuellen Steam-Build reproduzierbar ist.
+
+</Section>
+
+<Section icon={ShieldCheck} title="Checkliste zur PC-Vorbereitung vor dem Start">
+
+Eine kurze Vorbereitung kann vermeidbare Probleme während der ersten Spielsitzung verhindern. Das ist besonders bei einem Early-Access-Spiel nützlich, bei dem Updates die Leistung, das Speicherverhalten oder die Anwendung bestimmter Einstellungen verändern können.
+
+<Checklist
+  id="divine-frequency-pc-preparation"
+  title="Startvorbereitung:"
+  items={[
+    "Stelle sicher, dass Windows und die Grafiktreiber aktuell sind",
+    "Installiere Divine Frequency über die offizielle Steam-Seite",
+    "Schließe unnötige Overlays und Hintergrundanwendungen",
+    "Teste das Standardgrafikprofil in einem echten Spielbereich",
+    "Notiere Abstürze, Ruckler oder Darstellungsprobleme",
+    "Prüfe die Steam-Ankündigungen nach größeren Updates im Jahr 2026"
+  ]}
+/>
+
+| Vorbereitung | Warum es wichtig ist | Empfohlener Zeitpunkt |
+|---|---|---|
+| Treiber aktualisieren | Verringert vermeidbare Darstellungs- und Startkonflikte | Vor der ersten Sitzung |
+| Dateien überprüfen | Repariert fehlende oder beschädigte Installationsdaten | Nach Abstürzen oder fehlgeschlagenen Updates |
+| Einstellungen testen | Schafft eine bekannte Leistungsbasis | Beim ersten Start |
+| Freien Speicher prüfen | Verhindert Unterbrechungen bei Installation oder Updates | Vor dem Download |
+| Ankündigungen prüfen | Zeigt bekannte Probleme und Änderungen | Nach größeren Patches |
+| Probleme dokumentieren | Macht die Fehlerbehebung präziser | Immer wenn ein Problem wiederholt auftritt |
+
+<CardGrid cols={3}>
+  <Card title="Vor der Installation">
+    Bestätige die Windows-Kompatibilität, den verfügbaren Speicherplatz und eine stabile Steam-Verbindung. Verwende den offiziellen Store-Eintrag statt einer nicht überprüften Downloadquelle.
+  </Card>
+  <Card title="Beim ersten Start">
+    Teste das Standardprofil, überprüfe den Anzeigemodus, bestätige das Eingabeverhalten und spiele einen repräsentativen Abschnitt, bevor du umfangreiche Änderungen vornimmst.
+  </Card>
+  <Card title="Nach einem Update">
+    Warte, bis Steam die Aktualisierung abgeschlossen hat, lies die offiziellen Ankündigungen und teste die Leistung erneut, da Early-Access-Builds das technische Verhalten verändern können.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Ziel einer stabilen Einrichtung">
+Eine gute Konfiguration sorgt dafür, dass das Bild gut lesbar, die Steuerung reaktionsschnell und die Frame-Zeit bei normaler Erkundung und in Kämpfen gleichmäßig bleibt. Maximale Einstellungen sind optional; zuverlässiges Spielen hat Priorität.
+</Callout>
+
+Der offizielle [Steam-Community-Hub](https://steamcommunity.com/app/2548880/) kann dir außerdem helfen, Berichte anderer Spieler zu vergleichen. Nutze Community-Diskussionen, um Muster bei der Fehlerbehebung zu erkennen, bestätige genannte Anforderungen oder Lösungen jedoch anhand des aktuellen offiziellen Builds.
+
+</Section>
+
+<Section icon={HelpCircle} title="FAQ zu den Systemanforderungen">
+
+<FAQ items={[
+  {
+    question: "Wie lauten die offiziellen Systemanforderungen für Divine Frequency?",
+    answer: "Die verfügbare offizielle Referenz bestätigt eine Windows-Veröffentlichung über Steam, enthält jedoch keine vollständige Tabelle mit CPU-, GPU-, Arbeitsspeicher- oder Speicheranforderungen. Verwende die aktuelle Steam-Seite und teste den Early-Access-Build, anstatt dich auf inoffizielle Zahlen zu verlassen."
+  },
+  {
+    question: "Kann ich Divine Frequency auf einem Windows-PC spielen?",
+    answer: "Ja, die aktuelle Early-Access-Version ist für Windows über Steam aufgeführt. Die Leistung hängt weiterhin vom jeweiligen System ab. Beginne daher mit dem Standardprofil und passe die Einstellungen systematisch an."
+  },
+  {
+    question: "Welche Grafikeinstellungen sollte ich zuerst reduzieren?",
+    answer: "Teste zunächst Schatten, Effekte und Nachbearbeitung einzeln. Wenn die Leistung weiterhin instabil ist, reduziere die Renderauflösung oder verwende eine stabile Bildratenbegrenzung."
+  },
+  {
+    question: "Warum kann sich die Leistung zwischen Updates im Jahr 2026 ändern?",
+    answer: "Die Entwicklung im Early Access kann Inhalte, Grafik, Optimierung und das Verhalten von Einstellungen verändern. Teste das Spiel nach größeren Updates erneut und prüfe die offiziellen Ankündigungen auf bekannte Probleme."
+  }
+]} />
+
+<Callout type="tip" title="Abschließende Empfehlung">
+Notiere die Einstellungen, mit denen dein PC eine stabile Leistung erreicht. Dadurch wird die zukünftige Fehlerbehebung schneller, wenn der Early-Access-Build ein neues Update im Jahr 2026 erhält.
+</Callout>
+
+</Section>
+
+## Weiterführende Artikel
+
+- [Divine Frequency Komplettlösung: Early Access Schritt für Schritt](/de/guide/Divine-Frequency-walkthrough)
+- [Divine Frequency-Akku: Early-Access-Leitfaden und Tipps](/de/guide/Divine-Frequency-battery)
+- [Divine Frequency Trailer: Offizieller Guide zum Anschauen & Tipps](/de/media/Divine-Frequency-trailer)

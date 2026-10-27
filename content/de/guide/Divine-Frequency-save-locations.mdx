@@ -1,0 +1,227 @@
+import { Save, FolderSearch, ShieldCheck, Wrench, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Speicherorte von Divine Frequency: PC-Pfade und Backup-Tipps",
+  description: "Finde wahrscheinliche Speicherorte von Divine Frequency unter Windows, überprüfe deine Dateien, sichere deinen Early-Access-Fortschritt und behebe fehlende…",
+  category: "guide",
+  image: "https://placehold.co/800x400/171923/f5e8b8?text=Save+Locations+Guide",
+  date: "2026-10-28",
+  author: "Divine Frequency Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Speicherorte von Divine Frequency** sind in den verfügbaren Spielinformationen nicht offiziell bestätigt.
+- **Beginne mit Steam userdata** und überprüfe anschließend gängige Windows-AppData-Ordner auf lokale Speicherdateien.
+- **Sichere Dateien vor dem Testen**, Aktualisieren, Neuinstallieren oder Ändern von Early-Access-Einstellungen.
+- **Lösche Ordner nicht sofort**; benenne verdächtige Speicherverzeichnisse um und teste zuerst das Spiel.
+- Der **Steam-Cloud-Status** sollte überprüft werden, bevor du ein älteres lokales Backup wiederherstellst.
+</Callout>
+
+<Section icon={Save} title="Speicherorte von Divine Frequency: Was ist bestätigt">
+
+Divine Frequency ist ein Windows-exklusiver Horror-FPS im Steam-Early-Access von Abraxaes. Die verfügbaren offiziellen Informationen bestätigen die Plattform und den Early-Access-Status, veröffentlichen jedoch kein verifiziertes Speicherverzeichnis und keine Liste von Dateinamen. Daher trennt diese Anleitung **bestätigte Fakten** von **wahrscheinlichen Windows-Speicherorten**, die lokal überprüft werden müssen.
+
+Die aktuelle Early-Access-Veröffentlichung ist auf den **26. Oktober 2026** datiert, wobei einige UTC-basierte Dienste den **27. Oktober 2026** anzeigen. Die aktuelle Version umfasst zwei der drei geplanten Kapitel. Daher können sich das Speicherverhalten und die Ordnerstruktur während der Entwicklung ändern.
+
+| Element | Aktueller Status | Praktische Bedeutung |
+|---|---|---|
+| Plattform | Windows | Verwende die Windows-Dateisuche und überprüfe AppData |
+| Vertrieb | Steam Early Access | Steam userdata und Cloud-Einstellungen könnten relevant sein |
+| Bestätigter Speicherpfad | Nicht öffentlich aufgeführt | Überprüfe die Ordner auf deiner eigenen Installation |
+| Aktueller Inhalt | 2 von 3 geplanten Kapiteln | Updates können das Speicherverhalten ändern |
+| Offizielle Sprache | Englisch | Dateinamen und Support-Hinweise können englische Bezeichnungen verwenden |
+
+**Offizielle Referenz:** [Divine Frequency auf Steam](https://store.steampowered.com/app/2548880/Divine_Frequency/) enthält die aktuellen Informationen zum Store und zur Plattform. Im [Steam-Community-Hub](https://steamcommunity.com/app/2548880/) findest du später am ehesten Entwicklerankündigungen zur Kompatibilität von Speicherständen.
+
+<CardGrid cols={3}>
+  <Card title="Bestätigt">
+    - **Windows-Plattform**
+    - Vertrieb über Steam Early Access
+    - Abraxaes als Entwickler und Herausgeber
+  </Card>
+  <Card title="Nicht bestätigt">
+    - Genaues Speicherverzeichnis
+    - Format der Speicherdateinamen
+    - Ob jede Fortschrittsdatei Steam Cloud verwendet
+  </Card>
+  <Card title="Bewährte Vorgehensweise">
+    - Vor Änderungen an Dateien suchen
+    - Backups mit Datum aufbewahren
+    - Immer nur eine Änderung auf einmal testen
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Wichtiger Unterschied">
+Ein wahrscheinlicher Windows-Ordner ist nicht dasselbe wie ein offiziell bestätigter Speicherort von Divine Frequency. Behandle jeden möglichen Pfad als unbestätigt, bis du eine Datei findest, die sich nach dem Erstellen oder Fortschreiten eines Testspielstands ändert.
+</Callout>
+
+</Section>
+
+<Section icon={FolderSearch} title="Wahrscheinliche Windows-Speicherpfade">
+
+Wenn ein Spiel sein Speicherverzeichnis nicht veröffentlicht, solltest du in einer kontrollierten Reihenfolge suchen. Beginne mit der Steam-Installation und den userdata-Ordnern. Überprüfe anschließend die AppData-Verzeichnisse Local, LocalLow und Roaming. Der Ordner kann den Namen des Spiels, des Entwicklers, eines internen Projektnamens oder eine Steam-Anwendungskennung verwenden.
+
+Gehe nicht davon aus, dass der sichtbare Spielordner die Speicherstände enthält. Viele Windows-Spiele speichern den Fortschritt außerhalb des Installationsverzeichnisses, damit Updates und Neuinstallationen persönliche Daten nicht überschreiben.
+
+| Suchbereich | Beispielpfad | Wonach du suchen solltest |
+|---|---|---|
+| Steam userdata | `C:\Program Files (x86)\Steam\userdata\` | Numerische Konto- und App-Ordner |
+| Lokales AppData | `%LOCALAPPDATA%` | Ordner namens Divine Frequency, Abraxaes oder mit einer Projektbezeichnung |
+| AppData LocalLow | `%USERPROFILE%\AppData\LocalLow\` | Publisher- oder Spieleordner im Unity-Stil |
+| AppData Roaming | `%APPDATA%` | Profil-, Einstellungs- oder Fortschrittsdateien |
+| Steam-Installation | Steam-Bibliothek `steamapps\common\` | Konfigurationsdateien oder eindeutig benannte Speicherordner |
+| Dokumente | `%USERPROFILE%\Documents\` | Vom Spiel erstellte Profil- oder Backup-Verzeichnisse |
+
+Die Steam-Anwendungsseite verwendet die App-ID **2548880**. Daher kann es sich lohnen, ein numerisches Verzeichnis mit dieser ID zu überprüfen. Das Vorhandensein eines nummerierten Ordners beweist jedoch nicht, dass er den aktiven Speicherstand enthält. Bestätige dies, indem du die Zeitstempel vor und nach einer kontrollierten Änderung im Spiel vergleichst.
+
+<Steps>
+  <Step num="1" title="Spiel und Steam schließen">
+    Beende Divine Frequency normal und schließe anschließend Steam, wenn du eine saubere Dateisuche durchführen möchtest. Dadurch wird verhindert, dass eine Datei während der Überprüfung gesperrt oder aktualisiert wird.
+  </Step>
+  <Step num="2" title="Die wichtigsten möglichen Ordner öffnen">
+    Gib `%LOCALAPPDATA%`, `%APPDATA%` und `%USERPROFILE%\AppData\LocalLow\` in den Datei-Explorer ein. Überprüfe außerdem das Steam-Verzeichnis `userdata`.
+  </Step>
+  <Step num="3" title="Nach Name und Datum suchen">
+    Suche nach `Divine Frequency`, `Abraxaes` und `2548880`. Wenn die Namenssuche keine Ergebnisse liefert, sortiere mögliche Ordner nach Änderungsdatum und identifiziere Dateien, die während deiner letzten Sitzung geändert wurden.
+  </Step>
+  <Step num="4" title="Einen kontrollierten Test durchführen">
+    Notiere die aktuellen Zeitstempel, starte das Spiel, ändere eine harmlose Einstellung oder spiele ein kleines Stück weiter, beende das Spiel und überprüfe, welche Dateien geändert wurden.
+  </Step>
+  <Step num="5" title="Vor Änderungen kopieren">
+    Sobald ein wahrscheinliches Speicherverzeichnis identifiziert wurde, kopiere den gesamten Ordner an einen separaten Backup-Ort, bevor du etwas umbenennst, ersetzt oder löschst.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Schnellste Suchmethode">
+Verwende die Suche des Datei-Explorers in deinem Benutzerprofil und sortiere die Ergebnisse nach **Änderungsdatum**. Eine Datei, die unmittelbar nach einer Testsitzung aktualisiert wurde, ist ein zuverlässigerer Hinweis als der Ordnername allein.
+</Callout>
+
+</Section>
+
+<Section icon={ShieldCheck} title="So überprüfst du den aktiven Speicherordner">
+
+Einen Ordner zu finden, ist nur die halbe Arbeit. Early-Access-Spiele können neben den eigentlichen Fortschrittsdaten auch Einstellungen, Absturzberichte, Shader-Caches, Screenshots und Protokolle erstellen. Eine Überprüfung verhindert, dass du die falschen Dateien sicherst oder eine veraltete Konfiguration wiederherstellst.
+
+Führe einen kleinen, wiederholbaren Test durch. Vermeide es, nur zu diesem Zweck große Story-Fortschritte zu machen. Wenn das Spiel eine sichere Einstellungsänderung, eine neue Profilmarkierung oder eine andere risikoarme Aktion bietet, nutze diese Änderung, um die Zeitstempel zu vergleichen.
+
+| Überprüfungssignal | Zuverlässigkeit | Empfohlene Aktion |
+|---|---|---|
+| Zeitstempel einer Datei ändert sich nach einer Testsitzung | Hoch | Kopiere den Ordner und kennzeichne ihn als möglichen Speicherstand |
+| Ordnername passt zum Spiel, aber die Dateien ändern sich nie | Niedrig | Behandle ihn als Einstellungs- oder Cache-Ordner |
+| Dateien befinden sich in einem numerischen Steam-Verzeichnis | Mittel | Vergleiche Zeitstempel und Inhalte, bevor du dem Ordner vertraust |
+| Ordner enthält ausschließlich Protokolle | Niedrig | Verwende ihn nicht als Backup für Speicherstände |
+| Mehrere Dateien ändern sich gemeinsam nach dem Beenden | Hoch | Sichere das vollständige Verzeichnis |
+
+<CardGrid cols={3}>
+  <Card title="Speicherdaten">
+    Suche nach Profilen, Slots, Fortschrittsdateien oder kompakten Binärdateien, die sich nach dem Spielen ändern.
+  </Card>
+  <Card title="Einstellungsdaten">
+    Konfigurationsdateien können aktualisiert werden, wenn sich Auflösung, Steuerung oder Anzeigeoptionen ändern.
+  </Card>
+  <Card title="Diagnosedaten">
+    Protokolle und Absturzberichte können bei der Fehlerbehebung hilfreich sein, sind aber normalerweise keine Spielstände.
+  </Card>
+</CardGrid>
+
+Ein korrektes Backup sollte den gesamten möglichen Ordner bewahren und nicht nur eine Datei, die anhand einer Vermutung ausgewählt wurde. Manche Spiele teilen Profildaten, Weltfortschritt, Einstellungen und Metadaten auf mehrere Dateien auf. Das Kopieren nur einer Datei kann zu einer unvollständigen Wiederherstellung führen.
+
+<Callout type="warning" title="Nicht sofort überschreiben">
+Ersetze den vermuteten aktiven Ordner niemals durch ein älteres Backup, bevor du eine Kopie des aktuellen Zustands erstellt hast. Wenn das Backup falsch oder inkompatibel ist, kann der aktuelle Fortschritt nur schwer wiederhergestellt werden.
+</Callout>
+
+</Section>
+
+<Section icon={Save} title="Ablauf für Backup und Wiederherstellung">
+
+Eine zuverlässige Backup-Routine ist besonders bei Early-Access-Veröffentlichungen wichtig. Divine Frequency befindet sich noch in der Entwicklung, und zukünftige Updates können Inhalte, Fortschrittssysteme oder die Kompatibilität von Speicherständen ändern. Ein Backup mit Datum bietet dir einen Wiederherstellungspunkt, ohne dass du raten musst, welche Version zuletzt funktioniert hat.
+
+Verwende einen aussagekräftigen Ordnernamen, der nach Möglichkeit das Datum und die Spielversion enthält. Beispiel: `Divine-Frequency-Save-Backup-2026-10-28`. Bewahre die Kopie außerhalb des Spielverzeichnisses auf, etwa in einem separaten Backup-Ordner oder auf einem externen Laufwerk.
+
+| Backup-Phase | Aktion | Warum es wichtig ist |
+|---|---|---|
+| Vor einem Update | Den vollständigen möglichen Speicherordner kopieren | Bewahrt den Zustand vor dem Update |
+| Vor der Fehlerbehebung | Die aktuellen Dateien duplizieren | Ermöglicht sichere Tests |
+| Nach erfolgreichem Fortschritt | Ein Backup mit Datum erstellen | Bietet einen aktuellen Wiederherstellungspunkt |
+| Vor einer Neuinstallation | Speicherstände und Einstellungen getrennt sichern | Verhindert versehentlichen Datenverlust |
+| Nach der Wiederherstellung | Das Profil starten und überprüfen | Bestätigt die Kompatibilität |
+
+<Checklist
+  id="divine-frequency-save-backup"
+  title="Checkliste für Speicherstand-Backups:"
+  items={[
+    "Divine Frequency vor dem Kopieren der Dateien schließen",
+    "Den ursprünglichen Ordnerpfad notieren",
+    "Das vollständige mögliche Speicherverzeichnis kopieren",
+    "Dem Backup-Namen ein Datum aus dem Jahr 2026 hinzufügen",
+    "Steam Cloud überprüfen, bevor eine ältere Kopie wiederhergestellt wird"
+  ]}
+/>
+
+<Callout type="success" title="Regel für eine sichere Wiederherstellung">
+Benenne zuerst den aktuellen Ordner um und platziere anschließend das Backup an seinem ursprünglichen Speicherort. Dadurch bleibt eine Rückfallkopie erhalten, falls die wiederhergestellten Dateien nicht korrekt geladen werden.
+</Callout>
+
+Wenn Steam Cloud aktiviert ist, kann ein älteres lokales Backup mit einer neueren Cloud-Version in Konflikt geraten. Überprüfe vor dem Start nach einer Wiederherstellung die Steam-Eigenschaften des Spiels und den Cloud-Synchronisierungsstatus. Wenn Steam dich fragt, welche Version behalten werden soll, entscheide erst nach dem Vergleich der Zeitstempel und Backup-Namen.
+
+</Section>
+
+<Section icon={Wrench} title="Fehlende Speicherstände und Fehlerbehebung">
+
+Ein fehlendes Profil bedeutet nicht immer, dass die Dateien verschwunden sind. Das Spiel könnte einen anderen Windows-Benutzerordner auslesen, Steam könnte eine andere Version synchronisieren oder ein Update könnte ein neues Verzeichnis erstellt haben. Beginne mit den am wenigsten destruktiven Prüfungen.
+
+| Symptom | Mögliche Ursache | Erste Reaktion |
+|---|---|---|
+| Das Spiel startet mit einem leeren Profil | Falscher Ordner, Cloud-Konflikt oder neues Speicherformat | Zeitstempel und Steam-Cloud-Status überprüfen |
+| Speicherordner ist vorhanden, aber der Fortschritt fehlt | Backup ist veraltet oder unvollständig | Backup-Daten und Dateigruppen vergleichen |
+| Dateien verschwinden nach der Neuinstallation | Speicherstand wurde im Installationsordner gespeichert | AppData und Steam userdata durchsuchen |
+| Das Spiel meldet beschädigte Daten | Inkompatible Version oder beschädigte Datei | Den Ordner bewahren und eine Backup-Kopie testen |
+| Mehrere Ordner sehen identisch aus | Mehrere Profile oder frühere Installationen | Änderungsdaten und kontrollierte Tests verwenden |
+
+Probiere diese zerstörungsfreien Prüfungen:
+
+- Stelle sicher, dass du dasselbe Steam-Konto gestartet hast, mit dem der Fortschritt erstellt wurde.
+- Durchsuche alle Benutzerprofile auf dem PC, falls mehrere Windows-Konten vorhanden sind.
+- Vergleiche die Änderungszeit möglicher Dateien mit deiner letzten Spielsitzung.
+- Benenne einen verdächtigen Ordner vorübergehend um, anstatt ihn zu löschen.
+- Überprüfe die Spielinstallation über Steam, wenn Dateien zu fehlen scheinen.
+- Sieh dir aktuelle Ankündigungen im [Steam-Community-Hub](https://steamcommunity.com/app/2548880/) an, bevor du annimmst, dass der Speicherstand dauerhaft beschädigt ist.
+
+Lade keine Ersatzspeicherstände von zufälligen Websites herunter. Unbekannte Dateien können mit der aktuellen Early-Access-Version inkompatibel sein, gültigen Fortschritt überschreiben oder unerwünschte Software enthalten.
+
+<Callout type="warning" title="Early-Access-Warnung">
+Ein Speicherproblem nach einem Update kann ein Kompatibilitätsproblem und keine fehlende Datei sein. Bewahre jede vorhandene Kopie auf, bevor du eine neue Version testest oder das Spiel neu installierst.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Wo befinden sich die offiziellen Speicherorte von Divine Frequency?",
+    answer: "Die verfügbaren offiziellen Informationen nennen kein verifiziertes Windows-Speicherverzeichnis. Überprüfe Steam userdata sowie die AppData-Ordner Local, LocalLow und Roaming. Verifiziere mögliche Ordner anschließend, indem du die Zeitstempel nach einem kontrollierten Test vergleichst."
+  },
+  {
+    question: "Verwendet Divine Frequency Steam Cloud?",
+    answer: "Die verfügbaren Referenzmaterialien bestätigen das aktuelle Verhalten von Steam Cloud nicht. Überprüfe vor der Wiederherstellung eines lokalen Backups die Steam-Eigenschaften des Spiels und den Synchronisierungsstatus."
+  },
+  {
+    question: "Sollte ich einen verdächtigen Speicherordner löschen, wenn das Spiel ihn nicht laden kann?",
+    answer: "Nein. Benenne den Ordner um und bewahre zuerst eine Kopie auf. Ein späteres Update, eine Support-Antwort oder ein Kompatibilitätstest könnte die Originaldateien benötigen."
+  },
+  {
+    question: "Kann ein Update von Divine Frequency die Kompatibilität von Speicherständen ändern?",
+    answer: "Ja, die Entwicklung im Early Access kann Fortschrittssysteme oder Dateiformate ändern. Erstelle vor Updates ein Backup mit Datum und bewahre den aktuellen Ordner getrennt von älteren Wiederherstellungspunkten auf."
+  }
+]} />
+
+</Section>
+
+## Weiterführende Artikel
+
+- [Divine Frequency Speedrun: Route, Splits & erste Tipps](/de/guide/Divine-Frequency-speedrun)
+- [Divine Frequency Überlebenstipps: Schritt-für-Schritt-Leitfaden](/de/guide/Divine-Frequency-survival-tips)
+- [Divine Frequency OST: Leitfaden zum Soundtrack-Status 2026](/de/media/Divine-Frequency-ost)

@@ -1,3 +1,570 @@
 {
-  "en": {}
+  "de": {
+    "guide": [
+      {
+        "slug": "Divine-Frequency-battery",
+        "file": "Divine-Frequency-battery"
+      },
+      {
+        "slug": "Divine-Frequency-controls",
+        "file": "Divine-Frequency-controls"
+      },
+      {
+        "slug": "Divine-Frequency-increase-strength",
+        "file": "Divine-Frequency-increase-strength"
+      },
+      {
+        "slug": "Divine-Frequency-save-locations",
+        "file": "Divine-Frequency-save-locations"
+      },
+      {
+        "slug": "Divine-Frequency-speedrun",
+        "file": "Divine-Frequency-speedrun"
+      },
+      {
+        "slug": "Divine-Frequency-survival-tips",
+        "file": "Divine-Frequency-survival-tips"
+      },
+      {
+        "slug": "Divine-Frequency-system-requirements",
+        "file": "Divine-Frequency-system-requirements"
+      },
+      {
+        "slug": "Divine-Frequency-walkthrough",
+        "file": "Divine-Frequency-walkthrough"
+      }
+    ],
+    "media": [
+      {
+        "slug": "Divine-Frequency-demo",
+        "file": "Divine-Frequency-demo"
+      },
+      {
+        "slug": "Divine-Frequency-first-hour",
+        "file": "Divine-Frequency-first-hour"
+      },
+      {
+        "slug": "Divine-Frequency-official-trailer",
+        "file": "Divine-Frequency-official-trailer"
+      },
+      {
+        "slug": "Divine-Frequency-ost",
+        "file": "Divine-Frequency-ost"
+      },
+      {
+        "slug": "Divine-Frequency-playthrough",
+        "file": "Divine-Frequency-playthrough"
+      },
+      {
+        "slug": "Divine-Frequency-soundtrack",
+        "file": "Divine-Frequency-soundtrack"
+      },
+      {
+        "slug": "Divine-Frequency-trailer",
+        "file": "Divine-Frequency-trailer"
+      }
+    ],
+    "puzzles": [
+      {
+        "slug": "Divine-Frequency-endings",
+        "file": "Divine-Frequency-endings"
+      },
+      {
+        "slug": "Divine-Frequency-puzzle-solutions",
+        "file": "Divine-Frequency-puzzle-solutions"
+      },
+      {
+        "slug": "Divine-Frequency-secrets",
+        "file": "Divine-Frequency-secrets"
+      },
+      {
+        "slug": "Divine-Frequency-terminal-numbers",
+        "file": "Divine-Frequency-terminal-numbers"
+      },
+      {
+        "slug": "Divine-Frequency-terminal-puzzle",
+        "file": "Divine-Frequency-terminal-puzzle"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Divine-Frequency-demo-release",
+        "file": "Divine-Frequency-demo-release"
+      },
+      {
+        "slug": "Divine-Frequency-early-access",
+        "file": "Divine-Frequency-early-access"
+      },
+      {
+        "slug": "Divine-Frequency-full-release",
+        "file": "Divine-Frequency-full-release"
+      },
+      {
+        "slug": "Divine-Frequency-release-date",
+        "file": "Divine-Frequency-release-date"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "Divine-Frequency-review",
+        "file": "Divine-Frequency-review"
+      }
+    ],
+    "technical": [
+      {
+        "slug": "Divine-Frequency-doom-mod",
+        "file": "Divine-Frequency-doom-mod"
+      },
+      {
+        "slug": "Divine-Frequency-doom",
+        "file": "Divine-Frequency-doom"
+      },
+      {
+        "slug": "Divine-Frequency-engine",
+        "file": "Divine-Frequency-engine"
+      },
+      {
+        "slug": "Divine-Frequency-gzdoom",
+        "file": "Divine-Frequency-gzdoom"
+      },
+      {
+        "slug": "Divine-Frequency-mod",
+        "file": "Divine-Frequency-mod"
+      },
+      {
+        "slug": "Divine-Frequency-steam",
+        "file": "Divine-Frequency-steam"
+      },
+      {
+        "slug": "Divine-Frequency-wad",
+        "file": "Divine-Frequency-wad"
+      }
+    ]
+  },
+  "en": {
+    "guide": [
+      {
+        "slug": "Divine-Frequency-battery",
+        "file": "Divine-Frequency-battery"
+      },
+      {
+        "slug": "Divine-Frequency-controls",
+        "file": "Divine-Frequency-controls"
+      },
+      {
+        "slug": "Divine-Frequency-increase-strength",
+        "file": "Divine-Frequency-increase-strength"
+      },
+      {
+        "slug": "Divine-Frequency-save-locations",
+        "file": "Divine-Frequency-save-locations"
+      },
+      {
+        "slug": "Divine-Frequency-speedrun",
+        "file": "Divine-Frequency-speedrun"
+      },
+      {
+        "slug": "Divine-Frequency-survival-tips",
+        "file": "Divine-Frequency-survival-tips"
+      },
+      {
+        "slug": "Divine-Frequency-system-requirements",
+        "file": "Divine-Frequency-system-requirements"
+      },
+      {
+        "slug": "Divine-Frequency-walkthrough",
+        "file": "Divine-Frequency-walkthrough"
+      }
+    ],
+    "media": [
+      {
+        "slug": "Divine-Frequency-demo",
+        "file": "Divine-Frequency-demo"
+      },
+      {
+        "slug": "Divine-Frequency-first-hour",
+        "file": "Divine-Frequency-first-hour"
+      },
+      {
+        "slug": "Divine-Frequency-official-trailer",
+        "file": "Divine-Frequency-official-trailer"
+      },
+      {
+        "slug": "Divine-Frequency-ost",
+        "file": "Divine-Frequency-ost"
+      },
+      {
+        "slug": "Divine-Frequency-playthrough",
+        "file": "Divine-Frequency-playthrough"
+      },
+      {
+        "slug": "Divine-Frequency-soundtrack",
+        "file": "Divine-Frequency-soundtrack"
+      },
+      {
+        "slug": "Divine-Frequency-trailer",
+        "file": "Divine-Frequency-trailer"
+      }
+    ],
+    "puzzles": [
+      {
+        "slug": "Divine-Frequency-endings",
+        "file": "Divine-Frequency-endings"
+      },
+      {
+        "slug": "Divine-Frequency-puzzle-solutions",
+        "file": "Divine-Frequency-puzzle-solutions"
+      },
+      {
+        "slug": "Divine-Frequency-secrets",
+        "file": "Divine-Frequency-secrets"
+      },
+      {
+        "slug": "Divine-Frequency-terminal-numbers",
+        "file": "Divine-Frequency-terminal-numbers"
+      },
+      {
+        "slug": "Divine-Frequency-terminal-puzzle",
+        "file": "Divine-Frequency-terminal-puzzle"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Divine-Frequency-demo-release",
+        "file": "Divine-Frequency-demo-release"
+      },
+      {
+        "slug": "Divine-Frequency-early-access",
+        "file": "Divine-Frequency-early-access"
+      },
+      {
+        "slug": "Divine-Frequency-full-release",
+        "file": "Divine-Frequency-full-release"
+      },
+      {
+        "slug": "Divine-Frequency-release-date",
+        "file": "Divine-Frequency-release-date"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "Divine-Frequency-review",
+        "file": "Divine-Frequency-review"
+      }
+    ],
+    "technical": [
+      {
+        "slug": "Divine-Frequency-doom-mod",
+        "file": "Divine-Frequency-doom-mod"
+      },
+      {
+        "slug": "Divine-Frequency-doom",
+        "file": "Divine-Frequency-doom"
+      },
+      {
+        "slug": "Divine-Frequency-engine",
+        "file": "Divine-Frequency-engine"
+      },
+      {
+        "slug": "Divine-Frequency-gzdoom",
+        "file": "Divine-Frequency-gzdoom"
+      },
+      {
+        "slug": "Divine-Frequency-mod",
+        "file": "Divine-Frequency-mod"
+      },
+      {
+        "slug": "Divine-Frequency-steam",
+        "file": "Divine-Frequency-steam"
+      },
+      {
+        "slug": "Divine-Frequency-wad",
+        "file": "Divine-Frequency-wad"
+      }
+    ]
+  },
+  "es": {
+    "guide": [
+      {
+        "slug": "Divine-Frequency-battery",
+        "file": "Divine-Frequency-battery"
+      },
+      {
+        "slug": "Divine-Frequency-controls",
+        "file": "Divine-Frequency-controls"
+      },
+      {
+        "slug": "Divine-Frequency-increase-strength",
+        "file": "Divine-Frequency-increase-strength"
+      },
+      {
+        "slug": "Divine-Frequency-save-locations",
+        "file": "Divine-Frequency-save-locations"
+      },
+      {
+        "slug": "Divine-Frequency-speedrun",
+        "file": "Divine-Frequency-speedrun"
+      },
+      {
+        "slug": "Divine-Frequency-survival-tips",
+        "file": "Divine-Frequency-survival-tips"
+      },
+      {
+        "slug": "Divine-Frequency-system-requirements",
+        "file": "Divine-Frequency-system-requirements"
+      },
+      {
+        "slug": "Divine-Frequency-walkthrough",
+        "file": "Divine-Frequency-walkthrough"
+      }
+    ],
+    "media": [
+      {
+        "slug": "Divine-Frequency-demo",
+        "file": "Divine-Frequency-demo"
+      },
+      {
+        "slug": "Divine-Frequency-first-hour",
+        "file": "Divine-Frequency-first-hour"
+      },
+      {
+        "slug": "Divine-Frequency-official-trailer",
+        "file": "Divine-Frequency-official-trailer"
+      },
+      {
+        "slug": "Divine-Frequency-ost",
+        "file": "Divine-Frequency-ost"
+      },
+      {
+        "slug": "Divine-Frequency-playthrough",
+        "file": "Divine-Frequency-playthrough"
+      },
+      {
+        "slug": "Divine-Frequency-soundtrack",
+        "file": "Divine-Frequency-soundtrack"
+      },
+      {
+        "slug": "Divine-Frequency-trailer",
+        "file": "Divine-Frequency-trailer"
+      }
+    ],
+    "puzzles": [
+      {
+        "slug": "Divine-Frequency-endings",
+        "file": "Divine-Frequency-endings"
+      },
+      {
+        "slug": "Divine-Frequency-puzzle-solutions",
+        "file": "Divine-Frequency-puzzle-solutions"
+      },
+      {
+        "slug": "Divine-Frequency-secrets",
+        "file": "Divine-Frequency-secrets"
+      },
+      {
+        "slug": "Divine-Frequency-terminal-numbers",
+        "file": "Divine-Frequency-terminal-numbers"
+      },
+      {
+        "slug": "Divine-Frequency-terminal-puzzle",
+        "file": "Divine-Frequency-terminal-puzzle"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Divine-Frequency-demo-release",
+        "file": "Divine-Frequency-demo-release"
+      },
+      {
+        "slug": "Divine-Frequency-early-access",
+        "file": "Divine-Frequency-early-access"
+      },
+      {
+        "slug": "Divine-Frequency-full-release",
+        "file": "Divine-Frequency-full-release"
+      },
+      {
+        "slug": "Divine-Frequency-release-date",
+        "file": "Divine-Frequency-release-date"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "Divine-Frequency-review",
+        "file": "Divine-Frequency-review"
+      }
+    ],
+    "technical": [
+      {
+        "slug": "Divine-Frequency-doom-mod",
+        "file": "Divine-Frequency-doom-mod"
+      },
+      {
+        "slug": "Divine-Frequency-doom",
+        "file": "Divine-Frequency-doom"
+      },
+      {
+        "slug": "Divine-Frequency-engine",
+        "file": "Divine-Frequency-engine"
+      },
+      {
+        "slug": "Divine-Frequency-gzdoom",
+        "file": "Divine-Frequency-gzdoom"
+      },
+      {
+        "slug": "Divine-Frequency-mod",
+        "file": "Divine-Frequency-mod"
+      },
+      {
+        "slug": "Divine-Frequency-steam",
+        "file": "Divine-Frequency-steam"
+      },
+      {
+        "slug": "Divine-Frequency-wad",
+        "file": "Divine-Frequency-wad"
+      }
+    ]
+  },
+  "ja": {
+    "guide": [
+      {
+        "slug": "Divine-Frequency-battery",
+        "file": "Divine-Frequency-battery"
+      },
+      {
+        "slug": "Divine-Frequency-controls",
+        "file": "Divine-Frequency-controls"
+      },
+      {
+        "slug": "Divine-Frequency-increase-strength",
+        "file": "Divine-Frequency-increase-strength"
+      },
+      {
+        "slug": "Divine-Frequency-save-locations",
+        "file": "Divine-Frequency-save-locations"
+      },
+      {
+        "slug": "Divine-Frequency-speedrun",
+        "file": "Divine-Frequency-speedrun"
+      },
+      {
+        "slug": "Divine-Frequency-survival-tips",
+        "file": "Divine-Frequency-survival-tips"
+      },
+      {
+        "slug": "Divine-Frequency-system-requirements",
+        "file": "Divine-Frequency-system-requirements"
+      },
+      {
+        "slug": "Divine-Frequency-walkthrough",
+        "file": "Divine-Frequency-walkthrough"
+      }
+    ],
+    "media": [
+      {
+        "slug": "Divine-Frequency-demo",
+        "file": "Divine-Frequency-demo"
+      },
+      {
+        "slug": "Divine-Frequency-first-hour",
+        "file": "Divine-Frequency-first-hour"
+      },
+      {
+        "slug": "Divine-Frequency-official-trailer",
+        "file": "Divine-Frequency-official-trailer"
+      },
+      {
+        "slug": "Divine-Frequency-ost",
+        "file": "Divine-Frequency-ost"
+      },
+      {
+        "slug": "Divine-Frequency-playthrough",
+        "file": "Divine-Frequency-playthrough"
+      },
+      {
+        "slug": "Divine-Frequency-soundtrack",
+        "file": "Divine-Frequency-soundtrack"
+      },
+      {
+        "slug": "Divine-Frequency-trailer",
+        "file": "Divine-Frequency-trailer"
+      }
+    ],
+    "puzzles": [
+      {
+        "slug": "Divine-Frequency-endings",
+        "file": "Divine-Frequency-endings"
+      },
+      {
+        "slug": "Divine-Frequency-puzzle-solutions",
+        "file": "Divine-Frequency-puzzle-solutions"
+      },
+      {
+        "slug": "Divine-Frequency-secrets",
+        "file": "Divine-Frequency-secrets"
+      },
+      {
+        "slug": "Divine-Frequency-terminal-numbers",
+        "file": "Divine-Frequency-terminal-numbers"
+      },
+      {
+        "slug": "Divine-Frequency-terminal-puzzle",
+        "file": "Divine-Frequency-terminal-puzzle"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Divine-Frequency-demo-release",
+        "file": "Divine-Frequency-demo-release"
+      },
+      {
+        "slug": "Divine-Frequency-early-access",
+        "file": "Divine-Frequency-early-access"
+      },
+      {
+        "slug": "Divine-Frequency-full-release",
+        "file": "Divine-Frequency-full-release"
+      },
+      {
+        "slug": "Divine-Frequency-release-date",
+        "file": "Divine-Frequency-release-date"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "Divine-Frequency-review",
+        "file": "Divine-Frequency-review"
+      }
+    ],
+    "technical": [
+      {
+        "slug": "Divine-Frequency-doom-mod",
+        "file": "Divine-Frequency-doom-mod"
+      },
+      {
+        "slug": "Divine-Frequency-doom",
+        "file": "Divine-Frequency-doom"
+      },
+      {
+        "slug": "Divine-Frequency-engine",
+        "file": "Divine-Frequency-engine"
+      },
+      {
+        "slug": "Divine-Frequency-gzdoom",
+        "file": "Divine-Frequency-gzdoom"
+      },
+      {
+        "slug": "Divine-Frequency-mod",
+        "file": "Divine-Frequency-mod"
+      },
+      {
+        "slug": "Divine-Frequency-steam",
+        "file": "Divine-Frequency-steam"
+      },
+      {
+        "slug": "Divine-Frequency-wad",
+        "file": "Divine-Frequency-wad"
+      }
+    ]
+  }
 }

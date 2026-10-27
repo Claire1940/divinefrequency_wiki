@@ -1,0 +1,209 @@
+import { Monitor, Settings, ShieldCheck, Wrench, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Divine Frequency system requirements: Setup Guide",
+  description: "Check Divine Frequency system requirements, Early Access hardware information, graphics settings, troubleshooting steps, and launch preparation tips.",
+  category: "guide",
+  image: "https://placehold.co/800x400/171923/fff?text=System+Requirements+Guide",
+  date: "2026-10-28",
+  author: "Divine Frequency Wiki Team",
+  slug: "/divine-frequency-system-requirements"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Divine Frequency system requirements** are not fully listed in the available official reference.
+- **Platform support** currently points to Windows through the Steam Early Access release.
+- **Best first test** is the default graphics preset in a demanding exploration area.
+- **Performance fixes** include updating drivers, verifying files, and changing one setting at a time.
+- **Early Access caution** means performance and settings may change in future 2026 builds.
+</Callout>
+
+<Section icon={Monitor} title="Divine Frequency System Requirements Status">
+
+The current Early Access release of *Divine Frequency* is a Windows PC horror FPS developed and published by Abraxaes. The available official information confirms the Steam platform and Early Access status, but it does not provide a complete CPU, GPU, memory, or storage specification table that can be safely reproduced here.
+
+That means players should avoid relying on made-up minimum or recommended hardware numbers. Instead, use the verified platform information below and test the game methodically on the target PC.
+
+| Category | Confirmed information | Practical meaning |
+|---|---|---|
+| Platform | Windows PC | A Windows system is required for the supported Steam release. |
+| Storefront | Steam | Install and launch the game through the official Steam page. |
+| Release model | Early Access | Performance and technical behavior may change during development. |
+| Current content | 2 of 3 planned chapters | Test performance across combat, exploration, and heavier interior areas. |
+| Language | English listed on Steam | Interface and supported text should be checked in the current build. |
+| Hardware table | Not confirmed in the available reference | Do not treat unofficial hardware estimates as official requirements. |
+
+<Callout type="warning" title="Do Not Trust Unverified Specs">
+A system requirement list should only be published when the developer or official store page confirms it. If your PC is close to an unofficial estimate, test the current build instead of assuming the game will perform a certain way.
+</Callout>
+
+For the most reliable starting point, visit the [official Divine Frequency Steam page](https://store.steampowered.com/app/2548880/Divine_Frequency/) and check the live store information before installing. Steam listings can change as an Early Access project receives updates, so a later 2026 build may include more detailed technical guidance.
+
+</Section>
+
+<Section icon={Settings} title="Recommended Graphics Setup for Early Access">
+
+When a game does not publish a complete hardware matrix, the safest setup method is controlled adjustment. Start with the default configuration, measure how the game behaves during representative gameplay, and then change only one major option at a time.
+
+The goal is not to lower every setting immediately. *Divine Frequency* uses a surreal retro-horror presentation with dark interiors, visual effects, and exploration spaces where frame pacing can feel different from a simple menu scene.
+
+| Setting area | Recommended starting point | Adjustment priority |
+|---|---|---|
+| Display mode | Fullscreen or borderless | Change mode if flickering or uneven frame pacing appears. |
+| Resolution | Native monitor resolution | Reduce rendering resolution if the GPU appears overloaded. |
+| Quality preset | Default preset | Use as a baseline before individual changes. |
+| Shadows | Default, then lower if needed | Useful first reduction when dark scenes feel expensive to render. |
+| Effects | Default, then reduce selectively | Adjust if combat effects cause noticeable drops. |
+| Post-processing | Default, then lower selectively | Reduce when image effects affect clarity or performance. |
+| Frame rate | Stable target appropriate to the PC | A consistent cap may feel better than unstable peaks. |
+
+<CardGrid cols={3}>
+  <Card title="Start With a Baseline">
+    Launch with the default preset and native resolution. Test movement, combat, room transitions, and menus before changing anything.
+  </Card>
+  <Card title="Change One Variable">
+    Lower one demanding setting, then repeat the same type of gameplay. This makes it easier to identify the setting that matters.
+  </Card>
+  <Card title="Prioritize Stability">
+    A consistent frame rate and readable image are more useful than maximum visual quality during exploration and combat.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Performance Tip">
+Use a representative gameplay area rather than the title screen to judge performance. Interior spaces, combat encounters, and rapid movement provide a more useful test for the Early Access build.
+</Callout>
+
+A practical order for adjustments is:
+
+1. Confirm the display mode.
+2. Test native resolution.
+3. Lower shadows or effects individually.
+4. Reduce rendering resolution only if needed.
+5. Close unnecessary overlays and background applications.
+6. Restart the game after major graphics changes.
+
+</Section>
+
+<Section icon={Wrench} title="Step-by-Step Performance Troubleshooting">
+
+If *Divine Frequency* launches but performs poorly, treat the issue as a diagnosis process rather than changing every option at once. Early Access builds can contain temporary problems that are unrelated to the power of the PC, including shader behavior, driver conflicts, installation errors, or uneven frame pacing.
+
+<Steps>
+  <Step num="1" title="Update the Graphics Driver">
+    Install the current driver for your graphics hardware, then restart Windows before testing again. Driver updates can resolve rendering problems, crashes, or unstable performance that appear after a game update.
+  </Step>
+  <Step num="2" title="Close Unnecessary Overlays">
+    Temporarily disable recording tools, browser-heavy applications, third-party overlays, and other background software. This creates a cleaner test and helps identify whether another program is affecting frame pacing.
+  </Step>
+  <Step num="3" title="Verify the Steam Installation">
+    Use Steam's file verification option if the game crashes, fails to launch, or displays missing assets. Let the process finish before changing graphics settings again.
+  </Step>
+  <Step num="4" title="Adjust One Graphics Option">
+    Begin with shadows, effects, or post-processing. Test the same gameplay situation after each change so you can identify whether the problem is GPU load, resolution, or frame pacing.
+  </Step>
+  <Step num="5" title="Restart After Major Changes">
+    Close and relaunch the game after changing display mode, resolution scaling, or several quality settings. Some changes are easier to evaluate after a clean restart.
+  </Step>
+</Steps>
+
+| Symptom | First check | Next action |
+|---|---|---|
+| Game does not launch | Driver and file integrity | Update the driver and verify the Steam installation. |
+| Stuttering during movement | Background applications and frame pacing | Close overlays and test a stable frame-rate cap. |
+| Heavy drops during combat | Effects and shadows | Lower one of these settings and retest combat. |
+| Flickering image | Display mode and driver | Switch between fullscreen and borderless, then restart. |
+| Blurry image | Resolution scaling | Return to native resolution and adjust scaling carefully. |
+| Input not detected | Active input device | Reconnect the device before launch and check settings. |
+
+<Callout type="info" title="Early Access Troubleshooting">
+Record the build version, the area where the issue appears, and the setting changes you tested. Clear notes make Steam discussions and official support channels more useful when reporting a problem.
+</Callout>
+
+Do not assume that every locked route, visual glitch, or progression issue is caused by your hardware. First determine whether the problem is reproducible after restarting, verifying files, and testing the current Steam build.
+
+</Section>
+
+<Section icon={ShieldCheck} title="PC Preparation Checklist Before Launch">
+
+A short preparation routine can prevent avoidable problems during a first session. This is particularly useful for an Early Access game where updates may alter performance, save behavior, or the way certain settings are applied.
+
+<Checklist
+  id="divine-frequency-pc-preparation"
+  title="Launch Preparation:"
+  items={[
+    "Confirm that Windows and graphics drivers are current",
+    "Install Divine Frequency through the official Steam page",
+    "Close unnecessary overlays and background applications",
+    "Test the default graphics preset in a real gameplay area",
+    "Keep notes about crashes, stuttering, or visual problems",
+    "Check Steam announcements after major 2026 updates"
+  ]}
+/>
+
+| Preparation task | Why it matters | Suggested timing |
+|---|---|---|
+| Update drivers | Reduces avoidable rendering and launch conflicts | Before the first session |
+| Verify files | Repairs missing or damaged installation data | After crashes or failed updates |
+| Test settings | Establishes a known performance baseline | During the first launch |
+| Check free storage | Prevents installation or update interruptions | Before downloading |
+| Review announcements | Identifies known issues and changes | After major patches |
+| Record problems | Makes troubleshooting more precise | Whenever an issue repeats |
+
+<CardGrid cols={3}>
+  <Card title="Before Installation">
+    Confirm Windows compatibility, available storage, and a stable Steam connection. Use the official store listing rather than an unverified download source.
+  </Card>
+  <Card title="During First Launch">
+    Test the default preset, check display mode, confirm input behavior, and play through a representative section before making extensive changes.
+  </Card>
+  <Card title="After an Update">
+    Allow Steam to finish updating, review official announcements, and retest performance because Early Access builds can change technical behavior.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Stable Setup Goal">
+A good configuration is one that keeps the image readable, controls responsive, and frame pacing consistent during normal exploration and combat. Maximum settings are optional; reliable play is the priority.
+</Callout>
+
+The official [Steam Community hub](https://steamcommunity.com/app/2548880/) can also help you compare reports from other players. Use community discussions for troubleshooting patterns, but confirm any claimed requirement or fix against the current official build.
+
+</Section>
+
+<Section icon={HelpCircle} title="System Requirements FAQ">
+
+<FAQ items={[
+  {
+    question: "What are the official Divine Frequency system requirements?",
+    answer: "The available official reference confirms a Windows Steam release but does not provide a complete CPU, GPU, memory, or storage table. Use the current Steam page and test the Early Access build instead of relying on unofficial numbers."
+  },
+  {
+    question: "Can I play Divine Frequency on a Windows PC?",
+    answer: "Yes, the current Early Access release is listed for Windows through Steam. Hardware performance still depends on the individual system, so begin with the default preset and adjust settings methodically."
+  },
+  {
+    question: "Which graphics settings should I lower first?",
+    answer: "Start by testing shadows, effects, and post-processing one at a time. If performance remains unstable, reduce rendering resolution or use a stable frame-rate cap."
+  },
+  {
+    question: "Why can performance change between 2026 updates?",
+    answer: "Early Access development can change content, visuals, optimization, and settings behavior. Retest the game after major updates and check official announcements for known issues."
+  }
+]} />
+
+<Callout type="tip" title="Final Recommendation">
+Keep a record of the settings that provide stable performance on your PC. That makes future troubleshooting faster when the Early Access build receives a new 2026 update.
+</Callout>
+
+</Section>
+
+## Related Reading
+
+- [Divine Frequency walkthrough: Early Access Step-by-Step](/guide/Divine-Frequency-walkthrough)
+- [Divine Frequency battery: Early Access Guide & Tips](/guide/Divine-Frequency-battery)
+- [Divine Frequency trailer: Official Watch Guide & Tips](/media/Divine-Frequency-trailer)

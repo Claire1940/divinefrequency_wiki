@@ -1,0 +1,204 @@
+import { Map, Swords, Shield, Target, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Divine Frequency doom: Guía de combate paso a paso",
+  description: "Aprende un enfoque de combate al estilo doom para Divine Frequency, incluyendo movimiento, gestión de recursos, exploración, configuraciones y consejos de…",
+  category: "technical",
+  image: "https://placehold.co/800x400/17151c/fff?text=Divine+Frequency+Doom+Guide",
+  date: "2026-10-28",
+  author: "Equipo de Wiki de Divine Frequency",
+  slug: "divine-frequency-doom"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Divine Frequency doom** recompensa el movimiento agresivo, el posicionamiento cuidadoso y el gasto controlado de recursos.
+- El **ritmo de combate** mejora cuando combinas armas de fuego, opciones psiónicas, cobertura y rutas de retirada.
+- La **prioridad de exploración** consiste en marcar los caminos bloqueados, revisar las habitaciones laterales y evitar desperdiciar suministros en riesgos opcionales.
+- La **planificación de la configuración** funciona mejor cuando un método de daño fiable recibe prioridad antes de invertir en mejoras híbridas.
+- La **precaución durante el Acceso anticipado** es importante porque el contenido y los sistemas disponibles pueden cambiar durante las actualizaciones de 2026.
+</Callout>
+
+<Section icon={Swords} title="Fundamentos del combate de Divine Frequency doom">
+
+En esta guía de Divine Frequency doom, «doom» describe un enfoque agresivo de FPS retro, no un modo de juego independiente ni un crossover confirmado. Divine Frequency combina combate de FPS de terror, progresión RPG, exploración surrealista y decisiones relacionadas con los recursos. El hábito inicial más importante es mantenerte activo sin convertir cada encuentro en una carga imprudente.
+
+Usa el movimiento para controlar el combate. Entra en las habitaciones desconocidas teniendo en mente una salida, identifica la cobertura cercana y evita quedarte en un espacio reducido mientras varias amenazas pueden acercarse. Cuando un enemigo acorte la distancia, reposiciónate primero y ataca durante una ventana de recuperación en lugar de intercambiar daño sin un plan.
+
+| Prioridad de combate | Hábito recomendado | Error común |
+|---|---|---|
+| Posicionamiento | Identifica la cobertura y las rutas de retirada antes de enfrentarte | Entrar en habitaciones sin una vía de escape |
+| Distancia | Mantén a los enemigos a un alcance que tu arma actual controle bien | Permitir que las amenazas rápidas te acorralen |
+| Uso de recursos | Guarda las herramientas de gran impacto para grupos o objetivos peligrosos | Gastar todas las habilidades en enemigos menores |
+| Exploración | Revisa los caminos laterales y recuerda las puertas bloqueadas | Repetir la misma zona sin puntos de referencia |
+| Recuperación | Ataca después de golpes fallidos o animaciones de recuperación | Disparar continuamente sin observar los patrones |
+
+<CardGrid cols={3}>
+  <Card title="Mantente en movimiento">
+    Usa movimientos cortos de reposicionamiento para controlar la distancia. El movimiento debe crear mejores oportunidades de ataque, no simplemente retrasar el encuentro.
+  </Card>
+  <Card title="Lee la habitación">
+    Revisa las salidas, esquinas, puertas y peligros cercanos antes de interactuar con objetos sospechosos o entrar en zonas opcionales.
+  </Card>
+  <Card title="Conserva tus opciones">
+    Mantén disponibles la munición, la curación y los recursos psiónicos para la siguiente amenaza inevitable.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Ritmo de combate">
+Trata cada encuentro como un ciclo: observa, crea espacio, ataca durante una apertura y vuelve a reposicionarte antes de que el enemigo se recupere. Es más seguro que mantener una posición e intercambiar daño.
+
+</Callout>
+</Section>
+
+<Section icon={Target} title="Configuración de Divine Frequency Doom paso a paso">
+
+Una configuración fiable no requiere especializarse de inmediato. Empieza con un método de daño eficaz y después añade una herramienta secundaria que cubra su principal debilidad. Las armas de fuego proporcionan una presión constante a distancia, mientras que las opciones psiónicas pueden aportar utilidad, control, acceso inusual o potencial de daño explosivo.
+
+Sigue esta secuencia durante las primeras zonas y ajústala a medida que los nuevos encuentros revelen las carencias de tu configuración actual.
+
+<Steps>
+  <Step num="1" title="Prueba ambos sistemas de combate">
+    Prueba pronto las armas de fuego y las opciones psiónicas para comprender su alcance, ritmo y necesidades de recursos. No inviertas todos los materiales de mejora antes de identificar qué herramienta te resulta más fiable en los encuentros normales.
+  </Step>
+  <Step num="2" title="Elige un papel de daño principal">
+    Elige armas de fuego, psiónica o una configuración híbrida equilibrada como enfoque inicial. Un papel principal claro hace que las primeras mejoras sean más significativas y evita que varias opciones desarrolladas parcialmente compitan por los recursos.
+  </Step>
+  <Step num="3" title="Añade una herramienta de emergencia complementaria">
+    Elige una opción secundaria que resuelva el problema principal creado por tu elección inicial. Un arma de fuego puede respaldar una configuración de habilidades limitada por recursos, mientras que una herramienta psiónica puede aportar utilidad cuando el daño convencional a distancia deja de ser seguro.
+  </Step>
+  <Step num="4" title="Mejora la fiabilidad antes de especializarte">
+    Da prioridad a las mejoras que hagan más consistentes los encuentros normales. La precisión, el manejo, la potencia de los efectos, la recuperación y la eficiencia de recursos suelen ser más útiles al principio que las bonificaciones específicas para situaciones poco frecuentes.
+  </Step>
+  <Step num="5" title="Reevalúa después de las nuevas zonas">
+    Cambia tu configuración cuando una nueva sección introduzca distancias, presión enemiga o exigencias de exploración diferentes. La progresión del Acceso anticipado también puede cambiar a medida que el juego reciba actualizaciones durante 2026.
+  </Step>
+</Steps>
+
+| Estilo de configuración | Ventaja principal | Riesgo principal | Mejor plan inicial |
+|---|---|---|---|
+| Enfocada en armas de fuego | Daño fiable a distancia y combate fácil de interpretar | Presión sobre la munición y menor flexibilidad a corta distancia | Mejora la consistencia y después añade apoyo de utilidad |
+| Enfocada en psiónica | Daño flexible, control y utilidad especial | Disponibilidad de habilidades y gestión del tiempo de los recursos | Guarda los efectos de gran impacto para los encuentros peligrosos |
+| Híbrida | Cobertura amplia frente a diferentes distancias y amenazas | Especialización más lenta y mayores exigencias de planificación | Elige primero una fuente de daño principal |
+| Utilidad defensiva | Retiradas más seguras y mayor control de los encuentros | Menor daño inmediato | Combínala con un arma o habilidad fiable |
+
+<Callout type="success" title="Regla de configuración">
+Una configuración centrada suele ser más fácil de usar que varias inversiones equivalentes. Haz que una opción de combate sea fiable antes de ampliar tu especialización.
+
+</Callout>
+</Section>
+
+<Section icon={Map} title="Exploración, rutas y descubrimientos opcionales">
+
+Los entornos surrealistas de Divine Frequency recompensan la exploración metódica. La versión actual del Acceso anticipado contiene dos de los tres capítulos planeados, con una duración estimada de entre cuatro y seis horas según la ficha oficial de Steam. Trata las primeras zonas como rutas conectadas en lugar de una serie de habitaciones de combate aisladas.
+
+Usa puntos de referencia para recordar por dónde has pasado. Las habitaciones laterales, los puntos de acceso cerrados, los encuentros opcionales y los detalles ambientales inusuales pueden adquirir importancia más adelante. Si un camino está bloqueado, memoriza su ubicación o anótala y continúa con el objetivo activo en lugar de gastar todos tus recursos buscando una solución inmediata.
+
+| Tipo de exploración | Qué revisar | Cuándo regresar |
+|---|---|---|
+| Ruta principal | Marcadores de objetivo, salidas e interacciones necesarias | Después de completar el contenido opcional cercano |
+| Habitación lateral | Suministros, pistas ambientales y caminos alternativos | Cuando la zona sea más segura o cambie el acceso |
+| Ruta cerrada | Ubicación de la puerta, pista visual e interacción cercana | Después de una progresión importante o de obtener acceso a una nueva habilidad |
+| Encuentro opcional | Ruta de retirada, curación y cobertura disponible | Cuando tu equipamiento pueda asumir el riesgo |
+| Zona de acertijo | Símbolos repetidos, objetos inusuales y cambios de iluminación | Después de examinar las habitaciones circundantes |
+
+<Checklist
+  id="divine-frequency-exploration"
+  title="Lista de comprobación de exploración:"
+  items={[
+    "Revisa las habitaciones laterales cercanas antes de avanzar por una zona con un objetivo importante",
+    "Recuerda las puertas bloqueadas y los caminos inaccesibles para regresar más adelante",
+    "Identifica una ruta de retirada segura antes de activar objetos sospechosos",
+    "Distingue los objetivos esenciales de la historia de los descubrimientos opcionales",
+    "Vuelve a visitar las zonas completadas después de cambios importantes en la progresión"
+  ]}
+/>
+
+<Callout type="warning" title="Evita forzar la progresión">
+Un camino bloqueado no es necesariamente un error ni una ruta que deba resolverse de inmediato. Marca la ubicación, conserva tus suministros y continúa con el objetivo activo más claro.
+
+</Callout>
+</Section>
+
+<Section icon={Shield} title="Gestión de recursos y preparación frente a enemigos">
+
+El mejor enfoque al estilo doom es agresivo en cuanto al movimiento, pero conservador con los recursos. La munición, la curación, los materiales de mejora y los recursos psiónicos forman un único presupuesto de supervivencia compartido. Gastar un recurso debería resolver un problema claro: un objetivo peligroso, una ruta bloqueada, un encuentro grupal o una retirada fallida.
+
+Los hostiles de los primeros actos a menudo pueden gestionarse creando distancia y usando esquinas o entradas. Los perseguidores rápidos requieren más precaución porque se vuelven peligrosos cuando te empujan contra el entorno. Los encuentros que requieren una preparación especial solo deben abordarse después de revisar la arena, las salidas cercanas y los suministros disponibles.
+
+| Patrón de amenaza | Peligro principal | Respuesta eficiente | Preparación |
+|---|---|---|---|
+| Presión a corta distancia | Ataques repetidos en espacios reducidos | Crea distancia y ataca después de la recuperación | Mantén abierta una ruta de retirada |
+| Persecución rápida | Reducción rápida de la distancia y presión en las esquinas | Rompe la línea de visión y usa obstáculos | Despeja primero las rutas cercanas |
+| Encuentro especial | Espacio limitado, peligros u oleadas repetidas | Inspecciona la arena y reserva las herramientas potentes | Lleva curación y tu mejor equipamiento |
+| Presión mixta | Distancias cambiantes y varias prioridades | Usa un equipamiento equilibrado y reposiciónate a menudo | Evita entrar con las reservas agotadas |
+
+<CardGrid cols={3}>
+  <Card title="Armas de fuego">
+    Usa las armas de fuego para infligir daño fiable a distancia, eliminar objetivos de forma controlada y mantener la presión cuando haya munición disponible.
+  </Card>
+  <Card title="Opciones psiónicas">
+    Guarda las habilidades flexibles para el control de grupos, situaciones inusuales, daño explosivo o momentos en los que los ataques convencionales no sean seguros.
+  </Card>
+  <Card title="Equipamiento híbrido">
+    Combina un arma de fuego consistente con una opción psiónica útil y después elige modificaciones que respalden el mismo plan de combate.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Comprobación de recursos">
+Antes de entrar en una habitación desconocida, hazte tres preguntas: ¿Cuál es mi ruta de escape? ¿Qué herramienta puede responder a la amenaza probable? ¿Qué recurso debe quedar disponible después?
+
+</Callout>
+</Section>
+
+<Section icon={Trophy} title="Progresión del Acceso anticipado y lista de revisión">
+
+Divine Frequency es un FPS de terror para Windows en Acceso anticipado, desarrollado y publicado por Abraxaes. La página de Steam indica que el lanzamiento del Acceso anticipado tuvo lugar el 26 de octubre de 2026, aunque algunos servicios basados en UTC pueden mostrar el 27 de octubre de 2026. La página oficial de la tienda indica actualmente que el idioma compatible es el inglés.
+
+Dado que el juego aún está en desarrollo, los jugadores deben distinguir entre el contenido actual, las funciones planeadas y las expectativas de la comunidad. La dirección prevista para el juego completo incluye contenido adicional de campaña, enemigos, jefes, opciones de configuración del jugador, música, elementos narrativos y el Modo Hardcore, pero las funciones planeadas no deben considerarse disponibles hasta que lleguen a una versión oficial.
+
+| Estado | Qué significa | Acción del jugador |
+|---|---|---|
+| Disponible | Se puede jugar en la versión actual del Acceso anticipado | Usa la versión más reciente de Steam |
+| Actualización publicada | Añadió una corrección, un cambio de equilibrio o una mejora de calidad | Revisa las notas del parche antes de reiniciar |
+| Planeado | Se ha mencionado como desarrollo futuro | No dependas de ello para la progresión actual |
+| Informe de la comunidad | Observación de un jugador o debate sobre problemas | Verifícalo mediante los anuncios oficiales |
+
+Usa la [página oficial de Divine Frequency en Steam](https://store.steampowered.com/app/2548880/Divine_Frequency/) para consultar la descripción actual del producto, el estado de lanzamiento y la información sobre las plataformas compatibles. El [centro de la comunidad de Steam](https://steamcommunity.com/app/2548880/) es útil para anuncios, debates y problemas informados por los jugadores. Los enlaces oficiales de redes sociales del proyecto incluyen [Discord](https://discord.gg/jnyFVSTgf3), [Bluesky](https://bsky.app/profile/dfgame.bsky.social) y [X](https://x.com/DFGame_).
+
+<Callout type="info" title="Atención a las actualizaciones">
+Los sistemas del Acceso anticipado pueden cambiar después de los parches de equilibrio o las actualizaciones de contenido. Revisa de nuevo los anuncios oficiales cuando vuelvas a una partida guardada después de una actualización importante de 2026.
+
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Qué significa Divine Frequency doom?",
+    answer: "Describe un enfoque agresivo de FPS retro para Divine Frequency: mantente en movimiento, controla la distancia, ataca durante las aperturas y gestiona los recursos en lugar de precipitarte sin un plan."
+  },
+  {
+    question: "¿Qué configuración es mejor para una primera partida?",
+    answer: "Una configuración centrada en armas de fuego con una opción psiónica complementaria es un punto de partida práctico. Una configuración híbrida también funciona si priorizas una fuente de daño principal antes de repartir las mejoras."
+  },
+  {
+    question: "¿Cómo debería gestionar los caminos bloqueados?",
+    answer: "Anota la ubicación, continúa con el objetivo activo y regresa después de una progresión importante. Una ruta bloqueada puede ser opcional, requerir acceso posterior o adquirir importancia después de una actualización."
+  },
+  {
+    question: "¿Cuánto contenido está disponible actualmente?",
+    answer: "Se describe que la versión de Acceso anticipado contiene dos de los tres capítulos planeados, con una duración actual estimada de entre cuatro y seis horas. El contenido disponible puede ampliarse mediante futuras actualizaciones."
+  }
+]} />
+
+</Section>
+
+## Lecturas relacionadas
+
+- [Motor de Divine Frequency: Guía de configuración y consejos de rendimiento](/es/technical/Divine-Frequency-engine)
+- [Divine Frequency gzdoom: Guía de Compatibilidad y Configuración](/es/technical/Divine-Frequency-gzdoom)
+- [Controles de Divine Frequency: configuración de teclado, ratón y mando](/es/guide/Divine-Frequency-controls)

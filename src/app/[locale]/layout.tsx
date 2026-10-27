@@ -65,7 +65,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: t("ogDescription"),
       images: [
         {
-          url: `${siteUrl}/images/hero.webp`,
+          url: `${siteUrl}/og-image.jpg`,
           width: 1920,
           height: 1080,
           alt: "Divine Frequency - Surreal Retro Horror FPS",
@@ -76,7 +76,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: "summary_large_image",
       title: t("twitterTitle"),
       description: t("twitterDescription"),
-      images: [`${siteUrl}/images/hero.webp`],
+      images: [`${siteUrl}/og-image.jpg`],
       creator: "@DFGame_",
     },
     icons: {

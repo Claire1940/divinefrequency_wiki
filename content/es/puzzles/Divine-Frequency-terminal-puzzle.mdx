@@ -1,0 +1,236 @@
+import { Terminal, Search, KeyRound, ShieldAlert, CheckCircle, Map } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Puzzle de terminal de Divine Frequency: Guía paso a paso",
+  description: "Resuelve el puzzle de terminal de Divine Frequency con un método consciente de spoilers para leer símbolos, encontrar la secuencia, evitar reinicios y…",
+  category: "puzzles",
+  image: "https://placehold.co/800x400/161a1d/fff?text=Terminal+Puzzle+Guide",
+  date: "2026-10-28",
+  author: "Equipo de Wiki de Divine Frequency",
+  slug: "divine-frequency-terminal-puzzle"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Puzzle de terminal de Divine Frequency**: Lee el entorno circundante antes de interactuar con la consola.
+- **Método correcto**: Compara símbolos repetidos, marcas únicas, la ubicación de objetos y cambios de iluminación cercanos.
+- **Mejor enfoque**: Registra el orden de las pistas, prueba una entrada a la vez y evita entradas aleatorias en la terminal.
+- **Prevención de fallos**: Mantén abierta una ruta de escape y separa las pistas del puzzle de los desencadenantes de encuentros opcionales.
+- **Control de spoilers**: Usa las secciones de observación y pistas antes de revelar el orden completo de interacción.
+</Callout>
+
+<Section icon={Terminal} title="Descripción General del Puzzle de Terminal de Divine Frequency">
+
+El **puzzle de terminal de Divine Frequency** utiliza información ambiental en lugar de un código simple mostrado directamente en la consola. La ruta de solución prevista es inspeccionar las salas cercanas, identificar el lenguaje visual repetido y determinar qué detalle actúa como marcador de secuencia. Trata la terminal como el paso final de un puzzle de observación más amplio, no como un teclado aislado.
+
+Este enfoque es especialmente útil en la versión actual de Early Access, donde las rutas bloqueadas, los descubrimientos opcionales y las interacciones ambientales pueden superponerse. Una terminal puede parecer importante antes de que todas sus pistas estén disponibles, así que no asumas que una interfaz inactiva o confusa indica un error.
+
+| Elemento del Puzzle | Qué Comprobar | Por Qué Importa |
+|---|---|---|
+| Pantalla de la terminal | Símbolos, indicaciones, orden de entrada | Confirma el tipo de interacción requerida |
+| Paredes cercanas | Marcas repetidas o patrones inusuales | A menudo establece el lenguaje del puzzle |
+| Ubicación de objetos | Objeto único, estatua, panel o luz | Puede identificar el punto de partida |
+| Salas adyacentes | Símbolos coincidentes o detalles cambiados | Ayuda a confirmar la secuencia prevista |
+| Rutas de salida | Puertas, pasillos o caminos bloqueados | Evita retrocedos innecesarios |
+
+<CardGrid cols={3}>
+  <Card title="Observa Primero">
+    Explora toda el área circundante antes de ingresar un símbolo. La terminal suele volverse más fácil una vez que las pistas visuales se conectan.
+  </Card>
+  <Card title="Registra el Patrón">
+    Anota los símbolos repetidos y sus ubicaciones. Una breve nota evita búsquedas repetidas después de un intento fallido.
+  </Card>
+  <Card title="Prueba con Cuidado">
+    Usa entradas deliberadas en lugar de recorrer combinaciones aleatorias. Los intentos aleatorios pueden desperdiciar tiempo o desencadenar peligro.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo del Editor">
+Si la terminal parece inactiva, inspecciona las salas cercanas y regresa después de completar la interacción ambiental más próxima. Algunos estados del puzzle están ligados al progreso y no al acceso inmediato.
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="Cómo Leer las Pistas de la Terminal">
+
+La forma más fiable de resolver el puzzle es clasificar cada pista antes de decidir qué significa. Divine Frequency favorece un diseño visual surrealista, así que no todo objeto extraño forma parte de la solución. Da prioridad a los detalles que se repiten, que están enmarcados deliberadamente o que cambian tras una interacción.
+
+Comienza con la terminal misma, luego expande tu búsqueda en un círculo controlado. Revisa la sala que contiene la consola, las salas laterales más cercanas y cualquier ruta que parezca llevar hacia el mismo lenguaje de símbolos. Evita buscar todo el nivel hasta agotar las pistas locales.
+
+| Tipo de Pista | Patrón de Reconocimiento | Interpretación Recomendada |
+|---|---|---|
+| Símbolo repetido | Aparece en múltiples ubicaciones | Probablemente parte del vocabulario del puzzle |
+| Símbolo único | Aparece una vez cerca de un objeto clave | Posible punto de partida o marcador de confirmación |
+| Iluminación cambiada | Cambios de color o intensidad de la luz | Puede indicar una interacción activa |
+| Alineación de objetos | Los objetos forman una línea u orden visible | Puede sugerir la dirección de entrada |
+| Cambio de sonido | Cambios en zumbido, tono o interferencia | Puede confirmar un estado correcto o desencadenar algo |
+
+Usa el siguiente orden de prioridad cuando varias pistas parezcan posibles:
+
+1. **Marcas visuales repetidas** cerca de la terminal.
+2. **Un detalle único** que rompe el patrón local.
+3. **La ubicación de objetos** que crea una dirección legible.
+4. **Cambios de iluminación o sonido** después de una interacción.
+5. **Detalles decorativos** que no se repiten ni se conectan con el área.
+
+<Steps>
+  <Step num="1" title="Inspecciona la Consola">
+    Lee la indicación de la terminal, examina cada símbolo visible y anota si la interfaz pide una secuencia, selección, alineación o confirmación. No ingreses nada todavía.
+  </Step>
+  <Step num="2" title="Explora la Sala Inmediata">
+    Revisa paredes, suelos, pantallas, puertas, contenedores y objetos inusuales. Busca marcas repetidas o una pista distintiva que aparezca cerca de la terminal.
+  </Step>
+  <Step num="3" title="Compara Áreas Adyacentes">
+    Recorre las salas accesibles cercanas y compara símbolos, iluminación, ubicación de objetos y sonido. Regresa a la terminal si una pista cambia después de una interacción.
+  </Step>
+  <Step num="4" title="Construye la Secuencia">
+    Ordena los símbolos según su orden ambiental. Usa la dirección, la repetición y el marcador único para decidir qué símbolo va primero.
+  </Step>
+  <Step num="5" title="Ingresa y Confirma">
+    Introduce la secuencia lentamente, verifica cada selección y observa si una puerta, luz, sonido o actualización de objetivo confirma el progreso.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Evita Entradas Aleatorias">
+No fuerces la terminal por fuerza bruta mientras haya enemigos cerca o recursos escasos. Un intento fallido puede dejarte frente al mismo peligro ambiental sin aclarar la pista.
+</Callout>
+
+</Section>
+
+<Section icon={KeyRound} title="Método de Secuencia de la Terminal">
+
+Una vez reunidas las pistas, conviértelas en un orden de interacción. La pregunta clave no es simplemente "¿Qué símbolo parece importante?" En cambio, pregúntate cómo presenta el juego los símbolos espacialmente. La secuencia prevista puede seguir un camino, una jerarquía visual o la relación entre marcas repetidas y un marcador único.
+
+Una regla práctica es tratar los símbolos repetidos como confirmación y el símbolo único como dirección. Si un símbolo aparece en varios lugares, puede indicar qué familia de entradas es válida. Si un símbolo aparece solo una vez junto a un objeto llamativo, puede identificar dónde comienza o termina la secuencia.
+
+| Pregunta de Secuencia | Prueba Correcta | Error Común |
+|---|---|---|
+| ¿Qué símbolo va primero? | Encuentra el marcador único o punto de partida | Elegir el símbolo más grande |
+| ¿Qué orden sigue? | Rastrea la ubicación física o dirección visual | Ordenar solo por apariencia |
+| ¿La pista está activa? | Busca cambios de iluminación, sonido o estado | Asumir que toda decoración importa |
+| ¿Se acepta la entrada? | Busca retroalimentación de objetivo o ambiental | Repetir la misma entrada a ciegas |
+| ¿El puzzle está completo? | Comprueba la ruta recién abierta o el estado de la terminal | Irse antes de confirmar el progreso |
+
+### Pista de Observación
+
+Busca un detalle que aparezca deliberadamente aislado del patrón circundante. Puede ser un símbolo diferente, una única luz, un panel inusual o un objeto posicionado al borde de una disposición por lo demás repetida.
+
+### Segunda Pista
+
+Compara el detalle aislado con la ruta entre las ubicaciones de las pistas. El orden puede leerse desde la entrada hacia la terminal, desde la terminal hacia afuera, o a lo largo de una disposición visible de izquierda a derecha o de arriba abajo.
+
+### Método Completo
+
+Usa el marcador ambiental único para establecer el punto de partida, luego sigue los símbolos repetidos en la dirección que sugiera su ubicación. Ingresa la secuencia solo después de que cada símbolo tenga una razón clara para ocupar su posición. Si la terminal acepta la entrada, confirma la puerta, panel, luz o actualización de objetivo resultante antes de alejarte.
+
+<CardGrid cols={4}>
+  <Card title="Orden de Símbolos">
+    Favorece el orden espacial sobre el tamaño visual. La marca más grande no es automáticamente la primera entrada.
+  </Card>
+  <Card title="Dirección">
+    Sigue pasillos, marcas en las paredes, alineación de objetos o un camino claro que lleve hacia la terminal.
+  </Card>
+  <Card title="Retroalimentación">
+    Observa cambios de audio, iluminación o interfaz después de cada interacción exitosa.
+  </Card>
+  <Card title="Plan de Reinicio">
+    Si el estado no cambia, detente y revisa de nuevo la relación entre pistas en lugar de repetir la misma secuencia.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Nota de Early Access">
+La presentación del puzzle puede cambiar a medida que el juego recibe actualizaciones. Ten presente la lógica ambiental, pero verifica el comportamiento actual de la terminal si una versión posterior muestra símbolos o indicaciones de interacción diferentes.
+</Callout>
+
+</Section>
+
+<Section icon={ShieldAlert} title="Errores, Reinicios y Peligros Cercanos">
+
+Los puzzles de terminal suelen ubicarse cerca de encuentros opcionales, rutas bloqueadas o salas que castigan la exploración apresurada. Antes de interactuar, haz que el área sea más segura. Despeja un camino cercano cuando sea práctico, identifica la ruta de retirada más cercana y evita gastar curación o munición rara simplemente para investigar una consola sospechosa.
+
+Si la terminal se reinicia, trata el reinicio como información. Comprueba si un símbolo se ingresó en la posición incorrecta, si el puzzle requiere una interacción ambiental previa o si se pasó por alto una pista cercana. Un reinicio no significa necesariamente que todo el puzzle deba redescubrirse.
+
+| Situación | Causa Probable | Respuesta Recomendada |
+|---|---|---|
+| La terminal no hace nada | La interacción requerida está incompleta | Busca en salas cercanas y regresa tras revisar los objetivos |
+| La secuencia se reinicia | El orden de entrada es incorrecto | Reconstruye la secuencia a partir de pistas espaciales |
+| La puerta sigue cerrada | El estado del puzzle no se confirmó | Busca un interruptor, sonido, luz o actualización de objetivo |
+| Un enemigo interrumpe | Se desencadenó un encuentro opcional | Retírate, recupera recursos y regresa con una ruta despejada |
+| Las pistas parecen inconsistentes | Se incluyeron detalles decorativos | Prioriza elementos repetidos y enmarcados deliberadamente |
+| El área parece inacabada | Límite de progreso de Early Access | Registra la ubicación y continúa con los objetivos disponibles |
+
+<Checklist
+  id="terminal-puzzle-check"
+  title="Antes de Ingresar la Secuencia:"
+  items={[
+    "Lee la indicación de la terminal e identifica el tipo de interacción",
+    "Inspecciona toda la sala en busca de símbolos repetidos y únicos",
+    "Compara salas cercanas y cambios ambientales",
+    "Identifica una ruta de retirada segura y conserva recursos clave",
+    "Confirma que la secuencia tenga un orden claro antes de enviarla"
+  ]}
+/>
+
+Un jugador cuidadoso también debería distinguir entre tres resultados diferentes:
+
+- **Rechazo de entrada**: La terminal rechaza el símbolo o secuencia seleccionada.
+- **Reinicio del puzzle**: La interfaz vuelve a su estado inicial.
+- **Activación exitosa**: Cambia una puerta, luz, sonido, panel u objetivo.
+
+Solo el tercer resultado confirma que el puzzle de terminal está completo. Un sonido o efecto visual satisfactorio puede indicar progreso, pero siempre revisa el área circundante para encontrar la ruta real hacia adelante.
+
+<Callout type="warning" title="No Fuerces Contenido Bloqueado">
+Si la terminal sigue inaccesible después de agotar las pistas locales, marca la ubicación y continúa con la ruta principal. Las áreas de Early Access pueden contener contenido destinado a un estado de progreso posterior.
+</Callout>
+
+</Section>
+
+<Section icon={CheckCircle} title="Lista de Comprobación y Preguntas Frecuentes del Puzzle de Terminal">
+
+Usa esta lista de comprobación final al revisitar el puzzle después de combate, exploración o un objetivo de historia. Mantiene el proceso de solución enfocado y reduce la posibilidad de confundir un símbolo decorativo con una pista real.
+
+| Comprobación Final | Confirmación |
+|---|---|
+| Indicación de la terminal comprendida | Sabes si la consola requiere selección, orden, alineación o confirmación |
+| Pistas locales revisadas | Se han comparado símbolos, objetos, luces y sonidos cercanos |
+| Secuencia justificada | Cada entrada tiene una razón ambiental clara |
+| Área asegurada | Una ruta de retirada sigue abierta y los recursos son adecuados |
+| Progreso confirmado | Ha cambiado una puerta, panel, objetivo o estado ambiental |
+
+<Callout type="success" title="Comprobación de Confianza de la Solución">
+Estás listo para enviar la secuencia cuando el orden de las pistas esté respaldado tanto por la ubicación de los símbolos como por al menos una confirmación ambiental.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la idea principal detrás del puzzle de terminal de Divine Frequency?",
+    answer: "El puzzle se resuelve leyendo pistas ambientales cercanas, identificando símbolos repetidos y únicos, e ingresando el orden resultante en la terminal."
+  },
+  {
+    question: "¿Debería probar combinaciones de símbolos aleatorias?",
+    answer: "No. Las entradas aleatorias son ineficientes y pueden dejarte expuesto a enemigos o peligros cercanos. Registra las pistas y prueba solo una secuencia respaldada por la disposición de la sala."
+  },
+  {
+    question: "¿Qué debo hacer si la terminal no responde?",
+    answer: "Busca en salas adyacentes, inspecciona objetos inusuales, comprueba cambios de iluminación o sonido y confirma que se haya completado la interacción de historia requerida."
+  },
+  {
+    question: "¿Cómo puedo saber si el puzzle ha terminado?",
+    answer: "Busca un cambio de estado claro como una ruta abierta, iluminación cambiada, un sonido nuevo, la activación de un panel o un objetivo actualizado. No te vayas basándote solo en la retroalimentación de la interfaz."
+  }
+]} />
+
+Para información oficial sobre la versión y anuncios actuales, consulta la [página de Divine Frequency en Steam](https://store.steampowered.com/app/2548880/Divine_Frequency/) y el [hub oficial de la Comunidad de Steam](https://steamcommunity.com/app/2548880/). Estos canales son los mejores lugares para verificar cambios en el progreso de Early Access, el comportamiento de los puzzles y las áreas recién accesibles.
+
+</Section>
+
+## Lecturas relacionadas
+
+- [Finales de Divine Frequency: guía de rutas de Acceso Anticipado](/es/puzzles/Divine-Frequency-endings)
+- [Soluciones de puzles de Divine Frequency: Guía paso a paso](/es/puzzles/Divine-Frequency-puzzle-solutions)
+- [Lanzamiento de la demo de Divine Frequency: Guía de estado de 2026](/es/release/Divine-Frequency-demo-release)

@@ -1,0 +1,233 @@
+import { Map, Swords, Target, Shield, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Partida de Divine Frequency: guía de Acceso anticipado",
+  description: "Sigue una partida de Divine Frequency con control de spoilers, prioridades de combate, pasos de exploración, consejos de recursos y planificación de rutas…",
+  category: "media",
+  image: "https://placehold.co/800x400/171923/fff?text=Divine+Frequency+Playthrough",
+  date: "2026-10-28",
+  author: "Equipo de Wiki de Divine Frequency"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Partida de Divine Frequency**: La ruta actual de Acceso anticipado cubre los dos primeros capítulos de historia de los tres previstos.
+- **Prioridad de combate**: Controla la distancia, identifica las salidas y conserva los recursos poderosos para los encuentros peligrosos.
+- **Método de exploración**: Completa primero los objetivos esenciales y después regresa a los caminos secundarios marcados y las rutas bloqueadas.
+- **Consejos para la configuración**: Empieza con una fuente de daño fiable antes de invertir demasiado en opciones híbridas.
+- **Control de spoilers**: El progreso esencial y los descubrimientos opcionales deben seguirse por separado.
+</Callout>
+
+<Section icon={Map} title="Partida de Divine Frequency: qué esperar">
+
+La **partida de Divine Frequency** actual gira en torno a la exploración surrealista, el combate de horror en primera persona, la progresión RPG, los puzles y los descubrimientos opcionales. El juego se encuentra en Acceso anticipado en Steam, con dos de los tres capítulos de historia previstos disponibles actualmente. La versión presente está diseñada para unas cuatro a seis horas de juego, aunque la velocidad de exploración y el contenido opcional pueden cambiar esa estimación.
+
+La mejor ruta no consiste en correr de objetivo en objetivo. Divine Frequency recompensa a los jugadores que recuerdan las puertas bloqueadas, examinan los espacios inusuales y regresan a las zonas anteriores después de que cambie el progreso. Considera cada ramificación sin explorar como un punto de control futuro, no como un problema que deba resolverse de inmediato.
+
+| Elemento de la partida | Guía actual | Prioridad |
+|---|---|---|
+| Historia principal | Sigue los objetivos activos a través de los Actos disponibles | Esencial |
+| Zonas secundarias | Explóralas después de asegurar el siguiente punto de control seguro | Recomendado |
+| Rutas bloqueadas | Regístralas y vuelve a ellas después de avanzar de forma importante | Recomendado |
+| Recursos de combate | Guarda reservas para los encuentros necesarios | Esencial |
+| Puzles | Examina símbolos, objetos, iluminación y detalles repetidos | Situacional |
+
+<CardGrid cols={3}>
+  <Card title="Ruta esencial">
+    Sigue el objetivo activo, confirma que el progreso avance y evita gastar recursos poco comunes en combates innecesarios.
+  </Card>
+  <Card title="Ruta opcional">
+    Explora las habitaciones secundarias, los caminos ocultos y los detalles ambientales inusuales después de asegurar el requisito inmediato de la historia.
+  </Card>
+  <Card title="Ruta de regreso">
+    Mantén una lista breve de puertas cerradas, ramificaciones inaccesibles y lugares sospechosos para investigarlos más adelante.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo para planificar la ruta">
+Usa puntos de referencia en lugar de intentar memorizar cada habitación. Un objetivo completado, una puerta distintiva o un motivo visual inusual pueden hacer que retroceder sea mucho más rápido.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combate inicial y prioridades de recursos">
+
+Las zonas iniciales enseñan el ritmo central de Divine Frequency: observa el encuentro, elige la herramienta eficaz más segura y evita gastarlo todo durante el primer intercambio. Las armas de fuego proporcionan una presión fiable a distancia, mientras que las opciones psiónicas pueden ofrecer daño flexible, control, utilidad o respuestas de emergencia.
+
+No adoptes una configuración muy especializada demasiado pronto. Una configuración centrada es más fácil de gestionar mientras aún estás aprendiendo el comportamiento de los enemigos, la disponibilidad de recursos y la estructura de cada zona.
+
+<Steps>
+  <Step num="1" title="Revisa la habitación antes de entrar en combate">
+    Busca cobertura, salidas, rutas estrechas y puertas cercanas antes de activar objetos sospechosos o entrar en un espacio desconocido. Saber dónde retirarte suele ser más valioso que comenzar con el máximo daño.
+  </Step>
+  <Step num="2" title="Prueba tus herramientas de combate disponibles">
+    Compara un arma de fuego fiable con al menos una opción psiónica durante los encuentros seguros. Aprende qué herramienta funciona mejor a distancia, bajo presión o cuando debes conservar munición.
+  </Step>
+  <Step num="3" title="Controla la distancia">
+    Crea espacio antes de volver a atacar, especialmente contra enemigos cuerpo a cuerpo o perseguidores rápidos. Las esquinas, los marcos de las puertas y las habitaciones ya despejadas pueden ayudarte a evitar quedar atrapado.
+  </Step>
+  <Step num="4" title="Reserva los recursos de gran impacto">
+    Guarda las habilidades poderosas, la curación y la munición especializada para grupos, objetivos difíciles, rutas bloqueadas o encuentros que no puedan evitarse.
+  </Step>
+  <Step num="5" title="Revisa tu configuración después de avanzar de forma importante">
+    Cuando una zona nueva introduzca distancias o presiones de combate diferentes, ajusta tu equipamiento. Mejora primero la fiabilidad y después añade especialización para resolver el problema al que realmente te enfrentas.
+  </Step>
+</Steps>
+
+| Herramienta de combate | Mejor función | Principal limitación | Prioridad de mejora inicial |
+|---|---|---|---|
+| Armas de fuego | Daño constante a distancia | Gestión de munición | Precisión, manejo y consistencia del daño |
+| Opciones psiónicas | Utilidad, control o respuestas explosivas | Disponibilidad y recuperación de habilidades | Potencia, duración y eficiencia del efecto |
+| Modificaciones de armas | Especialización | Materiales y capacidad de mejora | Bonificaciones que apoyen un plan de combate claro |
+| Equipamiento híbrido | Cobertura para encuentros variados | Especialización más lenta | Fiabilidad antes que bonificaciones situacionales |
+
+<Callout type="warning" title="Advertencia sobre los recursos">
+No trates cada habitación como un encuentro que debas despejar por completo. Si un enemigo aislado no bloquea el progreso, compara la recompensa con la munición, la curación y el tiempo necesarios para derrotarlo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estructura de la guía de los Actos I y II">
+
+La guía de Acceso anticipado más segura separa los objetivos necesarios de los descubrimientos opcionales. Completa la ruta principal hasta establecer un punto de control y después vuelve a las ramificaciones cercanas mientras tu equipamiento y tus recursos sigan siendo manejables.
+
+Como el contenido de Acceso anticipado puede cambiar entre actualizaciones, céntrate en confirmar los objetivos en lugar de asumir que toda ruta bloqueada es un error. Si una interacción no hace avanzar la historia, revisa los objetivos anteriores, las habitaciones secundarias cercanas y los puntos de acceso sin resolver antes de reiniciar la zona.
+
+| Etapa | Objetivo principal | Trabajo opcional | Punto de control |
+|---|---|---|---|
+| Zona inicial | Aprender el combate e identificar el objetivo activo | Revisar las habitaciones secundarias cercanas | Confirmar que avance el primer objetivo |
+| Ruta del Acto I | Seguir la cadena de objetivos esenciales | Marcar puertas bloqueadas y espacios inusuales | Registrar las rutas sin resolver |
+| Regreso del Acto I | Volver a las ramificaciones seguras | Buscar recursos, información o interacciones ocultas | Salir con una lista breve de lugares a los que regresar |
+| Ruta del Acto II | Continuar el contenido de historia disponible | Ajustar el equipamiento a las nuevas presiones de combate | Confirmar el estado del siguiente objetivo |
+| Limpieza del Acto II | Investigar los lugares marcados anteriormente | Completar encuentros y descubrimientos opcionales | Separar las rutas terminadas de las pendientes |
+
+<Checklist
+  id="divine-frequency-playthrough"
+  title="Antes de abandonar una zona:"
+  items={[
+    "Confirma que el objetivo principal actual haya avanzado",
+    "Revisa las habitaciones secundarias cercanas y las ramificaciones opcionales evidentes",
+    "Registra las puertas bloqueadas o las rutas inaccesibles",
+    "Conserva suficientes recursos para el siguiente encuentro necesario",
+    "Identifica la ruta de regreso más segura"
+  ]}
+/>
+
+<CardGrid cols={4}>
+  <Card title="Prioridad del Acto I">
+    Establece una ruta fiable y aprende qué habitaciones son seguras para volver a visitar.
+  </Card>
+  <Card title="Opcional del Acto I">
+    Investiga los espacios secundarios después de completar el objetivo inmediato.
+  </Card>
+  <Card title="Prioridad del Acto II">
+    Reevalúa tu configuración de combate a medida que los encuentros y la navegación se vuelvan más exigentes.
+  </Card>
+  <Card title="Opcional del Acto II">
+    Regresa a los lugares marcados en lugar de volver a buscar en toda la zona.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Comprobación del progreso">
+Después de una interacción importante, verifica el estado del objetivo antes de continuar. Este sencillo hábito ayuda a distinguir el progreso pendiente del contenido opcional que puede esperar.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Puzles, secretos y retroceso">
+
+Las pistas ambientales son una parte importante de la experiencia de Divine Frequency. Los símbolos repetidos, la colocación inusual de objetos, los cambios de sonido, la iluminación y los espacios encuadrados deliberadamente pueden indicar que una zona merece una segunda mirada.
+
+Usa un método de pistas progresivas. Primero inspecciona el entorno, después compara los detalles repetidos y solo entonces prueba la interacción probable. Esto reduce el desperdicio de recursos y conserva la atmósfera del juego.
+
+| Tipo de descubrimiento | Primera observación | Acción posterior | Nivel de spoiler |
+|---|---|---|---|
+| Puzle ambiental | Observa símbolos repetidos o un detalle visual único | Compara las habitaciones cercanas e identifica una secuencia | Bajo |
+| Zona oculta | Revisa paredes inusuales, habitaciones secundarias y líneas de visión bloqueadas | Regresa después de que un objetivo cercano cambie el acceso | Medio |
+| Encuentro opcional | Presta atención a sonidos inusuales, movimiento restringido o espacios vacíos | Prepara curación e identifica una ruta de retirada | Alto |
+| Descubrimiento de historia | Examina objetos y lugares que parezcan enfatizados deliberadamente | Vuelve después de las interacciones de la historia | Medio |
+
+Una buena rutina para retroceder consta de cuatro partes:
+
+- Completa el objetivo necesario inmediato.
+- Marca el lugar con un punto de referencia reconocible.
+- Regresa atravesando espacios despejados en lugar de habitaciones desconocidas.
+- Busca cambios ambientales antes de usar recursos o activar un encuentro.
+
+<Callout type="tip" title="Consejo para los puzles">
+Si un mecanismo parece inactivo, no asumas que está roto. Comprueba si antes debe producirse una interacción cercana, un evento de la historia o un cambio en la movilidad.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuánto dura una partida de Divine Frequency en Acceso anticipado?",
+    answer: "La versión actual de Acceso anticipado se describe como unas cuatro a seis horas de contenido, con dos de los tres capítulos de historia previstos disponibles. La exploración y los descubrimientos opcionales pueden prolongar la sesión."
+  },
+  {
+    question: "¿Debería explorar de inmediato todas las habitaciones secundarias?",
+    answer: "No. Asegura primero el siguiente punto de control esencial y después regresa a las zonas opcionales cuando tengas suficientes recursos y una comprensión más clara de la ruta."
+  },
+  {
+    question: "¿Qué debo hacer cuando una ruta parece bloqueada?",
+    answer: "Registra el lugar, completa los objetivos cercanos y vuelve después de avanzar de forma importante en la historia. No todas las rutas inaccesibles son necesarias para el progreso actual."
+  },
+  {
+    question: "¿Cómo debería abordar los puzles sin spoilers?",
+    answer: "Inspecciona primero las marcas, la colocación de objetos, la iluminación y los detalles ambientales repetidos. Usa una pista solo después de comparar las habitaciones cercanas y comprobar si se han abierto nuevas rutas."
+  }
+]} />
+
+</Section>
+
+<Section icon={Trophy} title="Planificación de la configuración y lista de comprobación de la partida">
+
+Una buena configuración inicial debe resolver los encuentros normales de forma constante en lugar de maximizar un único patrón de daño limitado. Los jugadores que prefieran el combate directo pueden centrarse en las armas de fuego, mientras que quienes disfruten de las habilidades activas pueden optar por herramientas psiónicas. Una configuración híbrida resulta útil cuando la exploración cambia con frecuencia la distancia de combate, pero requiere una disciplina de mejora más estricta.
+
+| Arquetipo | Ventaja | Debilidad | Plan para principiantes |
+|---|---|---|---|
+| Enfocado en armas de fuego | Presión fiable a distancia | Dependencia de la munición | Mejora la consistencia y conserva una opción de utilidad |
+| Enfocado en psiónica | Herramientas flexibles de control y daño explosivo | Disponibilidad limitada de habilidades | Guarda los efectos principales para los encuentros peligrosos |
+| Híbrido | Adaptable a distintas distancias | Especialización más lenta | Elige primero una fuente de daño principal |
+| Progresión equilibrada | Decisiones de recursos más sencillas | Menor especialización inmediata | Mejora la fiabilidad antes de experimentar |
+
+Usa este orden de prioridades durante tu primera partida:
+
+1. Mejora la herramienta que uses con más frecuencia.
+2. Conserva una respuesta de emergencia para la presión a corta distancia o los encuentros difíciles.
+3. Añade utilidad que resuelva una debilidad conocida.
+4. Evita repartir los materiales de mejora entre opciones que no estén relacionadas.
+5. Reevalúa tu configuración después de entrar en un Acto nuevo o descubrir una exigencia de combate diferente.
+
+La [página oficial de Divine Frequency en Steam](https://store.steampowered.com/app/2548880/Divine_Frequency/) es el mejor lugar para verificar la versión actual de Acceso anticipado, la información sobre idiomas disponibles y los detalles oficiales del lanzamiento. Para consultar anuncios y debatir con otros jugadores, visita el [centro de la comunidad de Divine Frequency en Steam](https://steamcommunity.com/app/2548880/).
+
+<Callout type="info" title="Nota sobre el Acceso anticipado">
+La versión actual representa una edición del juego en evolución. Mantén flexibles las rutas sin resolver y las decisiones de configuración, especialmente después de que un parche importante cambie los encuentros, la progresión o el contenido disponible.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Qué configuración es mejor para una primera partida de Divine Frequency?",
+    answer: "Una configuración centrada en armas de fuego o una configuración híbrida es un punto de partida práctico, ya que ofrece un daño constante y deja espacio para una opción de utilidad psiónica. Elige según el estilo de combate que te resulte más fácil de controlar."
+  },
+  {
+    question: "¿Debería gastar los materiales de mejora en cuanto los reciba?",
+    answer: "Gástalos cuando la mejora apoye tu plan actual. Ahorrar materiales resulta útil mientras aún estás decidiendo entre una configuración especializada y un equipamiento equilibrado."
+  },
+  {
+    question: "¿Es necesario el contenido opcional para completar los Actos disponibles?",
+    answer: "Las habitaciones y los encuentros opcionales son independientes de la ruta esencial. Pueden proporcionar descubrimientos, recursos o información, pero la guía debe priorizar el objetivo activo de la historia."
+  }
+]} />
+
+</Section>
+
+## Lecturas relacionadas
+
+- [Banda sonora de Divine Frequency: estado de la música y guía de escucha](/es/media/Divine-Frequency-soundtrack)
+- [Tráiler de Divine Frequency: Guía oficial para verlo y consejos](/es/media/Divine-Frequency-trailer)
+- [Puzzle de terminal de Divine Frequency: Guía paso a paso](/es/puzzles/Divine-Frequency-terminal-puzzle)

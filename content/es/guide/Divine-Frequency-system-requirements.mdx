@@ -1,0 +1,209 @@
+import { Monitor, Settings, ShieldCheck, Wrench, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Requisitos del sistema de Divine Frequency: guía de configuración",
+  description: "Consulta los requisitos del sistema de Divine Frequency, la información de hardware del acceso anticipado, la configuración gráfica, los pasos de solución…",
+  category: "guide",
+  image: "https://placehold.co/800x400/171923/fff?text=System+Requirements+Guide",
+  date: "2026-10-28",
+  author: "Equipo de Wiki de Divine Frequency",
+  slug: "/divine-frequency-system-requirements"
+}
+
+<Callout type="info" title="Guía rápida">
+- Los **requisitos del sistema de Divine Frequency** no aparecen completamente en la referencia oficial disponible.
+- La **compatibilidad de la plataforma** apunta actualmente a Windows mediante el lanzamiento de acceso anticipado en Steam.
+- La **mejor primera prueba** es usar el ajuste gráfico predeterminado en una zona de exploración exigente.
+- Las **soluciones de rendimiento** incluyen actualizar los controladores, verificar los archivos y cambiar un ajuste cada vez.
+- La **precaución con el acceso anticipado** significa que el rendimiento y la configuración pueden cambiar en futuras versiones de 2026.
+</Callout>
+
+<Section icon={Monitor} title="Estado de los requisitos del sistema de Divine Frequency">
+
+La versión actual de acceso anticipado de *Divine Frequency* es un FPS de terror para PC con Windows, desarrollado y publicado por Abraxaes. La información oficial disponible confirma la plataforma Steam y el estado de acceso anticipado, pero no proporciona una tabla completa de especificaciones de CPU, GPU, memoria o almacenamiento que pueda reproducirse aquí de forma segura.
+
+Por lo tanto, los jugadores deberían evitar basarse en cifras inventadas de hardware mínimo o recomendado. En su lugar, utiliza la información verificada de la plataforma que aparece a continuación y prueba el juego metódicamente en el PC de destino.
+
+| Categoría | Información confirmada | Significado práctico |
+|---|---|---|
+| Plataforma | PC con Windows | Se necesita un sistema Windows para la versión compatible de Steam. |
+| Tienda | Steam | Instala e inicia el juego desde la página oficial de Steam. |
+| Modelo de lanzamiento | Acceso anticipado | El rendimiento y el comportamiento técnico pueden cambiar durante el desarrollo. |
+| Contenido actual | 2 de 3 capítulos previstos | Prueba el rendimiento en combates, zonas de exploración y áreas interiores más exigentes. |
+| Idioma | Inglés indicado en Steam | Comprueba la interfaz y los textos compatibles en la versión actual. |
+| Tabla de hardware | No confirmada en la referencia disponible | No consideres las estimaciones de hardware no oficiales como requisitos oficiales. |
+
+<Callout type="warning" title="No te fíes de especificaciones no verificadas">
+Una lista de requisitos del sistema solo debería publicarse cuando el desarrollador o la página oficial de la tienda la confirme. Si tu PC está cerca de una estimación no oficial, prueba la versión actual en lugar de asumir cómo funcionará el juego.
+</Callout>
+
+Para contar con el punto de partida más fiable, visita la [página oficial de Divine Frequency en Steam](https://store.steampowered.com/app/2548880/Divine_Frequency/) y consulta la información actual de la tienda antes de instalarlo. Las páginas de Steam pueden cambiar a medida que un proyecto de acceso anticipado recibe actualizaciones, por lo que una versión posterior de 2026 podría incluir indicaciones técnicas más detalladas.
+
+</Section>
+
+<Section icon={Settings} title="Configuración gráfica recomendada para el acceso anticipado">
+
+Cuando un juego no publica una matriz completa de hardware, el método de configuración más seguro consiste en realizar ajustes controlados. Comienza con la configuración predeterminada, mide el comportamiento del juego durante una sesión representativa y cambia solo una opción importante cada vez.
+
+El objetivo no es reducir todos los ajustes de inmediato. *Divine Frequency* presenta un estilo de terror retro surrealista con interiores oscuros, efectos visuales y espacios de exploración donde la fluidez de los fotogramas puede sentirse diferente a la de una escena sencilla del menú.
+
+| Área de configuración | Punto de partida recomendado | Prioridad de ajuste |
+|---|---|---|
+| Modo de pantalla | Pantalla completa o sin bordes | Cambia el modo si aparecen parpadeos o una fluidez irregular. |
+| Resolución | Resolución nativa del monitor | Reduce la resolución de renderizado si la GPU parece estar sobrecargada. |
+| Preajuste de calidad | Preajuste predeterminado | Úsalo como referencia antes de realizar cambios individuales. |
+| Sombras | Predeterminado, reducir si es necesario | Es una primera reducción útil cuando las escenas oscuras resultan costosas de renderizar. |
+| Efectos | Predeterminado, reducir selectivamente | Ajústalos si los efectos de combate provocan caídas perceptibles. |
+| Posprocesado | Predeterminado, reducir selectivamente | Redúcelo si los efectos de imagen afectan a la claridad o al rendimiento. |
+| Frecuencia de fotogramas | Objetivo estable adecuado para el PC | Un límite constante puede sentirse mejor que picos inestables. |
+
+<CardGrid cols={3}>
+  <Card title="Comienza con una referencia">
+    Inicia el juego con el preajuste predeterminado y la resolución nativa. Prueba el movimiento, los combates, las transiciones entre habitaciones y los menús antes de cambiar nada.
+  </Card>
+  <Card title="Cambia una variable cada vez">
+    Reduce un ajuste exigente y repite el mismo tipo de juego. Así será más fácil identificar qué ajuste tiene importancia.
+  </Card>
+  <Card title="Prioriza la estabilidad">
+    Una frecuencia de fotogramas constante y una imagen legible son más útiles que la máxima calidad visual durante la exploración y los combates.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo de rendimiento">
+Utiliza una zona de juego representativa en lugar de la pantalla de título para evaluar el rendimiento. Los espacios interiores, los encuentros de combate y los movimientos rápidos ofrecen una prueba más útil para la versión de acceso anticipado.
+</Callout>
+
+Un orden práctico para realizar los ajustes es:
+
+1. Confirma el modo de pantalla.
+2. Prueba la resolución nativa.
+3. Reduce las sombras o los efectos individualmente.
+4. Reduce la resolución de renderizado solo si es necesario.
+5. Cierra las superposiciones y aplicaciones en segundo plano innecesarias.
+6. Reinicia el juego después de realizar cambios gráficos importantes.
+
+</Section>
+
+<Section icon={Wrench} title="Solución de problemas de rendimiento paso a paso">
+
+Si *Divine Frequency* se inicia pero funciona mal, trata el problema como un proceso de diagnóstico en lugar de cambiar todas las opciones a la vez. Las versiones de acceso anticipado pueden contener problemas temporales que no están relacionados con la potencia del PC, como el comportamiento de los sombreadores, conflictos con los controladores, errores de instalación o una fluidez irregular.
+
+<Steps>
+  <Step num="1" title="Actualiza el controlador gráfico">
+    Instala el controlador actual para tu hardware gráfico y reinicia Windows antes de volver a probar. Las actualizaciones de controladores pueden resolver problemas de renderizado, cierres inesperados o un rendimiento inestable que aparezca después de una actualización del juego.
+  </Step>
+  <Step num="2" title="Cierra las superposiciones innecesarias">
+    Desactiva temporalmente las herramientas de grabación, las aplicaciones que consumen muchos recursos del navegador, las superposiciones de terceros y otros programas en segundo plano. Esto crea una prueba más limpia y ayuda a determinar si otro programa está afectando a la fluidez.
+  </Step>
+  <Step num="3" title="Verifica la instalación de Steam">
+    Utiliza la opción de verificación de archivos de Steam si el juego se cierra, no se inicia o muestra recursos faltantes. Espera a que termine el proceso antes de volver a cambiar la configuración gráfica.
+  </Step>
+  <Step num="4" title="Ajusta una opción gráfica">
+    Comienza con las sombras, los efectos o el posprocesado. Prueba la misma situación de juego después de cada cambio para determinar si el problema está relacionado con la carga de la GPU, la resolución o la fluidez de los fotogramas.
+  </Step>
+  <Step num="5" title="Reinicia después de realizar cambios importantes">
+    Cierra y vuelve a iniciar el juego después de cambiar el modo de pantalla, la escala de resolución o varios ajustes de calidad. Algunos cambios son más fáciles de evaluar después de un reinicio limpio.
+  </Step>
+</Steps>
+
+| Síntoma | Primera comprobación | Siguiente acción |
+|---|---|---|
+| El juego no se inicia | Controlador e integridad de los archivos | Actualiza el controlador y verifica la instalación de Steam. |
+| Tirones durante el movimiento | Aplicaciones en segundo plano y fluidez de los fotogramas | Cierra las superposiciones y prueba un límite estable de frecuencia de fotogramas. |
+| Caídas importantes durante los combates | Efectos y sombras | Reduce uno de estos ajustes y vuelve a probar un combate. |
+| Imagen parpadeante | Modo de pantalla y controlador | Cambia entre pantalla completa y modo sin bordes, y después reinicia. |
+| Imagen borrosa | Escala de resolución | Vuelve a la resolución nativa y ajusta la escala con cuidado. |
+| No se detecta la entrada | Dispositivo de entrada activo | Vuelve a conectar el dispositivo antes de iniciar el juego y comprueba la configuración. |
+
+<Callout type="info" title="Solución de problemas en el acceso anticipado">
+Anota la versión de la compilación, la zona donde aparece el problema y los cambios de configuración que has probado. Unas notas claras hacen que los debates de Steam y los canales oficiales de asistencia sean más útiles al informar de un problema.
+</Callout>
+
+No des por hecho que todas las rutas bloqueadas, los fallos visuales o los problemas de progreso se deben a tu hardware. Primero determina si el problema se puede reproducir después de reiniciar, verificar los archivos y probar la versión actual de Steam.
+
+</Section>
+
+<Section icon={ShieldCheck} title="Lista de preparación del PC antes de iniciar el juego">
+
+Una breve rutina de preparación puede evitar problemas innecesarios durante la primera sesión. Esto resulta especialmente útil en un juego de acceso anticipado, donde las actualizaciones pueden modificar el rendimiento, el comportamiento de las partidas guardadas o la forma en que se aplican ciertos ajustes.
+
+<Checklist
+  id="divine-frequency-pc-preparation"
+  title="Preparación para el lanzamiento:"
+  items={[
+    "Confirma que Windows y los controladores gráficos están actualizados",
+    "Instala Divine Frequency desde la página oficial de Steam",
+    "Cierra las superposiciones y aplicaciones en segundo plano innecesarias",
+    "Prueba el preajuste gráfico predeterminado en una zona de juego real",
+    "Anota los cierres inesperados, los tirones o los problemas visuales",
+    "Consulta los anuncios de Steam después de las actualizaciones importantes de 2026"
+  ]}
+/>
+
+| Tarea de preparación | Por qué es importante | Momento recomendado |
+|---|---|---|
+| Actualizar los controladores | Reduce los conflictos evitables de renderizado y lanzamiento | Antes de la primera sesión |
+| Verificar los archivos | Repara los datos de instalación faltantes o dañados | Después de cierres inesperados o actualizaciones fallidas |
+| Probar la configuración | Establece una referencia de rendimiento conocida | Durante el primer lanzamiento |
+| Comprobar el espacio disponible | Evita interrupciones durante la instalación o las actualizaciones | Antes de descargar |
+| Revisar los anuncios | Identifica problemas y cambios conocidos | Después de los parches importantes |
+| Registrar los problemas | Hace que la solución de problemas sea más precisa | Cada vez que se repita un problema |
+
+<CardGrid cols={3}>
+  <Card title="Antes de la instalación">
+    Confirma la compatibilidad con Windows, el espacio disponible y una conexión estable con Steam. Utiliza la página oficial de la tienda en lugar de una fuente de descarga no verificada.
+  </Card>
+  <Card title="Durante el primer lanzamiento">
+    Prueba el preajuste predeterminado, comprueba el modo de pantalla, confirma el funcionamiento de los controles y juega una sección representativa antes de realizar cambios importantes.
+  </Card>
+  <Card title="Después de una actualización">
+    Deja que Steam termine de actualizarse, revisa los anuncios oficiales y vuelve a probar el rendimiento, ya que las versiones de acceso anticipado pueden cambiar el comportamiento técnico.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Objetivo de una configuración estable">
+Una buena configuración mantiene la imagen legible, los controles receptivos y la fluidez de los fotogramas constante durante la exploración y los combates normales. La configuración máxima es opcional; la prioridad es jugar de forma fiable.
+</Callout>
+
+El [centro de la comunidad de Steam](https://steamcommunity.com/app/2548880/) también puede ayudarte a comparar los informes de otros jugadores. Utiliza los debates de la comunidad para identificar patrones de solución de problemas, pero confirma cualquier requisito o solución mencionada con la versión oficial actual.
+
+</Section>
+
+<Section icon={HelpCircle} title="Preguntas frecuentes sobre los requisitos del sistema">
+
+<FAQ items={[
+  {
+    question: "¿Cuáles son los requisitos oficiales del sistema de Divine Frequency?",
+    answer: "La referencia oficial disponible confirma una versión para Windows en Steam, pero no proporciona una tabla completa de CPU, GPU, memoria o almacenamiento. Utiliza la página actual de Steam y prueba la versión de acceso anticipado en lugar de basarte en cifras no oficiales."
+  },
+  {
+    question: "¿Puedo jugar a Divine Frequency en un PC con Windows?",
+    answer: "Sí, la versión actual de acceso anticipado aparece para Windows a través de Steam. El rendimiento del hardware depende del sistema concreto, así que comienza con el preajuste predeterminado y ajusta la configuración metódicamente."
+  },
+  {
+    question: "¿Qué ajustes gráficos debería reducir primero?",
+    answer: "Empieza probando las sombras, los efectos y el posprocesado uno por uno. Si el rendimiento sigue siendo inestable, reduce la resolución de renderizado o utiliza un límite estable de frecuencia de fotogramas."
+  },
+  {
+    question: "¿Por qué puede cambiar el rendimiento entre las actualizaciones de 2026?",
+    answer: "El desarrollo en acceso anticipado puede cambiar el contenido, los efectos visuales, la optimización y el comportamiento de la configuración. Vuelve a probar el juego después de las actualizaciones importantes y consulta los anuncios oficiales para conocer los problemas identificados."
+  }
+]} />
+
+<Callout type="tip" title="Recomendación final">
+Lleva un registro de la configuración que ofrece un rendimiento estable en tu PC. Esto hará que las futuras soluciones de problemas sean más rápidas cuando la versión de acceso anticipado reciba una nueva actualización de 2026.
+</Callout>
+
+</Section>
+
+## Lecturas relacionadas
+
+- [Guía paso a paso de Divine Frequency: acceso anticipado](/es/guide/Divine-Frequency-walkthrough)
+- [Batería de Divine Frequency: guía y consejos de acceso anticipado](/es/guide/Divine-Frequency-battery)
+- [Tráiler de Divine Frequency: Guía oficial para verlo y consejos](/es/media/Divine-Frequency-trailer)

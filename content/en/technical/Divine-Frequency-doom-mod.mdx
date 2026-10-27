@@ -1,0 +1,220 @@
+import { AlertTriangle, CheckCircle, Download, Map, Search, Shield, Swords, Wrench } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Divine Frequency doom mod: Status & Setup Guide",
+  description: "Check the Divine Frequency doom mod status, identify genuine compatibility claims, and follow a safe setup checklist for the 2026 Early Access build.",
+  category: "technical",
+  image: "https://placehold.co/800x400/241016/fff?text=Divine+Frequency+Mod+Guide",
+  date: "2026-10-28",
+  author: "Divine Frequency Wiki Team",
+  slug: "/divine-frequency-doom-mod"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Divine Frequency doom mod**: No officially confirmed Doom conversion or public mod release is documented here.
+- **Current build**: Divine Frequency is a Windows Early Access horror FPS with two available story chapters.
+- **Compatibility check**: Treat any third-party file as unverified until the developer confirms its origin and requirements.
+- **Safe setup**: Back up saves, verify the game version, and test modifications separately from your main playthrough.
+- **Official channels**: Use the [Steam page](https://store.steampowered.com/app/2548880/Divine_Frequency/) and official community links for announcements.
+</Callout>
+
+<Section icon={Search} title="Divine Frequency doom mod: Current Status">
+
+The search term **Divine Frequency doom mod** can refer to several different ideas: a Doom-inspired add-on, a fan-made crossover, a total conversion, or a modification intended for the Divine Frequency Early Access build. These are not interchangeable. Divine Frequency is already a surreal retro horror FPS, but that does not confirm that it uses the Doom engine or supports Doom-format mods.
+
+The current public game information identifies Divine Frequency as a Windows Early Access title developed and published by Abraxaes. The released build contains two of three planned story chapters, with an estimated four-to-six hours of available content. No official Doom mod, conversion toolkit, or developer-supported mod framework is confirmed in the available game information.
+
+| Item | Confirmed status |
+|---|---|
+| Game format | Surreal retro horror FPS with RPG elements |
+| Developer | Abraxaes |
+| Platform | Windows PC |
+| Release state | Early Access |
+| Available story | 2 of 3 planned chapters |
+| Official mod support | Not confirmed |
+| Official Doom conversion | Not confirmed |
+| Current listed language | English |
+
+<Callout type="warning" title="Do Not Assume Compatibility">
+A file described as a “Doom mod for Divine Frequency” may be a fan concept, a texture pack, a separate Doom project, or an unsafe executable. Confirm the game, engine, version, and publisher before using it.
+</Callout>
+
+The safest interpretation is therefore **status tracking rather than installation**. Until an official announcement provides a supported mod loader, development kit, or compatible file format, players should not treat random download pages as proof of an authentic Divine Frequency modification.
+
+</Section>
+
+<Section icon={Wrench} title="How to Identify a Genuine Mod Claim">
+
+A legitimate mod listing should explain what it changes, which game build it supports, and how it interacts with the original installation. Vague claims such as “new Doom weapons,” “full conversion,” or “classic FPS mode” are not enough to establish compatibility.
+
+Use the following comparison before opening a file or changing the game directory.
+
+| Claim type | What it may mean | Evidence required |
+|---|---|---|
+| Doom-inspired content | A fan project borrowing retro shooter ideas | Screenshots, creator identity, target game clearly named |
+| Doom engine mod | A project built for a Doom-compatible source port | Engine or source-port requirements, launcher instructions |
+| Divine Frequency add-on | A modification made specifically for this game | Supported game version and installation directory |
+| Total conversion | A major project replacing assets or gameplay | Detailed dependencies, backup instructions, version history |
+| Gameplay preset | Configuration changes rather than a full mod | List of edited settings and a reversible installation method |
+
+<CardGrid cols={3}>
+  <Card title="Game Identity">
+    - Confirm the page names **Divine Frequency**
+    - Check that it targets the Windows build
+    - Reject listings that only mention Doom
+  </Card>
+  <Card title="File Transparency">
+    - Look for a change log
+    - Check file names and extensions
+    - Avoid password-protected archives with no explanation
+  </Card>
+  <Card title="Version Support">
+    - Match the file to the current build
+    - Check the release date
+    - Read known compatibility warnings
+  </Card>
+</CardGrid>
+
+The official [Divine Frequency Steam page](https://store.steampowered.com/app/2548880/Divine_Frequency/) should be your first reference for the current release state. The [Steam Community hub](https://steamcommunity.com/app/2548880/) is useful for checking whether a project has visible developer or community discussion, but community posts should not automatically be treated as official support.
+
+<Callout type="tip" title="Editor’s Rule">
+A credible mod page answers three questions clearly: what game it modifies, what version it supports, and how to remove it. If any answer is missing, do not use it on a primary save.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Safe Verification and Setup Workflow">
+
+If an official or clearly documented Divine Frequency modification becomes available, use a controlled installation process. Early Access games can change file structures, progression logic, and save behavior between updates, so separating experiments from normal play is especially important.
+
+<Steps>
+  <Step num="1" title="Confirm the target game and version">
+    Open the official Steam listing and check that the file specifically targets Divine Frequency rather than a standalone Doom source-port project. Compare the mod’s supported version with the build installed on your PC.
+  </Step>
+  <Step num="2" title="Read the full documentation">
+    Review the creator’s installation notes, dependencies, known issues, removal instructions, and update history. Do not rely on a short description, a filename, or a screenshot as proof of compatibility.
+  </Step>
+  <Step num="3" title="Back up saves and configuration files">
+    Copy your saves and important configuration data to a separate folder before testing anything. Label the backup with the date and game version so you can identify the correct restore point later.
+  </Step>
+  <Step num="4" title="Test outside your main playthrough">
+    Use a separate profile or a temporary test save. Start with a short session in an early area and check loading, combat, objectives, menus, and progression before continuing.
+  </Step>
+  <Step num="5" title="Remove the modification if behavior changes">
+    If the game crashes, loses progression, displays missing assets, or behaves differently from the documentation, remove the files and restore the clean installation before testing again.
+  </Step>
+</Steps>
+
+| Verification checkpoint | Pass condition | Stop condition |
+|---|---|---|
+| Target identity | The documentation names Divine Frequency | The page only names Doom or another game |
+| Version | Supported build matches your installation | The mod is outdated or vague about versions |
+| File source | Creator and change log are visible | Anonymous archive or unclear executable |
+| Installation | Reversible steps are provided | No removal instructions |
+| Save safety | Backup and test profile are available | Only primary progress is available |
+
+Do not stack several unverified files at once. If something breaks, multiple changes make the cause difficult to isolate. Test one modification, record the result, and remove it before trying another.
+
+<Callout type="warning" title="Early Access Caution">
+A game update can invalidate a community modification without warning. Recheck compatibility after every major Divine Frequency update and avoid continuing a valuable save until the modified build behaves normally.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="What a Future Doom-Style Mod Could Change">
+
+There is no confirmed feature list for a Divine Frequency Doom mod, so the categories below are planning concepts rather than announced content. They describe the kinds of changes players should expect a documented project to explain.
+
+Divine Frequency already combines retro shooter combat, psychological horror, surreal environments, RPG progression, exploration, and optional discoveries. A well-defined fan project would need to explain how its Doom-inspired ideas fit those systems instead of simply using the word “Doom” as a marketing label.
+
+| Potential mod category | Possible scope | Questions to ask |
+|---|---|---|
+| Weapons | Firearm replacements, new firing behavior, or alternate effects | Does it alter ammunition, upgrades, or balance? |
+| Enemies | New attack patterns, sprites, or encounter groups | Are enemy weaknesses and rewards documented? |
+| Levels | New rooms, routes, or challenge maps | Does the content belong to the current chapter structure? |
+| Audio | Music, sound effects, or radio-style atmosphere | Are files replaced or added separately? |
+| Visuals | Textures, lighting, interface, or CRT effects | Can the original presentation be restored? |
+| Progression | New upgrades, abilities, or resource rules | Does it affect existing saves or objectives? |
+
+<CardGrid cols={3}>
+  <Card title="Retro Shooter Focus">
+    A project may emphasize fast movement, aggressive combat, weapon switching, and arena-style encounters.
+  </Card>
+  <Card title="Horror Focus">
+    A project may preserve limited resources, uncertainty, environmental tension, and slower exploration.
+  </Card>
+  <Card title="Hybrid Focus">
+    A project may combine Doom-inspired combat with Divine Frequency’s RPG systems, secrets, and surreal storytelling.
+  </Card>
+</CardGrid>
+
+For this game, compatibility is more important than genre similarity. A project can look like classic Doom while still being built for a completely different engine. Conversely, a Divine Frequency add-on may change weapons or levels without using Doom technology at all.
+
+<Callout type="info" title="Keep Announced and Hypothetical Content Separate">
+Treat weapon ideas, new chapters, enemy concepts, and crossover mechanics as unconfirmed unless they appear in an official announcement or a clearly documented release. This prevents speculation from becoming misleading wiki information.
+</Callout>
+
+</Section>
+
+<Section icon={CheckCircle} title="Mod Safety Checklist and FAQ">
+
+Use this checklist whenever you investigate a possible Divine Frequency modification. It is designed for the current 2026 Early Access environment and prioritizes reversible testing over fast installation.
+
+<Checklist
+  id="divine-frequency-mod-safety"
+  title="Before Testing a Mod:"
+  items={[
+    "Confirm the listing specifically targets Divine Frequency",
+    "Check the supported game version and release date",
+    "Read the installation and removal instructions",
+    "Back up saves and configuration files",
+    "Test with a separate profile or temporary save"
+  ]}
+/>
+
+| Situation | Recommended action |
+|---|---|
+| The listing only says “Doom mod” | Verify whether it targets Doom, a source port, or Divine Frequency |
+| The file has no version information | Do not install it on a primary game directory |
+| The game crashes after installation | Remove the files and restore the clean build |
+| Progression stops working | Restore the backup and report the issue to the creator |
+| A new official update appears | Recheck compatibility before launching the modified build |
+
+<FAQ items={[
+  {
+    question: "Is there an official Divine Frequency doom mod?",
+    answer: "No officially confirmed Doom conversion, mod toolkit, or supported Doom-style add-on is documented in the current 2026 game information. Treat public claims as unverified until Abraxaes confirms them."
+  },
+  {
+    question: "Is Divine Frequency a Doom engine game?",
+    answer: "The available information identifies Divine Frequency as a surreal retro horror FPS with RPG elements, but it does not confirm that the game uses the Doom engine or supports Doom-format files."
+  },
+  {
+    question: "Can I install a Doom source-port mod into Divine Frequency?",
+    answer: "Not unless the documentation explicitly confirms compatibility. A Doom source-port project normally targets its own engine environment and should not be copied into another game’s installation folder."
+  },
+  {
+    question: "Where should I check for legitimate mod announcements?",
+    answer: "Start with the official Steam page, Steam Community hub, official Discord, and developer social channels. These are safer references than anonymous download pages or reposted archives."
+  }
+]} />
+
+The official [Steam Community hub](https://steamcommunity.com/app/2548880/) and [official Discord invite](https://discord.gg/jnyFVSTgf3) are the most practical places to watch for future support information. Keep the original installation clean unless a modification provides clear documentation, version support, and a reliable removal process.
+
+<Callout type="success" title="Recommended Decision">
+For now, treat the Divine Frequency doom mod keyword as a status and verification query, not proof that a playable mod exists. Follow official announcements and protect your Early Access saves before testing community files.
+</Callout>
+
+</Section>
+
+## Related Reading
+
+- [Divine Frequency doom: Step-by-Step Combat Guide](/technical/Divine-Frequency-doom)
+- [Divine Frequency engine: Setup Guide & Performance Tips](/technical/Divine-Frequency-engine)
+- [Divine Frequency battery: Early Access Guide & Tips](/guide/Divine-Frequency-battery)

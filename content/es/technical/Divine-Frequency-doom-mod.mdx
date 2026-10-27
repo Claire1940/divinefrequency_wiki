@@ -1,0 +1,220 @@
+import { AlertTriangle, CheckCircle, Download, Map, Search, Shield, Swords, Wrench } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mod de Doom para Divine Frequency: Estado y Guía de Configuración",
+  description: "Consulta el estado del mod de Doom para Divine Frequency, identifica afirmaciones genuinas de compatibilidad y sigue una lista de verificación segura para…",
+  category: "technical",
+  image: "https://placehold.co/800x400/241016/fff?text=Divine+Frequency+Mod+Guide",
+  date: "2026-10-28",
+  author: "Equipo de Wiki de Divine Frequency",
+  slug: "/divine-frequency-doom-mod"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Mod de Doom para Divine Frequency**: No se documenta aquí ninguna conversión de Doom confirmada oficialmente ni ningún lanzamiento público de mods.
+- **Versión actual**: Divine Frequency es un FPS de terror de Acceso Anticipado para Windows con dos capítulos de historia disponibles.
+- **Verificación de compatibilidad**: Trata cualquier archivo de terceros como no verificado hasta que el desarrollador confirme su origen y requisitos.
+- **Configuración segura**: Haz copias de seguridad de tus partidas guardadas, verifica la versión del juego y prueba las modificaciones por separado de tu partida principal.
+- **Canales oficiales**: Usa la [página de Steam](https://store.steampowered.com/app/2548880/Divine_Frequency/) y los enlaces comunitarios oficiales para los anuncios.
+</Callout>
+
+<Section icon={Search} title="Mod de Doom para Divine Frequency: Estado Actual">
+
+El término de búsqueda **mod de Doom para Divine Frequency** puede referirse a varias ideas diferentes: un complemento inspirado en Doom, un crossover hecho por fans, una conversión total o una modificación destinada a la versión de Acceso Anticipado de Divine Frequency. No son intercambiables. Divine Frequency ya es un FPS de terror retro surrealista, pero eso no confirma que use el motor de Doom o que sea compatible con mods en formato Doom.
+
+La información pública actual del juego identifica a Divine Frequency como un título de Acceso Anticipado para Windows desarrollado y publicado por Abraxaes. La versión lanzada contiene dos de los tres capítulos de historia planificados, con un contenido disponible estimado de cuatro a seis horas. Ningún mod oficial de Doom, kit de conversión o marco de mods respaldado por el desarrollador está confirmado en la información disponible del juego.
+
+| Elemento | Estado confirmado |
+|---|---|
+| Formato del juego | FPS de terror retro surrealista con elementos de RPG |
+| Desarrollador | Abraxaes |
+| Plataforma | PC con Windows |
+| Estado de lanzamiento | Acceso Anticipado |
+| Historia disponible | 2 de 3 capítulos planificados |
+| Soporte oficial de mods | No confirmado |
+| Conversión oficial de Doom | No confirmada |
+| Idioma actual listado | Inglés |
+
+<Callout type="warning" title="No Asumas la Compatibilidad">
+Un archivo descrito como un “mod de Doom para Divine Frequency” puede ser un concepto de fans, un paquete de texturas, un proyecto de Doom independiente o un ejecutable inseguro. Confirma el juego, el motor, la versión y el editor antes de usarlo.
+</Callout>
+
+La interpretación más segura es, por lo tanto, **el seguimiento del estado en lugar de la instalación**. Hasta que un anuncio oficial proporcione un cargador de mods compatible, un kit de desarrollo o un formato de archivo compatible, los jugadores no deberían tratar las páginas de descarga aleatorias como prueba de una modificación auténtica de Divine Frequency.
+
+</Section>
+
+<Section icon={Wrench} title="Cómo Identificar una Afirmación de Mod Genuina">
+
+Un anuncio legítimo de un mod debería explicar qué cambia, qué versión del juego admite y cómo interactúa con la instalación original. Afirmaciones vagas como “nuevas armas de Doom”, “conversión total” o “modo FPS clásico” no son suficientes para establecer la compatibilidad.
+
+Usa la siguiente comparación antes de abrir un archivo o modificar el directorio del juego.
+
+| Tipo de afirmación | Qué puede significar | Evidencia requerida |
+|---|---|---|
+| Contenido inspirado en Doom | Un proyecto de fans que toma ideas de shooters retro | Capturas de pantalla, identidad del creador, juego objetivo claramente nombrado |
+| Mod del motor de Doom | Un proyecto creado para un source port compatible con Doom | Requisitos del motor o del source port, instrucciones del lanzador |
+| Complemento de Divine Frequency | Una modificación creada específicamente para este juego | Versión compatible del juego y directorio de instalación |
+| Conversión total | Un proyecto importante que reemplaza recursos o jugabilidad | Dependencias detalladas, instrucciones de respaldo, historial de versiones |
+| Preset de jugabilidad | Cambios de configuración en lugar de un mod completo | Lista de ajustes editados y un método de instalación reversible |
+
+<CardGrid cols={3}>
+  <Card title="Identidad del Juego">
+    - Confirma que la página nombre **Divine Frequency**
+    - Verifica que esté dirigido a la versión de Windows
+    - Rechaza anuncios que solo mencionen Doom
+  </Card>
+  <Card title="Transparencia de Archivos">
+    - Busca un registro de cambios
+    - Revisa los nombres y extensiones de los archivos
+    - Evita archivos protegidos con contraseña sin explicación
+  </Card>
+  <Card title="Soporte de Versiones">
+    - Coincide el archivo con la versión actual
+    - Revisa la fecha de lanzamiento
+    - Lee las advertencias de compatibilidad conocidas
+  </Card>
+</CardGrid>
+
+La [página oficial de Steam de Divine Frequency](https://store.steampowered.com/app/2548880/Divine_Frequency/) debería ser tu primera referencia para el estado actual del lanzamiento. El [centro de la comunidad de Steam](https://steamcommunity.com/app/2548880/) es útil para comprobar si un proyecto tiene discusión visible del desarrollador o de la comunidad, pero las publicaciones comunitarias no deberían tratarse automáticamente como soporte oficial.
+
+<Callout type="tip" title="Regla del Editor">
+Una página de mod creíble responde claramente tres preguntas: qué juego modifica, qué versión admite y cómo eliminarlo. Si falta alguna respuesta, no lo uses en una partida guardada principal.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Flujo de Trabajo Seguro de Verificación y Configuración">
+
+Si una modificación de Divine Frequency oficial o claramente documentada está disponible, usa un proceso de instalación controlado. Los juegos de Acceso Anticipado pueden cambiar estructuras de archivos, lógica de progresión y comportamiento de guardado entre actualizaciones, por lo que separar los experimentos del juego normal es especialmente importante.
+
+<Steps>
+  <Step num="1" title="Confirma el juego y la versión objetivo">
+    Abre el anuncio oficial de Steam y verifica que el archivo esté dirigido específicamente a Divine Frequency en lugar de un proyecto independiente de source port de Doom. Compara la versión compatible del mod con la versión instalada en tu PC.
+  </Step>
+  <Step num="2" title="Lee la documentación completa">
+    Revisa las notas de instalación del creador, las dependencias, los problemas conocidos, las instrucciones de eliminación y el historial de actualizaciones. No confíes en una breve descripción, un nombre de archivo o una captura de pantalla como prueba de compatibilidad.
+  </Step>
+  <Step num="3" title="Respalda las partidas guardadas y los archivos de configuración">
+    Copia tus partidas guardadas y los datos de configuración importantes a una carpeta separada antes de probar cualquier cosa. Etiqueta el respaldo con la fecha y la versión del juego para que puedas identificar el punto de restauración correcto más tarde.
+  </Step>
+  <Step num="4" title="Prueba fuera de tu partida principal">
+    Usa un perfil separado o una partida de prueba temporal. Comienza con una sesión corta en un área temprana y verifica la carga, el combate, los objetivos, los menús y la progresión antes de continuar.
+  </Step>
+  <Step num="5" title="Elimina la modificación si el comportamiento cambia">
+    Si el juego se bloquea, pierde progresión, muestra recursos faltantes o se comporta de manera diferente a la documentación, elimina los archivos y restaura la instalación limpia antes de volver a probar.
+  </Step>
+</Steps>
+
+| Punto de verificación | Condición de aprobación | Condición de detención |
+|---|---|---|
+| Identidad objetivo | La documentación nombra Divine Frequency | La página solo nombra Doom u otro juego |
+| Versión | La versión compatible coincide con tu instalación | El mod está desactualizado o es vago sobre las versiones |
+| Fuente del archivo | El creador y el registro de cambios son visibles | Archivo anónimo o ejecutable poco claro |
+| Instalación | Se proporcionan pasos reversibles | No hay instrucciones de eliminación |
+| Seguridad de guardado | Respaldo y perfil de prueba disponibles | Solo está disponible el progreso principal |
+
+No acumules varios archivos no verificados a la vez. Si algo falla, los múltiples cambios hacen que la causa sea difícil de aislar. Prueba una modificación, registra el resultado y elimínala antes de probar otra.
+
+<Callout type="warning" title="Precaución de Acceso Anticipado">
+Una actualización del juego puede invalidar una modificación comunitaria sin previo aviso. Vuelve a comprobar la compatibilidad después de cada gran actualización de Divine Frequency y evita continuar con una partida valiosa hasta que la versión modificada se comporte con normalidad.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Qué Podría Cambiar un Futuro Mod de Estilo Doom">
+
+No hay una lista de características confirmadas para un mod de Doom de Divine Frequency, por lo que las categorías a continuación son conceptos de planificación en lugar de contenido anunciado. Describen los tipos de cambios que los jugadores deberían esperar que un proyecto documentado explique.
+
+Divine Frequency ya combina combate de shooter retro, terror psicológico, entornos surrealistas, progresión de RPG, exploración y descubrimientos opcionales. Un proyecto de fans bien definido tendría que explicar cómo sus ideas inspiradas en Doom encajan en esos sistemas en lugar de simplemente usar la palabra “Doom” como etiqueta de marketing.
+
+| Categoría potencial de mod | Alcance posible | Preguntas que hacer |
+|---|---|---|
+| Armas | Reemplazos de armas de fuego, nuevo comportamiento de disparo o efectos alternativos | ¿Alteran la munición, las mejoras o el equilibrio? |
+| Enemigos | Nuevos patrones de ataque, sprites o grupos de encuentros | ¿Están documentadas las debilidades y recompensas de los enemigos? |
+| Niveles | Nuevas salas, rutas o mapas de desafío | ¿El contenido pertenece a la estructura de capítulos actual? |
+| Audio | Música, efectos de sonido o atmósfera estilo radio | ¿Los archivos se reemplazan o se añaden por separado? |
+| Visuales | Texturas, iluminación, interfaz o efectos CRT | ¿Se puede restaurar la presentación original? |
+| Progresión | Nuevas mejoras, habilidades o reglas de recursos | ¿Afecta a las partidas guardadas u objetivos existentes? |
+
+<CardGrid cols={3}>
+  <Card title="Enfoque de Shooter Retro">
+    Un proyecto puede enfatizar el movimiento rápido, el combate agresivo, el cambio de armas y los encuentros estilo arena.
+  </Card>
+  <Card title="Enfoque de Terror">
+    Un proyecto puede preservar los recursos limitados, la incertidumbre, la tensión ambiental y la exploración más lenta.
+  </Card>
+  <Card title="Enfoque Híbrido">
+    Un proyecto puede combinar el combate inspirado en Doom con los sistemas de RPG, los secretos y la narración surrealista de Divine Frequency.
+  </Card>
+</CardGrid>
+
+Para este juego, la compatibilidad es más importante que la similitud de género. Un proyecto puede parecerse al Doom clásico y aun así estar construido para un motor completamente diferente. A la inversa, un complemento de Divine Frequency puede cambiar armas o niveles sin usar en absoluto la tecnología de Doom.
+
+<Callout type="info" title="Mantén Separado el Contenido Anunciado y el Hipotético">
+Trata las ideas de armas, los nuevos capítulos, los conceptos de enemigos y las mecánicas de crossover como no confirmados a menos que aparezcan en un anuncio oficial o en un lanzamiento claramente documentado. Esto evita que la especulación se convierta en información engañosa de la wiki.
+</Callout>
+
+</Section>
+
+<Section icon={CheckCircle} title="Lista de Verificación de Seguridad de Mods y Preguntas Frecuentes">
+
+Usa esta lista de verificación cada vez que investigues una posible modificación de Divine Frequency. Está diseñada para el entorno actual de Acceso Anticipado de 2026 y prioriza las pruebas reversibles sobre la instalación rápida.
+
+<Checklist
+  id="divine-frequency-mod-safety"
+  title="Antes de Probar un Mod:"
+  items={[
+    "Confirma que el anuncio esté dirigido específicamente a Divine Frequency",
+    "Comprueba la versión compatible del juego y la fecha de lanzamiento",
+    "Lee las instrucciones de instalación y eliminación",
+    "Respalda las partidas guardadas y los archivos de configuración",
+    "Prueba con un perfil separado o una partida temporal"
+  ]}
+/>
+
+| Situación | Acción recomendada |
+|---|---|
+| El anuncio solo dice “mod de Doom” | Verifica si está dirigido a Doom, un source port o Divine Frequency |
+| El archivo no tiene información de versión | No lo instales en un directorio principal del juego |
+| El juego se bloquea después de la instalación | Elimina los archivos y restaura la versión limpia |
+| La progresión deja de funcionar | Restaura el respaldo e informa del problema al creador |
+| Aparece una nueva actualización oficial | Vuelve a comprobar la compatibilidad antes de iniciar la versión modificada |
+
+<FAQ items={[
+  {
+    question: "¿Existe un mod de Doom oficial para Divine Frequency?",
+    answer: "No se documenta ninguna conversión de Doom confirmada oficialmente, kit de mods ni complemento de estilo Doom respaldado en la información actual del juego de 2026. Trata las afirmaciones públicas como no verificadas hasta que Abraxaes las confirme."
+  },
+  {
+    question: "¿Es Divine Frequency un juego del motor de Doom?",
+    answer: "La información disponible identifica a Divine Frequency como un FPS de terror retro surrealista con elementos de RPG, pero no confirma que el juego use el motor de Doom o que admita archivos en formato Doom."
+  },
+  {
+    question: "¿Puedo instalar un mod de source port de Doom en Divine Frequency?",
+    answer: "No, a menos que la documentación confirme explícitamente la compatibilidad. Un proyecto de source port de Doom normalmente está dirigido a su propio entorno de motor y no debería copiarse en la carpeta de instalación de otro juego."
+  },
+  {
+    question: "¿Dónde debo buscar anuncios legítimos de mods?",
+    answer: "Comienza con la página oficial de Steam, el centro de la comunidad de Steam, el Discord oficial y los canales sociales del desarrollador. Estas son referencias más seguras que las páginas de descarga anónimas o los archivos republicados."
+  }
+]} />
+
+El [centro de la comunidad de Steam](https://steamcommunity.com/app/2548880/) oficial y la [invitación oficial de Discord](https://discord.gg/jnyFVSTgf3) son los lugares más prácticos para estar atento a futuras informaciones de soporte. Mantén la instalación original limpia a menos que una modificación proporcione documentación clara, soporte de versiones y un proceso de eliminación confiable.
+
+<Callout type="success" title="Decisión Recomendada">
+Por ahora, trata la palabra clave mod de Doom para Divine Frequency como una consulta de estado y verificación, no como prueba de que existe un mod jugable. Sigue los anuncios oficiales y protege tus partidas guardadas de Acceso Anticipado antes de probar archivos comunitarios.
+</Callout>
+
+</Section>
+
+## Lecturas relacionadas
+
+- [Divine Frequency doom: Guía de combate paso a paso](/es/technical/Divine-Frequency-doom)
+- [Motor de Divine Frequency: Guía de configuración y consejos de rendimiento](/es/technical/Divine-Frequency-engine)
+- [Batería de Divine Frequency: guía y consejos de acceso anticipado](/es/guide/Divine-Frequency-battery)

@@ -1,0 +1,213 @@
+import { Cpu, Settings, Wrench, Shield, Map, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Divine-Frequency-Engine: Einrichtungsanleitung und Leistungstipps",
+  description: "Erfahre, was über die Divine-Frequency-Engine öffentlich bestätigt ist, konfiguriere die Early-Access-Version und behebe Leistungsprobleme unter Windows.",
+  category: "technical",
+  image: "https://placehold.co/800x400/171923/f5e6a8?text=Divine+Frequency+Engine",
+  date: "2026-10-28",
+  author: "Divine-Frequency-Wiki-Team",
+  slug: "divine-frequency-engine-setup-guide"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Divine-Frequency-Engine**: Behandle das Spiel als einen Windows-exklusiven Early-Access-Horror-FPS mit sich weiterentwickelnder technischer Leistung.
+- **Bester Ausgangspunkt**: Teste das voreingestellte Grafikprofil, bevor du einzelne Einstellungen änderst.
+- **Leistungspriorität**: Passe Auflösung, Schatten, Effekte und Nachbearbeitung an, bevor du jede Option reduzierst.
+- **Reihenfolge bei der Fehlerbehebung**: Aktualisiere die Treiber, schließe Overlays, überprüfe die Steam-Dateien und starte das Spiel nach größeren Änderungen neu.
+- **Technischer Hinweis**: Gehe nicht von einer bestimmten Engine-Technologie aus, solange der Entwickler dies nicht offiziell bestätigt hat.
+</Callout>
+
+<Section icon={Cpu} title="Was die Divine-Frequency-Engine unterstützt">
+
+Die **Divine-Frequency-Engine** lässt sich am besten anhand der Funktionen beurteilen, die Spieler derzeit erleben können, und nicht anhand einer unbestätigten Technologiebezeichnung. Das Spiel ist ein surrealer Retro-Horror-FPS mit RPG-Fortschritt, Schusswaffenkämpfen, psionischen Möglichkeiten, Erkundung, Rätseln und psychologischen Horrorelementen. Es erschien am **26. Oktober 2026** im Steam Early Access, wobei aufgrund der UTC-Zeit in einigen Regionen der **27. Oktober 2026** angezeigt wird.
+
+Die aktuelle Version ist für Windows ausgelegt und befindet sich weiterhin in aktiver Entwicklung. Das bedeutet, dass sich Darstellungsverhalten, Leistungsstabilität, Eingabeunterstützung und Grafikoptionen ändern können, wenn neue Kapitel, Gegner, Systeme und Verbesserungen veröffentlicht werden. Es gibt keine verlässlichen öffentlichen Informationen, die bestätigen, ob das Spiel Unity, Unreal Engine, Godot oder eine andere namentlich bekannte Technologie verwendet. Daher konzentriert sich dieser Leitfaden auf praktische Konfiguration statt auf Spekulationen.
+
+| Technischer Bereich | Bestätigte oder sichere Hinweise |
+|---|---|
+| Plattform | Windows-PC |
+| Veröffentlichungsstatus | Steam Early Access |
+| Genrebedingte Auslastung | Horror-FPS, RPG-Fortschritt, surreale Umgebungen |
+| Aktueller Inhalt | Zwei von drei geplanten Kapiteln |
+| Aktuelle Spielzeit | Ungefähr 4–6 Stunden |
+| Offizielle Sprache | Englisch |
+| Bezeichnung der Engine | Nicht als offiziell bestätigt betrachtet |
+
+Die visuelle Identität des Spiels verbindet dunkle Umgebungen, analoge Interferenzen, eine Retro-Horrordarstellung und surreale Räume. Dadurch können Schatten, Nachbearbeitung, volumetrische Effekte und Bildschärfe wichtiger sein als ein einfacher Vergleich zwischen einem „niedrigen“ und einem „Ultra“-Grafikprofil.
+
+<CardGrid cols={3}>
+  <Card title="Rendering-Auslastung">
+    Rechne mit anspruchsvollen Szenen, wenn dunkle Innenräume, visuelle Effekte, Beleuchtungsänderungen und Begegnungen mit Gegnern zusammentreffen. Teste die Leistung in tatsächlichen Erkundungsbereichen und nicht nur in Menüs.
+  </Card>
+  <Card title="Verhalten im Early Access">
+    Updates können die Optimierung verbessern, Einstellungen verändern oder Abstürze und Blockaden beim Spielfortschritt beheben. Überprüfe die Konfiguration nach einer größeren Versionsänderung erneut.
+  </Card>
+  <Card title="Eingabe und Anzeige">
+    Bestätige vor einer langen Spielsitzung den aktiven Anzeigemodus, die Auflösung, die Mausempfindlichkeit, die Controller-Erkennung und die Tastenanzeigen.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Unbestätigte Engine-Aussagen vermeiden">
+Beschreibe Divine Frequency nicht als Unity- oder Unreal-Engine-Titel, solange keine offizielle Aussage des Entwicklers vorliegt. Ein technisches Wiki sollte bestätigte Plattforminformationen von Annahmen der Community trennen.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Empfohlene Einstellungen für die Divine-Frequency-Engine">
+
+Beginne mit der Standardkonfiguration der Early-Access-Version. Ändere jeweils nur eine Option und teste anschließend in einem repräsentativen Spielbereich, der Bewegung, Kämpfe, Beleuchtung und Erkundung umfasst. So lässt sich leichter feststellen, ob die Einschränkung durch die Auflösung, GPU-Effekte, die Frame-Zeiten oder das Eingabeverhalten verursacht wird.
+
+Die Auflösung ist normalerweise der eindeutigste erste Test. Wenn sich die Leistung nach einer Verringerung der Renderauflösung deutlich verbessert, könnte die Grafikkarte der Hauptengpass sein. Wenn sich die Bildrate kaum verändert, solltest du stattdessen Hintergrundanwendungen, CPU-Auslastung, Frame-Zeiten oder einen bestimmten visuellen Effekt untersuchen.
+
+| Einstellungskategorie | Erste Anpassung | Warum sie hilft |
+|---|---|---|
+| Anzeigemodus | Vollbild oder randlos testen | Kann das Wechseln zwischen Anwendungen verbessern und Anzeigeprobleme beheben |
+| Auflösung | Renderauflösung leicht reduzieren | Prüft, ob die GPU-Auslastung der wichtigste Engpass ist |
+| Schatten | Eine Stufe reduzieren | Verringert häufig die Beleuchtungslast, ohne die allgemeine Bildschärfe zu beeinträchtigen |
+| Effekte | Effektqualität reduzieren | Hilft in Szenen mit Interferenzen, Partikeln oder mehreren übereinanderliegenden visuellen Effekten |
+| Nachbearbeitung | Selektiv reduzieren | Kann die Bildklarheit verbessern und die visuelle Auslastung verringern |
+| Bildrate | Bei Bedarf ein stabiles Limit verwenden | Kann für gleichmäßigere Frame-Zeiten sorgen als ein instabiles hohes Ziel |
+
+### Eine praktische Reihenfolge für die Konfiguration
+
+<Steps>
+  <Step num="1" title="Ausgangszustand bestätigen">
+    Starte Divine Frequency mit den voreingestellten Anzeige- und Grafikeinstellungen. Spiele einen repräsentativen Abschnitt, anstatt die Leistung anhand des Titelbildschirms zu beurteilen. Notiere Ruckler, Eingabeverzögerungen, Texturprobleme oder plötzliche Einbrüche der Bildrate.
+  </Step>
+  <Step num="2" title="Anzeigemodus testen">
+    Vergleiche den Vollbildmodus und den randlosen Modus, sofern beide verfügbar sind. Behalte den Modus bei, der gleichmäßigere Frame-Zeiten und einen zuverlässigen Wechsel zwischen Anwendungen ermöglicht. Starte das Spiel neu, wenn die Anzeige nicht korrekt aktualisiert wird.
+  </Step>
+  <Step num="3" title="Zuerst die Auflösung anpassen">
+    Verringere die Auflösung oder die Render-Skalierung in kleinen Schritten. Wenn das Ergebnis spürbar flüssiger ist, behalte die Änderung bei und stelle andere Einstellungen nach Möglichkeit wieder höher ein, damit das Bild nicht unnötig weich wird.
+  </Step>
+  <Step num="4" title="Aufwendige visuelle Optionen reduzieren">
+    Senke Schatten, Effekte und Nachbearbeitung einzeln ab. Teste nach jeder Änderung, damit du feststellen kannst, welche Einstellung das Problem beeinflusst, anstatt ein umfassendes Profil anzuwenden, ohne die Ursache zu kennen.
+  </Step>
+  <Step num="5" title="Das endgültige Profil stabilisieren">
+    Schließe unnötige Overlays, setze bei weiterhin ungleichmäßigen Frame-Zeiten ein sinnvolles Bildratenlimit und starte Divine Frequency nach größeren Grafikänderungen neu. Speichere die Konfiguration, bevor du zu einer längeren Spielsitzung zurückkehrst.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Empfehlung der Redaktion">
+Bewahre die Bildklarheit in dunklen Bereichen nach Möglichkeit. Reduziere Schatten oder Effekte, bevor du jede Qualitätseinstellung heruntersetzt, da ein übermäßig weiches Bild die Erkundung und das Erkennen von Gegnern erschweren kann.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Arbeitsablauf zur Fehlerbehebung bei Leistungsproblemen">
+
+Leistungsprobleme im Early Access haben nicht immer dieselbe Ursache. Ein Absturz kann mit Treibern oder beschädigten Dateien zusammenhängen, während Ruckler durch Frame-Zeiten, Hintergrund-Overlays oder eine anspruchsvolle Szene verursacht werden können. Verwende einen wiederholbaren Prozess, anstatt mehrere Variablen gleichzeitig zu ändern.
+
+| Symptom | Erste Prüfungen | Empfohlene Maßnahme |
+|---|---|---|
+| Ungleichmäßige Frame-Zeiten | Overlays, Bildratenlimit, Anzeigemodus | Unnötige Overlays deaktivieren und ein stabiles Limit testen |
+| Niedrige Bildrate | Auflösung, Schatten, Effekte | Zuerst die Auflösung reduzieren, anschließend aufwendige visuelle Einstellungen senken |
+| Flackerndes Bild | Anzeigemodus, Treiberstatus | Zwischen Vollbild und randlosem Modus wechseln und neu starten |
+| Controller wird nicht erkannt | Verbindung, aktives Eingabegerät | Vor dem Start erneut verbinden und die Eingabeeinstellungen überprüfen |
+| Absturz beim Start | Treiber, Installationsdateien | Grafiktreiber aktualisieren und die Dateien über Steam überprüfen |
+| Ruckler nach einem Update | Neue Version, zwischengespeicherte Einstellungen | Das Spiel neu starten und die Standardeinstellungen erneut testen |
+
+Gehe bei der Diagnose eines Problems in der folgenden Reihenfolge vor:
+
+- Schließe Aufnahmeprogramme, Browser-Overlays, Chat-Overlays und unnötige Hintergrundanwendungen.
+- Stelle sicher, dass die Grafiktreiber aktuell sind.
+- Überprüfe die Installation von Divine Frequency über Steam.
+- Starte das Spiel nach Änderungen am Anzeigemodus oder größeren Grafikeinstellungen neu.
+- Teste denselben Bereich erneut, bevor du eine weitere Option änderst.
+- Prüfe das offizielle [Steam-Community-Hub](https://steamcommunity.com/app/2548880/) auf aktuelle Berichte und Antworten der Entwickler.
+
+Die **[Divine-Frequency-Steam-Seite](https://store.steampowered.com/app/2548880/Divine_Frequency/)** ist die beste offizielle Anlaufstelle, um die aktuelle Early-Access-Version, die unterstützte Plattform und die Informationen im Store zu bestätigen. Die [offiziellen Steam-Diskussionen](https://steamcommunity.com/app/2548880/discussions/) können hilfreichen Kontext liefern, aber Lösungen aus der Community sollten als vorläufig betrachtet werden, bis sie durch ein offizielles Update unterstützt werden.
+
+<Checklist
+  id="engine-performance-check"
+  title="Leistungsprüfung vor dem Melden eines Problems:"
+  items={[
+    "Grafiktreiber im Jahr 2026 aktualisieren",
+    "Unnötige Overlays und Hintergrundaufnahmetools deaktivieren",
+    "Vollbild- und randlose Anzeigemodi testen",
+    "Auflösung, Schatten oder Effekte einzeln reduzieren",
+    "Die Installation von Divine Frequency über Steam überprüfen"
+  ]}
+/>
+
+<Callout type="success" title="Die beste Gewohnheit bei der Fehlerbehebung">
+Ändere eine Einstellung, teste einen repräsentativen Bereich und notiere kurz das Ergebnis. So erhältst du eine nützlichere Diagnose, als wenn du wiederholt zwischen vollständigen Grafikprofilen wechselst.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Stabilität im Early Access und sichere Speichergewohnheiten">
+
+Divine Frequency bietet derzeit zwei von drei geplanten Kapiteln mit ungefähr vier bis sechs Stunden Inhalt in der verfügbaren Early-Access-Version. Das Spiel ist daher ein sich veränderndes technisches Produkt und keine unveränderliche finale Veröffentlichung. Neue Patches können die Leistung verbessern, Inhalte hinzufügen, Begegnungen anpassen oder das Verhalten von Einstellungen verändern.
+
+Schließe vor einem größeren Update wichtige Interaktionen ab und notiere ungelöste Wege. Warte nach dem Update, bis Steam den Download vollständig abgeschlossen hat, bevor du das Spiel startest. Wenn ein Darstellungs- oder Fortschrittsproblem auftritt, starte das Spiel neu und prüfe, ob dasselbe Verhalten auch in der aktuellen Version bestehen bleibt.
+
+| Vor einem Update | Nach einem Update |
+|---|---|
+| Wenn möglich ein wichtiges Ziel abschließen | Bestätigen, dass die installierte Version aktuell ist |
+| Blockierte Türen oder ungelöste Wege notieren | Grafik- und Eingabeeinstellungen erneut prüfen |
+| Das Spiel ordnungsgemäß schließen | Nach dem ersten Start neu starten |
+| Ausreichend Speicherplatz für Updates freihalten | Einen vertrauten Bereich auf Leistungsänderungen testen |
+| Wiederkehrende technische Probleme dokumentieren | Offizielle Ankündigungen und Diskussionen prüfen |
+
+Eine stabile technische Konfiguration unterstützt auch ein besseres Spielerlebnis. Dunkle Räume, unerwartete Begegnungen und surreale visuelle Effekte können es schwierig machen, ein Leistungsproblem von einem beabsichtigten Horroreffekt zu unterscheiden. Vergleiche das Verhalten in mehreren Bereichen, bevor du eine visuelle Änderung als Fehler einstufst.
+
+<CardGrid cols={3}>
+  <Card title="Vor dem Spielen">
+    Aktualisiere das Spiel, bestätige den Anzeigemodus, teste die Eingabegeräte und halte die erste Sitzung kurz genug, um Probleme sicher zu erkennen.
+  </Card>
+  <Card title="Während der Erkundung">
+    Achte auf wiederholte Ruckler, Eingabeverzögerungen, fehlende Texturen oder Audioaussetzer. Notiere, wo das Problem auftritt und ob es durch Kämpfe ausgelöst wird.
+  </Card>
+  <Card title="Nach einem Patch">
+    Überprüfe die Einstellungen erneut, verifiziere bei Bedarf die Installation und kehre erst zurück, wenn Steam alle ausstehenden Downloads abgeschlossen hat.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Kontext zum Early Access">
+Es ist zu erwarten, dass sich die aktuelle Version weiterentwickelt. Betrachte geplante Funktionen, zukünftige Kapitel und unbestätigte technische Verbesserungen als Entwicklungsziele, bis sie in einem offiziell veröffentlichten Update erscheinen.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="FAQ zur Divine-Frequency-Engine">
+
+<FAQ items={[
+  {
+    question: "Welche Engine verwendet Divine Frequency?",
+    answer: "In den verfügbaren öffentlichen Informationen zum Spiel wurde keine bestimmte Engine-Technologie als offiziell bestätigt behandelt. Zuverlässig bestätigt sind die Windows-Plattform, der Steam-Early-Access-Status sowie die aktuellen Horror-FPS- und RPG-Funktionen des Spiels."
+  },
+  {
+    question: "Ist Divine Frequency für jeden Windows-PC optimiert?",
+    answer: "Für die Early-Access-Version sollte keine allgemeingültige Leistungszusage gemacht werden. Beginne mit den Standardeinstellungen, teste einen repräsentativen Bereich und passe Auflösung, Schatten, Effekte und Nachbearbeitung anhand des beobachteten Verhaltens an."
+  },
+  {
+    question: "Was sollte ich zuerst ändern, wenn das Spiel ruckelt?",
+    answer: "Schließe unnötige Overlays, teste den Vollbild- und den randlosen Modus, reduziere die Auflösung leicht und passe anschließend Schatten oder Effekte einzeln an. Starte das Spiel nach größeren Anzeigeänderungen neu."
+  },
+  {
+    question: "Können Updates die empfohlenen Einstellungen ändern?",
+    answer: "Ja. Early-Access-Patches können die Optimierung verbessern, visuelle Optionen verändern, technische Probleme beheben oder neue Inhalte hinzufügen. Überprüfe nach größeren Updates das Standardprofil erneut, bevor du ältere benutzerdefinierte Einstellungen verwendest."
+  }
+]} />
+
+Der sicherste Umgang mit der **Divine-Frequency-Engine** ist praktisch und evidenzbasiert: Verwende bestätigte Plattforminformationen, vermeide Vermutungen über die zugrunde liegende Technologie, konfiguriere die Early-Access-Version methodisch und verfolge Änderungen nach jedem größeren Update. So bleibt das Wiki sowohl für neue Spieler als auch für zurückkehrende Spieler nützlich, die ihre Konfiguration im Jahr 2026 anpassen.
+
+<Callout type="tip" title="Regel für die endgültige Einrichtung">
+Strebe zuerst gleichmäßige Frame-Zeiten, klare Sicht und zuverlässige Eingaben an, bevor du maximale Grafikqualität anstrebst. Ein konsistentes Horrorerlebnis ist wertvoller als eine instabile Maximaleinstellung.
+</Callout>
+
+</Section>
+
+## Weiterführende Artikel
+
+- [Divine Frequency gzdoom: Kompatibilitäts- und Einrichtungsleitfaden](/de/technical/Divine-Frequency-gzdoom)
+- [Divine Frequency-Mod: Einrichtungsleitfaden für den Early Access](/de/technical/Divine-Frequency-mod)
+- [Divine Frequency Stärke erhöhen: Leitfaden zur Build-Zusammenstellung](/de/guide/Divine-Frequency-increase-strength)

@@ -1,0 +1,213 @@
+import { Cpu, Settings, Wrench, Shield, Map, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Motor de Divine Frequency: Guía de configuración y consejos de rendimiento",
+  description: "Descubre qué información está confirmada públicamente sobre el motor de Divine Frequency, configura la versión de Acceso anticipado y soluciona problemas de…",
+  category: "technical",
+  image: "https://placehold.co/800x400/171923/f5e6a8?text=Divine+Frequency+Engine",
+  date: "2026-10-28",
+  author: "Equipo de la Wiki de Divine Frequency",
+  slug: "divine-frequency-engine-setup-guide"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Motor de Divine Frequency**: Considera el juego como un FPS de terror para Windows en Acceso anticipado, con un rendimiento técnico en evolución.
+- **Mejor punto de partida**: Prueba el preajuste gráfico predeterminado antes de cambiar opciones individuales.
+- **Prioridad de rendimiento**: Ajusta la resolución, las sombras, los efectos y el posprocesado antes de reducir todas las opciones.
+- **Orden de resolución de problemas**: Actualiza los controladores, cierra las superposiciones, verifica los archivos de Steam y reinicia después de realizar cambios importantes.
+- **Precaución técnica**: No des por sentada una tecnología de motor específica a menos que el desarrollador la confirme oficialmente.
+</Callout>
+
+<Section icon={Cpu} title="Qué admite el motor de Divine Frequency">
+
+El **motor de Divine Frequency** se entiende mejor a través de las características que los jugadores pueden experimentar actualmente que mediante una etiqueta tecnológica no confirmada. El juego es un FPS de terror retro y surrealista con progresión RPG, combate con armas de fuego, opciones psiónicas, exploración, puzles y elementos de terror psicológico. Entró en Acceso anticipado de Steam el **26 de octubre de 2026**, aunque algunas regiones muestran el **27 de octubre de 2026** debido a la conversión horaria UTC.
+
+La versión actual está diseñada para Windows y continúa en desarrollo activo. Esto significa que el comportamiento del renderizado, la estabilidad del rendimiento, la compatibilidad con dispositivos de entrada y las opciones gráficas pueden cambiar a medida que lleguen nuevos capítulos, enemigos, sistemas y actualizaciones de pulido. No existe información pública fiable que confirme si el juego utiliza Unity, Unreal Engine, Godot u otra tecnología conocida, por lo que esta guía se centra en la configuración práctica en lugar de la especulación.
+
+| Área técnica | Orientación confirmada o segura |
+|---|---|
+| Plataforma | PC con Windows |
+| Estado de lanzamiento | Acceso anticipado de Steam |
+| Carga del género | FPS de terror, progresión RPG, entornos surrealistas |
+| Contenido actual | Dos de los tres capítulos planeados |
+| Duración actual | Aproximadamente 4–6 horas |
+| Idioma oficial | Inglés |
+| Marca del motor | No se considera confirmada oficialmente |
+
+La identidad visual del juego combina entornos oscuros, interferencias analógicas, presentación de terror retro y espacios surrealistas. Estos elementos pueden hacer que las sombras, el posprocesado, los efectos volumétricos y la claridad de imagen sean más importantes que una simple comparación entre los preajustes «bajo» y «ultra».
+
+<CardGrid cols={3}>
+  <Card title="Carga de renderizado">
+    Espera escenas exigentes cuando coincidan interiores oscuros, efectos visuales, cambios de iluminación y encuentros con enemigos. Prueba el rendimiento en zonas reales de exploración en lugar de limitarte a los menús.
+  </Card>
+  <Card title="Comportamiento del Acceso anticipado">
+    Las actualizaciones pueden mejorar la optimización, modificar opciones o solucionar cierres inesperados y bloqueos de progresión. Vuelve a comprobar la configuración después de un cambio importante de versión.
+  </Card>
+  <Card title="Entrada y pantalla">
+    Confirma el modo de pantalla activo, la resolución, la sensibilidad del ratón, la detección del mando y las indicaciones de teclas antes de comenzar una sesión larga.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Evita las afirmaciones no confirmadas sobre el motor">
+No describas Divine Frequency como un título de Unity o Unreal Engine sin una declaración oficial del desarrollador. Una wiki técnica debe separar la información confirmada sobre la plataforma de las suposiciones de la comunidad.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Configuración recomendada del motor de Divine Frequency">
+
+Empieza con la configuración predeterminada proporcionada por la versión de Acceso anticipado. Cambia una opción cada vez y prueba después en una zona de juego representativa que incluya movimiento, combate, iluminación y exploración. Este método facilita identificar si el factor limitante es la resolución, los efectos de la GPU, la estabilidad de los fotogramas o el comportamiento de la entrada.
+
+La resolución suele ser la primera prueba más clara. Si el rendimiento mejora notablemente al reducir la resolución de renderizado, el procesador gráfico puede ser la principal limitación. Si la tasa de fotogramas apenas cambia, investiga las aplicaciones en segundo plano, la carga de la CPU, la estabilidad de los fotogramas o algún efecto visual específico.
+
+| Categoría de configuración | Primer ajuste | Por qué ayuda |
+|---|---|---|
+| Modo de pantalla | Prueba el modo de pantalla completa o sin bordes | Puede mejorar el comportamiento al cambiar de ventana y resolver conflictos de pantalla |
+| Resolución | Reduce ligeramente la resolución de renderizado | Comprueba si la carga de la GPU es el principal cuello de botella |
+| Sombras | Reduce un nivel | A menudo disminuye la carga de iluminación sin perjudicar demasiado la claridad general de la imagen |
+| Efectos | Reduce la calidad de los efectos | Ayuda en escenas con interferencias, partículas o efectos visuales superpuestos |
+| Posprocesado | Redúcelo de forma selectiva | Puede mejorar la claridad y reducir la carga visual |
+| Tasa de fotogramas | Usa un límite estable si es necesario | Puede ofrecer una cadencia de fotogramas más fluida que un objetivo alto e inestable |
+
+### Un orden de configuración práctico
+
+<Steps>
+  <Step num="1" title="Confirma la configuración de referencia">
+    Inicia Divine Frequency con sus ajustes predeterminados de pantalla y gráficos. Juega una sección representativa en lugar de juzgar el rendimiento desde la pantalla de título. Anota los tirones, el retraso de entrada, los problemas de texturas o las caídas repentinas de la tasa de fotogramas.
+  </Step>
+  <Step num="2" title="Prueba el modo de pantalla">
+    Compara el modo de pantalla completa y el modo sin bordes si ambos están disponibles. Conserva el modo que proporcione una cadencia de fotogramas más constante y un cambio de tareas fiable. Reinicia el juego si la pantalla no se actualiza correctamente.
+  </Step>
+  <Step num="3" title="Ajusta la resolución antes que nada">
+    Reduce ligeramente la resolución o la escala de renderizado. Si el resultado es notablemente más fluido, conserva el cambio y restaura otras opciones cuando sea posible para que la imagen no se vuelva innecesariamente borrosa.
+  </Step>
+  <Step num="4" title="Reduce las opciones visuales más costosas">
+    Reduce las sombras, los efectos y el posprocesado de forma individual. Prueba después de cada cambio para identificar qué opción afecta al problema, en lugar de aplicar un preajuste amplio sin conocer el resultado.
+  </Step>
+  <Step num="5" title="Estabiliza el perfil final">
+    Cierra las superposiciones innecesarias, aplica un límite razonable de fotogramas si la cadencia sigue siendo irregular y reinicia Divine Frequency después de realizar cambios gráficos importantes. Guarda la configuración antes de volver a una sesión más larga.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Recomendación del editor">
+Conserva la claridad visual en las zonas oscuras siempre que sea posible. Reduce las sombras o los efectos antes de disminuir todas las opciones de calidad, ya que una imagen excesivamente borrosa puede dificultar la exploración y el reconocimiento de enemigos.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Proceso de resolución de problemas de rendimiento">
+
+Los problemas de rendimiento de una versión de Acceso anticipado no siempre tienen la misma causa. Un cierre inesperado puede estar relacionado con los controladores o con archivos dañados, mientras que los tirones pueden deberse a la cadencia de fotogramas, las superposiciones en segundo plano o una escena exigente. Utiliza un proceso repetible en lugar de cambiar varias variables a la vez.
+
+| Síntoma | Primeras comprobaciones | Acción recomendada |
+|---|---|---|
+| Cadencia de fotogramas irregular | Superposiciones, límite de fotogramas, modo de pantalla | Desactiva las superposiciones innecesarias y prueba un límite estable |
+| Tasa de fotogramas baja | Resolución, sombras, efectos | Reduce primero la resolución y después baja las opciones visuales costosas |
+| Imagen parpadeante | Modo de pantalla, estado de los controladores | Cambia entre pantalla completa y modo sin bordes y reinicia |
+| Mando no detectado | Conexión, dispositivo de entrada activo | Vuelve a conectarlo antes de iniciar el juego y verifica la configuración de entrada |
+| Cierre durante el inicio | Controladores, archivos de instalación | Actualiza los controladores gráficos y verifica los archivos mediante Steam |
+| Tirones después de una actualización | Nueva versión, configuración almacenada en caché | Reinicia el juego y vuelve a probar la configuración predeterminada |
+
+Utiliza el siguiente orden al diagnosticar un problema:
+
+- Cierra las herramientas de grabación, las superposiciones del navegador, las superposiciones de chat y las aplicaciones innecesarias en segundo plano.
+- Confirma que los controladores gráficos estén actualizados.
+- Verifica la instalación de Divine Frequency mediante Steam.
+- Reinicia el juego después de cambiar el modo de pantalla o realizar cambios gráficos importantes.
+- Prueba de nuevo la misma zona antes de cambiar otra opción.
+- Consulta el [centro de la comunidad de Steam](https://steamcommunity.com/app/2548880/) oficial para conocer los informes actuales y las respuestas del desarrollador.
+
+La **[página de Divine Frequency en Steam](https://store.steampowered.com/app/2548880/Divine_Frequency/)** es el mejor lugar oficial para confirmar la versión actual de Acceso anticipado, la plataforma compatible y la información de la tienda. Las [discusiones oficiales de Steam](https://steamcommunity.com/app/2548880/discussions/) pueden proporcionar contexto útil, pero las soluciones de la comunidad deben considerarse temporales hasta que una actualización oficial las respalde.
+
+<Checklist
+  id="engine-performance-check"
+  title="Comprobación de rendimiento antes de informar de un problema:"
+  items={[
+    "Actualizar los controladores gráficos en 2026",
+    "Desactivar las superposiciones innecesarias y las herramientas de captura en segundo plano",
+    "Probar los modos de pantalla completa y sin bordes",
+    "Reducir la resolución, las sombras o los efectos de uno en uno",
+    "Verificar la instalación de Divine Frequency mediante Steam"
+  ]}
+/>
+
+<Callout type="success" title="El mejor hábito para resolver problemas">
+Cambia una opción, prueba una zona representativa y anota brevemente el resultado. Esto produce un diagnóstico más útil que cambiar repetidamente entre preajustes gráficos completos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estabilidad del Acceso anticipado y hábitos para proteger las partidas">
+
+Divine Frequency ofrece actualmente dos de los tres capítulos planeados, con aproximadamente entre cuatro y seis horas de contenido descritas para la versión disponible de Acceso anticipado. Por tanto, el juego es un producto técnico en evolución y no un lanzamiento final fijo. Los nuevos parches pueden mejorar el rendimiento, añadir contenido, ajustar los encuentros o cambiar el comportamiento de las opciones.
+
+Antes de una actualización importante, completa las interacciones relevantes y anota las rutas sin resolver. Después de actualizar, deja que Steam termine la descarga antes de iniciar el juego. Si aparece un problema visual o de progresión, reinicia el juego y comprueba si el mismo comportamiento continúa en la versión más reciente.
+
+| Antes de una actualización | Después de una actualización |
+|---|---|
+| Completa un objetivo importante cuando sea posible | Confirma que la versión instalada esté actualizada |
+| Anota las puertas bloqueadas o las rutas sin resolver | Vuelve a comprobar la configuración gráfica y de entrada |
+| Cierra el juego normalmente | Reinicia después del primer inicio |
+| Conserva suficiente espacio en disco para las actualizaciones | Prueba una zona conocida para detectar cambios de rendimiento |
+| Registra los problemas técnicos recurrentes | Revisa los anuncios y las discusiones oficiales |
+
+Una configuración técnica estable también contribuye a una mejor experiencia de juego. Las habitaciones oscuras, los encuentros inesperados y los efectos visuales surrealistas pueden dificultar la distinción entre un problema de rendimiento y un efecto de terror intencionado. Compara el comportamiento en varias zonas antes de concluir que un cambio visual es un error.
+
+<CardGrid cols={3}>
+  <Card title="Antes de jugar">
+    Actualiza el juego, confirma el modo de pantalla, prueba los dispositivos de entrada y mantén la primera sesión lo bastante corta como para identificar los problemas de forma segura.
+  </Card>
+  <Card title="Durante la exploración">
+    Presta atención a los tirones repetidos, el retraso de entrada, las texturas ausentes o las interrupciones de audio. Anota dónde ocurre el problema y si el combate lo desencadena.
+  </Card>
+  <Card title="Después de un parche">
+    Vuelve a comprobar la configuración, verifica la instalación si es necesario y regresa al juego solo después de que Steam termine todas las descargas pendientes.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Contexto del Acceso anticipado">
+Se espera que la versión actual evolucione. Considera las funciones planeadas, los capítulos futuros y las mejoras técnicas no confirmadas como objetivos de desarrollo hasta que aparezcan en una actualización oficial publicada.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Preguntas frecuentes sobre el motor de Divine Frequency">
+
+<FAQ items={[
+  {
+    question: "¿Qué motor utiliza Divine Frequency?",
+    answer: "No se ha considerado oficialmente confirmada ninguna tecnología de motor específica en la información pública disponible sobre el juego. Los datos fiables son la plataforma Windows, el estado de Acceso anticipado en Steam y el conjunto actual de características de FPS de terror y RPG."
+  },
+  {
+    question: "¿Está Divine Frequency optimizado para cualquier PC con Windows?",
+    answer: "No debe hacerse ninguna afirmación universal sobre el rendimiento de la versión de Acceso anticipado. Empieza con la configuración predeterminada, prueba una zona representativa y ajusta la resolución, las sombras, los efectos y el posprocesado según el comportamiento observado."
+  },
+  {
+    question: "¿Qué debería cambiar primero si el juego da tirones?",
+    answer: "Cierra las superposiciones innecesarias, prueba los modos de pantalla completa y sin bordes, reduce ligeramente la resolución y después ajusta las sombras o los efectos de uno en uno. Reinicia después de realizar cambios importantes en la pantalla."
+  },
+  {
+    question: "¿Pueden las actualizaciones cambiar la configuración recomendada?",
+    answer: "Sí. Los parches de Acceso anticipado pueden mejorar la optimización, modificar las opciones visuales, solucionar problemas técnicos o añadir contenido nuevo. Vuelve a comprobar el perfil predeterminado después de las actualizaciones importantes antes de aplicar configuraciones personalizadas antiguas."
+  }
+]} />
+
+El enfoque más seguro para el **motor de Divine Frequency** es práctico y basado en evidencias: utiliza la información confirmada sobre la plataforma, evita adivinar la tecnología subyacente, configura metódicamente la versión de Acceso anticipado y registra los cambios después de cada actualización importante. Este enfoque mantiene la wiki útil tanto para jugadores nuevos como para quienes regresan y ajustan su configuración en 2026.
+
+<Callout type="tip" title="Regla final de configuración">
+Prioriza una cadencia de fotogramas estable, una visibilidad clara y una entrada fiable antes de buscar la máxima calidad visual. Una experiencia de terror consistente es más valiosa que una configuración máxima inestable.
+</Callout>
+
+</Section>
+
+## Lecturas relacionadas
+
+- [Divine Frequency gzdoom: Guía de Compatibilidad y Configuración](/es/technical/Divine-Frequency-gzdoom)
+- [Mod de Divine Frequency: guía de configuración para el acceso anticipado](/es/technical/Divine-Frequency-mod)
+- [Divine Frequency: aumentar la fuerza: guía de configuración de build](/es/guide/Divine-Frequency-increase-strength)

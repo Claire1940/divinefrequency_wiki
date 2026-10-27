@@ -1,0 +1,227 @@
+import { Save, FolderSearch, ShieldCheck, Wrench, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Divine Frequency save locations: PC Paths & Backup Tips",
+  description: "Find likely Divine Frequency save locations on Windows, verify your files, back up Early Access progress, and troubleshoot missing saves safely.",
+  category: "guide",
+  image: "https://placehold.co/800x400/171923/f5e8b8?text=Save+Locations+Guide",
+  date: "2026-10-28",
+  author: "Divine Frequency Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Divine Frequency save locations** are not officially confirmed in the available game information.
+- **Start with Steam userdata**, then check common Windows AppData folders for local save files.
+- **Back up files before testing**, updating, reinstalling, or changing Early Access settings.
+- **Do not delete folders immediately**; rename suspected save directories and test the game first.
+- **Steam Cloud status** should be checked before restoring an older local backup.
+</Callout>
+
+<Section icon={Save} title="Divine Frequency Save Locations: What Is Confirmed">
+
+Divine Frequency is a Windows-only Steam Early Access horror FPS from Abraxaes. The available official information confirms the platform and Early Access status, but it does not publish a verified save-file directory or filename list. That means this guide separates **confirmed facts** from **likely Windows locations** that require local verification.
+
+The current Early Access release is dated **October 26, 2026**, with some UTC-based services displaying **October 27, 2026**. The build currently covers two of three planned chapters, so save behavior and folder structure may change during development.
+
+| Item | Current status | Practical meaning |
+|---|---|---|
+| Platform | Windows | Use Windows file-search and AppData checks |
+| Distribution | Steam Early Access | Steam userdata and Cloud settings may be relevant |
+| Confirmed save path | Not publicly listed | Verify folders on your own installation |
+| Current content | 2 of 3 planned chapters | Updates may alter save behavior |
+| Official language | English | File names and support notes may use English labels |
+
+**Official reference:** [Divine Frequency on Steam](https://store.steampowered.com/app/2548880/Divine_Frequency/) provides the current store and platform information. The [Steam Community hub](https://steamcommunity.com/app/2548880/) is the best place to check later developer announcements about save compatibility.
+
+<CardGrid cols={3}>
+  <Card title="Confirmed">
+    - **Windows platform**
+    - Steam Early Access distribution
+    - Abraxaes as developer and publisher
+  </Card>
+  <Card title="Not Confirmed">
+    - Exact save directory
+    - Save filename format
+    - Whether every progress file uses Steam Cloud
+  </Card>
+  <Card title="Best Practice">
+    - Search before modifying files
+    - Keep dated backups
+    - Test one change at a time
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Important Distinction">
+A likely Windows folder is not the same as an officially confirmed Divine Frequency save location. Treat every candidate path as unverified until you find a file that changes after creating or advancing a test save.
+</Callout>
+
+</Section>
+
+<Section icon={FolderSearch} title="Likely Windows Save Paths to Check">
+
+When a game does not publish its save directory, search in a controlled order. Begin with the Steam installation and userdata folders, then inspect Local, LocalLow, and Roaming AppData directories. The folder may use the game name, developer name, an internal project name, or a Steam application identifier.
+
+Do not assume the visible game folder contains saves. Many Windows games store progress outside the installation directory so updates and reinstalls do not overwrite personal data.
+
+| Search area | Example path | What to look for |
+|---|---|---|
+| Steam userdata | `C:\Program Files (x86)\Steam\userdata\` | Numeric account and app folders |
+| Local AppData | `%LOCALAPPDATA%` | Folders named Divine Frequency, Abraxaes, or a project label |
+| LocalLow AppData | `%USERPROFILE%\AppData\LocalLow\` | Unity-style publisher or game folders |
+| Roaming AppData | `%APPDATA%` | Profile, settings, or progression files |
+| Steam installation | Steam library `steamapps\common\` | Config files or clearly labeled save folders |
+| Documents | `%USERPROFILE%\Documents\` | Game-created profile or backup directories |
+
+The Steam application page uses app ID **2548880**, so a numeric directory related to that ID may be worth checking. However, the presence of a numbered folder does not prove that it contains the active save. Confirm it by comparing timestamps before and after a controlled in-game change.
+
+<Steps>
+  <Step num="1" title="Close the game and Steam">
+    Exit Divine Frequency normally, then close Steam if you want a clean file search. This prevents a file from being locked or updated while you inspect it.
+  </Step>
+  <Step num="2" title="Open the main candidate folders">
+    Paste `%LOCALAPPDATA%`, `%APPDATA%`, and `%USERPROFILE%\AppData\LocalLow\` into File Explorer. Also inspect the Steam `userdata` directory.
+  </Step>
+  <Step num="3" title="Search by name and date">
+    Search for `Divine Frequency`, `Abraxaes`, and `2548880`. If names produce no result, sort candidate folders by modified date and identify files changed during your last session.
+  </Step>
+  <Step num="4" title="Create a controlled test">
+    Record the current timestamps, launch the game, change one harmless setting or advance a small amount, exit, and check which files changed.
+  </Step>
+  <Step num="5" title="Copy before editing">
+    Once a likely save directory is identified, copy the entire folder to a separate backup location before renaming, replacing, or deleting anything.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Fastest Search Method">
+Use File Explorer’s search from your user profile and sort results by **Date modified**. A file updated immediately after a test session is more useful evidence than a folder name alone.
+</Callout>
+
+</Section>
+
+<Section icon={ShieldCheck} title="How to Verify the Active Save Folder">
+
+Finding a folder is only half the process. Early Access games can create settings, crash reports, shader caches, screenshots, and logs beside the real progression data. Verification prevents you from backing up the wrong files or restoring an outdated configuration.
+
+Use a small, repeatable test. Avoid making major story progress solely for this purpose. If the game has a safe settings change, a new profile marker, or another low-risk action, use that change to compare timestamps.
+
+| Verification signal | Reliability | Recommended action |
+|---|---|---|
+| File timestamp changes after a test session | High | Copy the folder and label it as a candidate save |
+| Folder name matches the game but files never change | Low | Treat it as a settings or cache folder |
+| Files are inside a numeric Steam directory | Medium | Compare timestamps and contents before trusting it |
+| Folder contains logs only | Low | Do not use it as a save backup |
+| Several files change together after exiting | High | Back up the complete directory |
+
+<CardGrid cols={3}>
+  <Card title="Save Data">
+    Look for profiles, slots, progression files, or compact binary files that change after play.
+  </Card>
+  <Card title="Settings Data">
+    Configuration files may update when resolution, controls, or display options change.
+  </Card>
+  <Card title="Diagnostic Data">
+    Logs and crash reports can be useful for troubleshooting but are not usually player saves.
+  </Card>
+</CardGrid>
+
+A proper backup should preserve the whole candidate folder rather than one file selected by guesswork. Some games divide profile data, world progress, settings, and metadata into separate files. Copying only one file may produce an incomplete restore.
+
+<Callout type="warning" title="Do Not Overwrite First">
+Never replace the suspected live folder with an older backup before creating a copy of the current state. If the backup is wrong or incompatible, the current progress may be difficult to recover.
+</Callout>
+
+</Section>
+
+<Section icon={Save} title="Backup and Restore Workflow">
+
+A reliable backup routine is especially important for Early Access releases. Divine Frequency is still under development, and future updates may change content, progression systems, or save compatibility. A dated backup gives you a recovery point without requiring you to guess which version was last working.
+
+Use a descriptive folder name that includes the date and game version when available. For example: `Divine-Frequency-Save-Backup-2026-10-28`. Store the copy outside the game directory, such as a separate backup folder or external drive.
+
+| Backup stage | Action | Why it matters |
+|---|---|---|
+| Before an update | Copy the complete candidate save folder | Preserves the pre-update state |
+| Before troubleshooting | Duplicate the current files | Allows safe testing |
+| After successful progress | Create a dated backup | Provides a recent restore point |
+| Before reinstalling | Back up saves and settings separately | Prevents accidental loss |
+| After restoring | Launch and verify the profile | Confirms compatibility |
+
+<Checklist
+  id="divine-frequency-save-backup"
+  title="Save Backup Checklist:"
+  items={[
+    "Close Divine Frequency before copying files",
+    "Record the original folder path",
+    "Copy the complete candidate save directory",
+    "Add a 2026 date to the backup name",
+    "Check Steam Cloud before restoring an older copy"
+  ]}
+/>
+
+<Callout type="success" title="Safe Restore Rule">
+Restore by renaming the current folder first, then placing the backup in its original location. This preserves a rollback copy if the restored files do not load correctly.
+</Callout>
+
+If Steam Cloud is enabled, an older local backup may conflict with a newer cloud version. Check the game’s Steam properties and cloud synchronization status before launching after a restore. If Steam asks which version to keep, choose only after comparing timestamps and backup names.
+
+</Section>
+
+<Section icon={Wrench} title="Missing Saves and Troubleshooting">
+
+A missing profile does not always mean the files are gone. The game may be reading another Windows user folder, Steam may be synchronizing a different version, or an update may have created a new directory. Work through the least destructive checks first.
+
+| Symptom | Possible cause | First response |
+|---|---|---|
+| Game starts with a blank profile | Wrong folder, cloud conflict, or new save format | Check timestamps and Steam Cloud status |
+| Save folder exists but progress is absent | Backup is outdated or incomplete | Compare backup dates and file groups |
+| Files vanish after reinstall | Save was stored inside the install folder | Search AppData and Steam userdata |
+| Game reports corrupted data | Incompatible version or damaged file | Preserve the folder and test a backup copy |
+| Several folders look identical | Multiple profiles or previous installs | Use modified dates and controlled testing |
+
+Try these non-destructive checks:
+
+- Confirm that you launched the same Steam account used to create the progress.
+- Search all user profiles on the PC if more than one Windows account is present.
+- Compare the modification time of candidate files with your last play session.
+- Temporarily rename a suspected folder instead of deleting it.
+- Verify the game installation through Steam if files appear missing.
+- Check current announcements in the [Steam Community hub](https://steamcommunity.com/app/2548880/) before assuming the save is permanently damaged.
+
+Do not download replacement save files from random websites. Unknown files may be incompatible with the current Early Access build, may overwrite valid progress, or may contain unwanted software.
+
+<Callout type="warning" title="Early Access Caution">
+A save problem after an update may be a compatibility issue rather than a missing file. Preserve every existing copy before testing a new build or reinstalling the game.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Where are the official Divine Frequency save locations?",
+    answer: "The available official information does not publish a verified Windows save directory. Check Steam userdata and the Local, LocalLow, and Roaming AppData folders, then verify candidates by comparing timestamps after a controlled test."
+  },
+  {
+    question: "Does Divine Frequency use Steam Cloud?",
+    answer: "The available reference material does not confirm the current Steam Cloud behavior. Check the game's Steam properties and synchronization status before restoring a local backup."
+  },
+  {
+    question: "Should I delete a suspected save folder if the game cannot load it?",
+    answer: "No. Rename the folder and preserve a copy first. A later update, support response, or compatibility test may require the original files."
+  },
+  {
+    question: "Can a Divine Frequency update change save compatibility?",
+    answer: "Yes, Early Access development can change progression systems or file formats. Create a dated backup before updates and keep the current folder separate from older restore points."
+  }
+]} />
+
+</Section>
+
+## Related Reading
+
+- [Divine Frequency speedrun: Route, Splits & Early Tips](/guide/Divine-Frequency-speedrun)
+- [Divine Frequency survival tips: Step-by-Step Guide](/guide/Divine-Frequency-survival-tips)
+- [Divine Frequency ost: 2026 Soundtrack Status Guide](/media/Divine-Frequency-ost)

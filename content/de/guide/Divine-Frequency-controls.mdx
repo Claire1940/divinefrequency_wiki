@@ -1,0 +1,232 @@
+import { Settings, Swords, Shield, Target, Map, CheckCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Divine Frequency-Steuerung: Einrichtung von Tastatur, Maus und Gamepad",
+  description: "Konfiguriere die Steuerung von Divine Frequency für Tastatur, Maus und Gamepad mit praktischen Tipps zu Empfindlichkeit, Anzeige, Eingaben und Fehlerbehebung.",
+  category: "guide",
+  image: "https://placehold.co/800x400/171923/f4e8c1?text=Divine+Frequency+Controls",
+  date: "2026-10-28",
+  author: "Divine Frequency-Wiki-Team",
+  slug: "divine-frequency-controls"
+}
+
+<Callout type="info" title="Schnellübersicht">
+- Die **Steuerung von Divine Frequency** sollte vor einer längeren Early-Access-Sitzung getestet werden.
+- **Tastatur und Maus** ermöglichen direktes Zielen und schnellen Zugriff auf konfigurierbare Eingaben.
+- Die **Gamepad-Einrichtung** sollte auf Tastenanzeigen, Empfindlichkeit und Erkennung geprüft werden.
+- **Leistungsanpassungen** können die Frame-Pacing verbessern und das Zielen konsistenter machen.
+- **Sichere Standardeinstellungen** sind in den Anfangsbereichen nützlicher als eine extreme Empfindlichkeit.
+</Callout>
+
+<Section icon={Settings} title="Divine Frequency-Steuerung: Was sollte zuerst konfiguriert werden?">
+
+Die Steuerung von Divine Frequency sollte als vollständige Eingabekonfiguration betrachtet werden und nicht nur als Liste einzelner Tasten. Bestätige vor der Erkundung der Anfangsbereiche Bewegung, Zielen, Interaktion, Kampfaktionen, den Zugriff auf Fähigkeiten und die Menünavigation. Das Spiel ist derzeit ein Horror-FPS im Early Access für Windows, daher können sich genaue Tastenbelegungen und verfügbare Optionen während der Entwicklung im Jahr 2026 ändern.
+
+Das wichtigste Ziel ist Konsistenz. Deine Bewegung sollte vorhersehbar sein, der Primärangriff leicht erreichbar und defensive oder Notfallaktionen sollten nicht mit häufig verwendeten Menüeingaben konkurrieren. Vermeide es, mehrere Einstellungen gleichzeitig zu ändern. Passe jeweils nur eine Steuerungskategorie an, teste sie in einem sicheren Bereich und behalte die Konfiguration nur bei, wenn sie den Komfort verbessert.
+
+| Steuerungsbereich | Erste zu prüfende Einstellung | Warum sie wichtig ist |
+|---|---|---|
+| Bewegung | Eingaben für Vorwärtsbewegung, Seitwärtsbewegung, Ducken und Sprinten | Bestätigt, dass sich die Navigation vor Kampfbeginn zuverlässig anfühlt |
+| Kamera | Blickempfindlichkeit und Zielverhalten | Bestimmt, wie schnell du Bedrohungen verfolgen kannst |
+| Kampf | Primärangriff, alternative Aktion, Nachladen und Waffenwechsel | Verringert Zögern in Nahkampfsituationen |
+| Fähigkeiten | Eingaben für psionische oder nützliche Aktionen | Hält Spezialwerkzeuge verfügbar, ohne Menüs öffnen zu müssen |
+| Interaktion | Eingaben für Benutzen, Untersuchen, Entsperren und Aufheben | Verhindert, dass Umgebungshinweise und wichtige Fortschrittsobjekte übersehen werden |
+| Menüs | Zugriff auf Pause, Inventar, Einstellungen und Karte | Erleichtert die Ressourcenverwaltung zwischen Begegnungen |
+
+Beginne bei der Verwendung von Tastatur und Maus mit einer moderaten Blickempfindlichkeit. Eine hohe Empfindlichkeit kann schnelle Drehungen erleichtern, aber präzises Zielen und das Untersuchen der Umgebung weniger stabil machen. Eine niedrigere Empfindlichkeit lässt sich oft leichter kontrollieren, wenn du lernst, Abstände zu Gegnern einzuschätzen, besonders in engen Räumen.
+
+Gamepad-Nutzer sollten zunächst bestätigen, dass das Spiel das aktive Gerät erkennt. Prüfe die angezeigten Tastenhinweise und teste anschließend Kamerabewegung, Trigger-Reaktion, Stick-Drift, Vibration und Menünavigation. Wenn die Hinweise nicht zum Gerät passen, trenne den Controller und verbinde ihn erneut, bevor du das Spiel wieder startest.
+
+<Callout type="tip" title="Tipp der Redaktion">
+Speichere vor dem Experimentieren eine einfache Ausgangskonfiguration. Ein stabiles Layout erleichtert es festzustellen, ob eine spätere Änderung das Zielen verbessert oder sich lediglich anders anfühlt.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Tastatur und Maus">
+    - **Direkte Kamerasteuerung**
+    - Schneller Zugriff auf häufig verwendete Tasten
+    - Nützlich für Spieler, die präzises Zielen bevorzugen
+  </Card>
+  <Card title="Gamepad">
+    - Komfortable analoge Bewegung
+    - Konsistenter Zugriff auf Trigger und Sticks
+    - Erfordert eine sorgfältige Prüfung der Empfindlichkeit
+  </Card>
+  <Card title="Hybride Einrichtung">
+    - Tastaturbewegung mit alternativen Eingabegeräten
+    - Flexibel zum Testen
+    - Sollte nur verwendet werden, wenn die Hinweise eindeutig bleiben
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Schrittweise Einrichtung der Steuerung">
+
+Verwende die folgende Reihenfolge, wenn du deine Divine Frequency-Steuerung erstellst oder überarbeitest. Die Reihenfolge ist wichtig, da Bewegung und Kameraverhalten jede spätere Kampfentscheidung beeinflussen.
+
+<Steps>
+  <Step num="1" title="Aktives Eingabegerät bestätigen">
+    Öffne zunächst das Einstellungsmenü und überprüfe, ob das Spiel deine Tastatur und Maus oder deinen Controller erkennt. Bewege die Kamera, löse eine Interaktion aus und öffne ein Menü, um zu bestätigen, dass das ausgewählte Gerät zuverlässig reagiert.
+  </Step>
+  <Step num="2" title="Bewegung vor der Empfindlichkeit einstellen">
+    Teste Vorwärtsbewegung, Seitwärtsbewegung, Rückwärtsbewegung, Ducken und Sprinten. Stelle sicher, dass die Bewegungseingaben bequem sind und keine unnatürlichen Fingerpositionen erfordern. Optimiere das Zielen erst, wenn sich die grundlegende Navigation natürlich anfühlt.
+  </Step>
+  <Step num="3" title="Moderate Kamerareaktion wählen">
+    Beginne mit einer mittleren Blickempfindlichkeit. Drehe dich zu einem nahegelegenen Orientierungspunkt, verfolge eine sich bewegende Bedrohung und führe eine kontrollierte Richtungsänderung aus. Erhöhe die Empfindlichkeit nur, wenn sich das Drehen langsam anfühlt, und senke sie, wenn du regelmäßig über Ziele hinausschießt.
+  </Step>
+  <Step num="4" title="Notfallaktionen in Reichweite platzieren">
+    Halte Heilung, defensive Aktionen, Nachladen und andere Überlebenswerkzeuge zugänglich. Die genau verfügbaren Aktionen können je nach Build variieren. Priorisiere daher die Funktionen, die du am häufigsten verwendest, statt ein für ein anderes Spiel entwickeltes Layout zu kopieren.
+  </Step>
+  <Step num="5" title="Layout in einem sicheren Bereich testen">
+    Durchquere einen vertrauten Abschnitt und überprüfe Kampf, Interaktion, Menüzugriff und Ressourcenverwaltung. Wenn eine Eingabe versehentliche Aktionen oder Verzögerungen verursacht, ändere nur diese eine Tastenbelegung und wiederhole den Test.
+  </Step>
+</Steps>
+
+| Test | Erfolgsbedingung | Anpassung bei Fehlschlag |
+|---|---|---|
+| Kameradrehung | Du kannst dich drehen, ohne wiederholt über das Ziel hinauszuschießen | Blickempfindlichkeit in kleinen Schritten senken |
+| Zielverfolgung | Dein Zielen folgt einer Bedrohung ohne ständige Korrekturen | Empfindlichkeit und Zielverhalten überprüfen |
+| Sprintzugriff | Sprinten kann aktiviert werden, ohne die Bewegung zu stören | Sprint auf eine bequemere Eingabe legen |
+| Interaktion | Türen, Objekte und aufhebbare Gegenstände reagieren zuverlässig | Interaktionstaste oder -button überprüfen |
+| Notfallaktion | Heilung oder defensive Werkzeuge sind unter Druck erreichbar | Die Aktion einer nahegelegenen, eindeutig unterscheidbaren Eingabe zuweisen |
+
+<Callout type="success" title="Regel für eine zuverlässige Einrichtung">
+Ein gutes Steuerungslayout ist eines, das du verwenden kannst, ohne bewusst nach grundlegenden Aktionen suchen zu müssen. Teste es unter Druck und nicht nur im Stillstand in einem Menü.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Vergleich von Tastatur, Maus und Gamepad">
+
+Es gibt keine einzelne beste Steuerungsmethode für jeden Divine Frequency-Spieler. Das Spiel verbindet Fernkampf, Erkundung, Ressourcenentscheidungen und übernatürliche oder psionische Optionen. Wähle das Gerät, mit dem du beim Bewegen durch unbekannte Bereiche den Überblick behalten kannst.
+
+Die Steuerung mit Tastatur und Maus ist eine gute Wahl für Spieler, die direkte Kamerabewegung und schnellen Zugriff auf mehrere getrennte Eingaben schätzen. Außerdem lassen sich Bewegungs-, Interaktions-, Waffen- und Fähigkeitstasten leichter voneinander trennen. Der Nachteil ist, dass ein ungünstiges Tastenlayout in stressigen Begegnungen zu langen Fingerwegen führen kann.
+
+Die Gamepad-Steuerung kann eine flüssigere analoge Bewegung und eine komfortable Kombination aus Kamera- und Bewegungssteuerung ermöglichen. Allerdings stehen weniger Tasten zur Verfügung, sodass wichtige Aktionen möglicherweise von Haltefunktionen, Radialmenüs oder Tastenkombinationen abhängen. Überprüfe diese Kombinationen, bevor du eine schwierige Begegnung beginnst.
+
+| Eingabemethode | Größte Stärke | Häufiges Risiko | Bester Ausgangspunkt |
+|---|---|---|---|
+| Tastatur und Maus | Präzise Kamerasteuerung und separate Tasten | Unpraktische Belegungen können Notfallaktionen verlangsamen | Moderate Empfindlichkeit verwenden und Kampftasten logisch gruppieren |
+| Gamepad | Flüssige Bewegung und komfortable analoge Steuerung | Begrenzte Tastenanzahl und mögliche Empfindlichkeitsprobleme | Tastenhinweise, Stick-Reaktion und Trigger-Verhalten bestätigen |
+| Gemischte Geräte | Nützlich zum Testen bevorzugter Funktionen | Der Gerätewechsel kann Hinweise oder Verhalten verändern | Während aktiver Kämpfe ein primäres Gerät verwenden |
+| Standardlayout | Schnellste Ersteinrichtung | Passt möglicherweise nicht zu jeder Handposition | Zuerst testen und anschließend nur unbequeme Aktionen ändern |
+
+Mausnutzer sollten nicht nach extrem schnellen Drehungen streben. Begegnungen in einem Horror-FPS bestrafen panische Bewegungen oft stärker als eine langsame Kameradrehung. Eine kontrollierbare Reaktion hilft dir, Räume zu untersuchen, Schüsse auszurichten und einen Rückzugsweg freizuhalten.
+
+Gamepad-Nutzer sollten sowohl die horizontale als auch die vertikale Kamerabewegung testen. Ein Layout kann sich beim Blick nach links und rechts bequem anfühlen, aber bei der Verfolgung höher oder tiefer gelegener Ziele unpraktisch sein. Prüfe außerdem, ob die Vibration dir hilft, Kampfhinweise wahrzunehmen, oder ob sie während der Erkundung ablenkt.
+
+<Callout type="warning" title="Warnung zu Eingaben">
+Gehe nicht davon aus, dass ein Steuerungsproblem eine Spielmechanik ist. Wenn sich eine Eingabe verzögert, nicht passend oder reaktionslos anfühlt, überprüfe zuerst die Geräteerkennung, Overlays, Treiber und das aktive Steuerungsprofil.
+</Callout>
+
+<CardGrid cols={4}>
+  <Card title="Zielen">
+    Verwende eine moderate Reaktion und nimm kleine Anpassungen vor, bevor du die Geschwindigkeit erhöhst.
+  </Card>
+  <Card title="Bewegung">
+    Priorisiere komfortables Seitwärtsbewegen, Rückzug, Ducken und den Sprintzugriff.
+  </Card>
+  <Card title="Kampf">
+    Trenne Angriff, Nachladen, Waffenwechsel und Notfallaktionen nach Möglichkeit voneinander.
+  </Card>
+  <Card title="Erkundung">
+    Halte Interaktions- und Menüsteuerung in der Nähe von Umgebungsobjekten leicht erkennbar.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Steuerung, Leistung und konstante Kampfabläufe">
+
+Das Steuerungsgefühl wird von mehr als nur Tastenbelegungen beeinflusst. Anzeigemodus, Auflösung, Frame-Pacing, Hintergrundanwendungen und Grafikeinstellungen können verändern, wie reaktionsschnell sich das Zielen anfühlt. Wenn die Leistung ungleichmäßig wirkt, passe zunächst technische Einstellungen an, bevor du dein gesamtes Steuerungslayout neu erstellst.
+
+Beginne mit der Standardgrafikvoreinstellung und teste das Spiel in einem repräsentativen Erkundungs- oder Kampfbereich. Wenn die Leistung instabil ist, reduziere anspruchsvolle Optionen einzeln. Auflösung, Schatten, Effekte und Nachbearbeitung sind sinnvolle Kategorien zum Testen. Wenn du jedoch alles gleichzeitig änderst, wird es schwieriger, die Ursache zu erkennen.
+
+| Technische Einstellung | Erste empfohlene Prüfung | Warum sie die Steuerung beeinflusst |
+|---|---|---|
+| Anzeigemodus | Vollbild und randlos testen | Der Wechsel des Modus kann das Frame-Pacing beeinflussen |
+| Auflösung | Mit der nativen Auflösung beginnen | Zeigt, ob die Renderlast die Reaktionsfähigkeit beeinflusst |
+| Upscaling | Nur aktivieren, wenn verfügbar und erforderlich | Kann die Leistung verbessern, aber die Bildschärfe verändern |
+| Schatten und Effekte | Beim Testen einzeln reduzieren | Verringert die Last, ohne jede Grafikeinstellung zu verändern |
+| Hintergrundanwendungen | Unnötige Overlays schließen | Verringert mögliche Konflikte und Unterbrechungen |
+| Verhalten der Bildrate | Auf konstantes Frame-Pacing testen | Gleichmäßige Bewegungen lassen sich meist leichter kontrollieren |
+
+Wenn das Bild flackert, sich das Frame-Pacing ungleichmäßig anfühlt oder Eingaben verzögert wirken, wechsle den Anzeigemodus und starte das Spiel neu. Halte die Grafiktreiber aktuell und überprüfe die Installation über Steam, wenn die Probleme bestehen bleiben. Diese Prüfungen sind besonders für einen Early-Access-Build nützlich, bei dem sich das technische Verhalten zwischen Updates ändern kann.
+
+Verwende die offizielle [Divine Frequency-Steamseite](https://store.steampowered.com/app/2548880/Divine_Frequency/) für den aktuellen Windows-Build und verfügbare technische Informationen. Der [Steam-Community-Hub](https://steamcommunity.com/app/2548880/) eignet sich ebenfalls, um aktuelle Spielermeldungen und Diskussionen zu Eingabe- oder Leistungsproblemen zu prüfen.
+
+<Callout type="info" title="Hinweis zur Leistung">
+Teste die Steuerung nach einer größeren Grafikänderung. Ein Empfindlichkeitswert, der bei stabilem Frame-Pacing angenehm wirkt, kann sich anders anfühlen, wenn das Spiel Schwierigkeiten hat, einen anspruchsvollen Bereich zu rendern.
+</Callout>
+
+<Checklist
+  id="divine-frequency-controls-check"
+  title="Checkliste für die Steuerung:"
+  items={[
+    "Aktives Tastatur-, Maus- oder Gamepad-Gerät bestätigen",
+    "Bewegung, Kamerareaktion, Interaktion und Menüs testen",
+    "Nachladen und Notfallaktionen in bequemer Reichweite platzieren",
+    "Anzeigemodus und Frame-Pacing prüfen, bevor die Empfindlichkeit geändert wird",
+    "Layout in einem sicheren Kampfbereich erneut testen"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Empfohlene Steuerungsgewohnheiten im Early Access">
+
+Ein Steuerungslayout ist nur ein Teil davon, die aktuellen Early-Access-Inhalte von Divine Frequency zu überleben. Gute Gewohnheiten verringern die Anzahl der benötigten Notfalleingaben und machen die Erkundung übersichtlicher.
+
+Identifiziere vor dem Betreten eines unbekannten Raums einen Rückzugsweg und halte deine Bewegungseingaben verfügbar. Lege wichtige Aktionen nicht auf Tasten, die du beim Drehen, Sprinten oder Interagieren mit Objekten versehentlich drücken könntest. Wenn du das Layout änderst, spiele zunächst einen Bereich mit geringem Risiko durch, bevor du optionale Begegnungen versuchst.
+
+| Situation | Steuerungsgewohnheit | Praktisches Ergebnis |
+|---|---|---|
+| Einen unbekannten Raum betreten | Bewegungs- und Rückzugseingaben bereithalten | Du kannst dich zurückziehen, ohne nach einer Taste suchen zu müssen |
+| Kampf auf kurze Distanz | Kontrollierte Drehungen statt maximaler Empfindlichkeit verwenden | Verringert versehentliche Überkorrekturen |
+| Knapp bemessene Ressourcen verwalten | Menüzugriff von Kampfeingaben getrennt halten | Verringert die Wahrscheinlichkeit, Menüs zum falschen Zeitpunkt zu öffnen |
+| Blockierte Wege erneut besuchen | Interaktion konsistent verwenden | Erleichtert wiederholte Prüfungen der Umgebung |
+| Nach einem Update | Tastenhinweise und Belegungen erneut prüfen | Erkennt Änderungen vor einer langen Sitzung |
+
+Notiere dir kurz ungelöste Türen, unzugängliche Wege und optionale Räume. Diese Gewohnheit ist zuverlässiger, als wiederholt jeden Korridor zurückzuverfolgen. Wenn ein späteres Update den Fortschritt verändert oder Inhalte hinzufügt, können deine Notizen dabei helfen, eine neue Route von einem zuvor nicht verfügbaren Bereich zu unterscheiden.
+
+<Callout type="tip" title="Tipp zur Erkundung">
+Verwende Orientierungspunkte und abgeschlossene Ziele, um deine Route zu organisieren. Eine konsistente Navigation verringert Panik und erleichtert dadurch auch die Nutzung deines Steuerungslayouts bei unerwarteten Begegnungen.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Welche Divine Frequency-Steuerung ist für Anfänger am besten?",
+    answer: "Beginne mit dem Standardlayout, verwende eine moderate Kamer empfindlichkeit und platziere Interaktion, Nachladen, Bewegung und Notfallaktionen an leicht erreichbaren Stellen. Ändere nur Eingaben, die Verwirrung oder Unbehagen verursachen."
+  },
+  {
+    question: "Sollte ich Tastatur und Maus oder ein Gamepad verwenden?",
+    answer: "Tastatur und Maus eignen sich für direkte Kamerasteuerung und getrennten Zugriff auf Tasten. Ein Gamepad kann sich bei analoger Bewegung komfortabler anfühlen. Wähle das Gerät, mit dem du ohne Zögern zielen, dich zurückziehen und interagieren kannst."
+  },
+  {
+    question: "Warum fühlen sich meine Eingaben verzögert an?",
+    answer: "Überprüfe Frame-Pacing, Anzeigemodus, Hintergrundanwendungen, Geräteerkennung und Grafikeinstellungen, bevor du jede Tastenbelegung änderst. Eine stabile Leistung kann dieselbe Empfindlichkeit reaktionsschneller wirken lassen."
+  },
+  {
+    question: "Können Early-Access-Updates die Steuerung ändern?",
+    answer: "Sie können verfügbare Optionen, Tastenhinweise oder technisches Verhalten ändern. Überprüfe nach größeren Updates die Belegungen und die Controller-Erkennung erneut, besonders bevor du einen langen Spieldurchlauf beginnst."
+  }
+]} />
+
+<Callout type="success" title="Abschließende Empfehlung">
+Erstelle ein einfaches Layout, teste es in einem sicheren Bereich und priorisiere zuverlässige Bewegung vor extremer Empfindlichkeit. Überprüfe die Einrichtung nach jedem größeren Early-Access-Update im Jahr 2026 erneut.
+</Callout>
+
+</Section>
+
+## Weiterführende Artikel
+
+- [Divine Frequency Stärke erhöhen: Leitfaden zur Build-Zusammenstellung](/de/guide/Divine-Frequency-increase-strength)
+- [Speicherorte von Divine Frequency: PC-Pfade und Backup-Tipps](/de/guide/Divine-Frequency-save-locations)
+- [Die erste Stunde in Divine Frequency: Schritt-für-Schritt-Überlebensleitfaden](/de/media/Divine-Frequency-first-hour)

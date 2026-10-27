@@ -1,0 +1,236 @@
+import { Terminal, Search, KeyRound, ShieldAlert, CheckCircle, Map } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Divine Frequency terminal puzzle: Step-by-Step Guide",
+  description: "Solve the Divine Frequency terminal puzzle with a spoiler-aware method for reading symbols, finding the sequence, avoiding resets, and checking hidden clues.",
+  category: "puzzles",
+  image: "https://placehold.co/800x400/161a1d/fff?text=Terminal+Puzzle+Guide",
+  date: "2026-10-28",
+  author: "Divine Frequency Wiki Team",
+  slug: "divine-frequency-terminal-puzzle"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Divine Frequency terminal puzzle**: Read the surrounding environment before interacting with the console.
+- **Correct method**: Compare repeated symbols, unique markings, object placement, and nearby lighting changes.
+- **Best approach**: Record the clue order, test one input at a time, and avoid random terminal entries.
+- **Failure prevention**: Keep an escape route open and separate puzzle clues from optional encounter triggers.
+- **Spoiler control**: Use the observation and hint sections before revealing the full interaction order.
+</Callout>
+
+<Section icon={Terminal} title="Divine Frequency Terminal Puzzle Overview">
+
+The **Divine Frequency terminal puzzle** uses environmental information rather than a simple code displayed directly on the console. The intended solution path is to inspect nearby rooms, identify repeated visual language, and determine which detail acts as the sequence marker. Treat the terminal as the final step of a larger observation puzzle, not as an isolated keypad.
+
+This approach is especially useful in the current Early Access build, where blocked routes, optional discoveries, and environmental interactions can overlap. A terminal may appear important before all of its clues are available, so do not assume that an inactive or confusing interface indicates a bug.
+
+| Puzzle Element | What to Check | Why It Matters |
+|---|---|---|
+| Terminal screen | Symbols, prompts, input order | Confirms the type of interaction required |
+| Nearby walls | Repeated marks or unusual patterns | Often establishes the puzzle language |
+| Object placement | Unique item, statue, panel, or light | May identify the starting point |
+| Adjacent rooms | Matching symbols or changed details | Helps confirm the intended sequence |
+| Exit routes | Doors, corridors, or locked paths | Prevents unnecessary backtracking |
+
+<CardGrid cols={3}>
+  <Card title="Observe First">
+    Search the entire surrounding area before entering a symbol. The terminal usually becomes easier once the visual clues are connected.
+  </Card>
+  <Card title="Record the Pattern">
+    Write down repeated symbols and their locations. A short note prevents repeated searches after a failed attempt.
+  </Card>
+  <Card title="Test Carefully">
+    Use deliberate inputs instead of cycling through random combinations. Random attempts can waste time or trigger danger.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Editor Tip">
+If the terminal appears inactive, inspect nearby rooms and return after completing the closest environmental interaction. Some puzzle states are tied to progression rather than immediate access.
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="How to Read the Terminal Clues">
+
+The most reliable way to solve the puzzle is to classify every clue before deciding what it means. Divine Frequency favors surreal visual design, so not every strange object is part of the solution. Give priority to details that are repeated, deliberately framed, or changed after an interaction.
+
+Start with the terminal itself, then expand your search in a controlled circle. Check the room containing the console, the nearest side rooms, and any route that appears to lead toward the same symbol language. Avoid searching the entire level until the local clues have been exhausted.
+
+| Clue Type | Recognition Pattern | Recommended Interpretation |
+|---|---|---|
+| Repeated symbol | Appears in multiple locations | Likely part of the puzzle vocabulary |
+| Unique symbol | Appears once near a key object | Possible starting point or confirmation marker |
+| Changed lighting | Light color or intensity shifts | May indicate an active interaction |
+| Object alignment | Items form a visible line or order | May suggest input direction |
+| Sound change | Hum, tone, or interference changes | Can confirm a correct state or trigger |
+
+Use the following priority order when several clues seem possible:
+
+1. **Repeated visual marks** near the terminal.
+2. **A unique detail** that breaks the local pattern.
+3. **Object placement** that creates a readable direction.
+4. **Lighting or sound changes** after an interaction.
+5. **Decorative details** that do not repeat or connect to the area.
+
+<Steps>
+  <Step num="1" title="Inspect the Console">
+    Read the terminal prompt, examine every visible symbol, and note whether the interface asks for a sequence, selection, alignment, or confirmation. Do not input anything yet.
+  </Step>
+  <Step num="2" title="Search the Immediate Room">
+    Check walls, floors, screens, doors, containers, and unusual objects. Look for repeated marks or one distinctive clue that appears close to the terminal.
+  </Step>
+  <Step num="3" title="Compare Adjacent Areas">
+    Move through nearby accessible rooms and compare symbols, lighting, object placement, and sound. Return to the terminal if a clue changes after an interaction.
+  </Step>
+  <Step num="4" title="Build the Sequence">
+    Arrange the symbols according to their environmental order. Use direction, repetition, and the unique marker to decide which symbol comes first.
+  </Step>
+  <Step num="5" title="Enter and Confirm">
+    Input the sequence slowly, verify each selection, and watch for a door, light, sound, or objective update that confirms progress.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Avoid Random Inputs">
+Do not brute-force the terminal while enemies are nearby or resources are low. A failed attempt may leave you facing the same environmental hazard without clarifying the clue.
+</Callout>
+
+</Section>
+
+<Section icon={KeyRound} title="Terminal Sequence Method">
+
+Once the clues are collected, convert them into an interaction order. The key question is not simply “Which symbol looks important?” Instead, ask how the game presents the symbols spatially. The intended sequence may follow a path, a visual hierarchy, or the relationship between repeated marks and one unique marker.
+
+A practical rule is to treat repeated symbols as confirmation and the unique symbol as direction. If a symbol appears in several locations, it may tell you which input family is valid. If one symbol appears only once beside a conspicuous object, it may identify where the sequence begins or ends.
+
+| Sequence Question | Correct Test | Common Mistake |
+|---|---|---|
+| Which symbol comes first? | Find the unique marker or starting point | Choosing the largest symbol |
+| What order follows? | Trace physical placement or visual direction | Sorting by appearance alone |
+| Is the clue active? | Check for lighting, sound, or state changes | Assuming every decoration matters |
+| Is the entry accepted? | Look for objective or environmental feedback | Repeating the same input blindly |
+| Is the puzzle complete? | Check the newly opened route or terminal state | Leaving before confirming progression |
+
+### Observation Hint
+
+Look for a detail that appears deliberately isolated from the surrounding pattern. This may be a different symbol, a single light, an unusual panel, or an object positioned at the edge of an otherwise repeated arrangement.
+
+### Second Hint
+
+Compare the isolated detail with the route between the clue locations. The order may be read from the entrance toward the terminal, from the terminal outward, or along a visible left-to-right or high-to-low arrangement.
+
+### Full Method
+
+Use the unique environmental marker to establish the starting point, then follow the repeated symbols in the direction suggested by their placement. Enter the sequence only after each symbol has a clear reason to occupy its position. If the terminal accepts the input, confirm the resulting door, panel, light, or objective update before moving away.
+
+<CardGrid cols={4}>
+  <Card title="Symbol Order">
+    Favor spatial order over visual size. The largest mark is not automatically the first input.
+  </Card>
+  <Card title="Direction">
+    Follow corridors, wall markings, object alignment, or a clear path leading toward the terminal.
+  </Card>
+  <Card title="Feedback">
+    Watch for audio, lighting, or interface changes after each successful interaction.
+  </Card>
+  <Card title="Reset Plan">
+    If the state does not change, stop and recheck the clue relationship instead of repeating the same sequence.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Early Access Note">
+Puzzle presentation can change as the game receives updates. Keep the environmental logic in mind, but verify the current terminal behavior if a later build displays different symbols or interaction prompts.
+</Callout>
+
+</Section>
+
+<Section icon={ShieldAlert} title="Mistakes, Resets, and Nearby Dangers">
+
+Terminal puzzles are often placed near optional encounters, blocked routes, or rooms that punish rushed exploration. Before interacting, make the area safer. Clear a nearby path when practical, identify the closest retreat route, and avoid spending rare healing or ammunition simply to investigate a suspicious console.
+
+If the terminal resets, treat the reset as information. Check whether one symbol was entered in the wrong position, whether the puzzle requires a prior environmental interaction, or whether a nearby clue was overlooked. A reset does not necessarily mean the entire puzzle must be rediscovered.
+
+| Situation | Likely Cause | Recommended Response |
+|---|---|---|
+| Terminal does nothing | Required interaction is incomplete | Search nearby rooms and return after checking objectives |
+| Sequence resets | Input order is incorrect | Rebuild the sequence from spatial clues |
+| Door remains closed | Puzzle state was not confirmed | Look for a switch, sound, light, or objective update |
+| Enemy interrupts | Optional encounter was triggered | Retreat, recover resources, and return with a clear route |
+| Clues seem inconsistent | Decorative details were included | Prioritize repeated and deliberately framed elements |
+| Area feels unfinished | Early Access progression limit | Record the location and continue with available objectives |
+
+<Checklist
+  id="terminal-puzzle-check"
+  title="Before Entering the Sequence:"
+  items={[
+    "Read the terminal prompt and identify the interaction type",
+    "Inspect the entire room for repeated and unique symbols",
+    "Compare nearby rooms and environmental changes",
+    "Identify a safe retreat route and preserve key resources",
+    "Confirm the sequence has a clear order before submitting it"
+  ]}
+/>
+
+A careful player should also distinguish between three different outcomes:
+
+- **Input rejection**: The terminal refuses the selected symbol or sequence.
+- **Puzzle reset**: The interface returns to its starting state.
+- **Successful activation**: A door, light, sound, panel, or objective changes.
+
+Only the third outcome confirms that the terminal puzzle is complete. A satisfying sound or visual effect may indicate progress, but always check the surrounding area for the actual route forward.
+
+<Callout type="warning" title="Do Not Force Blocked Content">
+If the terminal remains inaccessible after the local clues are exhausted, mark the location and continue the main route. Early Access areas may contain content intended for a later progression state.
+</Callout>
+
+</Section>
+
+<Section icon={CheckCircle} title="Terminal Puzzle Checklist and FAQ">
+
+Use this final checklist when revisiting the puzzle after combat, exploration, or a story objective. It keeps the solution process focused and reduces the chance of confusing a decorative symbol with an actual clue.
+
+| Final Check | Confirmation |
+|---|---|
+| Terminal prompt understood | You know whether the console requires selection, order, alignment, or confirmation |
+| Local clues reviewed | Nearby symbols, objects, lights, and sounds have been compared |
+| Sequence justified | Every input has a clear environmental reason |
+| Area secured | A retreat path remains open and resources are adequate |
+| Progress confirmed | A door, panel, objective, or environmental state has changed |
+
+<Callout type="success" title="Solution Confidence Check">
+You are ready to submit the sequence when the clue order is supported by both symbol placement and at least one environmental confirmation.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "What is the main idea behind the Divine Frequency terminal puzzle?",
+    answer: "The puzzle is solved by reading nearby environmental clues, identifying repeated and unique symbols, and entering the resulting order at the terminal."
+  },
+  {
+    question: "Should I try random symbol combinations?",
+    answer: "No. Random inputs are inefficient and may leave you exposed to nearby enemies or hazards. Record the clues and test only a sequence supported by the room layout."
+  },
+  {
+    question: "What should I do if the terminal does not respond?",
+    answer: "Search adjacent rooms, inspect unusual objects, check for lighting or sound changes, and confirm that the required story interaction has been completed."
+  },
+  {
+    question: "How can I tell whether the puzzle is finished?",
+    answer: "Look for a clear state change such as an opened route, changed lighting, a new sound, a panel activation, or an updated objective. Do not leave based on interface feedback alone."
+  }
+]} />
+
+For official build information and current announcements, check the [Divine Frequency Steam page](https://store.steampowered.com/app/2548880/Divine_Frequency/) and the [official Steam Community hub](https://steamcommunity.com/app/2548880/). These channels are the best places to verify changes to Early Access progression, puzzle behavior, and newly accessible areas.
+
+</Section>
+
+## Related Reading
+
+- [Divine Frequency endings: Early Access Route Guide](/puzzles/Divine-Frequency-endings)
+- [Divine Frequency puzzle solutions: Step-by-Step Guide](/puzzles/Divine-Frequency-puzzle-solutions)
+- [Divine Frequency demo release: 2026 Status Guide](/release/Divine-Frequency-demo-release)

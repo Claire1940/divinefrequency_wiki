@@ -1,0 +1,213 @@
+import { Cpu, Settings, Wrench, Shield, Map, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Divine Frequency engine: Setup Guide & Performance Tips",
+  description: "Learn what is publicly confirmed about the Divine Frequency engine, configure the Early Access build, and troubleshoot performance on Windows.",
+  category: "technical",
+  image: "https://placehold.co/800x400/171923/f5e6a8?text=Divine+Frequency+Engine",
+  date: "2026-10-28",
+  author: "Divine Frequency Wiki Team",
+  slug: "divine-frequency-engine-setup-guide"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Divine Frequency engine**: Treat the game as a Windows-only Early Access horror FPS with evolving technical performance.
+- **Best starting point**: Test the default graphics preset before changing individual settings.
+- **Performance priority**: Adjust resolution, shadows, effects, and post-processing before reducing every option.
+- **Troubleshooting order**: Update drivers, close overlays, verify Steam files, then restart after major changes.
+- **Technical caution**: Do not assume a specific engine technology unless the developer confirms it officially.
+</Callout>
+
+<Section icon={Cpu} title="What the Divine Frequency Engine Supports">
+
+The **Divine Frequency engine** is best understood through the features players can currently experience rather than an unconfirmed technology label. The game is a surreal retro horror FPS with RPG progression, firearm combat, psionic options, exploration, puzzles, and psychological horror elements. It entered Steam Early Access on **October 26, 2026**, with some regional displays showing **October 27, 2026** because of UTC timing.
+
+The current build is designed for Windows and is still under active development. That means rendering behavior, performance stability, input support, and graphics options may change as new chapters, enemies, systems, and polish updates arrive. No reliable public information confirms whether the game uses Unity, Unreal Engine, Godot, or another named technology, so this guide focuses on practical configuration instead of speculation.
+
+| Technical Area | Confirmed or Safe Guidance |
+|---|---|
+| Platform | Windows PC |
+| Release state | Steam Early Access |
+| Genre workload | Horror FPS, RPG progression, surreal environments |
+| Current content | Two of three planned chapters |
+| Current playtime | Approximately 4–6 hours |
+| Official language | English |
+| Engine brand | Not treated as officially confirmed |
+
+The game’s visual identity combines dark environments, analog interference, retro horror presentation, and surreal spaces. These elements can make shadows, post-processing, volumetric effects, and image clarity more important than a simple “low versus ultra” preset comparison.
+
+<CardGrid cols={3}>
+  <Card title="Rendering Workload">
+    Expect demanding scenes when dark interiors, visual effects, lighting changes, and enemy encounters overlap. Test performance in actual exploration areas rather than only menus.
+  </Card>
+  <Card title="Early Access Behavior">
+    Updates may improve optimization, alter settings, or fix crashes and progression blockers. Recheck configuration after a major build change.
+  </Card>
+  <Card title="Input and Display">
+    Confirm your active display mode, resolution, mouse sensitivity, controller detection, and key prompts before beginning a long session.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Avoid Unconfirmed Engine Claims">
+Do not describe Divine Frequency as a Unity or Unreal Engine title without an official developer statement. A technical wiki should separate confirmed platform information from community assumptions.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Recommended Divine Frequency Engine Settings">
+
+Start with the default configuration supplied by the Early Access build. Change one option at a time, then test in a representative gameplay area containing movement, combat, lighting, and exploration. This approach makes it easier to identify whether the limiting factor is resolution, GPU effects, frame pacing, or input behavior.
+
+Resolution is usually the clearest first test. If performance improves substantially after lowering rendering resolution, the graphics processor may be the primary limitation. If the frame rate barely changes, investigate background applications, CPU load, frame pacing, or a specific visual effect instead.
+
+| Setting Category | First Adjustment | Why It Helps |
+|---|---|---|
+| Display mode | Try fullscreen or borderless | Can improve switching behavior and resolve display conflicts |
+| Resolution | Reduce rendering resolution slightly | Tests whether GPU workload is the main bottleneck |
+| Shadows | Lower one level | Often reduces lighting workload while preserving overall image clarity |
+| Effects | Reduce effects quality | Helps scenes with interference, particles, or layered visual effects |
+| Post-processing | Lower selectively | Can improve clarity and reduce visual overhead |
+| Frame rate | Use a stable cap if needed | May provide smoother frame pacing than an unstable high target |
+
+### A practical configuration order
+
+<Steps>
+  <Step num="1" title="Confirm the baseline">
+    Launch Divine Frequency with its default display and graphics settings. Play through a representative section rather than judging performance from the title screen. Record stuttering, input delay, texture problems, or sudden frame-rate drops.
+  </Step>
+  <Step num="2" title="Test display mode">
+    Compare fullscreen and borderless mode if both are available. Keep the mode that provides more consistent frame pacing and reliable task switching. Restart the game if the display does not refresh correctly.
+  </Step>
+  <Step num="3" title="Adjust resolution before everything else">
+    Lower resolution or rendering scale in a small step. If the result is noticeably smoother, keep the change and restore other settings where possible so the image does not become unnecessarily soft.
+  </Step>
+  <Step num="4" title="Reduce expensive visual options">
+    Lower shadows, effects, and post-processing individually. Test after each change so you can identify which setting affects the problem instead of applying a broad preset without knowing the result.
+  </Step>
+  <Step num="5" title="Stabilize the final profile">
+    Close unnecessary overlays, apply a sensible frame-rate cap if pacing remains uneven, and restart Divine Frequency after major graphics changes. Save the configuration before returning to a longer session.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Editor’s Recommendation">
+Preserve visual clarity in dark areas whenever possible. Lower shadows or effects before reducing every quality setting, because excessive image softness can make exploration and enemy recognition more difficult.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Performance Troubleshooting Workflow">
+
+Early Access performance problems do not always come from the same cause. A crash may involve drivers or corrupted files, while stuttering may come from frame pacing, background overlays, or a demanding scene. Use a repeatable process instead of changing multiple variables at once.
+
+| Symptom | First Checks | Recommended Action |
+|---|---|---|
+| Uneven frame pacing | Overlays, frame cap, display mode | Disable unnecessary overlays and test a stable cap |
+| Low frame rate | Resolution, shadows, effects | Reduce resolution first, then lower expensive visual settings |
+| Flickering image | Display mode, driver state | Switch fullscreen or borderless mode and restart |
+| Controller not detected | Connection, active input device | Reconnect before launch and verify input settings |
+| Crash during launch | Drivers, installation files | Update graphics drivers and verify files through Steam |
+| Stutter after an update | New build, cached settings | Restart the game and retest default settings |
+
+Use the following order when diagnosing a problem:
+
+- Close recording tools, browser overlays, chat overlays, and unnecessary background applications.
+- Confirm that graphics drivers are current.
+- Verify the Divine Frequency installation through Steam.
+- Restart the game after changing display mode or major graphics settings.
+- Test the same area again before changing another option.
+- Check the official [Steam Community hub](https://steamcommunity.com/app/2548880/) for current reports and developer responses.
+
+The **[Divine Frequency Steam page](https://store.steampowered.com/app/2548880/Divine_Frequency/)** is the best official place to confirm the current Early Access build, supported platform, and store information. The [official Steam Discussions](https://steamcommunity.com/app/2548880/discussions/) can provide useful context, but community workarounds should be treated as temporary until supported by an official update.
+
+<Checklist
+  id="engine-performance-check"
+  title="Performance Check Before Reporting an Issue:"
+  items={[
+    "Update graphics drivers in 2026",
+    "Disable unnecessary overlays and background capture tools",
+    "Test fullscreen and borderless display modes",
+    "Lower resolution, shadows, or effects one at a time",
+    "Verify the Divine Frequency installation through Steam"
+  ]}
+/>
+
+<Callout type="success" title="Best Troubleshooting Habit">
+Change one setting, test one representative area, and keep a short note of the result. This produces a more useful diagnosis than repeatedly switching between complete graphics presets.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Early Access Stability and Save-Safe Habits">
+
+Divine Frequency currently offers two of three planned chapters, with approximately four to six hours of content described for the available Early Access build. The game is therefore a changing technical product rather than a fixed final release. New patches may improve performance, add content, adjust encounters, or alter how settings behave.
+
+Before a major update, finish important interactions and note unresolved routes. After updating, allow Steam to complete the download before launching. If a visual issue or progression problem appears, restart the game and check whether the same behavior continues in the latest build.
+
+| Before an Update | After an Update |
+|---|---|
+| Finish a major objective when practical | Confirm the installed build is current |
+| Note blocked doors or unresolved routes | Recheck graphics and input settings |
+| Close the game normally | Restart after the first launch |
+| Keep enough disk space for updates | Test a familiar area for performance changes |
+| Record recurring technical issues | Review official announcements and discussions |
+
+A stable technical setup also supports better gameplay. Dark rooms, unexpected encounters, and surreal visual effects can make it difficult to distinguish a performance problem from an intentional horror effect. Compare the behavior across multiple areas before concluding that a visual change is a bug.
+
+<CardGrid cols={3}>
+  <Card title="Before Playing">
+    Update the game, confirm the display mode, test input devices, and keep the first session short enough to identify problems safely.
+  </Card>
+  <Card title="During Exploration">
+    Watch for repeated stutters, input delay, missing textures, or audio interruptions. Record where the issue occurs and whether combat triggers it.
+  </Card>
+  <Card title="After a Patch">
+    Recheck settings, verify the installation if needed, and revisit only after Steam finishes all pending downloads.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Early Access Context">
+The current build is expected to evolve. Treat planned features, future chapters, and unconfirmed technical improvements as development targets until they appear in an official released update.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Divine Frequency Engine FAQ">
+
+<FAQ items={[
+  {
+    question: "What engine does Divine Frequency use?",
+    answer: "A specific engine technology has not been treated as officially confirmed in the available public game information. The reliable details are the Windows platform, Steam Early Access status, and the game's current horror FPS and RPG feature set."
+  },
+  {
+    question: "Is Divine Frequency optimized for every Windows PC?",
+    answer: "No universal performance claim should be made for the Early Access build. Start with the default settings, test a representative area, and adjust resolution, shadows, effects, and post-processing based on observed behavior."
+  },
+  {
+    question: "What should I change first if the game stutters?",
+    answer: "Close unnecessary overlays, test fullscreen and borderless mode, lower resolution slightly, and then adjust shadows or effects one at a time. Restart after major display changes."
+  },
+  {
+    question: "Can updates change the recommended settings?",
+    answer: "Yes. Early Access patches can improve optimization, alter visual options, fix technical issues, or add new content. Recheck the default profile after major updates before applying older custom settings."
+  }
+]} />
+
+The safest approach to the **Divine Frequency engine** is practical and evidence-based: use confirmed platform information, avoid guessing the underlying technology, configure the Early Access build methodically, and track changes after every major update. That approach keeps the wiki useful for both new players and returning players adjusting their setup in 2026.
+
+<Callout type="tip" title="Final Setup Rule">
+Aim for stable frame pacing, clear visibility, and reliable input before chasing maximum visual quality. A consistent horror experience is more valuable than an unstable peak setting.
+</Callout>
+
+</Section>
+
+## Related Reading
+
+- [Divine Frequency gzdoom: Compatibility Setup Guide](/technical/Divine-Frequency-gzdoom)
+- [Divine Frequency mod: Setup Guide for Early Access](/technical/Divine-Frequency-mod)
+- [Divine Frequency increase strength: Build Setup Guide](/guide/Divine-Frequency-increase-strength)

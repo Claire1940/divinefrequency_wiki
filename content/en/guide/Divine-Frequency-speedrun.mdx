@@ -1,0 +1,214 @@
+import { Map, Swords, Target, Shield, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Divine Frequency speedrun: Route, Splits & Early Tips",
+  description: "Plan a faster Divine Frequency speedrun with route priorities, combat choices, resource control, practice splits, and Early Access reset rules.",
+  category: "guide",
+  image: "https://placehold.co/800x400/17151f/fff?text=Speedrun+Route+Guide",
+  date: "2026-10-28",
+  author: "Divine Frequency Wiki Team",
+  slug: "/divine-frequency-speedrun"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Divine Frequency speedrun** planning currently focuses on the available Early Access route.
+- **Prioritize progression** over optional rooms, uncertain encounters, and unnecessary resource farming.
+- **Use a hybrid loadout** to cover ranged damage, psionic utility, and emergency recovery.
+- **Practice by segment** because the current build contains two of three planned story chapters.
+- **Track personal splits** instead of treating unverified times as official records.
+</Callout>
+
+<Section icon={Map} title="Divine Frequency Speedrun Route Overview">
+
+Divine Frequency speedrun attempts should be treated as route optimization through the current Early Access build, not as a finalized full-game record category. The released version is described as containing approximately two of three planned story chapters, with an estimated current playtime of four to six hours. That makes consistency more valuable than risky movement during early practice.
+
+The fastest practical route is built around essential objectives, controlled combat, and limited backtracking. Explore enough to understand the area, but avoid clearing optional branches until they provide a direct progression benefit. Mark blocked doors, unusual paths, and unresolved interactions so you can return only when the route requires them.
+
+| Route Priority | Action | Why It Matters |
+|---|---|---|
+| 1 | Follow active story objectives | Keeps the run moving through required progression |
+| 2 | Preserve ammunition and healing | Prevents slowdowns before mandatory encounters |
+| 3 | Record blocked paths | Reduces repeated searching and unnecessary detours |
+| 4 | Skip optional rooms on first pass | Protects time unless the reward supports the route |
+| 5 | Revisit only useful branches | Converts backtracking into a deliberate decision |
+
+<CardGrid cols={3}>
+  <Card title="Objective First">
+    Follow the current progression goal before investigating unusual rooms or environmental details.
+  </Card>
+  <Card title="Controlled Combat">
+    Fight when an encounter blocks movement, threatens the route, or protects a useful resource.
+  </Card>
+  <Card title="Route Memory">
+    Use landmarks, exits, and completed objectives to avoid repeating searches.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Route Planning Tip">
+Build your first route around reliability. A slightly slower path that avoids a reset is usually more valuable than a risky shortcut you cannot repeat.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Speedrun Setup">
+
+Before timing serious attempts, establish a repeatable opening routine. Early runs should teach you where time is lost: combat, navigation, resource collection, or hesitation. Do not optimize every room at once. Lock down one segment, then move to the next.
+
+<Steps>
+  <Step num="1" title="Define the Current Endpoint">
+    Decide whether your practice run ends after the first Act, the second Act, or the currently available story content. Because the Early Access build is still developing, record the endpoint clearly in your notes.
+  </Step>
+  <Step num="2" title="Create a Safe Opening Route">
+    Move through the opening area while identifying the main objective, nearby exits, cover, and blocked access points. The goal is to remove hesitation without spending unnecessary resources.
+  </Step>
+  <Step num="3" title="Test Combat Options">
+    Try firearm and psionic tools during early encounters. Keep the option that produces the most consistent progress for your route rather than selecting a setup based only on theoretical damage.
+  </Step>
+  <Step num="4" title="Record Segment Splits">
+    Mark the time when you leave major areas, complete essential objectives, and reach important progression checkpoints. These splits reveal where a reset is actually costing time.
+  </Step>
+  <Step num="5" title="Remove Low-Value Detours">
+    Compare each optional room against its travel time, combat risk, and reward. Keep the detour only when it reliably improves survival, access, or future speed.
+  </Step>
+</Steps>
+
+| Practice Segment | Record This | Optimization Question |
+|---|---|---|
+| Opening area | Exit time and resource state | Are you searching too long before advancing? |
+| First combat chain | Damage taken and ammunition spent | Can positioning replace extra attacks? |
+| Side-route check | Travel time and reward | Does this branch support the main route? |
+| Act transition | Objective completion time | Are you carrying unnecessary resources or equipment? |
+| Final available section | Reset cause and recovery time | Which mistake most often ends the attempt? |
+
+<Callout type="warning" title="Early Access Warning">
+Routes may change as updates add content, adjust encounters, or alter progression. Save your route notes by build version and recheck blocked paths after major patches.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat and Loadout Choices">
+
+A speedrun loadout should reduce decision-making during ordinary encounters. The available guidance supports three broad approaches: firearms-focused, psionics-focused, and hybrid play. Each can work as a practice foundation, but a hybrid setup is often the safest starting point because it covers changing distances and resource pressure.
+
+Do not split upgrades across every available option. Choose one primary damage method, then use the second system to solve its most important weakness. This keeps the build understandable while preserving an emergency answer for difficult rooms.
+
+| Loadout Style | Primary Role | Main Risk | Speedrun Use |
+|---|---|---|---|
+| Firearms-focused | Reliable ranged damage | Ammunition dependence | Strong for predictable target elimination |
+| Psionics-focused | Utility, control, and burst effects | Ability resource limits | Useful when abilities bypass difficult encounters |
+| Hybrid | Flexible coverage | Slower specialization | Good starting point for route discovery |
+| Defensive hybrid | Survival and controlled progress | Lower damage pressure | Useful for learning high-risk sections |
+
+<CardGrid cols={4}>
+  <Card title="Firearms">
+    Use for controlled ranged pressure and encounters where distance is safer than close combat.
+  </Card>
+  <Card title="Psionics">
+    Save utility or high-impact effects for dangerous targets, blocked routes, or grouped threats.
+  </Card>
+  <Card title="Positioning">
+    Use doorways, corners, cover, and cleared rooms to control how enemies approach.
+  </Card>
+  <Card title="Resource Reserve">
+    Keep enough healing, ammunition, and ability capacity for the next required encounter.
+  </Card>
+</CardGrid>
+
+The most useful combat habit is to avoid fighting in unknown spaces. Before entering a room, identify a retreat route and nearby cover. If a fast pursuer or close-range hostile forces you into a bad position, breaking line of sight may save more time than attempting an immediate kill.
+
+| Encounter Type | Preferred Response | Avoid |
+|---|---|---|
+| Close-range pressure | Create distance and attack after recovery windows | Fighting while trapped against scenery |
+| Fast pursuer | Retreat through cleared spaces and use obstacles | Running into an unexplored room |
+| High-pressure area | Prepare resources and inspect the arena first | Activating the encounter without an escape plan |
+| Isolated target | Use the cheapest reliable option | Spending rare abilities unnecessarily |
+
+<Callout type="success" title="Combat Rule">
+The best speedrun attack is the one that ends the encounter without forcing a recovery detour. Prioritize clean positioning and repeatable damage over flashy risk.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Route Discipline and Reset Strategy">
+
+Speedrun progress depends on knowing when to continue and when to reset. A single missed interaction does not always justify abandoning an attempt, especially while learning. However, repeated navigation errors, severe resource loss, or a failed mandatory encounter can make a reset more efficient.
+
+Use checkpoints to separate route mistakes from execution mistakes. A route mistake means the planned path itself is inefficient or unclear. An execution mistake means the route is sound, but combat, movement, or interaction was handled poorly. These require different fixes.
+
+<Checklist
+  id="divine-frequency-speedrun-practice"
+  title="Before Starting a Timed Attempt:"
+  items={[
+    "Choose a clear Early Access endpoint",
+    "Confirm the intended primary damage method",
+    "Review known blocked paths and required objectives",
+    "Set a consistent split timer or note-taking method",
+    "Keep the opening route free of optional detours"
+  ]}
+/>
+
+| Problem | Continue When | Reset When |
+|---|---|---|
+| Minor damage taken | Healing remains adequate for required encounters | Damage creates a later resource crisis |
+| Missed side room | The room is optional and not route-critical | The missed interaction blocks progression |
+| Extra ammunition spent | The next section remains manageable | A mandatory fight cannot be supported |
+| Navigation error | You can return without major backtracking | The mistake invalidates the planned route |
+| Failed encounter | The recovery path is short and repeatable | The attempt loses more time than a restart |
+
+The current build rewards deliberate exploration, so speed does not mean ignoring every environmental clue. The correct approach is to distinguish between clues required for progression and details that support optional lore or discoveries. If an interaction does not advance the active objective and has no known route value, postpone it during a timed attempt.
+
+<Callout type="tip" title="Reset Tip">
+Reset for information, not frustration. After each failed attempt, write down the exact cause and change one decision in the next run.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Practice Splits, Goals, and FAQ">
+
+Use a split structure that matches the current content rather than copying a future full-game category. The game’s planned scope may expand beyond the two currently available chapters, so a personal route should always state its endpoint, build version, and whether optional discoveries are included.
+
+A useful practice goal is to complete each segment without improvising. Once the route is stable, improve the slowest split first. Reducing a repeated five-minute search is more valuable than shaving a few seconds from a clean combat room.
+
+| Goal Tier | Focus | Success Indicator |
+|---|---|---|
+| Beginner | Learn objectives and exits | Finish without major navigation confusion |
+| Developing | Stabilize combat and resources | Reach each split with a repeatable inventory state |
+| Advanced | Remove detours and hesitation | Complete the route with consistent decision-making |
+| Optimization | Refine movement and encounters | Improve the slowest split without increasing resets |
+
+<FAQ items={[
+  {
+    question: "What is the best Divine Frequency speedrun route right now?",
+    answer: "Use an objective-first route through the currently available Early Access chapters. Prioritize required progression, skip low-value optional areas, and record blocked paths for deliberate returns."
+  },
+  {
+    question: "Should I use firearms or psionics for a speedrun?",
+    answer: "Both approaches can support a run. Firearms offer consistent ranged damage, while psionics provide utility and encounter control. A focused hybrid setup is a practical starting point during route development."
+  },
+  {
+    question: "How should I handle optional rooms?",
+    answer: "Skip them when they add travel, combat, or search time without improving progression. Revisit only when the room provides a useful resource, access point, or reliable route advantage."
+  },
+  {
+    question: "Are there official speedrun records for Divine Frequency?",
+    answer: "The available game information establishes Early Access scope and progression details, but it does not provide a verified leaderboard or official record set. Track personal splits and identify the build version used."
+  }
+]} />
+
+<Callout type="info" title="Practice Note">
+Treat every personal best as a route report: include the endpoint, build version, optional-content rules, and the splits that produced the result.
+</Callout>
+
+</Section>
+
+## Related Reading
+
+- [Divine Frequency survival tips: Step-by-Step Guide](/guide/Divine-Frequency-survival-tips)
+- [Divine Frequency system requirements: Setup Guide](/guide/Divine-Frequency-system-requirements)
+- [Divine Frequency playthrough: Early Access Walkthrough](/media/Divine-Frequency-playthrough)

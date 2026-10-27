@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { Swords, Map, Skull, Puzzle, BookOpen, Languages } from 'lucide-react'
 import type { Metadata } from 'next'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
 import { type Locale } from '@/i18n/routing'
@@ -14,7 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: 'About Divine Frequency Wiki - Your Ultimate Steam Game Resource',
-    description: 'Learn about Divine Frequency Wiki, a community-driven resource hub providing comprehensive guides, crafting tips, creature info, and strategies for the Divine Frequency Steam game.',
+    description: 'Learn about Divine Frequency Wiki, a community-driven resource hub providing comprehensive walkthroughs, build guides, puzzle solutions, and technical help for the Divine Frequency Steam game.',
     robots: {
       index: false,
       follow: true,
@@ -75,7 +76,7 @@ export default function About() {
             <p>
               Divine Frequency Wiki is an <strong>unofficial, fan-made resource website</strong> dedicated to helping players
               master the Steam game "Divine Frequency". We are a community-driven platform that provides comprehensive guides,
-              crafting tips, biome information, creature details, and strategic insights to enhance your gaming experience.
+              trailer and media coverage, puzzle solutions, release updates, and technical help to enhance your gaming experience.
             </p>
             <p>
               Whether you're a new player stepping into the surreal nightmare or a seasoned veteran optimizing your builds,
@@ -118,7 +119,7 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-6">
             {/* Feature Card 1 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🔨</div>
+              <Swords className="w-8 h-8 text-[hsl(var(--nav-theme-light))] mb-3" />
               <h3 className="text-xl font-semibold text-white mb-2">Weapons &amp; Builds</h3>
               <p className="text-slate-300">
                 In-depth Arsenal breakdowns and RPG build guides for brutal gunfights.
@@ -128,7 +129,7 @@ export default function About() {
 
             {/* Feature Card 2 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🌍</div>
+              <Map className="w-8 h-8 text-[hsl(var(--nav-theme-light))] mb-3" />
               <h3 className="text-xl font-semibold text-white mb-2">Level Guides</h3>
               <p className="text-slate-300">
                 Detailed walkthroughs for every chapter and region, including routes, secrets, and key items.
@@ -138,7 +139,7 @@ export default function About() {
 
             {/* Feature Card 3 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🦋</div>
+              <Skull className="w-8 h-8 text-[hsl(var(--nav-theme-light))] mb-3" />
               <h3 className="text-xl font-semibold text-white mb-2">Enemy Database</h3>
               <p className="text-slate-300">
                 Complete information on all enemies and bosses, their attack patterns, weaknesses, and drops.
@@ -148,7 +149,7 @@ export default function About() {
 
             {/* Feature Card 4 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🎯</div>
+              <Puzzle className="w-8 h-8 text-[hsl(var(--nav-theme-light))] mb-3" />
               <h3 className="text-xl font-semibold text-white mb-2">Puzzle Solutions</h3>
               <p className="text-slate-300">
                 Step-by-step solutions for codes, mechanisms, and hidden rooms.
@@ -158,7 +159,7 @@ export default function About() {
 
             {/* Feature Card 5 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">📚</div>
+              <BookOpen className="w-8 h-8 text-[hsl(var(--nav-theme-light))] mb-3" />
               <h3 className="text-xl font-semibold text-white mb-2">Early Access Updates</h3>
               <p className="text-slate-300">
                 Patch notes, roadmap coverage, and new content breakdowns as the game evolves.
@@ -168,11 +169,11 @@ export default function About() {
 
             {/* Feature Card 6 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🌍</div>
+              <Languages className="w-8 h-8 text-[hsl(var(--nav-theme-light))] mb-3" />
               <h3 className="text-xl font-semibold text-white mb-2">Multilingual Support</h3>
               <p className="text-slate-300">
-                Content available in multiple languages including English, Japanese, German,
-                Spanish, French, Portuguese, Russian, and Turkish.
+                Content available in multiple languages including English, Japanese,
+                German, and Spanish.
               </p>
             </div>
           </div>

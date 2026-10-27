@@ -11,12 +11,12 @@
     }
   },
   "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
+    "guide": "Guide",
+    "media": "Media",
+    "puzzles": "Puzzles",
+    "release": "Release",
+    "reviews": "Reviews",
+    "technical": "Technical"
   },
   "common": {
     "home": "Home",
@@ -596,125 +596,125 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+    "guide": {
+      "title": "Divine Frequency Guides",
+      "description": "Complete Divine Frequency guides covering survival basics, weapon builds, battery management, and every surreal chapter of Abraxaes' horror FPS.",
+      "metaTitle": "Divine Frequency Guides - Walkthroughs, Builds & Survival Tips",
+      "metaDescription": "Master Divine Frequency with complete guides: beginner walkthroughs, weapon and mod builds, battery management, and survival tips for every surreal chapter.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Step-by-step Divine Frequency guides that walk you through the retro horror FPS campaign — from your first steps inside the broadcast anomaly to late-game builds, strength upgrades, and optional encounters across the shifting worlds.",
       "why": "Why read guides?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
+        "step1Title": "Survive the Early Hours",
+        "step1Description": "Learn how health, batteries, and ammo really work so the opening chapters stop being a meat grinder",
+        "step2Title": "Build Smarter",
+        "step2Description": "Pair weapons, mods, and RPG upgrades into builds that fit run-and-gun or careful horror pacing",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step3Description": "Develop advanced tactics for exploration, resource management, and the worlds hidden behind the signal"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "media": {
+      "title": "Divine Frequency Media",
+      "description": "Every Divine Frequency trailer, gameplay video, demo build, and soundtrack track in one place — official footage and audio from Abraxaes' horror FPS.",
+      "metaTitle": "Divine Frequency Media - Trailers, Gameplay & Soundtrack",
+      "metaDescription": "Watch Divine Frequency trailers and gameplay videos, grab the demo, and explore the retro horror FPS soundtrack. All official media in one hub.",
+      "categoryLabel": "TRAILERS & MEDIA",
+      "whatIs": "What is Media?",
+      "whatIsDescription": "The full media library for Divine Frequency: official trailers, gameplay captures, the playable demo, and the analog-horror soundtrack — all in one place so you can experience the game's grainy PS1-style atmosphere before buying.",
+      "why": "Why follow the media?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "See It in Motion",
+        "step1Description": "Trailers and gameplay footage show the real combat pacing and visual style that screenshots can't convey",
+        "step2Title": "Try Before You Buy",
+        "step2Description": "The demo lets you test performance and atmosphere on your own setup before committing",
+        "step3Title": "Feel the Frequency",
+        "step3Description": "The soundtrack carries much of the dread — know what you're getting into, then enjoy it standalone"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Media"
     },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "puzzles": {
+      "title": "Divine Frequency Puzzles",
+      "description": "Solutions for every Divine Frequency terminal puzzle, radio frequency code, and hidden ending — complete answers with the reasoning behind them.",
+      "metaTitle": "Divine Frequency Puzzles - Terminal Codes & Puzzle Solutions",
+      "metaDescription": "All Divine Frequency puzzle solutions: terminal numbers, radio codes, frequency tuning, secret endings, and every brain-teaser in Abraxaes' horror FPS explained.",
+      "categoryLabel": "PUZZLE SOLUTIONS",
+      "whatIs": "What are Puzzles?",
+      "whatIsDescription": "Divine Frequency hides its progress behind terminal puzzles, frequency tuning, and environmental codes. These guides give you every solution plus the logic behind it, so you can solve the signal instead of slamming your head against it.",
+      "why": "Why use puzzle solutions?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Stop the Backtracking",
+        "step1Description": "Terminal codes and frequency puzzles gate entire chapters — one stuck puzzle can halt your run for hours",
+        "step2Title": "Understand the Logic",
+        "step2Description": "Each solution explains the pattern, so future puzzles become solvable on your own",
+        "step3Title": "Unlock Every Ending",
+        "step3Description": "Secret endings require specific puzzle chains — see exactly which choices and codes matter"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Puzzles"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "release": {
+      "title": "Divine Frequency Release Info",
+      "description": "Divine Frequency release date details, Early Access roadmap, chapter plans, and demo history — everything known about the game's rollout and what comes next.",
+      "metaTitle": "Divine Frequency Release Info - Early Access & Roadmap",
+      "metaDescription": "Divine Frequency release details: October 2026 Early Access launch, planned chapters, roadmap progress, and demo history for Abraxaes' retro horror FPS.",
+      "categoryLabel": "RELEASE INFO",
+      "whatIs": "What is Release Info?",
+      "whatIsDescription": "Divine Frequency launched into Steam Early Access on October 26, 2026 with 2 of 3 planned chapters. This section tracks the rollout: what shipped, what the roadmap promises, and how the demo evolved into the full release.",
+      "why": "Why follow release info?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Know What You're Buying",
+        "step1Description": "Early Access means roughly 70% of the plan — understand exactly what's in the current build",
+        "step2Title": "Track the Roadmap",
+        "step2Description": "See which chapters, weapons, and systems are planned so you can decide to play now or wait",
+        "step3Title": "Catch Every Update",
+        "step3Description": "Patch notes and content drops change balance and endings — stay current with the latest state"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Release Info"
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "reviews": {
+      "title": "Divine Frequency Reviews",
+      "description": "Honest Divine Frequency reviews covering the horror atmosphere, boomer shooter combat, RPG systems, and Early Access value — who this surreal FPS is for.",
+      "metaTitle": "Divine Frequency Reviews - Horror FPS Verdict & Early Access Value",
+      "metaDescription": "In-depth Divine Frequency reviews: horror atmosphere, retro FPS combat, RPG progression, and whether Abraxaes' surreal shooter is worth it in Early Access.",
+      "categoryLabel": "REVIEWS",
+      "whatIs": "What are Reviews?",
+      "whatIsDescription": "Full-length Divine Frequency reviews that judge the whole package: the surreal world design, the brutal gunplay, the RPG depth, and how much content 4–6 Early Access hours really delivers for horror FPS fans.",
+      "why": "Why read reviews?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Decide Fast",
+        "step1Description": "A clear verdict on gameplay, atmosphere, and content volume saves you from a blind purchase",
+        "step2Title": "Know the Weak Spots",
+        "step2Description": "Every review covers the rough edges of Early Access so nothing about the current build surprises you",
+        "step3Title": "Match Your Taste",
+        "step3Description": "Boomer shooter speed and slow-burn horror rarely mix — see where Divine Frequency lands on that spectrum"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Reviews"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "technical": {
+      "title": "Divine Frequency Technical Guides",
+      "description": "Divine Frequency technical guides: Steam setup, GZDoom options, engine details, modding basics, performance tuning, and fixes for common PC issues.",
+      "metaTitle": "Divine Frequency Technical - Steam, GZDoom, Mods & Fixes",
+      "metaDescription": "Divine Frequency technical guides: Steam Deck settings, GZDoom configuration, engine internals, mod installation, and performance fixes for the retro horror FPS.",
+      "categoryLabel": "TECHNICAL GUIDES",
+      "whatIs": "What are Technical Guides?",
+      "whatIsDescription": "The engine-level side of Divine Frequency: how the GZDoom-based tech works, which settings matter, how to install mods safely, and how to fix crashes, fullscreen issues, and performance problems on any Windows PC.",
+      "why": "Why use technical guides?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Fix It Yourself",
+        "step1Description": "Crashes, black screens, and input issues have known fixes — apply them in minutes without reinstalling",
+        "step2Title": "Tune Performance",
+        "step2Description": "The right settings keep the retro frame rate high on modest hardware, including handhelds",
+        "step3Title": "Mod With Confidence",
+        "step3Description": "Learn how the engine loads mods so you can extend the game without breaking your save"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Technical Guides"
     }
   }
 }

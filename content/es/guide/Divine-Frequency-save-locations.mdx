@@ -1,0 +1,227 @@
+import { Save, FolderSearch, ShieldCheck, Wrench, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Ubicaciones de guardado de Divine Frequency: rutas de PC y consejos de copia de seguridad",
+  description: "Encuentra las ubicaciones probables de guardado de Divine Frequency en Windows, verifica tus archivos, haz copias de seguridad del progreso de Acceso…",
+  category: "guide",
+  image: "https://placehold.co/800x400/171923/f5e8b8?text=Save+Locations+Guide",
+  date: "2026-10-28",
+  author: "Equipo de Wiki de Divine Frequency"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Las ubicaciones de guardado de Divine Frequency** no están confirmadas oficialmente en la información disponible del juego.
+- **Empieza por userdata de Steam** y después revisa las carpetas comunes de AppData de Windows en busca de archivos de guardado locales.
+- **Haz copias de seguridad de los archivos antes de probar cambios**, actualizar, reinstalar o modificar los ajustes de Acceso anticipado.
+- **No elimines las carpetas de inmediato**; cambia el nombre de los directorios de guardado sospechosos y prueba primero el juego.
+- **Comprueba el estado de Steam Cloud** antes de restaurar una copia de seguridad local antigua.
+</Callout>
+
+<Section icon={Save} title="Ubicaciones de guardado de Divine Frequency: qué está confirmado">
+
+Divine Frequency es un FPS de terror para Windows distribuido mediante el Acceso anticipado de Steam por Abraxaes. La información oficial disponible confirma la plataforma y el estado de Acceso anticipado, pero no publica un directorio de archivos de guardado verificado ni una lista de nombres de archivo. Por eso, esta guía separa los **hechos confirmados** de las **ubicaciones probables de Windows** que requieren una verificación local.
+
+La versión actual de Acceso anticipado está fechada el **26 de octubre de 2026**, aunque algunos servicios basados en UTC muestran el **27 de octubre de 2026**. La versión actual incluye dos de los tres capítulos previstos, por lo que el comportamiento de los guardados y la estructura de las carpetas pueden cambiar durante el desarrollo.
+
+| Elemento | Estado actual | Significado práctico |
+|---|---|---|
+| Plataforma | Windows | Usa la búsqueda de archivos de Windows y revisa AppData |
+| Distribución | Acceso anticipado de Steam | userdata y los ajustes de Cloud de Steam pueden ser relevantes |
+| Ruta de guardado confirmada | No publicada públicamente | Verifica las carpetas en tu propia instalación |
+| Contenido actual | 2 de 3 capítulos previstos | Las actualizaciones pueden cambiar el comportamiento de los guardados |
+| Idioma oficial | Inglés | Los nombres de archivo y las notas de soporte pueden usar etiquetas en inglés |
+
+**Referencia oficial:** [Divine Frequency en Steam](https://store.steampowered.com/app/2548880/Divine_Frequency/) proporciona la información actual de la tienda y la plataforma. El [centro de la comunidad de Steam](https://steamcommunity.com/app/2548880/) es el mejor lugar para consultar futuros anuncios de los desarrolladores sobre la compatibilidad de los guardados.
+
+<CardGrid cols={3}>
+  <Card title="Confirmado">
+    - **Plataforma Windows**
+    - Distribución mediante el Acceso anticipado de Steam
+    - Abraxaes como desarrollador y editor
+  </Card>
+  <Card title="No confirmado">
+    - Directorio exacto de guardado
+    - Formato de los nombres de archivo de guardado
+    - Si todos los archivos de progreso usan Steam Cloud
+  </Card>
+  <Card title="Mejor práctica">
+    - Busca antes de modificar archivos
+    - Conserva copias de seguridad con fecha
+    - Prueba un cambio cada vez
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Distinción importante">
+Una carpeta probable de Windows no equivale a una ubicación de guardado de Divine Frequency confirmada oficialmente. Trata cada ruta candidata como no verificada hasta encontrar un archivo que cambie después de crear o avanzar en un guardado de prueba.
+</Callout>
+
+</Section>
+
+<Section icon={FolderSearch} title="Rutas probables de guardado de Windows que debes comprobar">
+
+Cuando un juego no publica su directorio de guardado, realiza la búsqueda en un orden controlado. Empieza por la instalación de Steam y las carpetas userdata, y después revisa los directorios Local, LocalLow y Roaming de AppData. La carpeta puede usar el nombre del juego, el nombre del desarrollador, un nombre interno del proyecto o un identificador de aplicación de Steam.
+
+No des por sentado que la carpeta visible del juego contiene los guardados. Muchos juegos de Windows almacenan el progreso fuera del directorio de instalación para que las actualizaciones y reinstalaciones no sobrescriban los datos personales.
+
+| Área de búsqueda | Ruta de ejemplo | Qué debes buscar |
+|---|---|---|
+| userdata de Steam | `C:\Program Files (x86)\Steam\userdata\` | Carpetas numéricas de cuenta y aplicación |
+| AppData Local | `%LOCALAPPDATA%` | Carpetas llamadas Divine Frequency, Abraxaes o con una etiqueta del proyecto |
+| AppData LocalLow | `%USERPROFILE%\AppData\LocalLow\` | Carpetas del editor o del juego con estructura de Unity |
+| AppData Roaming | `%APPDATA%` | Archivos de perfil, ajustes o progreso |
+| Instalación de Steam | Biblioteca de Steam `steamapps\common\` | Archivos de configuración o carpetas de guardado claramente identificadas |
+| Documentos | `%USERPROFILE%\Documents\` | Directorios de perfil o copias de seguridad creados por el juego |
+
+La página de la aplicación en Steam utiliza el ID **2548880**, por lo que puede valer la pena comprobar un directorio numérico relacionado con ese ID. Sin embargo, la presencia de una carpeta numerada no demuestra que contenga el guardado activo. Confírmalo comparando las marcas de tiempo antes y después de realizar un cambio controlado dentro del juego.
+
+<Steps>
+  <Step num="1" title="Cierra el juego y Steam">
+    Sal de Divine Frequency normalmente y después cierra Steam si quieres realizar una búsqueda de archivos limpia. Así evitarás que un archivo esté bloqueado o se actualice mientras lo inspeccionas.
+  </Step>
+  <Step num="2" title="Abre las carpetas candidatas principales">
+    Pega `%LOCALAPPDATA%`, `%APPDATA%` y `%USERPROFILE%\AppData\LocalLow\` en el Explorador de archivos. Revisa también el directorio `userdata` de Steam.
+  </Step>
+  <Step num="3" title="Busca por nombre y fecha">
+    Busca `Divine Frequency`, `Abraxaes` y `2548880`. Si no obtienes resultados con los nombres, ordena las carpetas candidatas por fecha de modificación e identifica los archivos modificados durante tu última sesión.
+  </Step>
+  <Step num="4" title="Crea una prueba controlada">
+    Anota las marcas de tiempo actuales, inicia el juego, cambia un ajuste inofensivo o avanza una pequeña cantidad, sal del juego y comprueba qué archivos han cambiado.
+  </Step>
+  <Step num="5" title="Copia antes de editar">
+    Cuando identifiques un directorio de guardado probable, copia la carpeta completa a una ubicación de copia de seguridad independiente antes de cambiarle el nombre, reemplazarla o eliminar cualquier elemento.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Método de búsqueda más rápido">
+Usa la búsqueda del Explorador de archivos desde tu perfil de usuario y ordena los resultados por **Fecha de modificación**. Un archivo actualizado inmediatamente después de una sesión de prueba es una evidencia más útil que el nombre de una carpeta por sí solo.
+</Callout>
+
+</Section>
+
+<Section icon={ShieldCheck} title="Cómo verificar la carpeta de guardado activa">
+
+Encontrar una carpeta es solo la mitad del proceso. Los juegos en Acceso anticipado pueden crear ajustes, informes de errores, cachés de sombreadores, capturas de pantalla y registros junto a los datos reales de progreso. La verificación evita que hagas una copia de seguridad de los archivos equivocados o restaures una configuración obsoleta.
+
+Realiza una prueba pequeña y repetible. Evita avanzar mucho en la historia únicamente con este propósito. Si el juego permite cambiar un ajuste de forma segura, crear un marcador de perfil u otra acción de bajo riesgo, utiliza ese cambio para comparar las marcas de tiempo.
+
+| Indicador de verificación | Fiabilidad | Acción recomendada |
+|---|---|---|
+| La marca de tiempo del archivo cambia después de una sesión de prueba | Alta | Copia la carpeta y etiquétala como guardado candidato |
+| El nombre de la carpeta coincide con el juego, pero los archivos nunca cambian | Baja | Trátala como una carpeta de ajustes o caché |
+| Los archivos están dentro de un directorio numérico de Steam | Media | Compara las marcas de tiempo y el contenido antes de confiar en él |
+| La carpeta solo contiene registros | Baja | No la uses como copia de seguridad de guardados |
+| Varios archivos cambian juntos después de salir | Alta | Haz una copia de seguridad del directorio completo |
+
+<CardGrid cols={3}>
+  <Card title="Datos de guardado">
+    Busca perfiles, ranuras, archivos de progreso o archivos binarios compactos que cambien después de jugar.
+  </Card>
+  <Card title="Datos de ajustes">
+    Los archivos de configuración pueden actualizarse cuando cambias la resolución, los controles o las opciones de pantalla.
+  </Card>
+  <Card title="Datos de diagnóstico">
+    Los registros y los informes de errores pueden ser útiles para solucionar problemas, pero normalmente no son guardados del jugador.
+  </Card>
+</CardGrid>
+
+Una copia de seguridad adecuada debe conservar la carpeta candidata completa en lugar de un solo archivo seleccionado al azar. Algunos juegos dividen los datos del perfil, el progreso del mundo, los ajustes y los metadatos en archivos separados. Copiar un único archivo puede producir una restauración incompleta.
+
+<Callout type="warning" title="No sobrescribas primero">
+Nunca reemplaces la carpeta activa sospechosa con una copia de seguridad antigua sin crear antes una copia del estado actual. Si la copia de seguridad es incorrecta o incompatible, puede resultar difícil recuperar el progreso actual.
+</Callout>
+
+</Section>
+
+<Section icon={Save} title="Flujo de copia de seguridad y restauración">
+
+Una rutina de copias de seguridad fiable es especialmente importante en las versiones de Acceso anticipado. Divine Frequency todavía está en desarrollo y las futuras actualizaciones pueden cambiar el contenido, los sistemas de progreso o la compatibilidad de los guardados. Una copia de seguridad con fecha te proporciona un punto de recuperación sin obligarte a adivinar qué versión funcionaba por última vez.
+
+Usa un nombre de carpeta descriptivo que incluya la fecha y la versión del juego cuando esté disponible. Por ejemplo: `Divine-Frequency-Save-Backup-2026-10-28`. Guarda la copia fuera del directorio del juego, como en una carpeta de copias de seguridad independiente o en una unidad externa.
+
+| Etapa de la copia de seguridad | Acción | Por qué es importante |
+|---|---|---|
+| Antes de una actualización | Copia la carpeta de guardado candidata completa | Conserva el estado anterior a la actualización |
+| Antes de solucionar problemas | Duplica los archivos actuales | Permite realizar pruebas de forma segura |
+| Después de avanzar correctamente | Crea una copia de seguridad con fecha | Proporciona un punto de restauración reciente |
+| Antes de reinstalar | Haz copias separadas de los guardados y los ajustes | Evita pérdidas accidentales |
+| Después de restaurar | Inicia el juego y verifica el perfil | Confirma la compatibilidad |
+
+<Checklist
+  id="divine-frequency-save-backup"
+  title="Lista de comprobación para copias de seguridad:"
+  items={[
+    "Cierra Divine Frequency antes de copiar los archivos",
+    "Anota la ruta original de la carpeta",
+    "Copia el directorio de guardado candidato completo",
+    "Añade una fecha de 2026 al nombre de la copia de seguridad",
+    "Comprueba Steam Cloud antes de restaurar una copia antigua"
+  ]}
+/>
+
+<Callout type="success" title="Regla para una restauración segura">
+Restaura cambiando primero el nombre de la carpeta actual y colocando después la copia de seguridad en su ubicación original. Así conservarás una copia de reversión si los archivos restaurados no se cargan correctamente.
+</Callout>
+
+Si Steam Cloud está activado, una copia de seguridad local antigua puede entrar en conflicto con una versión más reciente en la nube. Comprueba las propiedades del juego en Steam y el estado de sincronización en la nube antes de iniciar el juego después de una restauración. Si Steam te pregunta qué versión conservar, decide solo después de comparar las marcas de tiempo y los nombres de las copias de seguridad.
+
+</Section>
+
+<Section icon={Wrench} title="Guardados desaparecidos y solución de problemas">
+
+Que falte un perfil no siempre significa que los archivos hayan desaparecido. El juego puede estar leyendo la carpeta de otro usuario de Windows, Steam puede estar sincronizando una versión diferente o una actualización puede haber creado un directorio nuevo. Empieza por las comprobaciones menos destructivas.
+
+| Síntoma | Posible causa | Primera respuesta |
+|---|---|---|
+| El juego inicia con un perfil vacío | Carpeta incorrecta, conflicto con la nube o nuevo formato de guardado | Comprueba las marcas de tiempo y el estado de Steam Cloud |
+| La carpeta de guardado existe, pero falta el progreso | La copia de seguridad está desactualizada o incompleta | Compara las fechas de las copias y los grupos de archivos |
+| Los archivos desaparecen después de reinstalar | El guardado estaba dentro de la carpeta de instalación | Busca en AppData y userdata de Steam |
+| El juego informa de datos dañados | Versión incompatible o archivo dañado | Conserva la carpeta y prueba una copia de seguridad |
+| Varias carpetas parecen idénticas | Varios perfiles o instalaciones anteriores | Usa las fechas de modificación y realiza pruebas controladas |
+
+Prueba estas comprobaciones no destructivas:
+
+- Confirma que has iniciado la misma cuenta de Steam que utilizaste para crear el progreso.
+- Busca en todos los perfiles de usuario del PC si hay más de una cuenta de Windows.
+- Compara la hora de modificación de los archivos candidatos con tu última sesión de juego.
+- Cambia temporalmente el nombre de una carpeta sospechosa en lugar de eliminarla.
+- Verifica la instalación del juego mediante Steam si parece que faltan archivos.
+- Consulta los anuncios actuales en el [centro de la comunidad de Steam](https://steamcommunity.com/app/2548880/) antes de asumir que el guardado está dañado permanentemente.
+
+No descargues archivos de guardado sustitutos desde sitios web aleatorios. Los archivos desconocidos pueden ser incompatibles con la versión actual de Acceso anticipado, sobrescribir un progreso válido o contener software no deseado.
+
+<Callout type="warning" title="Precaución con el Acceso anticipado">
+Un problema de guardado después de una actualización puede deberse a una incompatibilidad y no a la desaparición del archivo. Conserva todas las copias existentes antes de probar una nueva versión o reinstalar el juego.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuáles son las ubicaciones oficiales de guardado de Divine Frequency?",
+    answer: "La información oficial disponible no publica un directorio de guardado de Windows verificado. Comprueba userdata de Steam y las carpetas Local, LocalLow y Roaming de AppData; después verifica las candidatas comparando las marcas de tiempo tras una prueba controlada."
+  },
+  {
+    question: "¿Divine Frequency utiliza Steam Cloud?",
+    answer: "El material de referencia disponible no confirma el funcionamiento actual de Steam Cloud. Comprueba las propiedades del juego en Steam y el estado de sincronización antes de restaurar una copia de seguridad local."
+  },
+  {
+    question: "¿Debo eliminar una carpeta de guardado sospechosa si el juego no puede cargarla?",
+    answer: "No. Cambia el nombre de la carpeta y conserva primero una copia. Una actualización posterior, una respuesta del soporte o una prueba de compatibilidad pueden requerir los archivos originales."
+  },
+  {
+    question: "¿Puede una actualización de Divine Frequency cambiar la compatibilidad de los guardados?",
+    answer: "Sí, el desarrollo en Acceso anticipado puede cambiar los sistemas de progreso o los formatos de archivo. Crea una copia de seguridad con fecha antes de las actualizaciones y mantén la carpeta actual separada de los puntos de restauración antiguos."
+  }
+]} />
+
+</Section>
+
+## Lecturas relacionadas
+
+- [Speedrun de Divine Frequency: ruta, splits y consejos iniciales](/es/guide/Divine-Frequency-speedrun)
+- [Consejos de supervivencia de Divine Frequency: guía paso a paso](/es/guide/Divine-Frequency-survival-tips)
+- [OST de Divine Frequency: Guía de Estado de la Banda Sonora 2026](/es/media/Divine-Frequency-ost)

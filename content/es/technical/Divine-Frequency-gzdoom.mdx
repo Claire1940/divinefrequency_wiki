@@ -1,0 +1,205 @@
+import { Map, Settings, Swords, Shield, Radio, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Divine Frequency gzdoom: Guía de Compatibilidad y Configuración",
+  description: "Comprueba la compatibilidad de Divine Frequency gzdoom, confirma la versión oficial de Steam y sigue consejos prácticos de configuración, combate…",
+  category: "technical",
+  image: "https://placehold.co/800x400/171923/f5eee0?text=Divine+Frequency+Setup+Guide",
+  date: "2026-10-28",
+  author: "Equipo de Wiki de Divine Frequency",
+  slug: "divine-frequency-gzdoom-compatibility-setup-guide"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Divine Frequency gzdoom** no está confirmado como un lanzamiento oficial de GZDoom en la información disponible del juego.
+- **Versión oficial**: El lanzamiento verificado es un juego de Acceso Anticipado para Windows distribuido a través de Steam.
+- **Alcance actual**: El Acceso Anticipado incluye dos de los tres capítulos de historia previstos y unas cuatro a seis horas de contenido.
+- **Mejor enfoque**: Confirma la versión de la tienda antes de probar ports no oficiales, mods o configuraciones de inicio.
+- **Consejo de seguridad**: Registra las rutas bloqueadas y los cambios de actualización, ya que la versión de Acceso Anticipado puede evolucionar durante el desarrollo.
+</Callout>
+
+<Section icon={Radio} title="Divine Frequency gzdoom: Qué Significa Esta Búsqueda">
+
+Si buscaste **Divine Frequency gzdoom**, la distinción más importante es entre el juego en sí y una posible consulta sobre un source port. La información verificada del juego identifica a *Divine Frequency* como un FPS de terror retro surrealista con elementos de RPG, temas de terror psicológico e influencias de boomer shooter. Su distribución confirmada es la versión de Acceso Anticipado para Windows en Steam.
+
+La información oficial disponible no confirma una edición nativa de GZDoom, un lanzamiento independiente `.wad`, ni un paquete oficial de mods para GZDoom. Esto significa que una configuración de GZDoom no debe tratarse como un método de instalación establecido. Comienza con la versión oficial y luego evalúa cualquier proyecto de la comunidad solo cuando tenga un desarrollador o una fuente comunitaria claramente documentados.
+
+| Intención de Búsqueda | Dirección Verificada | Acción Recomendada |
+|---|---|---|
+| Divine Frequency gzdoom | No se confirma ningún lanzamiento oficial de GZDoom | Usa la versión de Steam como referencia |
+| Configuración de Divine Frequency en PC | Lanzamiento de Acceso Anticipado para Windows | Revisa la instalación en Steam y el comportamiento de inicio |
+| Divine Frequency retro FPS | FPS de terror surrealista con sistemas RPG | Espera exploración, combate, progresión y puzles |
+| Soporte de mods de Divine Frequency | Sin flujo de trabajo de mods confirmado en la información proporcionada | Evita asumir compatibilidad con GZDoom |
+| Guía de Divine Frequency | Orientación para principiantes y progresión en Acceso Anticipado | Sigue los fundamentos de recursos, rutas y combate |
+
+<CardGrid cols={3}>
+  <Card title="Referencia Oficial">
+    La página verificada del juego es la ficha de Steam para el lanzamiento de Acceso Anticipado en Windows.
+  </Card>
+  <Card title="Precaución con los Ports">
+    No asumas que un ejecutable de GZDoom, un archivo de mod o un paquete de source port cuentan con soporte oficial.
+  </Card>
+  <Card title="Cobertura del Wiki">
+    Esta guía se centra en información de configuración confirmada, prioridades para principiantes, exploración y progresión.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia de Compatibilidad">
+Un archivo etiquetado como una versión de GZDoom no es automáticamente un lanzamiento oficial de *Divine Frequency*. Verifica su editor, documentación, notas de versión y reputación en la comunidad antes de abrir ejecutables o archivos comprimidos desconocidos.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Ruta de Instalación y Configuración Confirmada">
+
+Para la experiencia más fiable, usa el lanzamiento confirmado de Acceso Anticipado para Windows a través de la [página oficial de Steam](https://store.steampowered.com/app/2548880/Divine_Frequency/). Esto proporciona un punto de referencia estable para actualizaciones, opciones de inicio, discusiones de la comunidad y resolución de problemas. También evita confusiones entre el juego real y proyectos de FPS retro no relacionados que usan terminología similar.
+
+El juego entró en Acceso Anticipado el **26 de octubre de 2026**. Algunos servicios pueden mostrar el **27 de octubre de 2026** debido a la conversión UTC. La versión actual se describe como que contiene aproximadamente el 70% del juego previsto, con dos de los tres capítulos de historia disponibles y un tiempo de juego estimado de cuatro a seis horas.
+
+<Steps>
+  <Step num="1" title="Confirma la ficha oficial">
+    Abre la página de Steam y verifica el título, el desarrollador, la plataforma y el estado de Acceso Anticipado. El desarrollador y editor listado es Abraxaes, y la plataforma confirmada es Windows.
+  </Step>
+  <Step num="2" title="Instala la versión verificada">
+    Instala la versión de Steam en lugar de depender de un archivo de GZDoom no verificado. Permite que Steam termine de descargar las actualizaciones antes de iniciar.
+  </Step>
+  <Step num="3" title="Inicia una vez sin cambios personalizados">
+    Primero ejecuta la versión sin modificar. Esto establece si el juego oficial se inicia correctamente antes de que pruebes ajustes de pantalla, opciones de mando, overlays o archivos no oficiales.
+  </Step>
+  <Step num="4" title="Ajusta la configuración gradualmente">
+    Cambia un ajuste de gráficos o de controles a la vez. Si el rendimiento o el ritmo de fotogramas cambia, podrás identificar el ajuste responsable en lugar de solucionar varias variables a la vez.
+  </Step>
+  <Step num="5" title="Registra los problemas específicos de la versión">
+    Anota la fecha, la información visible de la versión, el comportamiento del hardware y los pasos que causaron el problema. Las actualizaciones del Acceso Anticipado pueden cambiar el rendimiento, las interacciones y el comportamiento de progresión.
+  </Step>
+</Steps>
+
+| Área de Configuración | Primera Acción Recomendada | Evita Asumir |
+|---|---|---|
+| Distribución | Usa la versión oficial de Acceso Anticipado de Steam | Que un paquete de GZDoom tenga soporte |
+| Plataforma | Comienza en Windows, la plataforma confirmada | Que exista soporte para consolas o Linux |
+| Idioma | Espera el inglés como idioma soportado listado | Que las traducciones no oficiales se mantengan |
+| Actualizaciones | Deja que Steam complete las actualizaciones pendientes | Que una versión anterior coincida con el comportamiento actual |
+| Prueba de inicio | Comienza con la configuración predeterminada | Que se necesiten argumentos de inicio personalizados |
+
+<Callout type="tip" title="Consejo de Configuración">
+Trata la versión oficial de Steam como tu base de referencia. Si la versión sin modificar funciona, los cambios de configuración posteriores serán más fáciles de probar y revertir.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Prioridades de Combate y Build para Jugadores Nuevos">
+
+*Divine Frequency* combina combate con armas de fuego, opciones psíquicas, progresión RPG, exploración y encuentros de terror surrealista. El plan más seguro para principiantes no es gastar todos los recursos de inmediato. En su lugar, establece un método de daño fiable y usa el segundo sistema de combate para cubrir sus debilidades.
+
+La información proporcionada del juego describe tres arquetipos generales: enfoque en armas de fuego, enfoque en psíquicos y enfoques híbridos. Son categorías útiles de planificación, pero el material disponible no ofrece nombres de armas confirmados, valores numéricos de daño, costos de mejora ni una base de datos completa de clases. Por lo tanto, las recomendaciones de build deben centrarse en roles y toma de decisiones en lugar de estadísticas inventadas.
+
+| Arquetipo | Rol Principal | Fortalezas | Riesgo Principal | Dirección para Principiantes |
+|---|---|---|---|---|
+| Enfoque en armas de fuego | Daño a distancia consistente | Ritmo de combate claro y distancia fiable | Dependencia de la munición | Mejora la consistencia antes de una especialización estrecha |
+| Enfoque en psíquicos | Daño por habilidades, control y utilidad | Respuestas flexibles a encuentros inusuales | Tiempo de recursos y límites de recuperación | Guarda las habilidades de alto impacto para objetivos peligrosos |
+| Híbrido | Cobertura equilibrada de encuentros | Maneja rangos cambiantes y presión mixta | Los materiales de mejora pueden dispersarse | Elige primero un sistema de daño principal |
+
+<CardGrid cols={3}>
+  <Card title="Armas de Fuego Primero">
+    Usa un arma fiable para encuentros ordinarios, mantén la distancia cuando sea posible y reserva las habilidades de utilidad para situaciones que las armas manejan mal.
+  </Card>
+  <Card title="Psíquicos Primero">
+    Usa las habilidades con intención en lugar de gastarlas en cada amenaza menor. Ten un arma de fuego lista para enfrentamientos prolongados.
+  </Card>
+  <Card title="Control Híbrido">
+    Selecciona una fuente de daño principal, luego invierte en el segundo sistema solo cuando resuelva una debilidad clara.
+  </Card>
+</CardGrid>
+
+Una configuración temprana enfocada suele ser más fácil de gestionar que varias opciones parcialmente mejoradas. Prioriza las mejoras que hagan los encuentros regulares más consistentes, luego adapta cuando entiendas las exigencias de una nueva zona.
+
+<Callout type="success" title="Regla de Build">
+Elige una fuente de daño fiable, una opción de emergencia y una reserva de recursos. Especialízate más solo después de que tus encuentros ordinarios se sientan manejables.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Exploración, Flujo del Walkthrough y Hábitos para Puzles">
+
+Las zonas iniciales premian la exploración deliberada más que la prisa. Los caminos ramificados, los puntos de acceso bloqueados, los encuentros opcionales y los recursos pueden ser más fáciles de entender si sigues una ruta consistente en cada ubicación. Una nota simple sobre cada puerta bloqueada o rama sin resolver puede evitar búsquedas repetidas más adelante.
+
+La estructura actual del Acceso Anticipado permite un enfoque controlado de spoilers a través de los dos primeros Actos. Completa primero los objetivos esenciales, luego regresa a los espacios opcionales cuando tu equipo, recursos o acceso haya mejorado.
+
+| Etapa de Progresión | Objetivo Principal | Hábito Útil |
+|---|---|---|
+| Ruta inicial | Aprende el combate e identifica el objetivo activo | Revisa las salidas cercanas antes de avanzar |
+| Exploración lateral | Encuentra salas opcionales y recursos | Marca los caminos que aún no se pueden abrir |
+| Progresión de Actos | Sigue la cadena de objetivos | Conserva recursos para encuentros requeridos |
+| Pasada de regreso | Revisa las ramas sin resolver | Usa puntos de referencia en lugar de buscar a ciegas |
+| Salida de zona | Confirma la progresión antes de irte | Registra descubrimientos incompletos y rutas bloqueadas |
+
+Los puzles ambientales deben abordarse mediante la observación antes que el ensayo y error. Busca marcas repetidas, ubicaciones inusuales de objetos, cambios en la iluminación, señales sonoras y detalles del entorno que parezcan aislados intencionalmente. Si un mecanismo no responde, puede requerir una interacción cercana o un avance posterior de la historia en lugar de una entrada aleatoria diferente.
+
+<Checklist
+  id="divine-frequency-exploration"
+  title="Punto de Control de Exploración:"
+  items={[
+    "Revisa las salas laterales antes de pasar de un objetivo importante",
+    "Registra las puertas bloqueadas y las rutas inaccesibles",
+    "Identifica una ruta de retirada segura antes de entrar en zonas sospechosas",
+    "Ahorra recursos para el combate requerido y los bloqueos de progresión",
+    "Revisa los espacios opcionales después de grandes avances de la historia"
+  ]}
+/>
+
+<Callout type="info" title="Nota de Navegación">
+No trates cada ruta bloqueada como un error. En un juego de Acceso Anticipado con contenido futuro previsto, distingue entre los requisitos actuales de progresión y las rutas opcionales o no disponibles.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Seguimiento del Acceso Anticipado y Preguntas Frecuentes Prácticas">
+
+Se planea que la versión de Acceso Anticipado de Steam crezca más allá de su lanzamiento inicial. La información proporcionada describe una dirección hacia el juego completo que puede incluir la campaña completa, enemigos y jefes adicionales, builds de jugador ampliadas, más música y elementos de historia, y un Modo Hardcore. Estas características deben considerarse planificadas hasta que aparezcan en una versión oficial publicada.
+
+El cronograma de desarrollo también puede cambiar. Se espera que el período de Acceso Anticipado dure aproximadamente un año, pero podría extenderse a dos años según el progreso del desarrollo. Para los cambios actuales, usa el [hub de la Comunidad de Steam](https://steamcommunity.com/app/2548880/), el [Discord oficial](https://discord.gg/jnyFVSTgf3) y los canales sociales verificados del desarrollador.
+
+| Estado | Qué Significa | Cómo Comprobarlo |
+|---|---|---|
+| Disponible | Jugable en la versión actual de Acceso Anticipado | Ejecuta la última versión de Steam |
+| Actualización publicada | Añadido o modificado mediante un parche oficial | Lee los anuncios de Steam y las notas del parche |
+| Planificado | Comentado como dirección futura | Espera una confirmación de lanzamiento oficial |
+| Reporte de la comunidad | Problema o sugerencia observado por jugadores | Compáralo con avisos oficiales antes de actuar |
+
+<FAQ items={[
+  {
+    question: "¿Existe una versión oficial de Divine Frequency para GZDoom?",
+    answer: "La información verificada disponible no confirma un lanzamiento oficial de GZDoom, un paquete WAD ni un flujo de trabajo de source port. La versión confirmada es el juego de Acceso Anticipado para Windows distribuido a través de Steam."
+  },
+  {
+    question: "¿Qué plataforma debo usar para Divine Frequency?",
+    answer: "Windows es la plataforma confirmada en la información disponible del juego. Steam es el canal de distribución verificado y debe usarse como referencia para la instalación y las actualizaciones."
+  },
+  {
+    question: "¿Cuánto contenido está disponible actualmente?",
+    answer: "La versión de Acceso Anticipado se describe como que contiene aproximadamente el 70% del juego previsto, con dos de los tres capítulos de historia disponibles y un tiempo de juego estimado de cuatro a seis horas."
+  },
+  {
+    question: "¿Debo usar un archivo de GZDoom de la comunidad si encuentro uno?",
+    answer: "Considéralo solo después de verificar al creador, la documentación, la fuente, las notas de compatibilidad y la reputación en la comunidad. No asumas que un archivo no oficial cuenta con el apoyo de Abraxaes o es compatible con la versión de Steam."
+  }
+]} />
+
+<Callout type="tip" title="Hábito de Actualización">
+Revisa los anuncios oficiales de Steam después de las actualizaciones importantes, luego vuelve a probar la configuración, las rutas bloqueadas y el comportamiento de progresión antes de comenzar una nueva partida larga.
+</Callout>
+
+</Section>
+
+## Lecturas relacionadas
+
+- [Mod de Divine Frequency: guía de configuración para el acceso anticipado](/es/technical/Divine-Frequency-mod)
+- [Divine Frequency Steam: Guía de configuración para Early Access](/es/technical/Divine-Frequency-steam)
+- [Ubicaciones de guardado de Divine Frequency: rutas de PC y consejos de copia de seguridad](/es/guide/Divine-Frequency-save-locations)

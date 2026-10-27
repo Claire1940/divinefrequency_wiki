@@ -1,4 +1,4 @@
-import { notFound, redirect } from 'next/navigation'
+import { notFound } from 'next/navigation'
 import { getTranslations, setRequestLocale } from 'next-intl/server'
 import {
   getAllContentPaths,
@@ -56,14 +56,7 @@ async function renderListPage(contentType: ContentType, locale: Language) {
     notFound()
   }
 
-  // 如果只有一篇文章，直接跳转到详情页
-  if (items.length === 1) {
-    const singleArticle = items[0]
-    const detailPath = `/${contentType}/${singleArticle.slug}`
-    const fullPath = locale === 'en' ? detailPath : `/${locale}${detailPath}`
-    redirect(fullPath)
-  }
-
+  // 静态导出不支持 redirect()：单篇文章分类也直接渲染列表页，避免构建期炸弹
   const t = await getTranslations(`pages.${contentType}`)
 
   try {

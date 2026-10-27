@@ -1,0 +1,232 @@
+import { Settings, Swords, Shield, Target, Map, CheckCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Divine Frequency controls: Keyboard, Mouse & Gamepad Setup",
+  description: "Configure Divine Frequency controls for keyboard, mouse, and gamepad play with practical sensitivity, display, input, and troubleshooting tips.",
+  category: "guide",
+  image: "https://placehold.co/800x400/171923/f4e8c1?text=Divine+Frequency+Controls",
+  date: "2026-10-28",
+  author: "Divine Frequency Wiki Team",
+  slug: "divine-frequency-controls"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Divine Frequency controls** should be tested before a long Early Access session.
+- **Keyboard and mouse** provide direct aim and quick access to configurable inputs.
+- **Gamepad setup** should be checked for button prompts, sensitivity, and detection.
+- **Performance tuning** can improve frame pacing and make aiming feel more consistent.
+- **Safe defaults** are more useful than extreme sensitivity during the opening areas.
+</Callout>
+
+<Section icon={Settings} title="Divine Frequency Controls: What to Configure First">
+
+Divine Frequency controls are best approached as a complete input setup rather than a list of individual buttons. Before exploring the opening areas, confirm movement, aiming, interaction, combat actions, ability access, and menu navigation. The game is currently an Early Access horror FPS on Windows, so exact bindings and available options may change during 2026 development.
+
+The most important goal is consistency. Your movement should feel predictable, your primary attack should be easy to reach, and defensive or emergency actions should not compete with frequent menu inputs. Avoid changing several settings at once. Adjust one control category, test it in a safe area, and keep the configuration only if it improves comfort.
+
+| Control area | First setting to check | Why it matters |
+|---|---|---|
+| Movement | Forward, strafe, crouch, and sprint inputs | Confirms that navigation feels reliable before combat begins |
+| Camera | Look sensitivity and aiming response | Determines how quickly you can track threats |
+| Combat | Primary attack, alternate action, reload, and weapon access | Reduces hesitation during close encounters |
+| Abilities | Psionic or utility action inputs | Keeps special tools available without opening menus |
+| Interaction | Use, inspect, unlock, and pickup inputs | Prevents missed environmental clues and progression objects |
+| Menus | Pause, inventory, settings, and map access | Makes resource management easier between encounters |
+
+For keyboard and mouse users, begin with a moderate look sensitivity. High sensitivity can help with fast turns, but it may make precise aiming and environmental inspection less stable. Lower sensitivity is often easier to control when learning enemy spacing, especially in narrow rooms.
+
+For gamepad users, first confirm that the game recognizes the active device. Check the displayed button prompts, then test camera movement, trigger response, stick drift, vibration, and menu navigation. If the prompts do not match the device, reconnect the controller before launching the game again.
+
+<Callout type="tip" title="Editor’s Tip">
+Save a simple baseline before experimenting. A stable layout makes it easier to identify whether a later change improves aiming or merely feels different.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Keyboard and Mouse">
+    - **Direct camera control**
+    - Fast access to frequently used keys
+    - Useful for players who prefer precise aiming
+  </Card>
+  <Card title="Gamepad">
+    - Comfortable analog movement
+    - Consistent trigger and stick access
+    - Requires a careful sensitivity check
+  </Card>
+  <Card title="Hybrid Setup">
+    - Keyboard movement with alternate input devices
+    - Flexible for testing
+    - Best used only if prompts remain clear
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Control Setup">
+
+Use the following sequence when creating or revising your Divine Frequency controls. The order matters because movement and camera behavior affect every later combat decision.
+
+<Steps>
+  <Step num="1" title="Confirm the Active Input Device">
+    Start from the settings menu and verify whether the game is reading your keyboard and mouse or your controller. Move the camera, trigger an interaction, and open a menu to confirm that the selected device responds consistently.
+  </Step>
+  <Step num="2" title="Set Movement Before Sensitivity">
+    Test forward movement, strafing, backward movement, crouching, and sprinting. Make sure movement inputs are comfortable without requiring awkward finger positions. Do not optimize aim before basic navigation feels natural.
+  </Step>
+  <Step num="3" title="Choose a Moderate Camera Response">
+    Begin with a middle-range look sensitivity. Turn toward a nearby landmark, track a moving threat, and perform a controlled direction change. Increase sensitivity only if turning feels slow; lower it if you regularly overshoot targets.
+  </Step>
+  <Step num="4" title="Place Emergency Actions Within Reach">
+    Keep healing, defensive actions, reload, and other survival tools accessible. The exact actions available can vary by build, so prioritize the functions you use most often instead of copying a layout designed for another game.
+  </Step>
+  <Step num="5" title="Test the Layout in a Safe Area">
+    Walk through a familiar section and check combat, interaction, menu access, and resource management. If an input causes accidental actions or delays, revise that single binding and repeat the test.
+  </Step>
+</Steps>
+
+| Test | Pass condition | Adjustment if it fails |
+|---|---|---|
+| Camera turn | You can turn without repeated overshooting | Lower look sensitivity in small increments |
+| Target tracking | Your aim follows a threat without constant correction | Review sensitivity and aiming response |
+| Sprint access | Sprint can be activated without disrupting movement | Move sprint to a more comfortable input |
+| Interaction | Doors, objects, and pickups respond reliably | Confirm the interaction key or button |
+| Emergency action | Healing or defensive tools are reachable under pressure | Assign the action to a nearby, distinct input |
+
+<Callout type="success" title="Reliable Setup Rule">
+A good control layout is the one you can use without consciously searching for basic actions. Test it under pressure, not only while standing still in a menu.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Keyboard, Mouse, and Gamepad Comparison">
+
+There is no single best control method for every Divine Frequency player. The game combines ranged combat, exploration, resource decisions, and supernatural or psionic options. Choose the device that lets you maintain awareness while moving through unfamiliar spaces.
+
+Keyboard and mouse controls are a strong choice for players who value direct camera movement and quick access to several separate inputs. They also make it easier to keep movement, interaction, weapon access, and ability keys distinct. The tradeoff is that a poor key layout can create finger travel during stressful encounters.
+
+Gamepad controls can provide smoother analog movement and a comfortable way to combine camera control with movement. However, the available buttons are more limited, so important actions may depend on holds, radial menus, or button combinations. Verify those combinations before entering a difficult encounter.
+
+| Input method | Main strength | Common risk | Best starting approach |
+|---|---|---|---|
+| Keyboard and mouse | Precise camera control and separate key access | Awkward bindings can slow emergency actions | Use moderate sensitivity and group combat keys logically |
+| Gamepad | Smooth movement and comfortable analog control | Limited buttons and possible sensitivity issues | Confirm prompts, stick response, and trigger behavior |
+| Mixed devices | Useful for testing preferred functions | Switching devices may change prompts or behavior | Use one primary device during active combat |
+| Default layout | Quickest initial setup | May not suit every hand position | Test first, then change only uncomfortable actions |
+
+For mouse users, avoid chasing extremely fast turns. Horror FPS encounters often punish panic movement more than slow camera rotation. A controllable response helps you inspect rooms, line up shots, and preserve a retreat route.
+
+For gamepad users, test both horizontal and vertical camera movement. A layout can feel comfortable when looking left and right but awkward when tracking elevated or lowered targets. Also check whether vibration helps you read combat feedback or becomes distracting during exploration.
+
+<Callout type="warning" title="Input Warning">
+Do not assume that a control problem is a gameplay mechanic. If an input feels delayed, mismatched, or unresponsive, check device detection, overlays, drivers, and the active control profile first.
+</Callout>
+
+<CardGrid cols={4}>
+  <Card title="Aim">
+    Use a moderate response and make small adjustments before increasing speed.
+  </Card>
+  <Card title="Movement">
+    Prioritize comfortable strafing, retreating, crouching, and sprint access.
+  </Card>
+  <Card title="Combat">
+    Separate attack, reload, weapon access, and emergency actions where possible.
+  </Card>
+  <Card title="Exploration">
+    Keep interaction and menu controls easy to identify near environmental objects.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Controls, Performance, and Combat Consistency">
+
+Control feel is affected by more than key bindings. Display mode, resolution, frame pacing, background applications, and graphics settings can change how responsive aiming appears. When performance feels uneven, adjust technical settings before rebuilding your entire control layout.
+
+Start with the default graphics preset and test the game in a representative exploration or combat area. If performance is unstable, reduce demanding options individually. Resolution, shadows, effects, and post-processing are useful categories to test, but changing everything simultaneously makes the cause harder to identify.
+
+| Technical setting | Recommended first check | Why it affects controls |
+|---|---|---|
+| Display mode | Test fullscreen and borderless | Switching modes can affect frame pacing |
+| Resolution | Begin at native resolution | Confirms whether rendering load affects responsiveness |
+| Upscaling | Enable only if available and needed | May improve performance but can change image clarity |
+| Shadows and effects | Lower individually during testing | Reduces load without changing every visual option |
+| Background applications | Close unnecessary overlays | Reduces possible conflicts and interruptions |
+| Frame rate behavior | Test for stable pacing | Consistent motion usually feels easier to control |
+
+If the image flickers, the frame pacing feels uneven, or inputs appear delayed, switch display mode and restart the game. Keep graphics drivers current and verify the installation through Steam when problems persist. These checks are especially useful for an Early Access build, where technical behavior may change between updates.
+
+Use the official [Divine Frequency Steam page](https://store.steampowered.com/app/2548880/Divine_Frequency/) for the current Windows build and available technical information. The [Steam Community hub](https://steamcommunity.com/app/2548880/) is also useful for checking current player reports and discussion around input or performance issues.
+
+<Callout type="info" title="Performance Note">
+Test controls after a major graphics change. A sensitivity value that feels comfortable at stable frame pacing may feel different when the game is struggling to render a demanding area.
+</Callout>
+
+<Checklist
+  id="divine-frequency-controls-check"
+  title="Control Setup Checklist:"
+  items={[
+    "Confirm the active keyboard, mouse, or gamepad device",
+    "Test movement, camera response, interaction, and menus",
+    "Place reload and emergency actions within comfortable reach",
+    "Check display mode and frame pacing before changing sensitivity",
+    "Retest the layout in a safe combat area"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Recommended Control Habits for Early Access">
+
+A control layout is only part of surviving Divine Frequency’s current Early Access content. Good habits reduce the number of emergency inputs you need and make exploration easier to read.
+
+Before entering an unfamiliar room, identify a retreat route and keep your movement inputs available. Avoid placing essential actions on controls that you might press accidentally while turning, sprinting, or interacting with objects. If you change the layout, play through a low-risk area before attempting optional encounters.
+
+| Situation | Control habit | Practical result |
+|---|---|---|
+| Entering an unknown room | Keep movement and retreat inputs ready | You can disengage without searching for a key |
+| Fighting at close range | Use controlled turns instead of maximum sensitivity | Reduces accidental overcorrection |
+| Managing scarce resources | Keep menu access distinct from combat inputs | Lowers the chance of opening menus at the wrong time |
+| Revisiting blocked routes | Use interaction consistently | Makes environmental checks easier to repeat |
+| After an update | Recheck prompts and bindings | Catches changes before a long session |
+
+Keep a short note of unresolved doors, inaccessible paths, and optional rooms. This habit is more reliable than repeatedly retracing every corridor. When a later update changes progression or adds content, your notes can help distinguish a new route from an area that was previously unavailable.
+
+<Callout type="tip" title="Exploration Tip">
+Use landmarks and completed objectives to organize your route. Consistent navigation reduces panic, which also makes your control layout easier to use during unexpected encounters.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "What are the best Divine Frequency controls for beginners?",
+    answer: "Start with the default layout, use moderate camera sensitivity, and place interaction, reload, movement, and emergency actions where they are easy to reach. Change only the inputs that create confusion or discomfort."
+  },
+  {
+    question: "Should I use keyboard and mouse or a gamepad?",
+    answer: "Keyboard and mouse are useful for direct camera control and separate key access. A gamepad may feel more comfortable for analog movement. Choose the device that lets you aim, retreat, and interact without hesitation."
+  },
+  {
+    question: "Why do my controls feel delayed?",
+    answer: "Check frame pacing, display mode, background applications, device detection, and graphics settings before changing every binding. Stable performance can make the same sensitivity setting feel more responsive."
+  },
+  {
+    question: "Can Early Access updates change the control setup?",
+    answer: "They can change available options, prompts, or technical behavior. Recheck bindings and controller detection after major updates, especially before beginning a long playthrough."
+  }
+]} />
+
+<Callout type="success" title="Final Recommendation">
+Build a simple layout, test it in a safe area, and prioritize reliable movement over extreme sensitivity. Recheck the setup after each major 2026 Early Access update.
+</Callout>
+
+</Section>
+
+## Related Reading
+
+- [Divine Frequency increase strength: Build Setup Guide](/guide/Divine-Frequency-increase-strength)
+- [Divine Frequency save locations: PC Paths & Backup Tips](/guide/Divine-Frequency-save-locations)
+- [Divine Frequency first hour: Step-by-Step Survival Guide](/media/Divine-Frequency-first-hour)

@@ -1,0 +1,205 @@
+import { Map, Settings, Swords, Shield, Radio, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Divine Frequency gzdoom: Kompatibilitäts- und Einrichtungsleitfaden",
+  description: "Prüfe die Kompatibilität von Divine Frequency gzdoom, bestätige die offizielle Steam-Version und befolge praktische Tipps zu Einrichtung, Kampf, Erkundung…",
+  category: "technical",
+  image: "https://placehold.co/800x400/171923/f5eee0?text=Divine+Frequency+Setup+Guide",
+  date: "2026-10-28",
+  author: "Divine Frequency Wiki-Team",
+  slug: "divine-frequency-gzdoom-compatibility-setup-guide"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Divine Frequency gzdoom** ist in den verfügbaren Spieldaten nicht als offizielle GZDoom-Veröffentlichung bestätigt.
+- **Offizielle Version**: Bei der bestätigten Veröffentlichung handelt es sich um ein Windows-Early-Access-Spiel, das über Steam vertrieben wird.
+- **Aktueller Umfang**: Der Early Access umfasst zwei von drei geplanten Story-Kapiteln und etwa vier bis sechs Stunden Inhalt.
+- **Beste Vorgehensweise**: Bestätige zunächst die Store-Version, bevor du inoffizielle Source Ports, Mods oder Startkonfigurationen testest.
+- **Sicherheitstipp**: Behalte blockierte Wege und Änderungen durch Updates im Blick, da sich die Early-Access-Version während der Entwicklung weiterentwickeln kann.
+</Callout>
+
+<Section icon={Radio} title="Divine Frequency gzdoom: Was das Stichwort bedeutet">
+
+Wenn du nach **Divine Frequency gzdoom** gesucht hast, ist die wichtigste Unterscheidung die zwischen dem Spiel selbst und einer möglichen Anfrage zu einem Source Port. Die bestätigten Spieldaten beschreiben *Divine Frequency* als surrealen Retro-Horror-FPS mit RPG-Elementen, psychologischen Horror-Themen und Einflüssen von Boomer-Shootern. Die bestätigte Vertriebsform ist die Windows-Early-Access-Version auf Steam.
+
+Die verfügbaren offiziellen Informationen bestätigen weder eine native GZDoom-Edition noch eine eigenständige `.wad`-Veröffentlichung oder ein offizielles GZDoom-Mod-Paket. Daher sollte eine GZDoom-Einrichtung nicht als etablierte Installationsmethode betrachtet werden. Beginne mit der offiziellen Version und prüfe Community-Projekte erst dann, wenn sie über eine klar dokumentierte Entwickler- oder Community-Quelle verfügen.
+
+| Suchabsicht | Bestätigte Richtung | Empfohlene Vorgehensweise |
+|---|---|---|
+| Divine Frequency gzdoom | Keine offizielle GZDoom-Veröffentlichung bestätigt | Verwende die Steam-Version als Referenzversion |
+| Divine Frequency PC-Einrichtung | Windows-Early-Access-Veröffentlichung | Prüfe die Steam-Installation und das Startverhalten |
+| Divine Frequency Retro-FPS | Surrealer Horror-FPS mit RPG-Systemen | Rechne mit Erkundung, Kämpfen, Fortschritt und Rätseln |
+| Divine Frequency Mod-Unterstützung | In den bereitgestellten Informationen kein bestätigter Mod-Workflow | Gehe nicht automatisch von GZDoom-Kompatibilität aus |
+| Divine Frequency-Leitfaden | Einsteiger- und Fortschrittshilfe für den Early Access | Befolge die Grundlagen zu Ressourcen, Routen und Kämpfen |
+
+<CardGrid cols={3}>
+  <Card title="Offizielle Referenz">
+    Die bestätigte Spielseite ist das Steam-Angebot für die Windows-Early-Access-Veröffentlichung.
+  </Card>
+  <Card title="Vorsicht bei Ports">
+    Gehe nicht davon aus, dass eine GZDoom-Executable, eine Mod-Datei oder ein Source-Port-Paket offiziell unterstützt wird.
+  </Card>
+  <Card title="Wiki-Abdeckung">
+    Dieser Leitfaden konzentriert sich auf bestätigte Einrichtungsinformationen, Prioritäten für Einsteiger, Erkundung und Fortschritt.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Kompatibilitätswarnung">
+Eine als GZDoom-Version gekennzeichnete Datei ist nicht automatisch eine offizielle *Divine Frequency*-Veröffentlichung. Prüfe Herausgeber, Dokumentation, Versionshinweise und den Ruf der Community, bevor du unbekannte ausführbare Dateien oder Archive öffnest.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Bestätigter Installations- und Einrichtungsweg">
+
+Für die zuverlässigsten Erfahrungen solltest du die bestätigte Windows-Early-Access-Version über die [offizielle Steam-Seite](https://store.steampowered.com/app/2548880/Divine_Frequency/) verwenden. Sie bietet einen stabilen Bezugspunkt für Updates, Startoptionen, Community-Diskussionen und Fehlerbehebung. Außerdem verhindert sie Verwechslungen zwischen dem tatsächlichen Spiel und unabhängigen Retro-FPS-Projekten mit ähnlicher Terminologie.
+
+Das Spiel ist am **26. Oktober 2026** in den Early Access gestartet. Einige Dienste zeigen wegen der UTC-Umrechnung möglicherweise den **27. Oktober 2026** an. Die aktuelle Version wird als etwa 70 % des geplanten Spiels beschrieben. Zwei von drei Story-Kapiteln sind verfügbar, mit einer geschätzten Spielzeit von vier bis sechs Stunden.
+
+<Steps>
+  <Step num="1" title="Offizielles Angebot bestätigen">
+    Öffne die Steam-Seite und überprüfe Titel, Entwickler, Plattform und Early-Access-Status. Als Entwickler und Herausgeber ist Abraxaes angegeben, und die bestätigte Plattform ist Windows.
+  </Step>
+  <Step num="2" title="Bestätigte Version installieren">
+    Installiere die Steam-Version, anstatt dich auf ein nicht verifiziertes GZDoom-Archiv zu verlassen. Warte vor dem Start, bis Steam alle Updates heruntergeladen hat.
+  </Step>
+  <Step num="3" title="Einmal ohne eigene Änderungen starten">
+    Starte zuerst die unveränderte Version. So stellst du fest, ob das offizielle Spiel korrekt startet, bevor du Anzeigeeinstellungen, Controller-Optionen, Overlays oder inoffizielle Dateien testest.
+  </Step>
+  <Step num="4" title="Einstellungen schrittweise anpassen">
+    Ändere jeweils nur eine Grafik- oder Eingabeeinstellung. Wenn sich Leistung oder Frame-Pacing verändern, kannst du die verantwortliche Einstellung identifizieren, anstatt mehrere Variablen gleichzeitig zu untersuchen.
+  </Step>
+  <Step num="5" title="Versionsspezifische Probleme dokumentieren">
+    Notiere das Datum, sichtbare Build-Informationen, das Verhalten der Hardware und die Schritte, die das Problem verursacht haben. Early-Access-Updates können Leistung, Interaktionen und Fortschrittsverhalten verändern.
+  </Step>
+</Steps>
+
+| Einrichtungsbereich | Erste empfohlene Aktion | Nicht automatisch annehmen |
+|---|---|---|
+| Vertrieb | Verwende die offizielle Steam-Early-Access-Version | Dass ein GZDoom-Paket unterstützt wird |
+| Plattform | Beginne mit Windows, der bestätigten Plattform | Dass Konsolen- oder Linux-Unterstützung verfügbar ist |
+| Sprache | Rechne mit Englisch als angegebener unterstützter Sprache | Dass inoffizielle Übersetzungen gepflegt werden |
+| Updates | Lass Steam ausstehende Updates vollständig installieren | Dass eine ältere Version dem aktuellen Verhalten entspricht |
+| Starttests | Beginne mit den Standardeinstellungen | Dass eigene Startargumente erforderlich sind |
+
+<Callout type="tip" title="Einrichtungstipp">
+Betrachte die offizielle Steam-Version als deine Ausgangsbasis. Wenn die unveränderte Version funktioniert, lassen sich spätere Konfigurationsänderungen leichter testen und rückgängig machen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Kampf- und Build-Prioritäten für Einsteiger">
+
+*Divine Frequency* verbindet Feuerwaffenkämpfe, psionische Optionen, RPG-Fortschritt, Erkundung und surreale Horror-Begegnungen. Der sicherste Plan für Einsteiger besteht nicht darin, sofort jede Ressource auszugeben. Lege stattdessen eine zuverlässige Schadensmethode fest und nutze das zweite Kampfsystem, um ihre Schwächen auszugleichen.
+
+Die bereitgestellten Spieldaten beschreiben drei grobe Archetypen: auf Feuerwaffen fokussierte, auf Psionik fokussierte und hybride Ansätze. Diese Kategorien sind für die Planung nützlich, aber die verfügbaren Informationen enthalten keine bestätigten Waffennamen, numerischen Schadenswerte, Verbesserungskosten oder vollständige Klassendatenbank. Build-Empfehlungen sollten sich daher auf Rollen und Entscheidungsfindung konzentrieren, nicht auf erfundene Statistiken.
+
+| Archetyp | Hauptrolle | Stärken | Hauptrisiko | Richtung für Einsteiger |
+|---|---|---|---|---|
+| Feuerwaffenfokus | Konstanter Fernkampfschaden | Klarer Kampfrhythmus und zuverlässige Distanz | Abhängigkeit von Munition | Verbessere zunächst die Beständigkeit, bevor du dich zu stark spezialisierst |
+| Psionikfokus | Fähigkeitsschaden, Kontrolle und Nutzen | Flexible Reaktionen auf ungewöhnliche Begegnungen | Ressourcen-Timing und Erholungslimits | Spare wirkungsvolle Fähigkeiten für gefährliche Ziele auf |
+| Hybrid | Ausgewogene Abdeckung von Begegnungen | Bewältigt wechselnde Distanzen und gemischten Druck | Verbesserungsmaterialien können sich verstreuen | Wähle zuerst ein primäres Schadenssystem |
+
+<CardGrid cols={3}>
+  <Card title="Zuerst Feuerwaffen">
+    Verwende für gewöhnliche Begegnungen eine zuverlässige Waffe, halte nach Möglichkeit Abstand und spare nützliche Fähigkeiten für Situationen auf, die Feuerwaffen nur schlecht bewältigen.
+  </Card>
+  <Card title="Zuerst Psionik">
+    Setze Fähigkeiten gezielt ein, anstatt sie gegen jede kleine Bedrohung auszugeben. Halte für längere Gefechte eine Feuerwaffe bereit.
+  </Card>
+  <Card title="Hybride Kontrolle">
+    Wähle eine Hauptquelle für Schaden und investiere erst dann in das zweite System, wenn es eine konkrete Schwäche ausgleicht.
+  </Card>
+</CardGrid>
+
+Eine fokussierte frühe Konfiguration ist normalerweise leichter zu verwalten als mehrere teilweise verbesserte Optionen. Priorisiere Verbesserungen, die gewöhnliche Begegnungen zuverlässiger machen, und passe dich an, sobald du die Anforderungen eines neuen Gebiets verstanden hast.
+
+<Callout type="success" title="Build-Regel">
+Wähle eine zuverlässige Schadensquelle, eine Notfalloption und eine Ressourcenreserve. Speziale dich erst weiter, wenn sich deine gewöhnlichen Begegnungen gut bewältigen lassen.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Erkundung, Lösungsweg und Rätselgewohnheiten">
+
+Die Anfangsgebiete belohnen überlegte Erkundung mehr als Hast. Verzweigte Wege, verschlossene Zugänge, optionale Begegnungen und Ressourcen lassen sich möglicherweise leichter verstehen, wenn du jedem Gebiet auf einer gleichbleibenden Route folgst. Eine einfache Notiz zu jeder blockierten Tür oder einem ungelösten Abzweig kann später wiederholte Suchaktionen verhindern.
+
+Die aktuelle Early-Access-Struktur unterstützt einen spoilerarmen Ansatz durch die ersten beiden Akte. Erledige zunächst die wichtigen Ziele und kehre anschließend zu optionalen Bereichen zurück, sobald sich deine Ausrüstung, Ressourcen oder Zugangsmöglichkeiten verbessert haben.
+
+| Fortschrittsphase | Hauptziel | Nützliche Gewohnheit |
+|---|---|---|
+| Anfangsroute | Kämpfe lernen und das aktive Ziel identifizieren | Überprüfe nahe Ausgänge, bevor du weitergehst |
+| Nebenerkundung | Optionale Räume und Ressourcen finden | Markiere Wege, die noch nicht geöffnet werden können |
+| Aktfortschritt | Der Zielkette folgen | Bewahre Ressourcen für notwendige Begegnungen auf |
+| Rückkehr | Ungelöste Abzweige erneut aufsuchen | Nutze Orientierungspunkte, statt blind zu suchen |
+| Gebietsverlassen | Den Fortschritt vor dem Verlassen bestätigen | Notiere unvollständige Entdeckungen und blockierte Wege |
+
+Umgebungsrätsel solltest du zunächst durch Beobachtung und nicht durch blindes Ausprobieren angehen. Achte auf wiederkehrende Markierungen, ungewöhnlich platzierte Objekte, Veränderungen der Beleuchtung, Geräuschsignale und Umgebungsdetails, die absichtlich hervorgehoben wirken. Wenn ein Mechanismus nicht reagiert, benötigt er möglicherweise eine nahe Interaktion oder einen späteren Story-Fortschritt statt einer anderen zufälligen Eingabe.
+
+<Checklist
+  id="divine-frequency-exploration"
+  title="Erkundungs-Checkpunkt:"
+  items={[
+    "Überprüfe Nebenräume, bevor du ein wichtiges Ziel hinter dir lässt",
+    "Notiere verschlossene Türen und unzugängliche Wege",
+    "Identifiziere einen sicheren Rückzugsweg, bevor du verdächtige Bereiche betrittst",
+    "Spare Ressourcen für notwendige Kämpfe und Fortschrittsblockaden auf",
+    "Besuche optionale Bereiche nach wichtigen Story-Fortschritten erneut"
+  ]}
+/>
+
+<Callout type="info" title="Hinweis zur Navigation">
+Betrachte nicht jeden blockierten Weg als Fehler. Trenne in einem Early-Access-Spiel mit geplanten zukünftigen Inhalten aktuelle Fortschrittsanforderungen von optionalen oder nicht verfügbaren Wegen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Early-Access-Tracking und praktische FAQ">
+
+Die Steam-Early-Access-Version soll über ihre anfängliche Veröffentlichung hinaus erweitert werden. Die bereitgestellten Informationen beschreiben eine geplante Richtung für das vollständige Spiel, die die komplette Kampagne, zusätzliche Gegner und Bosse, erweiterte Spieler-Builds, weitere Musik- und Story-Elemente sowie einen Hardcore-Modus umfassen kann. Diese Funktionen sollten als geplant betrachtet werden, bis sie in einer offiziell veröffentlichten Version erscheinen.
+
+Auch der Zeitplan der Entwicklung kann sich ändern. Es wird erwartet, dass der Early-Access-Zeitraum etwa ein Jahr dauert, abhängig vom Entwicklungsfortschritt jedoch auf zwei Jahre verlängert werden kann. Für aktuelle Änderungen solltest du den [Steam-Community-Hub](https://steamcommunity.com/app/2548880/), den [offiziellen Discord](https://discord.gg/jnyFVSTgf3) und verifizierte Social-Media-Kanäle der Entwickler nutzen.
+
+| Status | Bedeutung | So prüfst du es |
+|---|---|---|
+| Verfügbar | In der aktuellen Early-Access-Version spielbar | Starte die neueste Steam-Version |
+| Veröffentlichtes Update | Durch einen offiziellen Patch hinzugefügt oder geändert | Lies Steam-Ankündigungen und Patchnotes |
+| Geplant | Als zukünftige Richtung besprochen | Warte auf eine offizielle Bestätigung der Veröffentlichung |
+| Community-Bericht | Von Spielern beobachtetes Problem oder Vorschlag | Vergleiche ihn mit offiziellen Mitteilungen, bevor du handelst |
+
+<FAQ items={[
+  {
+    question: "Gibt es eine offizielle Divine-Frequency-GZDoom-Version?",
+    answer: "Die verfügbaren bestätigten Informationen nennen keine offizielle GZDoom-Veröffentlichung, kein WAD-Paket und keinen Source-Port-Workflow. Bei der bestätigten Version handelt es sich um das über Steam vertriebene Windows-Early-Access-Spiel."
+  },
+  {
+    question: "Welche Plattform sollte ich für Divine Frequency verwenden?",
+    answer: "Windows ist in den verfügbaren Spieldaten als bestätigte Plattform angegeben. Steam ist der verifizierte Vertriebskanal und sollte als Grundlage für Installation und Updates verwendet werden."
+  },
+  {
+    question: "Wie viel Inhalt ist derzeit verfügbar?",
+    answer: "Die Early-Access-Version wird als etwa 70 % des geplanten Spiels beschrieben. Zwei von drei Story-Kapiteln sind verfügbar, mit einer geschätzten Spielzeit von vier bis sechs Stunden."
+  },
+  {
+    question: "Soll ich eine Community-GZDoom-Datei verwenden, wenn ich eine finde?",
+    answer: "Ziehe sie erst in Betracht, nachdem du Ersteller, Dokumentation, Quelle, Kompatibilitätshinweise und den Ruf der Community überprüft hast. Gehe nicht davon aus, dass eine inoffizielle Datei von Abraxaes unterstützt wird oder mit der Steam-Version kompatibel ist."
+  }
+]} />
+
+<Callout type="tip" title="Update-Gewohnheit">
+Prüfe nach größeren Updates die offiziellen Steam-Ankündigungen und teste anschließend Einstellungen, blockierte Wege und das Fortschrittsverhalten erneut, bevor du einen langen neuen Durchlauf beginnst.
+</Callout>
+
+</Section>
+
+## Weiterführende Artikel
+
+- [Divine Frequency-Mod: Einrichtungsleitfaden für den Early Access](/de/technical/Divine-Frequency-mod)
+- [Divine Frequency Steam: Einrichtungsleitfaden für den Early Access](/de/technical/Divine-Frequency-steam)
+- [Speicherorte von Divine Frequency: PC-Pfade und Backup-Tipps](/de/guide/Divine-Frequency-save-locations)

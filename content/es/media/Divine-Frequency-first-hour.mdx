@@ -1,0 +1,205 @@
+import { Map, Swords, Shield, Target, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Primera hora de Divine Frequency: guía de supervivencia paso a paso",
+  description: "Usa esta guía de la primera hora de Divine Frequency para gestionar el combate, la exploración, los recursos, las mejoras, las rutas bloqueadas y la…",
+  category: "media",
+  image: "https://placehold.co/800x400/161923/f5e8b8?text=First+Hour+Guide",
+  date: "2026-10-28",
+  author: "Equipo de Wiki de Divine Frequency"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Primera hora de Divine Frequency**: Aprende los hábitos de combate, exploración y gestión de recursos antes de perseguir descubrimientos opcionales.
+- **Prioridad en combate**: Crea distancia, identifica las salidas y evita gastar recursos poco comunes en amenazas menores.
+- **Regla de exploración**: Marca las puertas bloqueadas y regresa cuando los objetivos o las mejoras cambien tus posibilidades de acceso.
+- **Plan de mejoras**: Mejora una opción de daño fiable antes de repartir materiales entre varios sistemas.
+- **Mentalidad de acceso anticipado**: Separa la progresión actual del contenido planeado, inacabado o inaccesible.
+</Callout>
+
+<Section icon={Map} title="Hoja de ruta de la primera hora de Divine Frequency">
+
+La **primera hora de Divine Frequency** no consiste tanto en avanzar a toda prisa por los objetivos como en establecer una rutina de supervivencia que puedas repetir. La versión actual de acceso anticipado contiene la parte inicial de la campaña prevista, por lo que una navegación cuidadosa y una gestión disciplinada de los recursos son más valiosas que intentar forzar de inmediato todas las rutas cerradas.
+
+Usa la primera hora para aprender cómo comunica el juego el peligro, la progresión y el contenido opcional. Revisa las habitaciones antes de avanzar, ten presente una ruta de escape y anota todo lo que parezca inaccesible. Este enfoque reduce los retrocesos y te proporciona una lista clara de lugares a los que regresar cuando la historia o el sistema de progresión abran nuevas posibilidades.
+
+| Tiempo | Prioridad principal | Qué hacer |
+|---|---|---|
+| 0–10 minutos | Controles básicos | Prueba el movimiento, la puntería, la interacción, el inventario y las opciones de combate disponibles. |
+| 10–20 minutos | Exploración segura | Revisa las habitaciones laterales, identifica puntos de referencia y anota los caminos bloqueados. |
+| 20–35 minutos | Ritmo de combate | Practica la distancia, la cobertura, las rutas de retirada y la conservación de recursos. |
+| 35–50 minutos | Progresión | Compara las mejoras y concentra los materiales en un plan de combate fiable. |
+| 50–60 minutos | Revisión de la ruta | Confirma el objetivo actual, vuelve a visitar los desvíos útiles y registra las zonas sin resolver. |
+
+<Steps>
+  <Step num="1" title="Prueba todos los controles esenciales">
+    Antes de entrar en habitaciones desconocidas, confirma el movimiento, la puntería, la interacción, el cambio de armas y cualquier comando de habilidad disponible. Los errores iniciales son más fáciles de corregir en una zona segura que durante un encuentro bajo presión.
+  </Step>
+  <Step num="2" title="Construye un mapa mental sencillo">
+    Identifica puertas, pasillos, puntos de referencia y salidas evidentes. Si una ruta está bloqueada, recuerda su ubicación en lugar de probarla repetidamente durante la misma vuelta.
+  </Step>
+  <Step num="3" title="Establece una posición de retirada">
+    Decide dónde puedes replegarte si un encuentro se vuelve peligroso. Las habitaciones despejadas y los pasillos abiertos suelen ser espacios de repliegue más seguros que los desvíos desconocidos.
+  </Step>
+  <Step num="4" title="Gasta los recursos con un propósito">
+    Usa munición, curación, habilidades y materiales de mejora cuando resuelvan un problema claro. Guarda una reserva para los encuentros obligatorios y los bloqueos de progresión.
+  </Step>
+  <Step num="5" title="Revisa la situación antes de avanzar">
+    Después de una interacción importante, confirma que el objetivo haya cambiado, recoge los recursos útiles cercanos y registra los caminos opcionales antes de adentrarte más en la zona.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Hábito de la primera hora">
+Considera cada ruta bloqueada como una nota para más adelante, no como un desafío que debas resolver de inmediato. Esto mantiene tu primera incursión centrada y evita pérdidas innecesarias de recursos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combate inicial y gestión de enemigos">
+
+Los primeros encuentros recompensan la observación y el posicionamiento. En lugar de atacar continuamente, observa cómo se acercan los enemigos, dónde se recuperan después de atacar y qué habitaciones te dan suficiente espacio para maniobrar. Una retirada fiable suele ser más valiosa que unos segundos extra de daño.
+
+Usa las armas de fuego para ejercer una presión a distancia controlada cuando haya espacio suficiente. Conserva las opciones psiónicas o de utilidad para las situaciones que exijan control de grupos, acceso inusual, daño explosivo o una respuesta que no dependa por completo de la munición. El mejor equipamiento inicial suele ser una combinación centrada, no varias herramientas mejoradas solo parcialmente.
+
+<CardGrid cols={3}>
+  <Card title="Controla la distancia">
+    - Lucha desde una distancia que te dé tiempo para reaccionar.
+    - Evita retroceder hacia habitaciones desconocidas.
+    - Usa puertas y esquinas para limitar la persecución.
+  </Card>
+  <Card title="Lee las ventanas de recuperación">
+    - Presta atención a los ataques fallidos.
+    - Golpea después de que el enemigo se comprometa.
+    - Retírate cuando sea difícil interpretar una cadena de ataques.
+  </Card>
+  <Card title="Protege tu reserva">
+    - Guarda la curación para los peligros inevitables.
+    - Evita usar habilidades poco comunes contra objetivos aislados.
+    - Conserva munición para grupos o encuentros de progresión.
+  </Card>
+</CardGrid>
+
+| Tipo de encuentro | Riesgo principal | Respuesta eficiente | Prioridad de recursos |
+|---|---|---|---|
+| Enemigo cuerpo a cuerpo | Quedar atrapado en una habitación estrecha | Crea distancia, usa las esquinas y ataca después de su recuperación | Conserva la curación y la munición |
+| Perseguidor veloz | Perder el acceso a una retirada segura | Rompe la línea de visión y muévete por espacios despejados | Guarda las opciones de recuperación de emergencia |
+| Encuentro de alta presión | Espacio limitado u oleadas repetidas | Inspecciona la zona, prepárate primero y reserva las herramientas potentes | Usa la opción más potente solo cuando sea necesario |
+| Encuentro desconocido | Activar varias amenazas | Identifica las salidas antes de interactuar con objetos sospechosos | Mantén una reserva equilibrada |
+
+Al entrar en una habitación nueva, detente brevemente e identifica tres cosas: la dirección probable de la amenaza, la ruta de retirada más segura y la cobertura o protección ambiental más cercana. Esta pequeña comprobación ayuda a evitar gastar recursos por pánico y facilita la lectura de los espacios desconocidos.
+
+<Callout type="warning" title="Evita gastar recursos por pánico">
+No uses todas las herramientas poderosas en el primer intercambio simplemente porque un enemigo parezca peligroso. Si la habitación tiene espacio y una ruta de retirada, analiza el encuentro antes de comprometer recursos poco comunes.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Exploración, recursos y mejoras">
+
+La exploración en Divine Frequency funciona mejor cuando separas la progresión esencial de la investigación opcional. Los objetivos principales deberían hacer avanzar tu ruta actual, mientras que las habitaciones laterales, los detalles ambientales extraños y los pasajes bloqueados pueden añadirse a una lista para regresar más tarde.
+
+La estructura de acceso anticipado hace que esto sea especialmente importante. Algunas zonas pueden requerir acceso posterior, una interacción diferente o un cambio de progresión que no está disponible durante la primera visita. No consideres cada lugar inaccesible como un error de tu ruta.
+
+| Recurso | Uso durante la primera hora | Regla recomendada | Error común |
+|---|---|---|---|
+| Munición | Daño sostenido con armas de fuego | Gástala en amenazas que bloqueen el progreso o creen un riesgo real | Eliminar inmediatamente a todos los enemigos opcionales |
+| Curación | Recuperarse de daños graves | Conserva una reserva antes de entrar en zonas desconocidas | Usarla para daños menores después de encuentros seguros |
+| Recursos psiónicos | Utilidad, control o daño especial | Guarda los efectos de gran impacto para grupos u objetivos difíciles | Tratar cada habilidad como un ataque básico |
+| Materiales de mejora | Mejorar armas o habilidades | Refuerza primero un plan fiable | Repartir los materiales entre demasiadas opciones |
+| Tiempo y conocimiento de la ruta | Encontrar objetivos y lugares a los que regresar | Marca puntos de referencia y desvíos sin resolver | Repetir la misma búsqueda sin tomar notas |
+
+Una buena primera mejora debería aumentar la consistencia. Busca beneficios que faciliten los encuentros normales, mejoren el manejo, incrementen la eficiencia práctica o respalden el alcance que uses con más frecuencia. Las mejoras muy especializadas pueden ser útiles más adelante, pero son más difíciles de evaluar antes de comprender la variedad de encuentros del juego.
+
+| Dirección de mejora | Mejor para | Ventaja | Limitación |
+|---|---|---|---|
+| Consistencia de las armas de fuego | Combate directo a distancia | Daño predecible y planificación sencilla | Depende de la munición |
+| Utilidad psiónica | Respuestas flexibles | Ayuda con el control, el acceso o los encuentros inusuales | Limitada por la disponibilidad de habilidades |
+| Apoyo defensivo | Exploración cuidadosa | Ofrece más margen para cometer errores | Puede reducir el daño inmediato |
+| Configuración híbrida | Encuentros variados | Cubre distintos alcances y amenazas | Tarda más en alcanzar la especialización |
+
+<Callout type="success" title="Regla de mejora">
+Elige un método de daño principal y utiliza tu segundo sistema para cubrir su debilidad. Este enfoque centrado es más fácil de gestionar que mejorar todas las opciones disponibles a la vez.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Una ruta práctica para la primera hora">
+
+Usa la siguiente ruta cuando quieras una apertura estructurada sin revelar detalles innecesarios de la historia. Prioriza una progresión fiable, una exploración segura y un plan para regresar al contenido opcional.
+
+| Etapa de la ruta | Acción esencial | Acción opcional | Condición para detenerte |
+|---|---|---|---|
+| Zona inicial | Aprende los controles y localiza el objetivo activo | Inspecciona las habitaciones laterales cercanas | Puedes identificar la ruta principal |
+| Primer espacio de combate | Prueba la distancia y las opciones de retirada | Busca cuando la zona sea segura | Comprendes el acercamiento del enemigo |
+| Sección con bifurcaciones | Sigue la ruta del objetivo | Registra las rutas cerradas o inusuales | El siguiente objetivo está claro |
+| Punto de mejora | Mejora tu opción de combate principal | Compara las herramientas secundarias | Tu plan de recursos es estable |
+| Transición de zona | Confirma tus suministros y la dirección | Vuelve a visitar los desvíos cercanos y seguros | Puedes regresar sin confundirte |
+
+Mantén una lista mental o escrita de los puntos sin resolver:
+
+- Una puerta, contenedor o pasaje al que no pudiste acceder.
+- Una habitación con marcas, sonidos, iluminación o colocación de objetos inusuales.
+- Un encuentro opcional que pareciera demasiado costoso durante la primera visita.
+- Una ruta que podría resultar útil después de una interacción de la historia.
+- Una ubicación de recursos que valga la pena volver a visitar si tus suministros escasean.
+
+<Checklist
+  id="first-hour-progress"
+  title="Lista de comprobación de progreso de la primera hora:"
+  items={[
+    "Prueba el movimiento, la interacción, el cambio de armas y los controles de habilidades",
+    "Identifica el objetivo actual y al menos una ruta de retirada segura",
+    "Inspecciona las habitaciones laterales sin gastar recursos en exceso",
+    "Conserva una reserva de curación, munición y habilidades de gran impacto",
+    "Elige una dirección de mejora principal",
+    "Registra los caminos bloqueados y los descubrimientos sin resolver",
+    "Confirma el progreso del objetivo antes de abandonar la zona"
+  ]}
+/>
+
+<Callout type="tip" title="Consejo de navegación">
+Usa puntos de referencia en lugar de intentar memorizar cada pasillo. Una habitación, puerta, cambio de iluminación u objeto ambiental distintivo puede servirte de ancla para la ruta con mucha más eficacia que unas indicaciones vagas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes de la primera hora">
+
+<FAQ items={[
+  {
+    question: "¿Qué debería priorizar durante la primera hora de Divine Frequency?",
+    answer: "Prioriza los controles básicos, la navegación segura, el control de la distancia en combate, la conservación de recursos y una dirección de mejora fiable. Los descubrimientos opcionales pueden esperar hasta que entiendas la zona y tengas una ruta estable para regresar."
+  },
+  {
+    question: "¿Debería eliminar inmediatamente a todos los enemigos que vea?",
+    answer: "No. Elimina a los enemigos que bloqueen la progresión o creen un riesgo serio al regresar, pero evita gastar munición o curación escasas en amenazas aisladas cuando puedas rodearlas de forma segura."
+  },
+  {
+    question: "¿Qué debería hacer cuando encuentre una ruta cerrada o inaccesible?",
+    answer: "Registra su ubicación, identifica un punto de referencia cercano y continúa con el objetivo activo. Regresa después de un cambio importante de progresión en lugar de probar repetidamente la misma ruta."
+  },
+  {
+    question: "¿Es la configuración híbrida la mejor para las zonas iniciales?",
+    answer: "Una configuración híbrida es flexible, pero puede repartir demasiado los materiales de mejora. Para la mayoría de los jugadores principiantes, un método de daño principal fiable junto con una opción de utilidad secundaria es más fácil de gestionar."
+  }
+]} />
+
+La versión actual de acceso anticipado está diseñada para ampliarse y cambiar durante el desarrollo futuro. Para obtener información sobre el lanzamiento, las actualizaciones y la página oficial de la tienda, usa la [página oficial de Divine Frequency en Steam](https://store.steampowered.com/app/2548880/Divine_Frequency/). Mantén adaptables tus notas de ruta y tus decisiones de mejora a medida que haya nuevo contenido disponible.
+
+<Callout type="info" title="Recordatorio sobre el acceso anticipado">
+Las rutas actuales, el equilibrio y el comportamiento de la progresión pueden cambiar en las actualizaciones posteriores de 2026. Si una interacción conocida se comporta de forma diferente, consulta la información oficial de actualización más reciente antes de rehacer toda tu estrategia.
+</Callout>
+
+</Section>
+
+## Lecturas relacionadas
+
+- [Tráiler oficial de Divine Frequency: guía para verlo y conocer su estado](/es/media/Divine-Frequency-official-trailer)
+- [OST de Divine Frequency: Guía de Estado de la Banda Sonora 2026](/es/media/Divine-Frequency-ost)
+- [Soluciones de puzles de Divine Frequency: Guía paso a paso](/es/puzzles/Divine-Frequency-puzzle-solutions)

@@ -1,0 +1,214 @@
+import { Map, Swords, Target, Shield, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Divine Frequency Speedrun: Route, Splits & erste Tipps",
+  description: "Plane einen schnelleren Divine-Frequency-Speedrun mit Routenprioritäten, Kampfoptionen, Ressourcenkontrolle, Übungs-Splits und Early-Access-Reset-Regeln.",
+  category: "guide",
+  image: "https://placehold.co/800x400/17151f/fff?text=Speedrun+Route+Guide",
+  date: "2026-10-28",
+  author: "Divine Frequency Wiki-Team",
+  slug: "/divine-frequency-speedrun"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- Die **Divine-Frequency-Speedrun**-Planung konzentriert sich derzeit auf die verfügbare Early-Access-Route.
+- **Priorisiere den Fortschritt** gegenüber optionalen Räumen, unsicheren Begegnungen und unnötigem Ressourcen-Farming.
+- **Nutze eine hybride Ausrüstung**, um Fernschaden, psionischen Nutzen und Notfallheilung abzudecken.
+- **Übe abschnittsweise**, da der aktuelle Build zwei von drei geplanten Story-Kapiteln enthält.
+- **Verfolge persönliche Splits**, statt unbelegte Zeiten als offizielle Rekorde zu behandeln.
+</Callout>
+
+<Section icon={Map} title="Überblick über die Divine-Frequency-Speedrun-Route">
+
+Divine-Frequency-Speedrun-Versuche sollten als Routenoptimierung durch den aktuellen Early-Access-Build betrachtet werden, nicht als abgeschlossene Full-Game-Rekordkategorie. Die veröffentlichte Version enthält laut Beschreibung etwa zwei von drei geplanten Story-Kapiteln mit einer geschätzten Spielzeit von vier bis sechs Stunden. Das macht Konsistenz in der frühen Übungsphase wertvoller als riskante Bewegungen.
+
+Die schnellste praktikable Route basiert auf wesentlichen Zielen, kontrolliertem Kampf und begrenztem Backtracking. Erkunde genug, um das Gebiet zu verstehen, aber vermeide es, optionale Abzweigungen zu clearen, solange sie keinen direkten Fortschritt bringen. Markiere blockierte Türen, ungewöhnliche Wege und ungelöste Interaktionen, damit du nur zurückkehrst, wenn die Route es erfordert.
+
+| Routenpriorität | Aktion | Warum es wichtig ist |
+|---|---|---|
+| 1 | Folge aktiven Story-Zielen | Hält den Run durch die erforderliche Progression in Bewegung |
+| 2 | Spare Munition und Heilung | Verhindert Verzögerungen vor obligatorischen Begegnungen |
+| 3 | Notiere blockierte Wege | Reduziert wiederholtes Suchen und unnötige Umwege |
+| 4 | Überspringe optionale Räume beim ersten Durchlauf | Schützt Zeit, sofern die Belohnung die Route nicht unterstützt |
+| 5 | Kehre nur zu nützlichen Abzweigungen zurück | Macht Backtracking zu einer bewussten Entscheidung |
+
+<CardGrid cols={3}>
+  <Card title="Ziel zuerst">
+    Verfolge das aktuelle Fortschrittsziel, bevor du ungewöhnliche Räume oder Umgebungsdetails untersuchst.
+  </Card>
+  <Card title="Kontrollierter Kampf">
+    Kämpfe, wenn eine Begegnung die Bewegung blockiert, die Route bedroht oder eine nützliche Ressource schützt.
+  </Card>
+  <Card title="Routengedächtnis">
+    Nutze Orientierungspunkte, Ausgänge und abgeschlossene Ziele, um wiederholtes Suchen zu vermeiden.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Tip zur Routenplanung">
+Baue deine erste Route auf Zuverlässigkeit. Ein etwas langsamerer Weg, der einen Reset vermeidet, ist meist wertvoller als eine riskante Abkürzung, die du nicht wiederholen kannst.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Speedrun-Setup">
+
+Bevor du ernsthafte Versuche zeitst, etabliere eine wiederholbare Eröffnungsroutine. Frühe Runs sollten dir zeigen, wo Zeit verloren geht: Kampf, Navigation, Ressourcensammlung oder Zögern. Optimiere nicht jeden Raum auf einmal. Sichere ein Segment ab, dann gehe zum nächsten.
+
+<Steps>
+  <Step num="1" title="Definiere den aktuellen Endpunkt">
+    Entscheide, ob dein Übungsrun nach dem ersten Akt, dem zweiten Akt oder dem aktuell verfügbaren Story-Inhalt endet. Da sich der Early-Access-Build noch in Entwicklung befindet, notiere den Endpunkt klar in deinen Notizen.
+  </Step>
+  <Step num="2" title="Erstelle eine sichere Eröffnungsroute">
+    Bewege dich durch das Startgebiet und identifiziere das Hauptziel, nahe Ausgänge, Deckung und blockierte Zugänge. Das Ziel ist, Zögern zu entfernen, ohne unnötige Ressourcen zu verschwenden.
+  </Step>
+  <Step num="3" title="Teste Kampfoptionen">
+    Probiere Schusswaffen und psionische Werkzeuge bei frühen Begegnungen aus. Behalte die Option, die für deine Route die konsistentesten Fortschritte liefert, statt ein Setup nur aufgrund theoretischen Schadens zu wählen.
+  </Step>
+  <Step num="4" title="Notiere Segment-Splits">
+    Markiere die Zeit, wenn du große Gebiete verlässt, wesentliche Ziele abschließt und wichtige Fortschritts-Checkpoints erreichst. Diese Splits zeigen, wo ein Reset tatsächlich Zeit kostet.
+  </Step>
+  <Step num="5" title="Entferne unwichtige Umwege">
+    Vergleiche jeden optionalen Raum mit seiner Reisezeit, seinem Kampfrisiko und seiner Belohnung. Behalte den Umweg nur, wenn er verlässlich Überleben, Zugang oder zukünftige Geschwindigkeit verbessert.
+  </Step>
+</Steps>
+
+| Übungssegment | Notiere dies | Optimierungsfrage |
+|---|---|---|
+| Startgebiet | Ausgangszeit und Ressourcenstand | Suchst du zu lange, bevor du weitergehst? |
+| Erste Kampfsequenz | Erlittener Schaden und verbrauchte Munition | Kann Positionierung zusätzliche Angriffe ersetzen? |
+| Nebenrouten-Check | Reisezeit und Belohnung | Unterstützt diese Abzweigung die Hauptroute? |
+| Akt-Übergang | Ziel-Abschlusszeit | Trägst du unnötige Ressourcen oder Ausrüstung mit? |
+| Letzter verfügbarer Abschnitt | Reset-Ursache und Erholungszeit | Welcher Fehler beendet am häufigsten den Versuch? |
+
+<Callout type="warning" title="Early-Access-Warnung">
+Routen können sich ändern, wenn Updates Inhalte hinzufügen, Begegnungen anpassen oder die Progression verändern. Speichere deine Routennotizen nach Build-Version und prüfe blockierte Wege nach großen Patches erneut.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Kampf- und Ausrüstungswahl">
+
+Eine Speedrun-Ausrüstung sollte Entscheidungen bei gewöhnlichen Begegnungen reduzieren. Die verfügbaren Informationen unterstützen drei grobe Ansätze: schusswaffen-fokussiert, psionik-fokussiert und hybrides Spiel. Jeder kann als Übungsgrundlage dienen, aber ein hybrides Setup ist oft der sicherste Ausgangspunkt, da es wechselnde Distanzen und Ressourcendruck abdeckt.
+
+Verteile Upgrades nicht auf jede verfügbare Option. Wähle eine primäre Schadensmethode und nutze das zweite System, um deren wichtigste Schwäche auszugleichen. Das hält den Build verständlich und bewahrt eine Notfalllösung für schwierige Räume.
+
+| Ausrüstungsstil | Hauptrolle | Hauptrisiko | Speedrun-Einsatz |
+|---|---|---|---|
+| Schusswaffen-fokussiert | Zuverlässiger Fernschaden | Munitionsabhängigkeit | Stark für berechenbare Zielausschaltung |
+| Psionik-fokussiert | Nutzen, Kontrolle und Burst-Effekte | Begrenzte Fähigkeitsressourcen | Nützlich, wenn Fähigkeiten schwierige Begegnungen umgehen |
+| Hybrid | Flexible Abdeckung | Langsamere Spezialisierung | Guter Ausgangspunkt für die Routenfindung |
+| Defensiver Hybrid | Überleben und kontrollierter Fortschritt | Geringerer Schadensdruck | Nützlich zum Erlernen riskanter Abschnitte |
+
+<CardGrid cols={4}>
+  <Card title="Schusswaffen">
+    Nutze sie für kontrollierten Fernkampfdruck und Begegnungen, in denen Distanz sicherer ist als Nahkampf.
+  </Card>
+  <Card title="Psionik">
+    Hebe Nutzen- oder wirkungsvolle Effekte für gefährliche Ziele, blockierte Routen oder gruppierte Bedrohungen auf.
+  </Card>
+  <Card title="Positionierung">
+    Nutze Türrahmen, Ecken, Deckung und geräumte Räume, um die Annäherung der Gegner zu kontrollieren.
+  </Card>
+  <Card title="Ressourcenreserve">
+    Behalte genug Heilung, Munition und Fähigkeitskapazität für die nächste erforderliche Begegnung.
+  </Card>
+</CardGrid>
+
+Die nützlichste Kampfgewohnheit ist, nicht in unbekannten Räumen zu kämpfen. Identifiziere vor dem Betreten eines Raums einen Rückzugsweg und nahe Deckung. Wenn ein schneller Verfolger oder ein Nahkampf-Gegner dich in eine schlechte Position zwingt, kann das Brechen der Sichtlinie mehr Zeit sparen als ein sofortiger Kill.
+
+| Begegnungstyp | Bevorzugte Reaktion | Vermeiden |
+|---|---|---|
+| Nahkampfdruck | Distanz schaffen und nach Erholungsfenstern angreifen | In der Kulisse gefangen kämpfen |
+| Schneller Verfolger | Durch geräumte Bereiche zurückweichen und Hindernisse nutzen | In einen unerforschten Raum laufen |
+| Hochdruckgebiet | Ressourcen vorbereiten und die Arena zuerst prüfen | Die Begegnung ohne Fluchtplan auslösen |
+| Isoliertes Ziel | Die günstigste zuverlässige Option nutzen | Seltene Fähigkeiten unnötig verschwenden |
+
+<Callout type="success" title="Kampfregel">
+Der beste Speedrun-Angriff ist der, der die Begegnung beendet, ohne einen Erholungsumweg zu erzwingen. Priorisiere saubere Positionierung und wiederholbaren Schaden gegenüber spektakulärem Risiko.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Routendisziplin und Reset-Strategie">
+
+Speedrun-Fortschritt hängt davon ab, zu wissen, wann man weitermacht und wann man resetet. Eine einzelne verpasste Interaktion rechtfertigt nicht immer das Abbrechen eines Versuchs, besonders während der Lernphase. Wiederholte Navigationsfehler, schwerer Ressourcenverlust oder eine fehlgeschlagene obligatorische Begegnung können einen Reset jedoch effizienter machen.
+
+Nutze Checkpoints, um Routenfehler von Ausführungsfehlern zu trennen. Ein Routenfehler bedeutet, dass der geplante Weg selbst ineffizient oder unklar ist. Ein Ausführungsfehler bedeutet, dass die Route solide ist, aber Kampf, Bewegung oder Interaktion schlecht umgesetzt wurden. Diese erfordern unterschiedliche Lösungen.
+
+<Checklist
+  id="divine-frequency-speedrun-practice"
+  title="Vor einem zeitgesteuerten Versuch:"
+  items={[
+    "Wähle einen klaren Early-Access-Endpunkt",
+    "Bestätige die geplante primäre Schadensmethode",
+    "Überprüfe bekannte blockierte Wege und erforderliche Ziele",
+    "Lege eine konsistente Split-Timer- oder Notizmethode fest",
+    "Halte die Eröffnungsroute frei von optionalen Umwegen"
+  ]}
+/>
+
+| Problem | Weitermachen, wenn | Resetten, wenn |
+|---|---|---|
+| Geringer Schaden erlitten | Heilung reicht für erforderliche Begegnungen aus | Der Schaden erzeugt später eine Ressourcenkrise |
+| Verpasster Nebenraum | Der Raum ist optional und nicht routenkritisch | Die verpasste Interaktion blockiert die Progression |
+| Zusätzliche Munition verbraucht | Der nächste Abschnitt bleibt beherrschbar | Ein obligatorischer Kampf kann nicht bewältigt werden |
+| Navigationsfehler | Du kannst ohne großes Backtracking zurückkehren | Der Fehler macht die geplante Route ungültig |
+| Fehlgeschlagene Begegnung | Der Erholungsweg ist kurz und wiederholbar | Der Versuch verliert mehr Zeit als ein Neustart |
+
+Der aktuelle Build belohnt bewusstes Erkunden, daher bedeutet Geschwindigkeit nicht, jeden Umwelt Hinweis zu ignorieren. Der richtige Ansatz ist, zwischen Hinweisen, die für die Progression erforderlich sind, und Details zu unterscheiden, die optionale Lore oder Entdeckungen unterstützen. Wenn eine Interaktion das aktive Ziel nicht voranbringt und keinen bekannten Routenwert hat, verschiebe sie während eines zeitgesteuerten Versuchs.
+
+<Callout type="tip" title="Reset-Tipp">
+Resete für Informationen, nicht aus Frust. Notiere nach jedem fehlgeschlagenen Versuch die genaue Ursache und ändere im nächsten Run eine Entscheidung.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Übungs-Splits, Ziele und FAQ">
+
+Nutze eine Split-Struktur, die zum aktuellen Inhalt passt, statt eine zukünftige Full-Game-Kategorie zu kopieren. Der geplante Umfang des Spiels kann über die zwei aktuell verfügbaren Kapitel hinauswachsen, daher sollte eine persönliche Route immer Endpunkt, Build-Version und die Einbindung optionaler Entdeckungen angeben.
+
+Ein nützliches Übungsziel ist es, jedes Segment ohne Improvisation abzuschließen. Sobald die Route stabil ist, verbessere zuerst den langsamsten Split. Eine wiederholte fünfstündige Suche zu reduzieren ist wertvoller, als ein paar Sekunden aus einem sauberen Kampfraum herauszuholen.
+
+| Zielstufe | Fokus | Erfolgskennzeichen |
+|---|---|---|
+| Anfänger | Ziele und Ausgänge lernen | Ohne große Navigationsverwirrung abschließen |
+| Fortgeschritten | Kampf und Ressourcen stabilisieren | Jeden Split mit wiederholbarem Inventarstand erreichen |
+| Fortgeschritten (Advanced) | Umwege und Zögern entfernen | Die Route mit konsistenter Entscheidungsfindung abschließen |
+| Optimierung | Bewegung und Begegnungen verfeinern | Den langsamsten Split ohne mehr Resets verbessern |
+
+<FAQ items={[
+  {
+    question: "Was ist aktuell die beste Divine-Frequency-Speedrun-Route?",
+    answer: "Nutze eine zielorientierte Route durch die aktuell verfügbaren Early-Access-Kapitel. Priorisiere die erforderliche Progression, überspringe optionale Gebiete mit geringem Wert und notiere blockierte Wege für gezielte Rückkehr."
+  },
+  {
+    question: "Soll ich für einen Speedrun Schusswaffen oder Psionik verwenden?",
+    answer: "Beide Ansätze können einen Run unterstützen. Schusswaffen bieten konsistenten Fernschaden, während Psionik Nutzen und Begegnungskontrolle bietet. Ein fokussiertes Hybrid-Setup ist während der Routenentwicklung ein praktischer Ausgangspunkt."
+  },
+  {
+    question: "Wie sollte ich mit optionalen Räumen umgehen?",
+    answer: "Überspringe sie, wenn sie Reise-, Kampf- oder Suchzeit hinzufügen, ohne die Progression zu verbessern. Kehre nur zurück, wenn der Raum eine nützliche Ressource, einen Zugangspunkt oder einen verlässlichen Routenvorteil bietet."
+  },
+  {
+    question: "Gibt es offizielle Speedrun-Rekorde für Divine Frequency?",
+    answer: "Die verfügbaren Spielinformationen legen den Early-Access-Umfang und Fortschrittsdetails fest, bieten aber keine verifizierte Rangliste oder offizielle Rekordsammlung. Verfolge persönliche Splits und gib die verwendete Build-Version an."
+  }
+]} />
+
+<Callout type="info" title="Übungshinweis">
+Behandle jede persönliche Bestzeit als Routenbericht: mit Endpunkt, Build-Version, Regeln für optionale Inhalte und den Splits, die das Ergebnis erzeugt haben.
+</Callout>
+
+</Section>
+
+## Weiterführende Artikel
+
+- [Divine Frequency Überlebenstipps: Schritt-für-Schritt-Leitfaden](/de/guide/Divine-Frequency-survival-tips)
+- [Systemanforderungen für Divine Frequency: Einrichtungsleitfaden](/de/guide/Divine-Frequency-system-requirements)
+- [Divine Frequency: Komplettlösung für den Early Access](/de/media/Divine-Frequency-playthrough)

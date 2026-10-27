@@ -1,0 +1,232 @@
+import { Settings, Swords, Shield, Target, Map, CheckCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Controles de Divine Frequency: configuración de teclado, ratón y mando",
+  description: "Configura los controles de Divine Frequency para jugar con teclado, ratón y mando, con consejos prácticos sobre sensibilidad, pantalla, entrada y solución…",
+  category: "guide",
+  image: "https://placehold.co/800x400/171923/f4e8c1?text=Divine+Frequency+Controls",
+  date: "2026-10-28",
+  author: "Equipo de Wiki de Divine Frequency",
+  slug: "divine-frequency-controls"
+}
+
+<Callout type="info" title="Guía rápida">
+- Los **controles de Divine Frequency** deben probarse antes de comenzar una sesión larga de acceso anticipado.
+- El **teclado y el ratón** ofrecen apuntado directo y acceso rápido a las entradas configurables.
+- La **configuración del mando** debe comprobarse en cuanto a indicaciones de botones, sensibilidad y detección.
+- Ajustar el **rendimiento** puede mejorar la regularidad de los fotogramas y hacer que apuntar resulte más consistente.
+- Los **valores predeterminados seguros** son más útiles que una sensibilidad extrema durante las primeras zonas.
+</Callout>
+
+<Section icon={Settings} title="Controles de Divine Frequency: qué configurar primero">
+
+Los controles de Divine Frequency deben abordarse como una configuración de entrada completa, no como una simple lista de botones individuales. Antes de explorar las primeras zonas, confirma el movimiento, el apuntado, la interacción, las acciones de combate, el acceso a las habilidades y la navegación por los menús. Actualmente, el juego es un FPS de terror en acceso anticipado para Windows, por lo que las asignaciones exactas y las opciones disponibles pueden cambiar durante el desarrollo de 2026.
+
+El objetivo más importante es la consistencia. El movimiento debe resultar predecible, el ataque principal debe estar al alcance y las acciones defensivas o de emergencia no deben competir con las entradas de menú que usas con frecuencia. Evita cambiar varios ajustes a la vez. Modifica una categoría de controles, pruébala en una zona segura y conserva la configuración solo si mejora tu comodidad.
+
+| Área de control | Primer ajuste que debes comprobar | Por qué es importante |
+|---|---|---|
+| Movimiento | Entradas para avanzar, desplazarse lateralmente, agacharse y correr | Confirma que la navegación sea fiable antes de que comience el combate |
+| Cámara | Sensibilidad de la vista y respuesta del apuntado | Determina la rapidez con la que puedes seguir a las amenazas |
+| Combate | Ataque principal, acción alternativa, recarga y acceso a las armas | Reduce las dudas durante los enfrentamientos a corta distancia |
+| Habilidades | Entradas para acciones psiónicas o de utilidad | Mantiene las herramientas especiales disponibles sin abrir menús |
+| Interacción | Entradas para usar, inspeccionar, desbloquear y recoger | Evita pasar por alto pistas del entorno y objetos necesarios para avanzar |
+| Menús | Acceso a pausa, inventario, ajustes y mapa | Facilita la gestión de recursos entre encuentros |
+
+Si utilizas teclado y ratón, comienza con una sensibilidad de vista moderada. Una sensibilidad alta puede ayudarte a girar rápidamente, pero también puede hacer que el apuntado preciso y la inspección del entorno sean menos estables. Una sensibilidad más baja suele ser más fácil de controlar al aprender a calcular la distancia respecto a los enemigos, especialmente en habitaciones estrechas.
+
+Si utilizas un mando, confirma primero que el juego reconoce el dispositivo activo. Comprueba las indicaciones de botones que aparecen en pantalla y, después, prueba el movimiento de la cámara, la respuesta de los gatillos, la deriva de los sticks, la vibración y la navegación por los menús. Si las indicaciones no coinciden con el dispositivo, vuelve a conectar el mando antes de iniciar el juego de nuevo.
+
+<Callout type="tip" title="Consejo del editor">
+Guarda una configuración base sencilla antes de experimentar. Una distribución estable facilita identificar si un cambio posterior mejora el apuntado o simplemente se siente diferente.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Teclado y ratón">
+    - **Control directo de la cámara**
+    - Acceso rápido a las teclas que usas con frecuencia
+    - Útil para quienes prefieren un apuntado preciso
+  </Card>
+  <Card title="Mando">
+    - Movimiento analógico cómodo
+    - Acceso constante a gatillos y sticks
+    - Requiere comprobar cuidadosamente la sensibilidad
+  </Card>
+  <Card title="Configuración híbrida">
+    - Movimiento con teclado combinado con dispositivos de entrada alternativos
+    - Flexible para realizar pruebas
+    - Se recomienda usarla solo si las indicaciones siguen siendo claras
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Configuración de controles paso a paso">
+
+Sigue esta secuencia al crear o revisar tus controles de Divine Frequency. El orden importa porque el comportamiento del movimiento y de la cámara afecta a todas las decisiones de combate posteriores.
+
+<Steps>
+  <Step num="1" title="Confirma el dispositivo de entrada activo">
+    Abre el menú de ajustes y verifica si el juego está leyendo el teclado y el ratón o el mando. Mueve la cámara, realiza una interacción y abre un menú para confirmar que el dispositivo seleccionado responde de forma constante.
+  </Step>
+  <Step num="2" title="Configura el movimiento antes que la sensibilidad">
+    Prueba el movimiento hacia delante, los desplazamientos laterales, el movimiento hacia atrás, agacharte y correr. Asegúrate de que las entradas de movimiento sean cómodas y no requieran posiciones incómodas de los dedos. No optimices el apuntado antes de que la navegación básica resulte natural.
+  </Step>
+  <Step num="3" title="Elige una respuesta de cámara moderada">
+    Comienza con una sensibilidad de vista intermedia. Gira hacia un punto de referencia cercano, sigue a una amenaza en movimiento y realiza un cambio de dirección controlado. Aumenta la sensibilidad solo si girar resulta lento; redúcela si sueles sobrepasar los objetivos.
+  </Step>
+  <Step num="4" title="Coloca las acciones de emergencia al alcance">
+    Mantén accesibles la curación, las acciones defensivas, la recarga y otras herramientas de supervivencia. Las acciones exactas disponibles pueden variar según la versión, así que prioriza las funciones que utilizas con más frecuencia en lugar de copiar una distribución diseñada para otro juego.
+  </Step>
+  <Step num="5" title="Prueba la distribución en una zona segura">
+    Recorre una sección conocida y comprueba el combate, la interacción, el acceso a los menús y la gestión de recursos. Si una entrada provoca acciones accidentales o retrasos, modifica solo esa asignación y repite la prueba.
+  </Step>
+</Steps>
+
+| Prueba | Condición para superarla | Ajuste si falla |
+|---|---|---|
+| Giro de cámara | Puedes girar sin sobrepasar repetidamente el objetivo | Reduce la sensibilidad de vista en pequeños incrementos |
+| Seguimiento de objetivos | Tu apuntado sigue a una amenaza sin correcciones constantes | Revisa la sensibilidad y la respuesta del apuntado |
+| Acceso a correr | Puedes correr sin interrumpir el movimiento | Asigna correr a una entrada más cómoda |
+| Interacción | Las puertas, los objetos y los objetos recogibles responden de forma fiable | Confirma la tecla o el botón de interacción |
+| Acción de emergencia | Las herramientas de curación o defensa están al alcance bajo presión | Asigna la acción a una entrada cercana y diferenciada |
+
+<Callout type="success" title="Regla para una configuración fiable">
+Una buena distribución de controles es aquella que puedes utilizar sin buscar conscientemente las acciones básicas. Pruébala bajo presión, no solo mientras estás quieto en un menú.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comparativa entre teclado, ratón y mando">
+
+No existe un único método de control que sea el mejor para todos los jugadores de Divine Frequency. El juego combina combate a distancia, exploración, decisiones sobre recursos y opciones sobrenaturales o psiónicas. Elige el dispositivo que te permita mantener la atención mientras te desplazas por espacios desconocidos.
+
+Los controles con teclado y ratón son una buena opción para quienes valoran el movimiento directo de la cámara y el acceso rápido a varias entradas independientes. También facilitan mantener separadas las teclas de movimiento, interacción, acceso a armas y habilidades. La desventaja es que una mala distribución puede obligar a desplazar demasiado los dedos durante los encuentros estresantes.
+
+Los controles con mando pueden proporcionar un movimiento analógico más fluido y una forma cómoda de combinar el control de la cámara con el desplazamiento. Sin embargo, el número de botones disponibles es más limitado, por lo que las acciones importantes pueden depender de mantener botones pulsados, menús radiales o combinaciones. Verifica esas combinaciones antes de entrar en un enfrentamiento difícil.
+
+| Método de entrada | Principal ventaja | Riesgo habitual | Mejor enfoque inicial |
+|---|---|---|---|
+| Teclado y ratón | Control preciso de la cámara y acceso a teclas independientes | Las asignaciones incómodas pueden ralentizar las acciones de emergencia | Usa una sensibilidad moderada y agrupa las teclas de combate de forma lógica |
+| Mando | Movimiento fluido y control analógico cómodo | Pocos botones y posibles problemas de sensibilidad | Confirma las indicaciones, la respuesta de los sticks y el comportamiento de los gatillos |
+| Dispositivos combinados | Útiles para probar las funciones preferidas | Cambiar de dispositivo puede modificar las indicaciones o el comportamiento | Usa un solo dispositivo principal durante el combate activo |
+| Distribución predeterminada | Configuración inicial más rápida | Puede no adaptarse a todas las posiciones de las manos | Pruébala primero y cambia solo las acciones incómodas |
+
+Si utilizas ratón, evita buscar giros extremadamente rápidos. Los enfrentamientos de un FPS de terror suelen castigar más los movimientos impulsivos que una rotación lenta de la cámara. Una respuesta controlable te ayuda a inspeccionar las habitaciones, alinear los disparos y conservar una ruta de retirada.
+
+Si utilizas un mando, prueba tanto el movimiento horizontal como el vertical de la cámara. Una distribución puede resultar cómoda al mirar a izquierda y derecha, pero ser incómoda al seguir objetivos elevados o situados más abajo. Comprueba también si la vibración te ayuda a interpretar las señales del combate o si se vuelve una distracción durante la exploración.
+
+<Callout type="warning" title="Advertencia sobre las entradas">
+No des por hecho que un problema de control es una mecánica del juego. Si una entrada parece retrasada, no coincide o no responde, comprueba primero la detección del dispositivo, las superposiciones, los controladores y el perfil de control activo.
+</Callout>
+
+<CardGrid cols={4}>
+  <Card title="Apuntado">
+    Usa una respuesta moderada y realiza pequeños ajustes antes de aumentar la velocidad.
+  </Card>
+  <Card title="Movimiento">
+    Prioriza el desplazamiento lateral, la retirada, agacharte y el acceso cómodo a correr.
+  </Card>
+  <Card title="Combate">
+    Separa el ataque, la recarga, el acceso a las armas y las acciones de emergencia siempre que sea posible.
+  </Card>
+  <Card title="Exploración">
+    Mantén los controles de interacción y de menú fáciles de identificar cerca de los objetos del entorno.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Controles, rendimiento y consistencia en combate">
+
+La sensación de los controles depende de más factores que las asignaciones de teclas. El modo de pantalla, la resolución, la regularidad de los fotogramas, las aplicaciones en segundo plano y los ajustes gráficos pueden cambiar la respuesta aparente del apuntado. Cuando el rendimiento sea irregular, ajusta primero las opciones técnicas antes de reconstruir toda la distribución de controles.
+
+Comienza con el ajuste gráfico predeterminado y prueba el juego en una zona representativa de exploración o combate. Si el rendimiento es inestable, reduce las opciones exigentes de una en una. La resolución, las sombras, los efectos y el posprocesado son categorías útiles para probar, pero cambiarlo todo al mismo tiempo dificulta identificar la causa.
+
+| Ajuste técnico | Primera comprobación recomendada | Por qué afecta a los controles |
+|---|---|---|
+| Modo de pantalla | Prueba pantalla completa y ventana sin bordes | Cambiar de modo puede afectar a la regularidad de los fotogramas |
+| Resolución | Comienza con la resolución nativa | Confirma si la carga de renderizado afecta a la respuesta |
+| Reescalado | Actívalo solo si está disponible y es necesario | Puede mejorar el rendimiento, pero cambiar la claridad de la imagen |
+| Sombras y efectos | Redúcelos individualmente durante las pruebas | Reduce la carga sin modificar todas las opciones visuales |
+| Aplicaciones en segundo plano | Cierra las superposiciones innecesarias | Reduce posibles conflictos e interrupciones |
+| Comportamiento de la tasa de fotogramas | Comprueba que la regularidad sea estable | Un movimiento constante suele resultar más fácil de controlar |
+
+Si la imagen parpadea, la regularidad de los fotogramas parece desigual o las entradas parecen retrasadas, cambia el modo de pantalla y reinicia el juego. Mantén actualizados los controladores gráficos y verifica la instalación mediante Steam si los problemas persisten. Estas comprobaciones son especialmente útiles en una versión de acceso anticipado, cuyo comportamiento técnico puede cambiar entre actualizaciones.
+
+Consulta la [página oficial de Divine Frequency en Steam](https://store.steampowered.com/app/2548880/Divine_Frequency/) para conocer la versión actual para Windows y la información técnica disponible. El [centro de la comunidad de Steam](https://steamcommunity.com/app/2548880/) también sirve para consultar los informes actuales de los jugadores y los debates sobre problemas de entrada o rendimiento.
+
+<Callout type="info" title="Nota sobre el rendimiento">
+Prueba los controles después de realizar un cambio gráfico importante. Un valor de sensibilidad que resulta cómodo con una cadencia estable puede sentirse diferente cuando el juego tiene dificultades para renderizar una zona exigente.
+</Callout>
+
+<Checklist
+  id="divine-frequency-controls-check"
+  title="Lista de comprobación de la configuración de controles:"
+  items={[
+    "Confirma el dispositivo activo: teclado, ratón o mando",
+    "Prueba el movimiento, la respuesta de la cámara, la interacción y los menús",
+    "Coloca la recarga y las acciones de emergencia al alcance de forma cómoda",
+    "Comprueba el modo de pantalla y la regularidad de los fotogramas antes de cambiar la sensibilidad",
+    "Vuelve a probar la distribución en una zona de combate segura"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Hábitos de control recomendados para el acceso anticipado">
+
+Una distribución de controles es solo una parte de la supervivencia en el contenido actual de acceso anticipado de Divine Frequency. Los buenos hábitos reducen el número de entradas de emergencia que necesitas y facilitan la lectura del entorno durante la exploración.
+
+Antes de entrar en una habitación desconocida, identifica una ruta de retirada y mantén disponibles las entradas de movimiento. Evita colocar acciones esenciales en controles que puedas pulsar accidentalmente al girar, correr o interactuar con objetos. Si cambias la distribución, juega primero en una zona de bajo riesgo antes de intentar encuentros opcionales.
+
+| Situación | Hábito de control | Resultado práctico |
+|---|---|---|
+| Entrar en una habitación desconocida | Mantén listas las entradas de movimiento y retirada | Puedes retirarte sin buscar una tecla |
+| Luchar a corta distancia | Usa giros controlados en lugar de la sensibilidad máxima | Reduce las sobrecorrecciones accidentales |
+| Gestionar recursos escasos | Mantén separado el acceso a los menús de las entradas de combate | Reduce la posibilidad de abrir un menú en el momento equivocado |
+| Volver a visitar rutas bloqueadas | Usa la interacción de forma consistente | Facilita repetir las comprobaciones del entorno |
+| Después de una actualización | Vuelve a comprobar las indicaciones y las asignaciones | Detecta los cambios antes de una sesión larga |
+
+Toma una nota breve de las puertas sin resolver, los caminos inaccesibles y las habitaciones opcionales. Este hábito es más fiable que volver a recorrer todos los pasillos repetidamente. Cuando una actualización posterior cambie la progresión o añada contenido, tus notas pueden ayudarte a distinguir una ruta nueva de una zona que antes no estaba disponible.
+
+<Callout type="tip" title="Consejo de exploración">
+Usa puntos de referencia y objetivos completados para organizar tu ruta. Una navegación constante reduce el pánico, lo que también facilita utilizar la distribución de controles durante los encuentros inesperados.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuáles son los mejores controles de Divine Frequency para principiantes?",
+    answer: "Comienza con la distribución predeterminada, utiliza una sensibilidad de cámara moderada y coloca la interacción, la recarga, el movimiento y las acciones de emergencia en posiciones fáciles de alcanzar. Cambia únicamente las entradas que causen confusión o incomodidad."
+  },
+  {
+    question: "¿Debería usar teclado y ratón o un mando?",
+    answer: "El teclado y el ratón son útiles para controlar directamente la cámara y acceder a teclas independientes. Un mando puede resultar más cómodo para el movimiento analógico. Elige el dispositivo que te permita apuntar, retirarte e interactuar sin dudar."
+  },
+  {
+    question: "¿Por qué mis controles parecen retrasados?",
+    answer: "Comprueba la regularidad de los fotogramas, el modo de pantalla, las aplicaciones en segundo plano, la detección del dispositivo y los ajustes gráficos antes de cambiar todas las asignaciones. Un rendimiento estable puede hacer que el mismo ajuste de sensibilidad se sienta más receptivo."
+  },
+  {
+    question: "¿Las actualizaciones de acceso anticipado pueden cambiar la configuración de controles?",
+    answer: "Pueden cambiar las opciones disponibles, las indicaciones o el comportamiento técnico. Vuelve a comprobar las asignaciones y la detección del mando después de las actualizaciones importantes, especialmente antes de comenzar una partida larga."
+  }
+]} />
+
+<Callout type="success" title="Recomendación final">
+Crea una distribución sencilla, pruébala en una zona segura y prioriza un movimiento fiable por encima de una sensibilidad extrema. Vuelve a comprobar la configuración después de cada actualización importante de acceso anticipado durante 2026.
+</Callout>
+
+</Section>
+
+## Lecturas relacionadas
+
+- [Divine Frequency: aumentar la fuerza: guía de configuración de build](/es/guide/Divine-Frequency-increase-strength)
+- [Ubicaciones de guardado de Divine Frequency: rutas de PC y consejos de copia de seguridad](/es/guide/Divine-Frequency-save-locations)
+- [Primera hora de Divine Frequency: guía de supervivencia paso a paso](/es/media/Divine-Frequency-first-hour)

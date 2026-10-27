@@ -1,0 +1,233 @@
+import { Map, Swords, Target, Shield, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Divine Frequency playthrough: Early Access Walkthrough",
+  description: "Follow a spoiler-controlled Divine Frequency playthrough with combat priorities, exploration steps, resource tips, and Act I–II route planning.",
+  category: "media",
+  image: "https://placehold.co/800x400/171923/fff?text=Divine+Frequency+Playthrough",
+  date: "2026-10-28",
+  author: "Divine Frequency Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Divine Frequency playthrough**: The current Early Access route covers the first two of three planned story chapters.
+- **Combat priority**: Control distance, identify exits, and preserve powerful resources for dangerous encounters.
+- **Exploration method**: Clear essential objectives first, then return to marked side paths and blocked routes.
+- **Build advice**: Start with one reliable damage source before investing heavily in hybrid options.
+- **Spoiler control**: Essential progression and optional discoveries should be tracked separately.
+</Callout>
+
+<Section icon={Map} title="Divine Frequency playthrough: What to Expect">
+
+The current **Divine Frequency playthrough** is built around surreal exploration, horror-FPS combat, RPG progression, puzzles, and optional discoveries. The game is in Steam Early Access, with two of three planned story chapters currently available. The present version is designed for roughly four to six hours of play, although exploration speed and optional content can change that estimate.
+
+The best route is not a speedrun through objectives. Divine Frequency rewards players who remember blocked doors, examine unusual spaces, and return to earlier areas after progression changes. Treat every unexplored branch as a future checkpoint rather than a problem that must be solved immediately.
+
+| Playthrough Element | Current Guidance | Priority |
+|---|---|---|
+| Main story | Follow active objectives through the available Acts | Essential |
+| Side areas | Search after securing the next safe checkpoint | Recommended |
+| Blocked routes | Record them and revisit after major progress | Recommended |
+| Combat resources | Keep reserves for required encounters | Essential |
+| Puzzles | Inspect symbols, objects, lighting, and repeated details | Situational |
+
+<CardGrid cols={3}>
+  <Card title="Essential Route">
+    Follow the active objective, confirm that progression advances, and avoid spending rare resources on unnecessary fights.
+  </Card>
+  <Card title="Optional Route">
+    Explore side rooms, hidden paths, and unusual environmental details after the immediate story requirement is secure.
+  </Card>
+  <Card title="Return Route">
+    Keep a short list of locked doors, inaccessible branches, and suspicious locations for later investigation.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Route Planning Tip">
+Use landmarks instead of trying to memorize every room. A completed objective, distinctive doorway, or unusual visual motif can make backtracking much faster.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Opening Combat and Resource Priorities">
+
+The opening areas teach the central rhythm of Divine Frequency: observe the encounter, choose the safest effective tool, and avoid spending everything during the first exchange. Firearms provide dependable ranged pressure, while psionic options can offer flexible damage, control, utility, or emergency responses.
+
+Do not commit to a highly specialized build too early. A focused setup is easier to manage while you are still learning enemy behavior, resource availability, and the shape of each area.
+
+<Steps>
+  <Step num="1" title="Check the room before engaging">
+    Look for cover, exits, narrow routes, and nearby doors before activating suspicious objects or entering an unfamiliar space. Knowing where to retreat is often more valuable than opening with maximum damage.
+  </Step>
+  <Step num="2" title="Test your available combat tools">
+    Compare a reliable firearm with at least one psionic option during safe encounters. Learn which tool works best at range, against pressure, or when ammunition must be conserved.
+  </Step>
+  <Step num="3" title="Control the distance">
+    Create space before attacking again, especially against close-range enemies or fast pursuers. Corners, doorways, and previously cleared rooms can help prevent being trapped.
+  </Step>
+  <Step num="4" title="Reserve high-impact resources">
+    Keep powerful abilities, healing, and specialized ammunition for groups, difficult targets, blocked routes, or encounters that cannot be avoided.
+  </Step>
+  <Step num="5" title="Review your setup after major progress">
+    When a new area introduces different ranges or encounter pressures, adjust your loadout. Improve reliability first, then add specialization that addresses the problem you are actually facing.
+  </Step>
+</Steps>
+
+| Combat Tool | Best Role | Main Limitation | Early Upgrade Focus |
+|---|---|---|---|
+| Firearms | Consistent ranged damage | Ammunition management | Accuracy, handling, damage consistency |
+| Psionic options | Utility, control, or burst responses | Ability availability and recovery | Effect strength, duration, efficiency |
+| Weapon modifications | Specialization | Upgrade materials and capacity | Bonuses that support one clear combat plan |
+| Hybrid loadout | Coverage across varied encounters | Slower specialization | Reliability before situational bonuses |
+
+<Callout type="warning" title="Resource Warning">
+Avoid treating every room as a full-clear encounter. If an isolated enemy does not block progression, compare the reward with the ammunition, healing, and time required to defeat it.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Act I and Act II Walkthrough Structure">
+
+The safest Early Access walkthrough separates required objectives from optional discoveries. Complete the main route far enough to establish a checkpoint, then revisit nearby branches while your equipment and resources are still manageable.
+
+Because Early Access content can change between updates, focus on objective confirmation rather than assuming that every blocked route is a bug. If an interaction does not progress the story, check earlier objectives, nearby side rooms, and unresolved access points before restarting the area.
+
+| Stage | Primary Goal | Optional Work | Checkpoint |
+|---|---|---|---|
+| Opening area | Learn combat and identify the active objective | Inspect nearby side rooms | Confirm the first objective advances |
+| Act I route | Follow the essential objective chain | Mark blocked doors and unusual spaces | Record unresolved paths |
+| Act I return | Revisit safe branches | Search for resources, lore, or hidden interactions | Leave with a short return list |
+| Act II route | Continue the available story content | Adjust equipment for new encounter pressures | Confirm the next objective state |
+| Act II cleanup | Investigate previously marked locations | Complete optional encounters and discoveries | Separate finished and unfinished routes |
+
+<Checklist
+  id="divine-frequency-playthrough"
+  title="Before Leaving an Area:"
+  items={[
+    "Confirm that the current main objective has advanced",
+    "Check nearby side rooms and obvious optional branches",
+    "Record blocked doors or inaccessible routes",
+    "Preserve enough resources for the next required encounter",
+    "Identify the safest return path"
+  ]}
+/>
+
+<CardGrid cols={4}>
+  <Card title="Act I Priority">
+    Establish a reliable route and learn which rooms are safe to revisit.
+  </Card>
+  <Card title="Act I Optional">
+    Investigate side spaces after the immediate objective is complete.
+  </Card>
+  <Card title="Act II Priority">
+    Reassess your combat setup as encounters and navigation become more demanding.
+  </Card>
+  <Card title="Act II Optional">
+    Return to marked locations instead of searching the entire area again.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Progress Check">
+After a major interaction, verify the objective state before moving on. This simple habit helps distinguish unfinished progression from optional content that can wait.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Puzzles, Secrets, and Backtracking">
+
+Environmental clues are an important part of the Divine Frequency experience. Repeated symbols, unusual object placement, sound changes, lighting, and deliberately framed spaces may indicate that an area deserves a second look.
+
+Use a progressive hint method. First inspect the environment, then compare repeated details, and only afterward test the likely interaction. This reduces wasted resources and preserves the atmosphere of the game.
+
+| Discovery Type | First Observation | Follow-Up Action | Spoiler Level |
+|---|---|---|---|
+| Environmental puzzle | Notice repeated symbols or a unique visual detail | Compare nearby rooms and identify a sequence | Low |
+| Hidden area | Check unusual walls, side rooms, and blocked sightlines | Return after a nearby objective changes access | Medium |
+| Optional encounter | Watch for unusual sound, restricted movement, or empty space | Prepare healing and identify a retreat route | High |
+| Lore discovery | Examine objects and locations that appear deliberately emphasized | Revisit after story interactions | Medium |
+
+A strong backtracking routine has four parts:
+
+- Finish the immediate required objective.
+- Mark the location with a recognizable landmark.
+- Return through cleared spaces rather than unknown rooms.
+- Search for environmental changes before using resources or triggering an encounter.
+
+<Callout type="tip" title="Puzzle Tip">
+If a mechanism seems inactive, do not assume it is broken. Check whether a nearby interaction, story event, or traversal change must occur first.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "How long is a Divine Frequency playthrough in Early Access?",
+    answer: "The current Early Access version is described as roughly four to six hours of content, with two of three planned story chapters available. Exploration and optional discoveries can extend the session."
+  },
+  {
+    question: "Should I explore every side room immediately?",
+    answer: "No. Secure the next essential checkpoint first, then return to optional areas when you have enough resources and a clearer understanding of the route."
+  },
+  {
+    question: "What should I do when a path appears blocked?",
+    answer: "Record the location, complete nearby objectives, and revisit it after major story progress. Not every inaccessible route is required for current progression."
+  },
+  {
+    question: "How should I approach puzzles without spoilers?",
+    answer: "Inspect markings, object placement, lighting, and repeated environmental details first. Use a hint only after comparing the surrounding rooms and checking for newly opened routes."
+  }
+]} />
+
+</Section>
+
+<Section icon={Trophy} title="Build Planning and Playthrough Checklist">
+
+A reliable first build should solve ordinary encounters consistently rather than maximize one narrow damage pattern. Players who prefer direct combat can focus on firearms, while players who enjoy active abilities may favor psionic tools. A hybrid setup is useful when exploration frequently changes engagement range, but it requires stricter upgrade discipline.
+
+| Archetype | Strength | Weakness | Beginner Plan |
+|---|---|---|---|
+| Firearms-focused | Reliable ranged pressure | Ammunition dependence | Improve consistency and keep one utility option |
+| Psionics-focused | Flexible control and burst tools | Limited ability availability | Save major effects for dangerous encounters |
+| Hybrid | Adaptable across ranges | Slower specialization | Choose one primary damage source first |
+| Balanced progression | Easier resource decisions | Less immediate specialization | Upgrade reliability before experimentation |
+
+Use this priority order during a first playthrough:
+
+1. Improve the tool you use most often.
+2. Keep one emergency response for close pressure or difficult encounters.
+3. Add utility that solves a known weakness.
+4. Avoid spreading upgrade materials across unrelated options.
+5. Reevaluate after entering a new Act or discovering a different combat demand.
+
+The [official Divine Frequency Steam page](https://store.steampowered.com/app/2548880/Divine_Frequency/) is the best place to verify the current Early Access build, supported language information, and official release details. For announcements and player discussion, use the [Divine Frequency Steam Community hub](https://steamcommunity.com/app/2548880/).
+
+<Callout type="info" title="Early Access Note">
+The current build represents an evolving version of the game. Keep unresolved routes and build decisions flexible, especially after a major patch changes encounters, progression, or available content.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Which build is best for a first Divine Frequency playthrough?",
+    answer: "A focused firearms or hybrid setup is a practical starting point because it offers consistent damage while leaving room for a psionic utility option. Choose based on the combat style you find easiest to control."
+  },
+  {
+    question: "Should I spend upgrade materials as soon as I receive them?",
+    answer: "Spend them when the improvement supports your current plan. Saving materials is useful when you are still deciding between a specialized setup and a balanced loadout."
+  },
+  {
+    question: "Is optional content required to finish the available Acts?",
+    answer: "Optional rooms and encounters are separate from the essential route. They can provide discoveries, resources, or lore, but the walkthrough should prioritize the active story objective."
+  }
+]} />
+
+</Section>
+
+## Related Reading
+
+- [Divine Frequency soundtrack: Music Status & Listening Guide](/media/Divine-Frequency-soundtrack)
+- [Divine Frequency trailer: Official Watch Guide & Tips](/media/Divine-Frequency-trailer)
+- [Divine Frequency terminal puzzle: Step-by-Step Guide](/puzzles/Divine-Frequency-terminal-puzzle)
